@@ -1,3 +1,3 @@
 # rawr
-Rapla wildly refurbished
+Rapla wildly refurbished. 
 A web project for university in webengineering and projectmanagement
