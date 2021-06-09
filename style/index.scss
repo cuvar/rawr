@@ -1,0 +1,15 @@
+@import 'general';
+
+
+th {
+    text-align: left;
+}
+
+table, td {
+    border: 1px black solid;
+    padding: 2px;
+}
+
+.tr-title {
+    background-color: $blue;
+}
