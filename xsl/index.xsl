@@ -3,7 +3,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <link rel="stylesheet" href="../style/css/index.css" />
+        <link rel="stylesheet" href="../style/index.css" />
       </head>
 
       <body>
