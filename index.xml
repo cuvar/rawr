@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type = "text/xsl" href="xsl/index.xsl"?> 
-<catalog>
-  <cd>
+<staff>
+  <employee>
     <name>Luca Müller</name>
     <group>Frontend</group>
     <company>SAP</company>
-  </cd>
-  <cd>
+	<joined>20210604T080000Z</joined>
+  </employee>
+  <employee>
     <name>Norman Reimer</name>
     <group>Frontend</group>
     <company>dmTech</company>
-  </cd>
-  <cd>
+	<joined>20210604T083000Z</joined>
+  </employee>
+  <employee>
     <name>Jona Kuhn</name>
     <group>Frontend</group>
     <company>dmTech</company>
-  </cd>
-  <cd>
+	<joined>20210604T090000Z</joined>
+  </employee>
+  <employee>
     <name>Fabian Hagner</name>
     <group>Backend</group>
     <company>SAP</company>
-  </cd>
-  <cd>
+	<joined>20210604T091500Z</joined>
+  </employee>
+  <employee>
     <name>Tobias Kreuß</name>
     <group>Backend</group>
     <company>SAP</company>
-  </cd>
-  <cd>
+	<joined>20210604T094500Z</joined>
+  </employee>
+  <employee>
     <name>Oliver Schirmer</name>
     <group>Backend</group>
     <company>SAP</company>
-  </cd>
-</catalog>
+	<joined>20210604T042000Z</joined>
+  </employee>
+</staff>
