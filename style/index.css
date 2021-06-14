@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #F1F7F8;
+  background-color: #f1f7f8;
   box-sizing: border-box;
   padding: 1.5% 1.5% 1.5% 1.5%;
 }
@@ -20,16 +20,16 @@ body {
   height: 19%;
   margin-bottom: 1%;
   border-radius: 12px;
-  background-color: #003F61;
+  background-color: #003f61;
 }
 
 .content-container {
   max-height: 100%;
   height: 80%;
   border-radius: 12px;
-  background-color:  #88bbd8;
+  background-color: #88bbd8;
+  display: block;
 }
-
 
 /* RIGHT SIDE CONTAINER */
 .container-right {
@@ -37,7 +37,6 @@ body {
   width: 20%;
 
   float: right;
-
 }
 
 .login-container {
@@ -45,7 +44,7 @@ body {
   height: 19%;
   margin-bottom: 3%;
   border-radius: 12px;
-  background-color: #003F61;
+  background-color: #003f61;
 
   padding: 0.3%;
   color: white;
@@ -55,7 +54,7 @@ body {
   max-height: 100%;
   height: 80%;
   border-radius: 12px;
-  background-color: #003F61;
+  background-color: #003f61;
 
   padding: 0.3%;
   color: white;
@@ -67,7 +66,6 @@ body {
   font-size: 40px;
   font-weight: bold;
   margin: auto 0 auto 30px;
-
 }
 
 #logo {
@@ -91,18 +89,18 @@ body {
   display: inline-block;
 }
 
-.form-column > *{
+.form-column > * {
   display: block;
   margin-left: 5px;
   margin-top: 5px;
 }
 
-#user-input, #password-input {
+#user-input,
+#password-input {
   width: 100%;
 }
 
 .form-row > button {
-  /* display: block; */
   background-color: #88bbd8;
   color: white;
   border: none;
@@ -127,9 +125,7 @@ body {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-
 }
-
 
 /* MOTTO SECTION */
 #date {
@@ -140,11 +136,53 @@ body {
 
 #motto-text {
   font-size: 25px;
-  
+
   margin-top: 50%;
   color: #eee;
   font-style: italic;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+/* COURSE BUTTONS */
+.row-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.course-btn {
+  color: #003f61;
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  
+  padding: 60px 30px;
+  margin: 10px;
+}
+
+.course-btn:hover {
+  filter: brightness(90%);
+}
+
+.course-btn:active {
+  filter: brightness(80%);
+}
+
+@media (max-width: 1200px) {
+  .course-btn {
+    padding: 40px 10px;
+  }
 }

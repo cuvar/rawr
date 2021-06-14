@@ -10,16 +10,22 @@
         <!-- left side -->
         <div class="container-main">
           <div class="title-container">
-            <p class="title">Rawr</p>
+            <h1 class="title">Rawr</h1>
             <img src="Pictures/logo.png" id="logo"></img>
           </div>
 
           <div class="content-container">
-            <xsl:foreach select="elements/university/year/course">
-              <p>
-                <xsl:value-of select="name" />
-              </p>
-            </xsl:foreach>
+            <div class="row-container">
+              <xsl:for-each select="elements/university/year">
+                <div class="row">
+                  <xsl:for-each select="course">
+                    <button class="course-btn">
+                      <xsl:value-of select="name" />
+                    </button>
+                  </xsl:for-each>
+                </div>
+              </xsl:for-each>
+            </div>
           </div>
         </div>
 
@@ -48,8 +54,12 @@
 
           <!-- motto container -->
           <div class="motto-container">
-            <h2 id="date"><xsl:value-of select="elements/day"/></h2>
-            <p id="motto-text"><xsl:value-of select="elements/motto"/></p>
+            <h2 id="date">
+              <xsl:value-of select="elements/day" />
+            </h2>
+            <p id="motto-text">
+              <xsl:value-of select="elements/motto" />
+            </p>
           </div>
         </div>
 
