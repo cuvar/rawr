@@ -32,9 +32,9 @@
               <td>
                 <xsl:value-of select="joined" />
               </td>
-			  <xsl:call-template name="FormatTimestamp">
-				<xsl:with-param name="Timestamp" select="joined"/>
-			  </xsl:call-template>
+              <xsl:call-template name="FormatTimestamp">
+                <xsl:with-param name="Timestamp" select="joined"/>
+              </xsl:call-template>
             </tr>
           </xsl:for-each>
         </table>
