@@ -9,11 +9,15 @@
       </head>
 
       <body>
+        <div id="easteregg-container">
+          <img src="Pictures/logo.png" id="easteregg" ></img>
+        </div>
+
         <!-- left side -->
         <div class="container-main">
           <div class="title-container">
             <h1 class="title">Rawr</h1>
-            <img src="Pictures/logo.png" id="logo" width="150"></img>
+            <img src="Pictures/logo.png" width="150" id="logo" onClick="triggerEasterEgg()"></img>
           </div>
 
           <div class="content-container">

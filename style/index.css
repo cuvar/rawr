@@ -1,6 +1,8 @@
+/* GENERAL SETUP */
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 html {
   height: 100%;
 }
@@ -10,7 +12,9 @@ body {
   box-sizing: border-box;
   padding: 1.5% 1.5% 1.5% 1.5%;
   height: 98%;
+  filter: brightness(100%);
 }
+
 
 /* LEFT SIDE CONTAINER*/
 .container-main {
@@ -36,6 +40,8 @@ body {
   background-color: #88bbd8;
   display: block;
 }
+
+
 
 /* RIGHT SIDE CONTAINER */
 .container-right {
@@ -66,6 +72,8 @@ body {
   color: white;
 }
 
+
+
 /* TOPBAR ELEMENTS */
 .title {
   color: white;
@@ -75,8 +83,13 @@ body {
 }
 
 #logo {
+  position: none;
+  width: 150px;
+  height: auto;
   margin: 10px 5px 10px auto;
 }
+
+
 
 /* LOGIN */
 /* login container */
@@ -158,6 +171,8 @@ input {
   margin-right: 10%;
 }
 
+
+
 /* COURSE BUTTONS */
 .row-container {
   height: 100%;
@@ -199,4 +214,24 @@ input {
   .course-btn {
     padding: 40px 10px;
   }
+}
+
+/* EASTEREGG */
+
+#easteregg-container {
+  position: fixed;
+  width: 98%;
+  height: 98%;
+  display: none;
+}
+
+#easteregg {
+  position: relative;
+  left: 25%;
+  width: 40%;
+  height: auto;
+}
+
+.easteregg-visible {
+  display: block !important;
 }
