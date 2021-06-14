@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href="xsl/calender.xsl"?> 
+<calender>
+    <event>
+        <last_modified></last_modified>
+        <created></created>
+        <start>20210101T800000</start>
+        <end>20210101T130000</end>
+        <uid></uid>
+        <summary>Theoretische Informatik I</summary>
+        <description></description>
+        <location></location>
+        <category>Lehrveranstaltung</category>
+        <organizer>
+            <name></name>
+            <contact></contact>
+        </organizer>
+        <attende>
+            <name>Braun</name>
+            <contact></contact>
+            <status></status>
+            <role></role>
+        </attende>
+        <!--Wird später implementiert <notice></notice>-->
+    </event>
+    <event>
+        <last_modified></last_modified>
+        <created></created>
+        <start>20210102T800000</start>
+        <end>20210101T130000</end>
+        <uid></uid>
+        <summary>Theoretische Informatik I</summary>
+        <description></description>
+        <location></location>
+        <category>Lehrveranstaltung</category>
+        <organizer>
+            <name></name>
+            <contact></contact>
+        </organizer>
+        <attende>
+            <name>Braun</name>
+            <contact></contact>
+            <status></status>
+            <role></role>
+        </attende>
+        <!--Wird später implementiert <notice></notice>-->
+    </event>
+    <event>
+        <last_modified></last_modified>
+        <created></created>
+        <start>20210102T140000</start>
+        <end>20210101T160000</end>
+        <uid></uid>
+        <summary>Theoretische Informatik I</summary>
+        <description></description>
+        <location></location>
+        <category>Lehrveranstaltung</category>
+        <organizer>
+            <name></name>
+            <contact></contact>
+        </organizer>
+        <attende>
+            <name>Braun</name>
+            <contact></contact>
+            <status></status>
+            <role></role>
+        </attende>
+        <!--Wird später implementiert <notice></notice>-->
+    </event>
+    <event>
+        <last_modified></last_modified>
+        <created></created> 
+        <start>20210103T800000</start>
+        <end>20210101T130000</end>
+        <uid></uid>
+        <summary>Theoretische Informatik I</summary>
+        <description></description>
+        <location></location>
+        <category>Lehrveranstaltung</category>
+        <organizer>
+            <name></name>
+            <contact></contact>
+        </organizer>
+        <attende>
+            <name>Braun</name>
+            <contact></contact>
+            <status></status>
+            <role></role>
+        </attende>
+        <!--Wird später implementiert <notice></notice>-->
+    </event>
+    <event>
+        <last_modified></last_modified>
+        <created></created>
+        800000    
+        130000  
+        <start>20210104</start>
+        <end>20210101</end>
+        <uid></uid>
+        <summary>Theoretische Informatik I</summary>
+        <description></description>
+        <location></location>
+        <category>Lehrveranstaltung</category>
+        <organizer>
+            <name></name>
+            <contact></contact>
+        </organizer>
+        <attende>
+            <name>Braun</name>
+            <contact></contact>
+            <status></status>
+            <role></role>
+        </attende>
+        <!--Wird später implementiert <notice></notice>-->
+    </event>
+    <event>
+        <last_modified></last_modified>
+        <created></created>
+        <start>20210105T800000</start>
+        <end>20210101T130000</end>
+        <uid></uid>
+        <summary>Theoretische Informatik I</summary>
+        <description></description>
+        <location></location>
+        <category>Lehrveranstaltung</category>
+        <organizer>
+            <name></name>
+            <contact></contact>
+        </organizer>
+        <attende>
+            <name>Braun</name>
+            <contact></contact>
+            <status></status>
+            <role></role>
+        </attende>
+        <!--Wird später implementiert <notice></notice>-->
+    </event>
+</calender>
