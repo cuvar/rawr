@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href="xsl/index.xsl"?> 
+<catalog>
+  <cd>
+    <name>Luca Müller</name>
+    <group>Frontend</group>
+    <company>SAP</company>
+  </cd>
+  <cd>
+    <name>Norman Reimer</name>
+    <group>Frontend</group>
+    <company>dmTech</company>
+  </cd>
+  <cd>
+    <name>Jona Kuhn</name>
+    <group>Frontend</group>
+    <company>dmTech</company>
+  </cd>
+  <cd>
+    <name>Fabian Hagner</name>
+    <group>Backend</group>
+    <company>SAP</company>
+  </cd>
+  <cd>
+    <name>Tobias Kreuß</name>
+    <group>Backend</group>
+    <company>SAP</company>
+  </cd>
+  <cd>
+    <name>Oliver Schirmer</name>
+    <group>Backend</group>
+    <company>SAP</company>
+  </cd>
+</catalog>
