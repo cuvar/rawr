@@ -11,6 +11,7 @@
         <div class="container-main">
           <div class="title-container">
             <p class="title">Rawr</p>
+            <img src="Pictures/logo.png" id="logo"></img>
           </div>
 
           <div class="content-container">

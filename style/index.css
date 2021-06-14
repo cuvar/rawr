@@ -67,3 +67,10 @@ body {
   padding: 0.3%;
   color: white;
 }
+
+/* other elements */
+
+#logo {
+  margin: 10px 5px 10px auto;
+
+}
