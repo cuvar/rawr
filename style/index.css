@@ -78,35 +78,40 @@ body {
   margin: 10px 5px 10px auto;
 }
 
-/* LOGIN ELEMENTS */
-.form-row {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
-  margin-bottom: 10px;
-}
-
+/* LOGIN */
+/* login container */
 .form-container {
   display: block;
 }
 
-.form-column {
-  display: inline-block;
+.form-wrapper {
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
+.form-row {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 100%; */
+  margin-bottom: 10px;
+}
+
+.form-column {
+  width: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* login elements */
 .form-column > * {
   display: block;
   margin-left: 5px;
   margin-top: 5px;
 }
 
-#user-input,
-#password-input {
-  width: 100%;
-}
-
-.form-row > button {
+#submit-btn {
   background-color: #88bbd8;
   color: white;
   border: none;
@@ -118,20 +123,22 @@ body {
   border-radius: 10px;
 }
 
-.form-row > button:hover {
+#submit-btn:hover {
   filter: brightness(90%);
 }
 
-.form-row > button:active {
+#submit-btn:active {
   filter: brightness(80%);
 }
 
-.form-wrapper {
-  width: fit-content;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+label {
+  font-style: italic;
 }
+
+input {
+  width: 100%;
+}
+
 
 /* MOTTO SECTION */
 #date {

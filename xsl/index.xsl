@@ -5,6 +5,7 @@
       <head>
         <link rel="stylesheet" href="../style/index.css" />
         <link rel="shortcut icon" type="image/jpg" href="Pictures/favicon.ico" />
+        <script src="./js/app.js"></script>
       </head>
 
       <body>
@@ -47,7 +48,7 @@
                   </div>
                 </div>
                 <div class="form-row">
-                  <button>Login</button>
+                  <button id="submit-btn" onclick="submitLogin()">Login</button>
                 </div>
               </div>
             </div>

@@ -1,0 +1,3 @@
+function submitLogin() {
+    alert("Test");
+}
