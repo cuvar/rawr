@@ -129,3 +129,22 @@ body {
   margin-right: auto;
 
 }
+
+
+/* MOTTO SECTION */
+#date {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#motto-text {
+  font-size: 25px;
+  
+  margin-top: 50%;
+  color: #eee;
+  font-style: italic;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}

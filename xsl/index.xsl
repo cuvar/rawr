@@ -15,7 +15,7 @@
           </div>
 
           <div class="content-container">
-            <xsl:foreach select="university/year/course">
+            <xsl:foreach select="elements/university/year/course">
               <p>
                 <xsl:value-of select="name" />
               </p>
@@ -25,10 +25,9 @@
 
         <!-- right side -->
         <div class="container-right">
+          <!-- login container -->
           <div class="login-container">
-
             <div class="form-container">
-
               <div class="form-wrapper">
                 <div class="form-row">
                   <div class="form-column">
@@ -40,18 +39,17 @@
                     <input id="password-input" type="password" />
                   </div>
                 </div>
-
                 <div class="form-row">
                   <button>Login</button>
                 </div>
               </div>
-
             </div>
-
-
           </div>
+
+          <!-- motto container -->
           <div class="motto-container">
-            <p>Motto</p>
+            <h2 id="date"><xsl:value-of select="elements/day"/></h2>
+            <p id="motto-text"><xsl:value-of select="elements/motto"/></p>
           </div>
         </div>
 
