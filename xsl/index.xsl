@@ -4,7 +4,7 @@
     <html>
       <head>
         <link rel="stylesheet" href="../style/index.css" />
-        <link rel="shortcut icon" type="image/jpg" href="Pictures/favicon.ico"/>
+        <link rel="shortcut icon" type="image/jpg" href="Pictures/favicon.ico" />
       </head>
 
       <body>
@@ -12,7 +12,7 @@
         <div class="container-main">
           <div class="title-container">
             <h1 class="title">Rawr</h1>
-            <img src="Pictures/logo.png" id="logo" width="150" height="auto"></img>
+            <img src="Pictures/logo.png" id="logo" width="150"></img>
           </div>
 
           <div class="content-container">
@@ -20,9 +20,9 @@
               <xsl:for-each select="elements/university/year">
                 <div class="row">
                   <xsl:for-each select="course">
-                    <button class="course-btn">
+                    <a class="course-btn" href="landingpage.xml">
                       <xsl:value-of select="name" />
-                    </button>
+                    </a>
                   </xsl:for-each>
                 </div>
               </xsl:for-each>
