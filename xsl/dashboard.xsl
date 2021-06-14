@@ -3,17 +3,22 @@
   <xsl:template match="/">
     <html>
       <head>
-        <link rel="stylesheet" href="../style/index.css" />
+        <link rel="stylesheet" href="../style/dashboard.css" />
+        
       </head>
 
       <body>
 
         <div class="container-right">
           <div class="klausur">
-            <p>Klausuren</p>
+            <div class="klausuren_top">
+              <p class="label_text">Klausuren</p>
+            </div>
           </div>
           <div class="termine" >
-            <p>Termine</p>
+            <div class="termine_top">
+              <p class="label_text">Termine</p>
+            </div>
           </div>
         </div>
         <div class="container-main">
@@ -24,7 +29,17 @@
             </div>
           </div>
           <div class="calendar">
-            <!-- <p class="calendar_p">September</p> -->
+            <!-- <table width="100%" border="5" height="80%">
+              <tr>
+                <td>Row 1</td>
+                <td>Row 1</td>
+                <td>Row 1</td>
+                <td>Row 1</td>
+                <td>Row 1</td>
+                <td>Row 1</td>
+                <td>Row 1</td>
+              </tr>
+            </table>               -->
           </div>
         </div>
 
