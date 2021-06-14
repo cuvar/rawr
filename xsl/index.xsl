@@ -22,13 +22,35 @@
             </xsl:foreach>
           </div>
         </div>
-        
+
         <!-- right side -->
         <div class="container-right">
           <div class="login-container">
-            <p>Login</p>
+
+            <div class="form-container">
+
+              <div class="form-wrapper">
+                <div class="form-row">
+                  <div class="form-column">
+                    <label>Username</label>
+                    <label>Password</label>
+                  </div>
+                  <div class="form-column">
+                    <input id="user-input" type="text" />
+                    <input id="password-input" type="password" />
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <button>Login</button>
+                </div>
+              </div>
+
+            </div>
+
+
           </div>
-          <div class="motto-container" >
+          <div class="motto-container">
             <p>Motto</p>
           </div>
         </div>

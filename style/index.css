@@ -8,7 +8,7 @@ body {
   padding: 1.5% 1.5% 1.5% 1.5%;
 }
 
-/* LEFT SIDE */
+/* LEFT SIDE CONTAINER*/
 .container-main {
   max-height: 100%;
   width: 79%;
@@ -17,7 +17,7 @@ body {
 
 .title-container {
   display: flex;
-  height: 12%;
+  height: 19%;
   margin-bottom: 1%;
   border-radius: 12px;
   background-color: #003F61;
@@ -25,20 +25,13 @@ body {
 
 .content-container {
   max-height: 100%;
-  height: 87%;
+  height: 80%;
   border-radius: 12px;
   background-color:  #88bbd8;
 }
 
-.title {
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  margin: auto 0 auto 30px;
 
-}
-
-/* RIGHT SIDE */
+/* RIGHT SIDE CONTAINER */
 .container-right {
   height: 100%;
   width: 20%;
@@ -48,8 +41,8 @@ body {
 }
 
 .login-container {
-  display: flex;
-  height: 12%;
+  display: block;
+  height: 19%;
   margin-bottom: 3%;
   border-radius: 12px;
   background-color: #003F61;
@@ -60,7 +53,7 @@ body {
 
 .motto-container {
   max-height: 100%;
-  height: 87%;
+  height: 80%;
   border-radius: 12px;
   background-color: #003F61;
 
@@ -68,9 +61,71 @@ body {
   color: white;
 }
 
-/* other elements */
+/* TOPBAR ELEMENTS */
+.title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin: auto 0 auto 30px;
+
+}
 
 #logo {
   margin: 10px 5px 10px auto;
+}
+
+/* LOGIN ELEMENTS */
+.form-row {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  display: block;
+}
+
+.form-column {
+  display: inline-block;
+}
+
+.form-column > *{
+  display: block;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#user-input, #password-input {
+  width: 100%;
+}
+
+.form-row > button {
+  /* display: block; */
+  background-color: #88bbd8;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+
+  padding: 5px 0 5px 0;
+  border-radius: 10px;
+}
+
+.form-row > button:hover {
+  filter: brightness(90%);
+}
+
+.form-row > button:active {
+  filter: brightness(80%);
+}
+
+.form-wrapper {
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
