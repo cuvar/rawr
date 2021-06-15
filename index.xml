@@ -7,52 +7,67 @@
     <year>
       <course>
         <name>TINF18B1</name>
+        <user>freudenmann</user>
       </course>
       <course>
         <name>TINF18B2</name>
+        <user>braun</user>
       </course>
       <course>
         <name>TINF18B3</name>
+        <user>?</user>
       </course>
       <course>
         <name>TINF18B4</name>
+        <user>?</user>
       </course>
       <course>
         <name>TINF18B5</name>
+        <user>?</user>
       </course>
     </year>
     <year>
       <course>
         <name>TINF19B1</name>
+        <user>freudenmann</user>
       </course>
       <course>
         <name>TINF19B2</name>
+        <user>braun</user>
       </course>
       <course>
         <name>TINF19B3</name>
+        <user>?</user>
       </course>
       <course>
         <name>TINF19B4</name>
+        <user>?</user>
       </course>
       <course>
         <name>TINF19B5</name>
+        <user>?</user>
       </course>
     </year>
     <year>
       <course>
         <name>TINF20B1</name>
+        <user>freudenmann</user>
       </course>
       <course>
         <name>TINF20B2</name>
+        <user>braun</user>
       </course>
       <course>
         <name>TINF20B3</name>
+        <user>?</user>
       </course>
       <course>
         <name>TINF20B4</name>
+        <user>?</user>
       </course>
       <course>
         <name>TINF20B5</name>
+        <user>?</user>
       </course>
     </year>
   </university>
