@@ -94,3 +94,42 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
     </html>
   </xsl:template>
 </xsl:stylesheet>
+
+
+
+<xsl:when test="$month = 2 | $month = 3 | $month = 11" >
+        <xsl:call-template name="getDay">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="4" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 4 | $month = 7">
+        <xsl:call-template name="getDay">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="0" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 5 ">
+        <xsl:call-template name="getDay">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="2" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 6 ">
+        <xsl:call-template name="getDay">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="5" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 8">
+        <xsl:call-template name="getDay">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="3" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:call-template name="getDay">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="0" />
+        </xsl:call-template>
+      </xsl:otherwise>
