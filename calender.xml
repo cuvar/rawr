@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type = "text/xsl" href="xsl/calender.xsl"?> 
+<?xml-stylesheet type = "text/xsl" href="xsl/calender_V2.xsl"?> 
 <calendar>
     <timezone>
         <tz_name>Europe/Berlin</tz_name>
@@ -649,8 +649,8 @@
         <uid>a2343ccd-57b4-49a7-bd43-bff79da996e3</uid>
     </event>
     <event>
-        <created>20210308T170318Z</created>
-        <rrule>FREQ=WEEKLY</rrule>
+        <created>2021WEEKLY0308T170318Z</created>
+        <rrule>FREQ=</rrule>
         <exdate>TZID=Europe/Berlin</exdate>
         <categories>Lehrveranstaltung</categories>
         <dtstamp>20210309T152232Z</dtstamp>
