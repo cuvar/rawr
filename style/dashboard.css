@@ -32,8 +32,44 @@ body {
   background-color:  #88bbd8;
   height: 92%;
   border-radius: 20px;
-  /* padding: 5% 5% 1% 5%; */
-  
+}
+
+.calendar_top {
+  height: 7%;
+  width: 100%;
+  padding: 2px 2px 2px 2px;
+  color: white;
+}
+
+.calendar_main {
+  border-radius: 20px;
+  /* display: flex;
+	align-items: center;
+	justify-content: center; */
+}
+
+table {
+  border-radius: 20px;
+  border-spacing: 10;
+  border: 5;
+  border-color: #F1F7F8;
+  height: 92%;
+  width: 100%;
+  float: bottom;
+}
+
+th {
+  background-color: white;
+  border-radius: 20px;
+  height: 5%;
+  width: 8%;
+  color: #003F61;
+}
+    
+td {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
 }
 
 .banner {
@@ -41,7 +77,9 @@ body {
   background-color: #003F61;
   display: flex;
   height: 7%;
+  width: 100%;
   margin-bottom: 1%;
+  align-items: center;
 }
 
 .homebutton {
@@ -56,6 +94,7 @@ body {
   padding: 1px 1px 1px 1px ;
   margin: 0.6% 3%;
   width: 30%;
+  height: 65%;
   display: flex;
 	align-items: center;
 	justify-content: center; 
@@ -80,6 +119,17 @@ body {
   display: flex;
 	align-items: center;
 	justify-content: center;
+  margin-bottom: 10%;
+}
+
+.klausuren_main {
+  margin-top: 1%;
+  height: 0%;
+}
+
+.termine_main {
+  margin-top: 1%;
+  height: 0%;
 }
 
 .termine {
@@ -98,14 +148,65 @@ body {
   display: flex;
 	align-items: center;
 	justify-content: center;
+  margin-bottom: 10%;
 }
 
 .label_text {
   font-size: 250%;
 }
 
+.dropbtn {
+  background-color: white;
+  color: #003F61;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  max-width: 300%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
 @media only screen and (max-width: 1000px) {
   .label_text {
     font-size: 140%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .label_text {
+    font-size: 140%;
+  }
+
+  html {
+    display: none;
   }
 }

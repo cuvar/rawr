@@ -13,53 +13,10 @@
             <div class="klausuren_top">
               <p class="label_text">Klausuren</p>
             </div>
-            <div class="klausuren_main">
-              <table>
-                <tr>
-                  <td>
-                    Mathe
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Marketing
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Theo
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Informatik
-                  </td>
-                </tr>
-              </table>
-            </div>
           </div>
           <div class="termine" >
             <div class="termine_top">
               <p class="label_text">Termine</p>
-            </div>
-            <div class="termine_main">
-              <table>
-                <tr>
-                  <td>
-                    Fronleichnahm
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    AI-Labor
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Norman Geburtstag
-                  </td>
-                </tr>
-              </table>
             </div>
           </div>
         </div>
@@ -73,7 +30,7 @@
               <button class="dropbtn">Wochenansicht</button>
               <div class="dropdown-content">
                 <a href="#">Wochenansicht</a>
-                <a href="dashboardMonth.xsl">Monatsansicht</a>
+                <a href="#">Monatsansicht</a>
               </div>
             </div> 
           </div>
@@ -101,7 +58,7 @@
                     Mathe
                   </td>        
                   <td>
-                    Mathe
+                    LUL
                   </td>        
                   <td>
                     Mathe
