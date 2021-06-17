@@ -28,7 +28,7 @@
             <th>Join-Date</th>
             <th>Join-Time</th>
           </tr>
-          <xsl:for-each select="$staff1/employee">
+          <xsl:for-each select="$staff/employee">
             <tr>
               <td>
                 <xsl:value-of select="name" />
