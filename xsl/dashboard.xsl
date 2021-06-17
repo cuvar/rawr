@@ -95,10 +95,10 @@
                 </tr>
                 <tr>
                   <td>
-                    Mathe
+                    Mathe Montag
                   </td>        
                   <td>
-                    Mathe
+                    Mathe Dienstag
                   </td>        
                   <td>
                     Mathe

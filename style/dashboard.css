@@ -163,6 +163,7 @@ td {
   cursor: pointer;
   border-radius: 20px;
   max-width: 300%;
+  display: block;
 }
 
 .dropdown {
