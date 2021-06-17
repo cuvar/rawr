@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
     <html>
       <head>
@@ -7,8 +8,9 @@
       </head>
 
       <body>
-
+      <!-- right views -->
         <div class="container-right">
+        <!-- klausuren view -->
           <div class="klausur">
             <div class="klausuren_top">
               <p class="label_text">Klausuren</p>
@@ -38,7 +40,8 @@
               </table>
             </div>
           </div>
-          <div class="termine" >
+          <!-- termine view -->
+          <div class="termine">
             <div class="termine_top">
               <p class="label_text">Termine</p>
             </div>
@@ -63,30 +66,41 @@
             </div>
           </div>
         </div>
+
+        <!-- main content on left side -->
         <div class="container-main">
+        <!-- banner -->
           <div class="banner">
-            <img class="homebutton" src="Pictures/home-solid.svg" alt=""/>
-            <div class="class">
-              <p>TINF20B2</p>
-            </div> 
-            <div class="dropdown">
-              <button class="dropbtn">Wochenansicht</button>
-              <div class="dropdown-content">
-                <a href="#">Wochenansicht</a>
-                <a href="dashboardMonth.xsl">Monatsansicht</a>
+            <div class="banner-left">
+              <img class="homebutton" src="Pictures/home-solid.svg" alt=""/>
+              <div class="class">
+                <p>TINF20B2</p>
               </div>
-            </div> 
+            </div>
+            <div class="banner-right">
+              <div class="dropdown">
+                <button class="dropbtn">Wochenansicht</button>
+                <div class="dropdown-content">
+                  <a href="#">Wochenansicht</a>
+                  <a href="dashboardMonth.xsl">Monatsansicht</a>
+                </div>
+              </div>
+            </div>
           </div>
+        
+          <!-- calender view -->
           <div class="calendar">
             <div class="calendar_top">
-              <a href="#"></a><img style="width: 35px" src="Pictures/angle-left-solid.svg" alt=""/>
-              <a href="#"></a> <img style="width: 35px" src="Pictures/angle-right-solid.svg" alt=""/>
+              <a href="#"></a>
+              <img style="width: 35px" src="Pictures/angle-left-solid.svg" alt=""/>
+              <a href="#"></a>
+              <img style="width: 35px" src="Pictures/angle-right-solid.svg" alt=""/>
             </div>
             <div class="calendar_main">
               <table>
                 <tr class="lol">
                   <th>Montag</th>
-                  <th>Dienstag</th> 
+                  <th>Dienstag</th>
                   <th>Mittwoch</th>
                   <th>Donnerstag</th>
                   <th>Freitag</th>
@@ -102,21 +116,21 @@
                   </td>        
                   <td>
                     Mathe
-                  </td>        
+                  </td>
                   <td>
                     Mathe
-                  </td>        
+                  </td>
                   <td>
                     Mathe
-                  </td>        
+                  </td>
                   <td>
                     Mathe
-                  </td>        
+                  </td>
                   <td>
                     Mathe
-                  </td>        
+                  </td>
                 </tr>
-              </table>      
+              </table>
             </div>
           </div>
         </div>
