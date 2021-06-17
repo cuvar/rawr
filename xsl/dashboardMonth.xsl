@@ -36,8 +36,8 @@
           </div>
           <div class="calendar">
             <div class="calendar_top">
-              <a href="#"></a><img style="width: 35px" src="Pictures/angle-left-solid.svg" alt=""/>
-              <a href="#"></a> <img style="width: 35px" src="Pictures/angle-right-solid.svg" alt=""/>
+              <a href="#"></a><img style="width: 30px" src="Pictures/angle-left-solid.svg" alt=""/>
+              <a href="#"></a> <img style="width: 30px" src="Pictures/angle-right-solid.svg" alt=""/>
             </div>
             <div class="calendar_main">
               <table>
