@@ -74,13 +74,27 @@ td {
 }
 
 .banner {
+  display: flex;
+  width: 100%;
+  height: 7%;
+
   border-radius: 20px;
   background-color: #003F61;
-  display: flex;
-  height: 7%;
-  width: 100%;
   margin-bottom: 1%;
   align-items: center;
+  justify-content: space-between;
+}
+.banner-left {
+  display: flex;
+  height: 100%;
+  width: 40% !important;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.banner-right {
+  display: flex;
+  padding-right: 10px;
 }
 
 .homebutton {
@@ -90,17 +104,20 @@ td {
 }
 
 .class {
-  background-color: white;
-  border-radius: 20px;
+  width: 90%;
+  height: 65%;
+  font-size: 25px;
+
   padding: 1px 1px 1px 1px ;
   margin: 0.6% 3%;
-  width: 30%;
-  height: 65%;
+  
+  color: #003F61;
+  background-color: white;
+  border-radius: 20px;
+  
   display: flex;
 	align-items: center;
 	justify-content: center; 
-  font-size: 25px;
-  color: #003F61;
 }
 
 .klausur {
@@ -167,8 +184,8 @@ td {
 }
 
 .dropdown {
-  position: relative;
   display: inline-block;
+  position: relative;
 }
 
 .dropdown-content {
