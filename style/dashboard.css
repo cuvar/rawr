@@ -44,9 +44,27 @@ body {
 .calendar_main {
   border-radius: 20px;
   height: 100%;
-  /* display: flex;
+}
+
+.calendar_day {
+  background-color: #88bbd8;
+  display: inline-block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #003F61;
+  display: flex;
 	align-items: center;
-	justify-content: center; */
+	justify-content: center;
+}
+
+.timetable {
+  padding: 15px 3px 0px 3px;
+  margin-top: 40%;
+  background-color: rgba(183, 0, 255, 0.637);
+  border-radius: 20px;
+  color: white;
 }
 
 table {
@@ -57,6 +75,7 @@ table {
   height: 92%;
   width: 100%;
   float: bottom;
+  table-layout: fixed;
 }
 
 th {
@@ -71,6 +90,8 @@ td {
   background-color: white;
   border-radius: 20px;
   padding: 5px 5px 5px 5px;
+  width: 20px;
+  vertical-align: top;
 }
 
 .banner {
@@ -84,6 +105,7 @@ td {
   align-items: center;
   justify-content: space-between;
 }
+
 .banner-left {
   display: flex;
   height: 100%;
@@ -205,10 +227,6 @@ td {
   display: block;
 }
 
-.dropdown-content a:hover {
-  background-color: #f1f1f1
-}
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -220,6 +238,9 @@ td {
 @media only screen and (max-width: 1000px) {
   .label_text {
     font-size: 140%;
+  }
+  th {
+    font-size: 10px;
   }
 }
 
