@@ -109,62 +109,34 @@
                 </tr>
                 <tr>
                   <td>
-                      <div class="calendar_day">
-                        <p>1</p>
-                      </div>
-                      <div class="timetable" style="height:150px">
-                        Mathe Montag Lul
-                      </div>
+                      <div class="calendar_day"><p>1</p></div>
+                      <div class="timetable" style="height:150px">Mathe Montag Lul</div>
+                      <div class="timetable" style="height:150px; background-color: blue; ">Theoretische Informatik </div>
                   </td>        
                   <td>
-                      <div class="calendar_day">
-                        <p>2</p>
-                      </div>
-                      <div class="timetable">
-                        Mathe Dienstag
-                      </div>
+                      <div class="calendar_day"><p>2</p></div>
+                      <div class="timetable">Mathe Dienstag</div>
                   </td>        
                   <td>
-                      <div class="calendar_day">
-                        <p>3</p>
-                      </div>
-                      <div class="timetable">
-                        Mathe Montag Lul
-                      </div>
+                      <div class="calendar_day"> <p>3</p></div>
+                      <div class="timetable">Mathe Montag Lul</div>
                   </td>        
                   <td>
-                      <div class="calendar_day">
-                        <p>4</p>
-                      </div>
-                      <div class="timetable">
-                        Mathe Montag Lul
-                      </div>
+                      <div class="calendar_day"><p>4</p></div>
+                      <div class="timetable">Mathe Montag Lul</div>
                   </td>        
                   <td>
-                      <div class="calendar_day">
-                        <p>5</p>
-                      </div>
-                      <div class="timetable">
-                        Mathe Montag Lul
-                      </div>
+                      <div class="calendar_day"><p>5</p></div>
+                      <div class="timetable">Mathe Montag Lul</div>
                   </td>        
                   <td>
-                      <div class="calendar_day">
-                        <p>6</p>
-                      </div>
-                      <div class="timetable">
-                        Mathe Montag Lul
-                      </div>
+                      <div class="calendar_day"><p>6</p></div>
+                      <div class="timetable">Mathe Montag Lul</div>
                   </td>        
                   <td>
-                      <div class="calendar_day">
-                        <p>7</p>
-                      </div>
-                      <div class="timetable">
-                        Mathe Montag Lul
-                      </div>
+                      <div class="calendar_day"><p>7</p></div>
+                      <div class="timetable">Mathe Montag Lul</div>
                   </td>        
-                  
                 </tr>
               </table>
             </div>
