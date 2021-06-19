@@ -18,7 +18,7 @@
             <div class="klausuren_main">
               <table>
                 <tr>
-                  <td>
+                  <td class="date-btn">
                     <details>
                       <summary>Mathe</summary>
                       <p>12:00 - 15:00 Uhr</p>
@@ -26,7 +26,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="date-btn">
                     <details>
                       <summary>Info</summary>
                       <p>12:00 - 15:00 Uhr</p>
@@ -34,7 +34,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="date-btn">
                     <details>
                       <summary>Theo</summary>
                       <p>12:00 - 15:00 Uhr</p>
@@ -42,7 +42,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td> 
+                  <td class="date-btn"> 
                     <details>
                       <summary>Digitalt.</summary>
                       <p>12:00 - 15:00 Uhr</p>
@@ -60,7 +60,7 @@
             <div class="termine_main">
               <table>
                 <tr>
-                  <td>
+                  <td class="date-btn">
                     <details>
                       <summary>Mathe</summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -68,7 +68,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="date-btn">
                     <details>
                       <summary>AI-Labor</summary>
                       <p>Lol</p>
@@ -76,7 +76,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="date-btn">
                     <details>
                       <summary>Party</summary>
                       <p>Fette Fete</p>
@@ -102,8 +102,9 @@
               <div class="dropdown">
                 <button class="dropbtn">Wochenansicht</button>
                 <div class="dropdown-content">
-                  <a href="dashboardMonth.xml">Monatsansicht</a>
                   <a href="dashboard.xml">Wochenansicht</a>
+                  <hr/>
+                  <a href="dashboardMonth.xml">Monatsansicht</a>
                 </div>
               </div>
             </div>
@@ -113,16 +114,16 @@
           <div class="calendar">
             <div class="calendar_top">
               <a href="#"></a>
-              <img style="width: 30px" src="Pictures/angle-left-solid.svg" alt=""/>
+              <img class="nav-btn" src="Pictures/angle-left-solid.svg" alt=""/>
               <a href="#"></a>
-              <img style="width: 30px" src="Pictures/angle-right-solid.svg" alt=""/>
+              <img class="nav-btn" src="Pictures/angle-right-solid.svg" alt=""/>
               <div class="calendar_month">
                 <p>Septmeber</p>
               </div>
             </div>
             <div class="calendar_main">
               <table style="height:100%">
-                <tr class="lol">
+                <tr>
                   <th>Montag</th>
                   <th>Dienstag</th>
                   <th>Mittwoch</th>
@@ -139,7 +140,8 @@
                   </td>        
                   <td>
                       <div class="calendar_day"><p>2</p></div>
-                      <div class="timetable">Mathe Dienstag</div>
+                      <div class="{concat('timetable', university/year/course/color)}">Hallo Jona das ist Mathe.
+                      </div>
                   </td>        
                   <td>
                       <div class="calendar_day"> <p>3</p></div>

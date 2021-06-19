@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Mulish');
+
 * {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Mulish', sans-serif;
+}
+
+.bg-red {
+  background-color: red !important;
+}
+
+.bg-blue {
+  background-color: turquoise !important;
+}
+
+.bg-green {
+  background-color: green !important;
 }
 
 html {
@@ -51,16 +65,19 @@ body {
 }
 
 .calendar_day {
-  background-color: #88bbd8;
-  display: inline-block;
-  float: right;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
   color: #003F61;
+  background-color: #88bbd8;
+  
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+
   display: flex;
 	align-items: center;
 	justify-content: center;
+  
+  float: right;
+  border-radius: 50%;
 }
 
 .calendar_month {
@@ -78,11 +95,13 @@ body {
 }
 
 .timetable {
-  padding: 10px 3px 10px 3px;
+  padding: 7px 5px;
   margin-top: 40%;
   background-color: rgba(183, 0, 255, 0.637);
-  border-radius: 20px;
+  border-radius: 15px;
   color: white;
+  font-size: 12px;
+  color: black;
 }
 
 table {
@@ -103,10 +122,15 @@ th {
   width: 8%;
   color: #003F61;
 }
-    
+
+.nav-btn {
+  width: 18px !important;
+  margin-left: 10px;
+}
+
 td {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 5px 5px 5px 5px;
   width: 20px;
   vertical-align: top;
@@ -222,36 +246,53 @@ td {
   font-size: 250%;
 }
 
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 .dropbtn {
   background-color: white;
   color: #003F61;
-  font-size: 16px;
   border: none;
-  cursor: pointer;
-  max-width: 300%;
+  border-radius: 10px;
+  
   display: block;
-  border-radius: 20px;
-}
-
-.dropdown {
-  display: inline-block;
-  position: relative;
+  max-width: 300%;
+  
+  font-size: 16px;
+  cursor: pointer;
+  
+  padding: 5px 10px 5px 5px;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+
   background-color: #f9f9f9;
-  min-width: 125px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
   border-radius: 10px;
+  
+  min-width: 125px;
+  z-index: 1;
+  
+  padding: 5px 0px 5px 5px;
 }
 
 .dropdown-content a {
-  color: black;
+  color: #003F61;
   text-decoration: none;
   display: block;
+}
+
+.dropdown-content hr {
+  background-color: #003F61;
+  border: none;
+  width: inherit;
+  height: 1px;
+  margin-right: 10px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -261,6 +302,23 @@ td {
 .dropdown:hover .dropbtn {
   background-color: white;
 }
+
+.date-btn:hover {
+  filter: brightness(90%);
+}
+
+details > p {
+  padding-left: 5px;
+}
+
+summary{
+  padding-left: 5px;
+  font-weight: bold;
+  color: #003F61; 
+  list-style: none;
+  cursor: pointer;
+}
+
 
 @media only screen and (max-width: 1000px) {
   .label_text {
