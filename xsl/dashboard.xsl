@@ -19,22 +19,34 @@
               <table>
                 <tr>
                   <td>
-                    Mathe
+                    <details>
+                      <summary>Mathe</summary>
+                      <p>12:00 - 15:00 Uhr</p>
+                    </details>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    Marketing
+                    <details>
+                      <summary>Info</summary>
+                      <p>12:00 - 15:00 Uhr</p>
+                    </details>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    Theo
+                    <details>
+                      <summary>Theo</summary>
+                      <p>12:00 - 15:00 Uhr</p>
+                    </details>
                   </td>
                 </tr>
                 <tr>
-                  <td>
-                    Informatik
+                  <td> 
+                    <details>
+                      <summary>Digitalt.</summary>
+                      <p>12:00 - 15:00 Uhr</p>
+                    </details>
                   </td>
                 </tr>
               </table>
@@ -49,17 +61,26 @@
               <table>
                 <tr>
                   <td>
-                    Fronleichnahm
+                    <details>
+                      <summary>Mathe</summary>
+                      <p>12:00 - 14:00 Uhr</p>
+                    </details>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    AI-Labor
+                    <details>
+                      <summary>AI-Labor</summary>
+                      <p>Lol</p>
+                    </details>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    Norman Geburtstag
+                    <details>
+                      <summary>Party</summary>
+                      <p>Fette Fete</p>
+                    </details>
                   </td>
                 </tr>
               </table>
@@ -97,7 +118,7 @@
               <img style="width: 30px" src="Pictures/angle-right-solid.svg" alt=""/>
             </div>
             <div class="calendar_main">
-              <table>
+              <table style="height:100%">
                 <tr class="lol">
                   <th>Montag</th>
                   <th>Dienstag</th>
