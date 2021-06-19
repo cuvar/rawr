@@ -105,7 +105,7 @@
                 <div class="dropdown-content">
                   <a href="dashboardMonth.xml">Monatsansicht</a>
                   <hr/>
-                  <a href="dashboard.xml">Wochenansicht</a>
+                  <a href="event.xml">Wochenansicht</a>
                 </div>
               </div>
             </div>

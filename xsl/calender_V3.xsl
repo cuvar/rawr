@@ -77,7 +77,7 @@
               <div class="dropdown">
                 <button class="dropbtn">Wochenansicht</button>
                 <div class="dropdown-content">
-                  <a href="dashboard.xml">Wochenansicht</a>
+                  <a href="event.xml">Wochenansicht</a>
                   <hr/>
                   <a href="dashboardMonth.xml">Monatsansicht</a>
                 </div>
@@ -125,7 +125,10 @@
     <xsl:param name="index" select="$timeframestart" />
     <xsl:param name="maxValue" select="$timeframeend" />
     <td>
-      <div class="calendar_day"><p>1</p></div>
+      <div class="calendar_day"><p>
+        <!--to Do bessere Lösung finden-->
+        <xsl:value-of select="substring($index,7,2)"/>
+        </p></div>
       <div class="timetable_content">
     <xsl:for-each select="$calendar/event">
     <xsl:sort select="starttime/total" data-type="number" />
