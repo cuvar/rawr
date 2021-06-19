@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<xsl:stylesheet version="1.0" 
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
-    <xsl:param name="request_test"/>
-    <xsl:variable name="test" select="'Mo'"/>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:param name="test"/>
     <xsl:variable name="timeframestart" select="20210531"/>
     <xsl:variable name="timeframeend" select="20210606"/>
+    <xsl:variable name="currentday" select="20210531"/>
    
 
   <xsl:template match="/">
@@ -19,14 +16,18 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <h1>Project RAWR</h1>
         <table>
             <tr>
+                <xsl:value-of select="$test"/>
                 <xsl:call-template name="Loop"/>
-                <xsl:call-template name="klausuren"/>
+                <xsl:call-template name="Klausuren"/>
+                <xsl:call-template name="Termine"/>
             </tr>
         </table>
       </body>
     </html>
   </xsl:template>
 
+
+  <!--Loop makes one Row in the Calender than calls an Method to add one day-->
   <xsl:template name="Loop">
     <xsl:param name="index" select="$timeframestart" />
     <xsl:param name="maxValue" select="$timeframeend" />
@@ -51,7 +52,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
          </xsl:variable>
         
         <xsl:if test="$startdate = $index">
-        <tr>
+        <xsl:variable name="duration" select="100"/>
+        <tr style="height: 100px">
 
             <xsl:choose>
             <xsl:when test="categories = 'Prüfung'">
@@ -99,6 +101,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </xsl:if>
   </xsl:template>
 
+<!--Checks how much day has an month and if by adding a Day creats an overload-->
 <xsl:template name="addDay">
   <xsl:param name="date"/>
   <xsl:param name="days"/>
@@ -124,6 +127,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </xsl:choose>
 </xsl:template>
 
+
+<!--tells how many days has a month and gives this information to the "addDay" method-->
 <xsl:template name="getDaysInMonth">
   <xsl:param name="date"/>
   <xsl:param name="total"/>
@@ -233,27 +238,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </xsl:choose>
 </xsl:template>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--creats a String with the name of the Day -->
   <xsl:template name="getDay">
   <xsl:param name="date"/>
   <xsl:variable name="month">
@@ -262,67 +247,67 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:choose>
       <xsl:when test="$month = 1">
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="1" />
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$month = 10">
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="1" />
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$month = 2 " >
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="4" />
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$month = 3 " >
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="4" />
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$month = 11" >
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="4" />
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$month = 4 ">
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="0" />
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$month = 7 ">
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="0" />
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$month = 5 ">
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="2" />
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$month = 6 ">
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="5" />
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$month = 8">
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="3" />
         </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:call-template name="getDaycode">
+        <xsl:call-template name="getDayName">
           <xsl:with-param name="date" select="$date" />
           <xsl:with-param name="monthcode" select="0" />
         </xsl:call-template>
@@ -330,7 +315,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template name="getDaycode">
+  <!--returns, when given a calculated month number and the Date, the Dayname of a Date-->
+  <xsl:template name="getDayName">
     <xsl:param name="date"/>
     <xsl:param name="monthcode"/>
 
@@ -354,8 +340,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         So
       </xsl:when>
       <xsl:when test="$dayname = 2">
-        <dt>Mo</dt>
-        <dt><xsl:value-of select="$date"/></dt>
+        Mo
       </xsl:when>
       <xsl:when test="$dayname = 3">
         Di
@@ -377,9 +362,25 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </td>
   </xsl:template>
 
-  <xsl:template name="klausuren">
+  
+
+<!--returns all events with "Prüfung" as their categorie-->
+  <xsl:template name="Klausuren">
     <xsl:for-each select="calendar/event">
     <xsl:if test="categories = 'Prüfung'">
+      <tr>
+        <td>
+        <xsl:value-of select="summary" />
+        </td>
+      </tr>  
+    </xsl:if>
+    </xsl:for-each>
+
+  </xsl:template>
+
+  <xsl:template name="Termine">
+    <xsl:for-each select="calendar/event">
+    <xsl:if test="categories = 'Sonstiger Termin'  ">
       <tr>
         <td>
         <xsl:value-of select="summary" />
