@@ -44,6 +44,7 @@
             <tr>
                 <xsl:call-template name="Loop"/>
                 <xsl:call-template name="Klausuren"/>
+                <xsl:call-template name="Termine"/>
             </tr>
         </table>
       </body>
@@ -139,12 +140,28 @@
     <xsl:if test="categories = 'Prüfung' and startdate > $currentDate">
       <tr>
         <td>
+        <xsl:value-of select="categories"/>:
         <xsl:value-of select="summary" />
-        <xsl:value-of select="categories"/>
+        
         </td>
       </tr>  
     </xsl:if>
     </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template name="Termine">
+    <h3>Termine</h3>
+    <xsl:for-each select="$calendar/event">
+    <xsl:if test="categories = 'Sonstiger Termin' and startdate > $currentDate ">
+      <tr>
+        <td>
+        <xsl:value-of select="categories"/>:
+        <xsl:value-of select="summary" />
+        </td>
+      </tr>  
+    </xsl:if>
+    </xsl:for-each>
+
   </xsl:template>
 
 </xsl:stylesheet>
