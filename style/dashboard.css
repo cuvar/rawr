@@ -96,7 +96,7 @@ body {
 
 .timetable {
   padding: 7px 5px;
-  margin-top: 40%;
+  margin-top: 25%;
   background-color: rgba(183, 0, 255, 0.637);
   border-radius: 15px;
   color: white;
@@ -109,7 +109,7 @@ table {
   border-spacing: 10;
   border: 5;
   border-color: #F1F7F8;
-  height: 92%;
+  height: 100%;
   width: 100%;
   float: bottom;
   table-layout: fixed;
