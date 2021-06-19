@@ -94,9 +94,13 @@ body {
   font-size: large;
 }
 
+.timetable_content {
+  margin-top: 25%;
+}
+
 .timetable {
   padding: 7px 5px;
-  margin-top: 25%;
+  margin-top: 5%;
   background-color: rgba(183, 0, 255, 0.637);
   border-radius: 15px;
   color: white;
