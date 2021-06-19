@@ -117,6 +117,9 @@
               <img style="width: 30px" src="Pictures/angle-left-solid.svg" alt=""/>
               <a href="#"></a>
               <img style="width: 30px" src="Pictures/angle-right-solid.svg" alt=""/>
+              <div class="calendar_month">
+                <p>Septmeber</p>
+              </div>
             </div>
             <div class="calendar_main">
               <div class="tableFixHead">

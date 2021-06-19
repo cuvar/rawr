@@ -39,6 +39,8 @@ body {
   width: 100%;
   padding: 2px 2px 2px 2px;
   color: white;
+  display: flex;
+	align-items: center;
 }
 
 .calendar_main {
@@ -59,6 +61,20 @@ body {
   display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.calendar_month {
+  background-color: white;
+  color: #003F61;
+  border-radius: 20px;
+  float: top;
+  width: 120px;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  height: 30px;
+  margin-left: 1%;
+  font-size: large;
 }
 
 .timetable {
