@@ -28,6 +28,7 @@
   </xsl:variable>
   <!-- Convert RTF (result-tree-fragment) to node-set -->
   <xsl:variable name="calendar" select="ext:node-set($calendarRtf)"/>
+  
 
   <xsl:template match="/">
     <html>
@@ -59,6 +60,8 @@
     <td>
     <table>
     <xsl:for-each select="$calendar/event">
+    <xsl:sort select="starttime" data-type="number" />
+
       <xsl:if test="startdate = $index"> 
           <xsl:choose>
             <xsl:when test="categories = 'Prüfung'">
@@ -137,6 +140,7 @@
   <xsl:template name="Klausuren">
     <h3>Klausuren</h3>
     <xsl:for-each select="$calendar/event">
+    <xsl:sort select="startdate" data-type="number" />
     <xsl:if test="categories = 'Prüfung' and startdate > $currentDate">
       <tr>
         <td>
@@ -152,6 +156,7 @@
   <xsl:template name="Termine">
     <h3>Termine</h3>
     <xsl:for-each select="$calendar/event">
+    <xsl:sort select="startdate" data-type="number" />
     <xsl:if test="categories = 'Sonstiger Termin' and startdate > $currentDate ">
       <tr>
         <td>
