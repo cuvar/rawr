@@ -4,20 +4,20 @@
     <html>
       <head>
         <link rel="stylesheet" href="../style/index.css" />
-        <link rel="shortcut icon" type="image/jpg" href="Pictures/favicon.ico" />
+        <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" />
         <script src="./js/app.js"></script>
       </head>
 
       <body>
         <div id="easteregg-container">
-          <img src="Pictures/logo.png" id="easteregg" ></img>
+          <img src="res/logo.png" id="easteregg" ></img>
         </div>
 
         <!-- left side -->
         <div class="container-main">
           <div class="title-container">
             <h1 class="title">Rawr</h1>
-            <img src="Pictures/logo.png" width="150" id="logo" onClick="triggerEasterEgg()"></img>
+            <img src="res/logo.png" width="150" id="logo" onClick="triggerEasterEgg()"></img>
           </div>
 
           <div class="content-container">

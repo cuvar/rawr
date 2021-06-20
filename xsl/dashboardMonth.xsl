@@ -94,7 +94,7 @@
         <!-- banner -->
           <div class="banner">
             <div class="banner-left">
-              <img class="homebutton" src="Pictures/home-solid.svg" alt=""/>
+              <img class="homebutton" src="res/home-solid.svg" alt=""/>
               <div class="class">
                 <p>TINF20B2</p>
               </div>
@@ -115,9 +115,9 @@
           <div class="calendar">
             <div class="calendar_top">
               <a href="#"></a>
-              <img class="nav-btn" src="Pictures/angle-left-solid.svg" alt=""/>
+              <img class="nav-btn" src="res/angle-left-solid.svg" alt=""/>
               <a href="#"></a>
-              <img class="nav-btn" src="Pictures/angle-right-solid.svg" alt=""/>
+              <img class="nav-btn" src="res/angle-right-solid.svg" alt=""/>
               <div class="calendar_month">
                 <p>Septmeber</p>
               </div>
