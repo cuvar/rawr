@@ -26,7 +26,8 @@ body {
   background-color: #F1F7F8;
   box-sizing: border-box;
   width: 99%;
-  height: 98%;
+  height: 100%;
+  overflow: hidden;
   padding: 1.5% 1.5% 1.5% 1.5%;
 }
 

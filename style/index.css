@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
   padding: 1.5% 1.5% 1.5% 1.5%;
   height: 98%;
+  overflow: hidden;
   filter: brightness(100%);
 }
 
