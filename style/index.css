@@ -235,3 +235,9 @@ input {
 .easteregg-visible {
   display: block !important;
 }
+
+@media screen and (max-width: 800px) {
+  html {
+    display: none !important;
+  }
+}
