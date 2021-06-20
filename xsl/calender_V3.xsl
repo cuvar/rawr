@@ -3,24 +3,11 @@
 <xsl:stylesheet version="1.0" 
   xmlns:ext="http://exslt.org/common"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:date="http://exslt.org/dates-and-times"
-  xmlns:func="http://exslt.org/functions">
+  xmlns:date="http://exslt.org/dates-and-times">
 
   <xsl:variable name="timeframestart" select="20210510"/>
   <xsl:variable name="timeframeend" select="20210516"/>
-
-  <xsl:variable name="currentDateandTime" select="date:date-time()"/>
-
-  <xsl:variable name="currentYear">
-    <xsl:value-of select="substring($currentDateandTime,1,4)"/>
-  </xsl:variable>
-  <xsl:variable name="currentMonth">
-    <xsl:value-of select="substring($currentDateandTime,6,2)"/>
-  </xsl:variable>
-  <xsl:variable name="currentDay">
-    <xsl:value-of select="substring($currentDateandTime,9,2)"/>
-  </xsl:variable>
-  <xsl:variable name="currentDate" select="$currentYear * 10000 + $currentMonth * 100 + $currentDay"/>
+  <xsl:variable name="currentDate" select="20210510"/>
   
   <!-- Preprocessing -->
   <xsl:variable name="calendarRtf">
