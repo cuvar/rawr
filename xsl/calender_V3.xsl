@@ -230,7 +230,7 @@
         <details>
           <summary><xsl:value-of select="summary"/></summary>
           <p> <xsl:value-of select="starttime/hour"/>:<xsl:value-of select="starttime/min"/> - <xsl:value-of select="endtime/hour"/>:<xsl:value-of select="endtime/min"/></p>
-          <p><xsl:value-of select="categories"/> </p>
+          <p>Raum: <xsl:value-of select="location"/></p>
         </details>
       </td>
     </tr>
