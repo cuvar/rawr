@@ -1,34 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type = "text/xsl" href="xsl/index.xsl"?> 
-<catalog>
-  <cd>
-    <name>Luca Müller</name>
-    <group>Frontend</group>
-    <company>SAP</company>
-  </cd>
-  <cd>
-    <name>Norman Reimer</name>
-    <group>Frontend</group>
-    <company>dmTech</company>
-  </cd>
-  <cd>
-    <name>Jona Kuhn</name>
-    <group>Frontend</group>
-    <company>dmTech</company>
-  </cd>
-  <cd>
-    <name>Fabian Hagner</name>
-    <group>Backend</group>
-    <company>SAP</company>
-  </cd>
-  <cd>
-    <name>Tobias Kreuß</name>
-    <group>Backend</group>
-    <company>SAP</company>
-  </cd>
-  <cd>
-    <name>Oliver Schirmer</name>
-    <group>Backend</group>
-    <company>SAP</company>
-  </cd>
-</catalog>
+<?xml-stylesheet type="text/xsl" href="xsl/index.xsl"?>
+<elements>
+  <day>07.06.2021</day>
+  <motto>Zwischen zu früh und zu spät liegt immer nur ein Augenblick.</motto>
+  <university>
+    <year>
+      <course>
+        <name>TINF18B1</name>
+        <user>freudenmann</user>
+      </course>
+      <course>
+        <name>TINF18B2</name>
+        <user>braun</user>
+      </course>
+      <course>
+        <name>TINF18B3</name>
+        <user>?</user>
+      </course>
+      <course>
+        <name>TINF18B4</name>
+        <user>?</user>
+      </course>
+      <course>
+        <name>TINF18B5</name>
+        <user>?</user>
+      </course>
+    </year>
+    <year>
+      <course>
+        <name>TINF19B1</name>
+        <user>freudenmann</user>
+      </course>
+      <course>
+        <name>TINF19B2</name>
+        <user>braun</user>
+      </course>
+      <course>
+        <name>TINF19B3</name>
+        <user>?</user>
+      </course>
+      <course>
+        <name>TINF19B4</name>
+        <user>?</user>
+      </course>
+      <course>
+        <name>TINF19B5</name>
+        <user>?</user>
+      </course>
+    </year>
+    <year>
+      <course>
+        <name>TINF20B1</name>
+        <user>freudenmann</user>
+      </course>
+      <course>
+        <name>TINF20B2</name>
+        <user>braun</user>
+      </course>
+      <course>
+        <name>TINF20B3</name>
+        <user>?</user>
+      </course>
+      <course>
+        <name>TINF20B4</name>
+        <user>?</user>
+      </course>
+      <course>
+        <name>TINF20B5</name>
+        <user>?</user>
+      </course>
+    </year>
+  </university>
+</elements> 

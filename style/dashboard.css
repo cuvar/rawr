@@ -1,0 +1,68 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #F1F7F8;
+  box-sizing: border-box;
+  /* width: auto;
+  height: auto; */
+  padding: 1.5% 1.5% 1.5% 1.5%;
+}
+
+.container-main {
+  max-height: 100%;
+  max-width: 79%;
+}
+
+.container-right {
+  display: grid;
+  float: right;
+  height: 100%;
+  width: 20%;
+}
+
+.calendar {
+  max-height: 100%;
+  background-color:  #88bbd8;
+  height: 92%;
+  border-radius: 12px;
+}
+
+.banner {
+  border-radius: 20px;
+  background-color: #003F61;
+  display: flex;
+  height: 7%;
+  margin-bottom: 1%;
+}
+
+.homebutton {
+  margin-left: 5px;
+  padding: 0.2%;
+  width: 35px;
+}
+
+.class {
+  background-color: white;
+  border-radius: 20px;
+  padding: 1px 1px 1px 1px ;
+  margin: 0.5% 2%;
+  width: 100px;
+  font-size: 25px;
+}
+
+.klausur {
+  border-radius: 20px;
+  background-color: #003F61;
+  padding: 0.3%;
+  color: white;
+  margin-bottom: 4%;
+}
+
+.termine {
+  border-radius: 20px;
+  background-color: #003F61;
+  padding: 0.3%;
+  color: white;
+}
