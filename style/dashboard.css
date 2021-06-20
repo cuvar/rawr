@@ -1,20 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Mulish');
 
+/* GENERAL ELEMENTS */
 * {
   font-family: 'Mulish', sans-serif;
   /* overflow: hidden; */
-}
-
-.bg-red {
-  background-color: red !important;
-}
-
-.bg-blue {
-  background-color: turquoise !important;
-}
-
-.bg-green {
-  background-color: green !important;
 }
 
 html {
@@ -31,6 +20,7 @@ body {
   padding: 1.5% 1.5% 1.5% 1.5%;
 }
 
+/* MAIN VIEW - CALENDER */
 .container-main {
   height: 100%;
   max-width: 79%;
@@ -151,6 +141,7 @@ td {
   top: 0;
 }
 
+/* HEADER */
 .banner {
   display: flex;
   width: 100%;
@@ -182,6 +173,7 @@ td {
   width: 35px;
 }
 
+/* KLAUSUREN VIEW */
 .class {
   width: 90%;
   height: 65%;
@@ -224,6 +216,7 @@ td {
   height: 0%;
 }
 
+/* TERMINE VIEW */
 .termine_main {
   margin-top: 1%;
   height: 0%;
@@ -248,10 +241,29 @@ td {
   margin-bottom: 10%;
 }
 
+/* TERMINE UND KLAUSUR */
 .label_text {
   font-size: 250%;
 }
 
+.date-btn:hover {
+  filter: brightness(90%);
+}
+
+details > p {
+  padding-left: 5px;
+}
+
+summary{
+  padding-left: 5px;
+  font-weight: bold;
+  color: #003F61; 
+  list-style: none;
+  cursor: pointer;
+}
+
+
+/* MONATS UND WOCHENANSICHT */
 .dropdown {
   display: flex;
   flex-direction: column;
@@ -309,23 +321,8 @@ td {
   background-color: white;
 }
 
-.date-btn:hover {
-  filter: brightness(90%);
-}
 
-details > p {
-  padding-left: 5px;
-}
-
-summary{
-  padding-left: 5px;
-  font-weight: bold;
-  color: #003F61; 
-  list-style: none;
-  cursor: pointer;
-}
-
-
+/* MEDIA QUERIES */
 @media only screen and (max-width: 1000px) {
   .label_text {
     font-size: 140%;
@@ -343,4 +340,37 @@ summary{
   html {
     display: none;
   }
+}
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+  border: 1px solid red;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #006094; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #003F61;
+}
+
+/* HELPING CLASSES */
+.bg-red {
+  background-color: red !important;
+}
+
+.bg-blue {
+  background-color: turquoise !important;
+}
+
+.bg-green {
+  background-color: green !important;
 }
