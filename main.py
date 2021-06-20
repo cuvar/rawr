@@ -64,8 +64,8 @@ def setup():
                 y.text = att[1]
             elif att[0] == "RRULE":
                 rrule = SubElement(ev, "rrule")
-                rr_split = att[1].split(";")
-                for rule_attribute in rr_split:
+                att.remove("RRULE")
+                for rule_attribute in att:
                     att_split = rule_attribute.split("=")
                     y = SubElement(rrule, camel_to_snake(att_split[0]))
                     y.text = att_split[1]
