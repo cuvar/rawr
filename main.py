@@ -62,6 +62,13 @@ def setup():
             elif att[0] == "DTEND":
                 y = SubElement(ev, "end")
                 y.text = att[1]
+            elif att[0] == "RRULE":
+                rrule = SubElement(ev, "rrule")
+                rr_split = att[1].split(";")
+                for rule_attribute in rr_split:
+                    att_split = rule_attribute.split("=")
+                    y = SubElement(rrule, camel_to_snake(att_split[0]))
+                    y.text = att_split[1]
             elif att[0] != "END":
                 y = SubElement(ev, camel_to_snake(att[0]))
                 y.text = att[1]
