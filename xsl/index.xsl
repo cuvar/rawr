@@ -25,7 +25,7 @@
               <xsl:for-each select="elements/university/year">
                 <div class="row">
                   <xsl:for-each select="course">
-                    <a class="course-btn" href="landingpage.xml">
+                    <a class="course-btn" href="dashboard.xml">
                       <xsl:value-of select="name" />
                     </a>
                   </xsl:for-each>

@@ -93,7 +93,9 @@
         <!-- banner -->
           <div class="banner">
             <div class="banner-left">
-              <img class="homebutton" src="res/home-solid.svg" alt=""/>
+              <a href="index.xml">
+                <img class="homebutton" src="res/home-solid.svg" alt=""/>
+              </a>
               <div class="class">
                 <p>TINF20B2</p>
               </div>
