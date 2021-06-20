@@ -1,0 +1,87 @@
+ <!--Returns the value of how much days are added-->
+  <func:function name="my:addDay">
+    <xsl:param name="date"/>
+
+    <xsl:variable name="days" select="my:getDaysInMonth($date)"/>
+
+    <xsl:variable name="day">
+          <xsl:value-of select="substring($date,7,2)"/>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="$day = $days">
+         <func:result select="$date +(73 -($day + 2 -30) )" />
+      </xsl:when>
+      <xsl:otherwise>
+           <func:result select="$date + 1" />
+      </xsl:otherwise>
+    </xsl:choose>
+  </func:function>
+
+  <!--Returns the number of days of the Month-->
+  <func:function name="my:getDaysInMonth">
+    <xsl:param name="date"/>
+
+    <xsl:variable name="month">
+      <xsl:value-of select="substring($date,5,2)"/>
+    </xsl:variable>
+    <xsl:variable name="year">
+      <xsl:value-of select="substring($date,3,2)"/>
+    </xsl:variable>
+
+    <xsl:choose>
+      <xsl:when test="$month = 1">
+          <func:result select="31" />
+      </xsl:when>
+
+      <xsl:when test="$month = 2">
+        <xsl:choose>
+          <xsl:when test="$year mod 4 = 0">
+              <func:result select="29" />
+          </xsl:when>
+          <xsl:otherwise>
+              <func:result select="28" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+
+      <xsl:when test="$month = 3 " >
+          <func:result select="31" />
+      </xsl:when>
+
+      <xsl:when test="$month = 4 " >
+          <func:result select="30" />
+      </xsl:when>
+
+      <xsl:when test="$month = 5" >
+          <func:result select="31" />
+      </xsl:when>
+
+      <xsl:when test="$month = 6 ">
+          <func:result select="30" />
+      </xsl:when>
+
+      <xsl:when test="$month = 7 ">
+          <func:result select="31" />
+      </xsl:when>
+
+      <xsl:when test="$month = 8 ">
+          <func:result select="31" />
+      </xsl:when>
+
+      <xsl:when test="$month = 9 ">
+          <func:result select="30" />
+      </xsl:when>
+
+      <xsl:when test="$month = 10">
+          <func:result select="31" />
+      </xsl:when>
+
+      <xsl:when test="$month = 11"> 
+          <func:result select="30" />
+      </xsl:when>
+
+      <xsl:otherwise>
+          <func:result select="31" />
+      </xsl:otherwise>
+    </xsl:choose>
+  </func:function>
