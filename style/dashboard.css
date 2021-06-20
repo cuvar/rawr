@@ -3,7 +3,6 @@
 /* GENERAL ELEMENTS */
 * {
   font-family: 'Mulish', sans-serif;
-  /* overflow: hidden; */
 }
 
 html {
@@ -40,7 +39,7 @@ body {
   border-radius: 20px;
 }
 
-.calendar_top {
+.calender-top {
   height: 7%;
   width: 100%;
   padding: 2px 2px 2px 2px;
@@ -49,14 +48,14 @@ body {
 	align-items: center;
 }
 
-.calendar_main {
+.calender-main {
   border-radius: 20px;
   height: 91%;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
-.calendar_day {
+.calender-day {
   color: #003F61;
   background-color: #88bbd8;
   
@@ -72,7 +71,7 @@ body {
   border-radius: 50%;
 }
 
-.calendar_month {
+.calender-month {
   background-color: white;
   color: #003F61;
   border-radius: 20px;
@@ -86,6 +85,7 @@ body {
   font-size: large;
 }
 
+/* ACTUAL CALENDER */
 .timetable_content {
   margin-top: 25%;
 }
@@ -119,11 +119,6 @@ th {
   color: #003F61;
 }
 
-.nav-btn {
-  width: 18px !important;
-  margin-left: 10px;
-}
-
 td {
   background-color: white;
   border-radius: 15px;
@@ -132,11 +127,11 @@ td {
   vertical-align: top;
 }
 
-.tableFixHead {
+.table-head-fixed {
   overflow-y: auto;
   height: 100%;
 }
-.tableFixHead thead th {
+.table-head-fixed thead th {
   position: sticky;
   top: 0;
 }
@@ -173,6 +168,12 @@ td {
   width: 35px;
 }
 
+.nav-btn {
+  width: 18px !important;
+  margin-left: 10px;
+}
+
+
 /* KLAUSUREN VIEW */
 .class {
   width: 90%;
@@ -191,7 +192,7 @@ td {
 	justify-content: center; 
 }
 
-.klausur {
+.exams {
   border-radius: 20px;
   background-color: #003F61;
   padding: 0.3%;
@@ -200,7 +201,7 @@ td {
   padding: 4% 4% 4% 4%;
 }
 
-.klausuren_top {
+.exams-top {
   width: 100%;
   height: 60px;
   background-color: white;
@@ -211,18 +212,18 @@ td {
   margin-bottom: 10%;
 }
 
-.klausuren_main {
+.exams-main {
   margin-top: 1%;
   height: 0%;
 }
 
 /* TERMINE VIEW */
-.termine_main {
+.appointments-main {
   margin-top: 1%;
   height: 0%;
 }
 
-.termine {
+.appointments {
   border-radius: 20px;
   background-color: #003F61;
   padding: 0.3%;
@@ -230,7 +231,7 @@ td {
   padding: 4% 4% 4% 4%;
 }
 
-.termine_top {
+.appointments-top {
   width: 100%;
   height: 60px;
   background-color: white;
@@ -242,7 +243,7 @@ td {
 }
 
 /* TERMINE UND KLAUSUR */
-.label_text {
+.side-title {
   font-size: 250%;
 }
 
@@ -324,7 +325,7 @@ summary{
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1000px) {
-  .label_text {
+  .side-title {
     font-size: 140%;
   }
   th {
@@ -333,7 +334,7 @@ summary{
 }
 
 @media only screen and (max-width: 800px) {
-  .label_text {
+  .side-title {
     font-size: 140%;
   }
 
