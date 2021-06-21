@@ -215,12 +215,14 @@ td {
 .exams-main {
   margin-top: 1%;
   height: 0%;
+  margin-right: 10px;
 }
 
 /* TERMINE VIEW */
 .appointments-main {
   margin-top: 1%;
   height: 0%;
+  margin-right: 10px;
 }
 
 .appointments {

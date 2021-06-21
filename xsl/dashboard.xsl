@@ -11,82 +11,126 @@
       <!-- right views -->
         <div class="container-right">
         <!-- klausuren view -->
-          <div class="exams">
-            <div class="exams-top">
-              <p class="side-title">Klausuren</p>
-            </div>
-            <div class="exams-main">
-              <table>
-                <tr>
-                  <td class="date-btn">
-                    <details>
-                      <summary>Mathe</summary>
-                      <p>12:00 - 15:00 Uhr</p>
-                    </details>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="date-btn">
-                    <details>
-                      <summary>Info</summary>
-                      <p>12:00 - 15:00 Uhr</p>
-                    </details>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="date-btn">
-                    <details>
-                      <summary>Theo</summary>
-                      <p>12:00 - 15:00 Uhr</p>
-                    </details>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="date-btn"> 
-                    <details>
-                      <summary>Digitalt.</summary>
-                      <p>12:00 - 15:00 Uhr</p>
-                    </details>
-                  </td>
-                </tr>
-              </table>
-            </div>
+        <div class="exams">
+          <div class="exams-top">
+            <p class="side-title">Klausuren</p>
           </div>
-          <!-- termine view -->
-          <div class="appointments">
-            <div class="appointments-top">
-              <p class="side-title">Termine</p>
-            </div>
-            <div class="appointments-main">
-              <table>
+          <div class="exams-main">
+            <div class="exams" style="width:100%; height:200px; overflow:auto;">
+              <table cellspacing="0" cellpadding="1" width="200">
                 <tr>
-                  <td class="date-btn">
-                    <details>
-                      <summary>Mathe</summary>
-                      <p>12:00 - 14:00 Uhr</p>
-                    </details>
-                  </td>
+                <td class="date-btn">
+                  <details>
+                    <summary>Mathee</summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
                 </tr>
                 <tr>
-                  <td class="date-btn">
-                    <details>
-                      <summary>AI-Labor</summary>
-                      <p>Lol</p>
-                    </details>
-                  </td>
+                <td class="date-btn">
+                  <details>
+                    <summary>Mathe</summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
                 </tr>
                 <tr>
-                  <td class="date-btn">
-                    <details>
-                      <summary>Party</summary>
-                      <p>Fette Fete</p>
-                    </details>
-                  </td>
+                <td class="date-btn">
+                  <details>
+                    <summary>Was ist los ? </summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
                 </tr>
-              </table>
+                <tr>
+                <td class="date-btn">
+                  <details>
+                    <summary>Party</summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
+                </tr>
+                <tr>
+                <td class="date-btn">
+                  <details>
+                    <summary>AI Labor</summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
+                </tr>
+                <tr>
+                <td class="date-btn">
+                  <details>
+                    <summary>AI Labor</summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
+                </tr>
+              </table>  
             </div>
           </div>
         </div>
+        <!-- termine view -->
+        <div class="appointments">
+          <div class="appointments-top">
+            <p class="side-title">Termine</p>
+          </div>
+          <div class="appointments-main">
+            <div class="appointments" style="width:100%; height:200px; overflow:auto;">
+              <table cellspacing="0" cellpadding="1" width="200">
+                <tr>
+                <td class="date-btn">
+                  <details>
+                    <summary>Mathee</summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
+                </tr>
+                <tr>
+                <td class="date-btn">
+                  <details>
+                    <summary>Mathe</summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
+                </tr>
+                <tr>
+                <td class="date-btn">
+                  <details>
+                    <summary>Was ist los ? </summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
+                </tr>
+                <tr>
+                <td class="date-btn">
+                  <details>
+                    <summary>Party</summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
+                </tr>
+                <tr>
+                <td class="date-btn">
+                  <details>
+                    <summary>AI Labor</summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
+                </tr>
+                <tr>
+                <td class="date-btn">
+                  <details>
+                    <summary>AI Labor</summary>
+                    <p>12:00 - 14:00 Uhr</p>
+                  </details>
+                </td>
+                </tr>
+              </table>  
+            </div>
+          </div>
+        </div>
+      </div>
 
         <!-- main content on left side -->
         <div class="container-main">
