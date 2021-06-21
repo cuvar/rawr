@@ -20,7 +20,7 @@
               <div class="exams" style="width:100%; height:200px; overflow:auto;">
                 <table cellspacing="0" cellpadding="1" width="200">
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>Mathee</summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -28,7 +28,7 @@
                   </td>
                   </tr>
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>Mathe</summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -36,7 +36,7 @@
                   </td>
                   </tr>
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>Was ist los ? </summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -44,7 +44,7 @@
                   </td>
                   </tr>
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>Party</summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -52,7 +52,7 @@
                   </td>
                   </tr>
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>AI Labor</summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -60,7 +60,7 @@
                   </td>
                   </tr>
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>AI Labor</summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -80,7 +80,7 @@
               <div class="appointments" style="width:100%; height:200px; overflow:auto;">
                 <table cellspacing="0" cellpadding="1" width="200">
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>Mathee</summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -88,7 +88,7 @@
                   </td>
                   </tr>
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>Mathe</summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -96,7 +96,7 @@
                   </td>
                   </tr>
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>Was ist los ? </summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -104,7 +104,7 @@
                   </td>
                   </tr>
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>Party</summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -112,7 +112,7 @@
                   </td>
                   </tr>
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>AI Labor</summary>
                       <p>12:00 - 14:00 Uhr</p>
@@ -120,7 +120,7 @@
                   </td>
                   </tr>
                   <tr>
-                  <td class="date-btn">
+                  <td class="date-btn td-main">
                     <details>
                       <summary>AI Labor</summary>
                       <p>12:00 - 14:00 Uhr</p>

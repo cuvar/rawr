@@ -19,7 +19,7 @@
             <div class="exams" style="width:100%; height:200px; overflow:auto;">
               <table cellspacing="0" cellpadding="1" width="200">
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>Mathee</summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -27,7 +27,7 @@
                 </td>
                 </tr>
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>Mathe</summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -35,7 +35,7 @@
                 </td>
                 </tr>
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>Was ist los ? </summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -43,7 +43,7 @@
                 </td>
                 </tr>
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>Party</summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -51,7 +51,7 @@
                 </td>
                 </tr>
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>AI Labor</summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -59,7 +59,7 @@
                 </td>
                 </tr>
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>AI Labor</summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -79,7 +79,7 @@
             <div class="appointments" style="width:100%; height:200px; overflow:auto; border-color: ">
               <table cellspacing="0" cellpadding="1" width="200">
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>Mathee</summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -87,7 +87,7 @@
                 </td>
                 </tr>
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>Mathe</summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -95,7 +95,7 @@
                 </td>
                 </tr>
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>Was ist los ? </summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -103,7 +103,7 @@
                 </td>
                 </tr>
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>Party</summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -111,7 +111,7 @@
                 </td>
                 </tr>
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>AI Labor</summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -119,7 +119,7 @@
                 </td>
                 </tr>
                 <tr>
-                <td class="date-btn">
+                <td class="date-btn td-main">
                   <details>
                     <summary>AI Labor</summary>
                     <p>12:00 - 14:00 Uhr</p>
@@ -170,13 +170,13 @@
             <div class="calendar-main">
               <table style="height:100%">
                 <tr>
-                  <th>Montag</th>
-                  <th>Dienstag</th>
-                  <th>Mittwoch</th>
-                  <th>Donnerstag</th>
-                  <th>Freitag</th>
-                  <th>Samstag</th>
-                  <th>Sonntag</th>
+                  <th class="td-main">Montag</th>
+                  <th class="td-main">Dienstag</th>
+                  <th class="td-main">Mittwoch</th>
+                  <th class="td-main">Donnerstag</th>
+                  <th class="td-main">Freitag</th>
+                  <th class="td-main">Samstag</th>
+                  <th class="td-main">Sonntag</th>
                 </tr>
                 <tr>
                   <td>
