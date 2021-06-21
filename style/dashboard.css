@@ -101,18 +101,17 @@ body {
 }
 
 table {
-  border-radius: 20px;
   border-spacing: 10;
   border: 5;
   border-color: #F1F7F8;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   float: bottom;
   table-layout: fixed;
 }
 
 th {
-  background-color: white;
+  /* background-color: white; */
   border-radius: 20px;
   height: 5%;
   width: 8%;
@@ -120,20 +119,14 @@ th {
 }
 
 td {
-  background-color: white;
   border-radius: 15px;
   padding: 5px 5px 5px 5px;
   width: 20px;
   vertical-align: top;
 }
 
-.table-head-fixed {
-  overflow-y: auto;
-  height: 100%;
-}
-.table-head-fixed thead th {
-  position: sticky;
-  top: 0;
+.td-main {
+  background-color: white;
 }
 
 /* HEADER */
