@@ -17,7 +17,7 @@
               <p class="side-title">Klausuren</p>
             </div>
             <div class="exams-main">
-              <div class="exams" style="width:100%; height:200px; overflow:auto;">
+              <div style="width:100%; height:160px; overflow:auto;">
                 <table cellspacing="0" cellpadding="1" width="200">
                   <tr>
                   <td class="date-btn td-main">
@@ -77,7 +77,7 @@
               <p class="side-title">Termine</p>
             </div>
             <div class="appointments-main">
-              <div class="appointments" style="width:100%; height:200px; overflow:auto;">
+              <div style="width:100%; height: 160px; overflow:auto;">
                 <table cellspacing="0" cellpadding="1" width="200">
                   <tr>
                   <td class="date-btn td-main">
