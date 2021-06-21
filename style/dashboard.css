@@ -19,7 +19,7 @@ body {
   padding: 1.5% 1.5% 1.5% 1.5%;
 }
 
-/* MAIN VIEW - CALENDER */
+/* MAIN VIEW - calendar */
 .container-main {
   height: 100%;
   max-width: 79%;
@@ -39,7 +39,7 @@ body {
   border-radius: 20px;
 }
 
-.calender-top {
+.calendar-top {
   height: 7%;
   width: 100%;
   padding: 2px 2px 2px 2px;
@@ -48,14 +48,14 @@ body {
 	align-items: center;
 }
 
-.calender-main {
+.calendar-main {
   height: 91%;
   overflow-x: hidden;
   overflow-y: auto;
   width: 99.5%;
 }
 
-.calender-day {
+.calendar-day {
   color: #003F61;
   background-color: #88bbd8;
   
@@ -71,7 +71,7 @@ body {
   border-radius: 50%;
 }
 
-.calender-month {
+.calendar-month {
   background-color: white;
   color: #003F61;
   border-radius: 20px;
@@ -85,12 +85,12 @@ body {
   font-size: large;
 }
 
-#calender-header > th {
+#calendar-header > th {
   color: white;
   background-color: #003F61;
 }
 
-/* ACTUAL CALENDER */
+/* ACTUAL calendar */
 .timetable-content {
   margin-top: 25%;
 }
