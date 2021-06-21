@@ -348,7 +348,7 @@ summary{
 /* CUSTOM SCROLLBAR */
 ::-webkit-scrollbar {
   width: 10px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 ::-webkit-scrollbar-track {

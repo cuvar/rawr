@@ -76,7 +76,7 @@
             <p class="side-title">Termine</p>
           </div>
           <div class="appointments-main">
-            <div class="appointments" style="width:100%; height:200px; overflow:auto;">
+            <div class="appointments" style="width:100%; height:200px; overflow:auto; border-color: ">
               <table cellspacing="0" cellpadding="1" width="200">
                 <tr>
                 <td class="date-btn">
