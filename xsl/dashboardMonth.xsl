@@ -174,7 +174,7 @@
               <div class="table-head-fixed">
                 <table>
                   <thead>
-                    <tr>
+                    <tr id="calender-header">
                       <th>Montag</th>
                       <th>Dienstag</th>
                       <th>Mittwoch</th>

@@ -49,10 +49,10 @@ body {
 }
 
 .calender-main {
-  border-radius: 20px;
   height: 91%;
   overflow-x: hidden;
   overflow-y: auto;
+  width: 99.5%;
 }
 
 .calender-day {
@@ -83,6 +83,11 @@ body {
   height: 30px;
   margin-left: 1%;
   font-size: large;
+}
+
+#calender-header > th {
+  color: white;
+  background-color: #003F61;
 }
 
 /* ACTUAL CALENDER */
@@ -348,7 +353,6 @@ summary{
 /* CUSTOM SCROLLBAR */
 ::-webkit-scrollbar {
   width: 10px;
-  /* border: 1px solid red; */
 }
 
 ::-webkit-scrollbar-track {
