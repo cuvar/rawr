@@ -130,6 +130,17 @@ td {
   background-color: white;
 }
 
+.calendar-main table {
+  border-collapse: separate;
+  border-spacing: 5px 5px;
+}
+
+.exams-main table,
+.appointments-main table {
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+}
+
 .td-main {
   background-color: white;
 }
