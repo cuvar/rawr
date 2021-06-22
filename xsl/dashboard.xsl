@@ -138,7 +138,7 @@
           <div class="banner">
             <div class="banner-left">
               <a href="index.xml">
-                <img class="homebutton" src="res/home-solid.svg" alt=""/>
+                <img class="homebutton" src="res/home-solid.svg" alt="Home"/>
               </a>
               <div class="class">
                 <p>TINF20B2</p>
@@ -159,25 +159,42 @@
           <!-- calendar view -->
           <div class="calendar">
             <div class="calendar-top">
-              <a href="#"></a>
-              <img class="nav-btn" src="res/angle-left-solid.svg" alt=""/>
-              <a href="#"></a>
-              <img class="nav-btn" src="res/angle-right-solid.svg" alt=""/>
-              <div class="calendar-month">
-                <p>Septmeber</p>
+              <div id="banner-left-wrapper">
+                <div>
+                  <a href="#">
+                    <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Wee"/>
+                  </a>
+                  <a href="#">
+                    <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week"/>
+                  </a>
+                </div>
+
+                <div class="calendar-month">
+                  <p>September</p>
+                </div>
               </div>
+
+              <div id="banner-right-wrapper">
+                <button class="icon-buttons">
+                  <img src="res/download-solid.svg" alt="Download ical"/>
+                </button>
+                <button class="icon-buttons">
+                  <img src="res/plus-solid.svg" alt="Add Note"/>
+                </button>
+              </div>
+
             </div>
             <div class="calendar-main">
               <table style="height:100%">
-                <tr>
-                  <th class="td-main">Montag</th>
-                  <th class="td-main">Dienstag</th>
-                  <th class="td-main">Mittwoch</th>
-                  <th class="td-main">Donnerstag</th>
-                  <th class="td-main">Freitag</th>
-                  <th class="td-main">Samstag</th>
-                  <th class="td-main">Sonntag</th>
-                </tr>
+                <tr id="calendar-header">
+                      <th>Montag</th>
+                      <th>Dienstag</th>
+                      <th>Mittwoch</th>
+                      <th>Donnerstag</th>
+                      <th>Freitag</th>
+                      <th>Samstag</th>
+                      <th>Sonntag</th>
+                    </tr>
                 <tr>
                   <td>
                     <div class="calendar-day">

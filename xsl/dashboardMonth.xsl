@@ -139,7 +139,7 @@
           <div class="banner">
             <div class="banner-left">
               <a href="index.xml">
-                <img class="homebutton" src="res/home-solid.svg" alt=""/>
+                <img class="homebutton" src="res/home-solid.svg" alt="Home"/>
               </a>
               <div class="class">
                 <p>TINF20B2</p>
@@ -160,15 +160,30 @@
           <!-- calendar view -->
           <div class="calendar">
             <div class="calendar-top">
-              <a href="#">
-                <img class="nav-btn" src="res/angle-left-solid.svg" alt=""/>
-              </a>
-              <a href="#">
-                <img class="nav-btn" src="res/angle-right-solid.svg" alt=""/>
-              </a>
-              <div class="calendar-month">
-                <p>Septmeber</p>
+              <div id="banner-left-wrapper">
+                <div>
+                  <a href="#">
+                    <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Wee"/>
+                  </a>
+                  <a href="#">
+                    <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week"/>
+                  </a>
+                </div>
+
+                <div class="calendar-month">
+                  <p>September</p>
+                </div>
               </div>
+
+              <div id="banner-right-wrapper">
+                <button class="icon-buttons">
+                  <img src="res/download-solid.svg" alt="Download ical"/>
+                </button>
+                <button class="icon-buttons">
+                  <img src="res/plus-solid.svg" alt="Add Note"/>
+                </button>
+              </div>
+
             </div>
             <div class="calendar-main">
               <div class="table-head-fixed">

@@ -45,6 +45,7 @@ body {
   padding: 2px 2px 2px 2px;
   color: white;
   display: flex;
+  justify-content: space-between;
 	align-items: center;
 }
 
@@ -207,6 +208,42 @@ td {
 	align-items: center;
 	justify-content: center; 
 }
+
+#banner-left-wrapper {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  margin-left: 10px;
+}
+
+#banner-right-wrapper {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon-buttons {
+  float: right;
+  background-color: transparent;
+  border: none
+}
+.icon-buttons img {
+  color: #003F61;
+  width: 18px !important;
+  margin-left: 10px;
+}
+
+.icon-buttons img:hover {
+  cursor: pointer;
+  color: red !important;
+}
+.icon-buttons img:focus {
+  color: #008dda;
+
+}
+
 
 /* KLAUSUREN VIEW */
 
