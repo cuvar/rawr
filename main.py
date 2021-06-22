@@ -5,6 +5,8 @@ from xml.etree import ElementTree
 from xml.dom import minidom
 import re
 
+#yeet
+
 def camel_to_snake(name):
     name = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
     return re.sub('([a-z0-9])([A-Z])', r'\1_\2', name).lower().replace("-","_")
@@ -27,6 +29,15 @@ def setup():
     tz_name.text = "Europe/Berlin"
     tz_url = SubElement(timezone, "tz_timezone")
     tz_url.text = "http://tzurl.org/zoneinfo/Europe/Berlin"
+
+    url = url.replace("https://rapla.dhbw-karlsruhe.de/rapla?", "").split("&")
+    info = SubElement(calendar, "info")
+    user = SubElement(info, "user")
+    user.text = url[1].replace("user=", "")
+    cclass = SubElement(info, "class")
+    cclass.text = url[2].replace("file=","")
+
+
 
     for event in c.events:
         event_str = str(event).replace(";", ":").splitlines()

@@ -1,5 +1,8 @@
 <!DOCTYPE calendar [
-<!ELEMENT calendar (timezone, event*)>
+<!ELEMENT calendar (info,timezone, event*)>
+    <!ELEMENT info(user, class>
+        <!ELEMENT user (#PCDATA)>
+        <!ELEMENT class (#PCDATA)>
     <!ELEMENT timezone(tz_name, tz_url)>
         <!ELEMENT tz_name (#PCDATA)>
         <!ELEMENT tz_url (#PCDATA)>
