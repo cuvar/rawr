@@ -3,75 +3,49 @@
 <xsl:stylesheet version="1.0"
   xmlns:ext="http://exslt.org/common"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:template match="/">
-    <!-- Preprocessing -->
-    <xsl:variable name="staffRtf">
-      <xsl:apply-templates select="staff/employee"/>
-    </xsl:variable>
-    <!-- Convert RTF (result-tree-fragment) to node-set -->
-    <xsl:variable name="staff" select="ext:node-set($staffRtf)"/>
 
-    <!-- Display -->
+  <xsl:template match="/">
     <html>
       <head>
         <link rel="stylesheet" href="../style/index.css" />
       </head>
 
       <body>
+        <xsl:variable name="Value">
+            <xsl:call-template name="Test">
+              <xsl:with-param name="var">
+              11
+              </xsl:with-param>
+          </xsl:call-template>
+        </xsl:variable>
+
         <h1>Project RAWR</h1>
         <table>
           <tr class="tr-title">
-            <th>Name</th>
-            <th>Group</th>
-            <th>Company</th>
-            <th>Joined</th>
-            <th>Join-Date</th>
-            <th>Join-Time</th>
+          <h2> 
+            <xsl:value-of select="$Value" />
+          </h2>
+          
           </tr>
-          <xsl:for-each select="$staff/employee">
-            <tr>
-              <td>
-                <xsl:value-of select="name" />
-              </td>
-              <td>
-                <xsl:value-of select="group" />
-              </td>
-              <td>
-                <xsl:value-of select="company" />
-              </td>
-              <td>
-                <xsl:value-of select="joined" />
-              </td>
-              <td>
-                <xsl:value-of select="joinedDate" />
-              </td>
-              <td>
-                <xsl:value-of select="joinedTime" />
-              </td>
-            </tr>
-          </xsl:for-each>
         </table>
       </body>
     </html>
   </xsl:template>
 
-  <xsl:template match="staff/employee">
-    <employee>
-      <xsl:for-each select="*">
-        <xsl:choose>
-          <xsl:when test="name() = 'joined'">
-            <joinedDate>
-              <xsl:value-of select="substring(.,1,8)"/>
-            </joinedDate>
-            <joinedTime>
-              <xsl:value-of select="substring(.,10,6)"/>
-            </joinedTime>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:copy-of select="."/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:for-each>
-    </employee>
+  <xsl:template name="Test">
+    <xsl:param name="var"/>
+    <xsl:choose>
+    <xsl:when test="$var > 10">
+    10
+    </xsl:when>
+    <xsl:otherwise>
+    0
+    </xsl:otherwise>
+    </xsl:choose>
+
+      
   </xsl:template>
+
+  
+  
 </xsl:stylesheet>
