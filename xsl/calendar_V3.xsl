@@ -8,6 +8,9 @@
   <xsl:variable name="timeframestart" select="20210510"/>
   <xsl:variable name="timeframeend" select="20210516"/>
   <xsl:variable name="currentDate" select="20210510"/>
+  <xsl:variable name="currentYear">
+      <xsl:value-of select="substring($currentDate,1,4)"/>
+  </xsl:variable>
   
   <!-- Preprocessing -->
   <xsl:variable name="calendarRtf">
@@ -16,6 +19,7 @@
   <!-- Convert RTF (result-tree-fragment) to node-set -->
   <xsl:variable name="calendar" select="ext:node-set($calendarRtf)"/>
   
+
 
   <xsl:template match="/">
     <html>
@@ -107,7 +111,7 @@
   </xsl:template>
 
 
-
+  <!--Loops through a week-->
   <xsl:template name="Loop">
     <xsl:param name="index" select="$timeframestart" />
     <xsl:param name="maxValue" select="$timeframeend" />
@@ -121,20 +125,24 @@
     <xsl:sort select="starttime/total" data-type="number" />
 
       <xsl:if test="startdate/total = $index"> 
+      <xsl:variable name="duration" select="(endtime/total - starttime/total)div 15"/>
           <xsl:choose>
             <xsl:when test="categories = 'Prüfung'">
-              <div class="timetable" style="background-color:#FB3640;">
+              <div class="timetable" style="background-color:#FB3640;  {concat('height:',$duration ,'em;')}">
                 <xsl:value-of select="summary" />
+                <p> <xsl:value-of select="starttime/hour"/>:<xsl:value-of select="starttime/min"/> - <xsl:value-of select="endtime/hour"/>:<xsl:value-of select="endtime/min"/></p>
               </div>  
             </xsl:when>
             <xsl:when test="categories = 'Sonstiger Termin'">
-              <div class="timetable" style="background-color: grey;">
+              <div class="timetable" style="background-color: grey;  {concat('height:',$duration ,'em;')}">
                 <xsl:value-of select="summary" />
+                <p> <xsl:value-of select="starttime/hour"/>:<xsl:value-of select="starttime/min"/> - <xsl:value-of select="endtime/hour"/>:<xsl:value-of select="endtime/min"/></p>
               </div>  
             </xsl:when>
             <xsl:otherwise>
-              <div class="timetable">
+              <div class="timetable" style=" {concat('height:',$duration ,'em;')}">
                 <xsl:value-of select="summary" />
+                <p> <xsl:value-of select="starttime/hour"/>:<xsl:value-of select="starttime/min"/> - <xsl:value-of select="endtime/hour"/>:<xsl:value-of select="endtime/min"/></p>
               </div>
             </xsl:otherwise>
             </xsl:choose>
@@ -144,14 +152,140 @@
     </td> 
 
     <xsl:if test="$index &lt; $maxValue">
-        <xsl:call-template name="Loop">
-            <xsl:with-param name="index" select="$index + 1" />
-            <xsl:with-param name="maxValue" select="$maxValue" />
+      <!--Function call to get the number of added Days-->
+      <xsl:variable name="addedDays">
+        <xsl:call-template name="addDay">
+          <xsl:with-param name="date" select="$index" />
         </xsl:call-template>
+      </xsl:variable>
+      <!--Loop call to generate the next Day-->
+      <xsl:call-template name="Loop">
+        <xsl:with-param name="index" select="$addedDays"/>
+        <xsl:with-param name="maxValue" select="$maxValue" />
+      </xsl:call-template>
     </xsl:if>
+  </xsl:template>
+
+  <!--returns how many days a month has-->
+  <xsl:template name="getDaysInMonth">
+    <xsl:param name="date"/>
+    <xsl:variable name="month">
+      <xsl:value-of select="substring($date,5,2)"/>
+    </xsl:variable>
+    <xsl:variable name="year">
+            <xsl:value-of select="substring($date,3,2)"/>
+    </xsl:variable>
+
+    <xsl:choose>
+      <xsl:when test="$month = 1">
+        31
+      </xsl:when>
+      <xsl:when test="$month = 2">
+        <xsl:choose>
+        <xsl:when test="$year mod 4 = 0">
+          29
+        </xsl:when>
+        <xsl:otherwise>
+          28
+      </xsl:otherwise>
+      </xsl:choose>
+      </xsl:when>
+      <xsl:when test="$month = 3 " >
+          31
+      </xsl:when>
+      <xsl:when test="$month = 4 " >
+        30
+        
+      </xsl:when>
+      <xsl:when test="$month = 5" >
+        31
+      </xsl:when>
+      <xsl:when test="$month = 6 ">
+        30
+      </xsl:when>
+      <xsl:when test="$month = 7 ">
+        31
+      </xsl:when>
+      <xsl:when test="$month = 8 ">
+        31
+      </xsl:when>
+      <xsl:when test="$month = 9 ">
+        30
+      </xsl:when>
+      <xsl:when test="$month = 10">
+        31
+      </xsl:when>
+      <xsl:when test="$month = 11">
+        30
+      </xsl:when>
+      <xsl:otherwise>
+        31
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!--adds one day to a given date-->
+  <xsl:template name="addDay">
+    <xsl:param name="date"/>
+
+    <xsl:variable name="day">
+            <xsl:value-of select="substring($date,7,2)"/>
+    </xsl:variable>
+    <xsl:variable name="days">
+          <xsl:call-template name="getDaysInMonth">
+                  <xsl:with-param name="date" select="$date" />
+            </xsl:call-template>
+    </xsl:variable>
+    <xsl:choose>
+        
+        <xsl:when test = "$day &lt; $days">
+          <xsl:variable name="addedDays" select="$date + 1"/>
+          <xsl:value-of select="$addedDays"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:variable name="addedDays" select="($date +(73 -($day + 2 -30) ))"/>
+          <xsl:value-of select="$addedDays"/>
+        </xsl:otherwise>
+      </xsl:choose>
+  </xsl:template>
+
+  <!--returns all Events with "Prüfung" as their categorie-->
+  <xsl:template name="Klausuren">
+    <xsl:for-each select="$calendar/event">
+    <xsl:sort select="startdate/total" data-type="number" />
+    <xsl:if test="categories = 'Prüfung' and startdate/total > $currentDate">
+    <tr>
+      <td class="date-btn"> 
+        <details>
+          <summary><xsl:value-of select="summary"/></summary>
+          <p> <xsl:value-of select="starttime/hour"/>:<xsl:value-of select="starttime/min"/> - <xsl:value-of select="endtime/hour"/>:<xsl:value-of select="endtime/min"/></p>
+          <p>Raum: <xsl:value-of select="location"/></p>
+        </details>
+      </td>
+    </tr>
+    </xsl:if>
+    </xsl:for-each>
+  </xsl:template>
+
+  <!--returns all Events with "Sonstiger Termin" as their categorie-->
+  <xsl:template name="Termine">
+    <xsl:for-each select="$calendar/event">
+    <xsl:sort select="startdate/total" data-type="number" />
+    <xsl:if test="categories = 'Sonstiger Termin' and startdate/total > $currentDate and startdate/year = $currentYear">
+      <tr>
+        <td class="date-btn">
+          <details>
+            <summary><xsl:value-of select="summary" /></summary>
+            <p><xsl:value-of select="startdate/total"/> </p>
+          </details>
+        </td>
+      </tr>  
+    </xsl:if>
+    </xsl:for-each>
 
   </xsl:template>
 
+  <!--returns RTF with splitted Date-->
   <xsl:template match="calendar/event">
     <event>
       <xsl:for-each select="*">
@@ -220,39 +354,6 @@
     </event>
   </xsl:template>
 
-  <!--returns all Events with "Prüfung" as their categorie-->
-  <xsl:template name="Klausuren">
-    <xsl:for-each select="$calendar/event">
-    <xsl:sort select="startdate/total" data-type="number" />
-    <xsl:if test="categories = 'Prüfung' and startdate/total > $currentDate">
-    <tr>
-      <td class="date-btn"> 
-        <details>
-          <summary><xsl:value-of select="summary"/></summary>
-          <p> <xsl:value-of select="starttime/hour"/>:<xsl:value-of select="starttime/min"/> - <xsl:value-of select="endtime/hour"/>:<xsl:value-of select="endtime/min"/></p>
-          <p>Raum: <xsl:value-of select="location"/></p>
-        </details>
-      </td>
-    </tr>
-    </xsl:if>
-    </xsl:for-each>
-  </xsl:template>
 
-  <xsl:template name="Termine">
-    <xsl:for-each select="$calendar/event">
-    <xsl:sort select="startdate/total" data-type="number" />
-    <xsl:if test="categories = 'Sonstiger Termin' and startdate/total > $currentDate ">
-      <tr>
-        <td class="date-btn">
-          <details>
-            <summary><xsl:value-of select="summary" /></summary>
-            <p><xsl:value-of select="categories"/> </p>
-          </details>
-        </td>
-      </tr>  
-    </xsl:if>
-    </xsl:for-each>
-
-  </xsl:template>
 
 </xsl:stylesheet>
