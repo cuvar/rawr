@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type = "text/xsl" href="xsl/calendar_V3.xsl"?>
+<?xml-stylesheet type = "text/xsl" ?>
 <xsl:stylesheet version="1.0"
   xmlns:ext="http://exslt.org/common"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -79,7 +79,7 @@
                 <div class="dropdown-content">
                   <a href="dashboardMonth.xml">Monatsansicht</a>
                   <hr/>
-                  <a href="event.xml">Wochenansicht</a>
+                  <a href="dashboard.xml">Wochenansicht</a>
                 </div>
               </div>
             </div>
