@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type = "text/xsl" href="xsl/calendar_V3.xsl"?>
+<?xml-stylesheet type = "text/xsl"?>
 <xsl:stylesheet version="1.0" 
   xmlns:ext="http://exslt.org/common"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:date="http://exslt.org/dates-and-times">
 
-  <xsl:variable name="timeframestart" select="20210510"/>
-  <xsl:variable name="timeframeend" select="20210516"/>
-  <xsl:variable name="currentDate" select="20210510"/>
+  <xsl:param name="timeframestart" select="20210510"/>
+  <xsl:param name="timeframeend" select="20210516"/>
+  <xsl:param name="currentDate" select="20210510"/>
   <xsl:variable name="currentYear">
       <xsl:value-of select="substring($currentDate,1,4)"/>
   </xsl:variable>
@@ -90,10 +90,34 @@
             <div class="calendar-top">
               <div id="banner-left-wrapper">
                 <div>
-                  <a href="#">
+                <!--@toDo könnte besser gemacht werden-->
+                  <xsl:variable name="forwardstart">
+                    <xsl:call-template name="addWeek">
+                      <xsl:with-param name="date" select="$timeframestart" />
+                    </xsl:call-template>
+                  </xsl:variable>
+                  <xsl:variable name="forwardend">
+                    <xsl:call-template name="addWeek">
+                      <xsl:with-param name="date" select="$timeframeend" />
+                    </xsl:call-template>
+                  </xsl:variable>
+                  <xsl:variable name="backwardstart">
+                    <xsl:call-template name="subtractWeek">
+                      <xsl:with-param name="date" select="$timeframestart" />
+                    </xsl:call-template>
+                  </xsl:variable>
+                  <xsl:variable name="backwardend">
+                    <xsl:call-template name="subtractWeek">
+                      <xsl:with-param name="date" select="$timeframeend" />
+                    </xsl:call-template>
+                  </xsl:variable>
+
+                
+
+                  <a href="index.php{concat('?','startDate=',$backwardstart,'&amp;','endDate=',$backwardend)} ">
                     <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Wee"/>
                   </a>
-                  <a href="#">
+                  <a href="index.php{concat('?','startDate=',$forwardstart,'&amp;','endDate=',$forwardend)} ">
                     <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week"/>
                   </a>
                 </div>
@@ -270,6 +294,56 @@
         </xsl:when>
         <xsl:otherwise>
           <xsl:variable name="addedDays" select="($date +(73 -($day + 2 -30) ))"/>
+          <xsl:value-of select="$addedDays"/>
+        </xsl:otherwise>
+      </xsl:choose>
+  </xsl:template>
+
+  <!--adds a week to a given date-->
+  <xsl:template name="addWeek">
+    <xsl:param name="date"/>
+
+    <xsl:variable name="day">
+            <xsl:value-of select="substring($date,7,2)"/>
+    </xsl:variable>
+    <xsl:variable name="days">
+          <xsl:call-template name="getDaysInMonth">
+                  <xsl:with-param name="date" select="$date" />
+            </xsl:call-template>
+    </xsl:variable>
+    <xsl:choose>
+        
+        <xsl:when test = "($day +7) &lt;= $days">
+          <xsl:variable name="addedDays" select="$date + 7"/>
+          <xsl:value-of select="$addedDays"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:variable name="addedDays" select="($date +(76 +(31 - $days) ))"/>
+          <xsl:value-of select="$addedDays"/>
+        </xsl:otherwise>
+      </xsl:choose>
+  </xsl:template>
+
+  <!--adds a week to a given date-->
+  <xsl:template name="subtractWeek">
+    <xsl:param name="date"/>
+
+    <xsl:variable name="day">
+            <xsl:value-of select="substring($date,7,2)"/>
+    </xsl:variable>
+    <xsl:variable name="days">
+          <xsl:call-template name="getDaysInMonth">
+                  <xsl:with-param name="date" select="$date - 100" />
+            </xsl:call-template>
+    </xsl:variable>
+    <xsl:choose>
+        
+        <xsl:when test = "($day -7) &gt;= 1">
+          <xsl:variable name="addedDays" select="$date - 7"/>
+          <xsl:value-of select="$addedDays"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:variable name="addedDays" select="($date -(76 +(31 - $days) ))"/>
           <xsl:value-of select="$addedDays"/>
         </xsl:otherwise>
       </xsl:choose>
