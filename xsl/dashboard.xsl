@@ -70,7 +70,7 @@
                 <img class="homebutton" src="res/home-solid.svg" alt="Home"/>
               </a>
               <div class="class">
-                <p>TINF20B2</p>
+                <p><xsl:value-of select="calendar/info/class"/></p>
               </div>
             </div>
             <div class="banner-right">
