@@ -1,87 +1,43 @@
- <!--Returns the value of how much days are added-->
-  <func:function name="my:addDay">
+
+  <!--@toDo-->
+  <!--adds one week to a given date-->
+  <xsl:template name="addWeek">
     <xsl:param name="date"/>
+  <xsl:template>
 
-    <xsl:variable name="days" select="my:getDaysInMonth($date)"/>
+  <!--@toDo-->
+  <!--adds one month to a given date-->
+  <xsl:template name="addMonth">
+    <xsl:param name="date"/>
+  <xsl:template>
 
-    <xsl:variable name="day">
+  <!--@toDo-->
+  <!--adds one year to a given date-->
+  <xsl:template name="addYear">
+    <xsl:param name="date"/>
+  <xsl:template>
+
+<xsl:template name="addWeek">
+  <xsl:param name="date"/>
+  <xsl:param name="days"/>
+  <xsl:param name="total"/>
+
+  <xsl:variable name="day">
           <xsl:value-of select="substring($date,7,2)"/>
-    </xsl:variable>
-    <xsl:choose>
-      <xsl:when test="$day = $days">
-         <func:result select="$date +(73 -($day + 2 -30) )" />
+  </xsl:variable>
+
+  <xsl:choose>
+      <xsl:when test="$day +7 >= $days">
+        <xsl:call-template name="Loop">
+          <xsl:with-param name="index" select="$date +(79 -($day + 2 -30) )" />
+          <xsl:with-param name="total" select="$total" />
+        </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
-           <func:result select="$date + 1" />
+        <xsl:call-template name="Loop">
+          <xsl:with-param name="index" select="$date + 7" />
+          <xsl:with-param name="total" select="$total" />
+        </xsl:call-template>
       </xsl:otherwise>
     </xsl:choose>
-  </func:function>
-
-  <!--Returns the number of days of the Month-->
-  <func:function name="my:getDaysInMonth">
-    <xsl:param name="date"/>
-
-    <xsl:variable name="month">
-      <xsl:value-of select="substring($date,5,2)"/>
-    </xsl:variable>
-    <xsl:variable name="year">
-      <xsl:value-of select="substring($date,3,2)"/>
-    </xsl:variable>
-
-    <xsl:choose>
-      <xsl:when test="$month = 1">
-          <func:result select="31" />
-      </xsl:when>
-
-      <xsl:when test="$month = 2">
-        <xsl:choose>
-          <xsl:when test="$year mod 4 = 0">
-              <func:result select="29" />
-          </xsl:when>
-          <xsl:otherwise>
-              <func:result select="28" />
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:when>
-
-      <xsl:when test="$month = 3 " >
-          <func:result select="31" />
-      </xsl:when>
-
-      <xsl:when test="$month = 4 " >
-          <func:result select="30" />
-      </xsl:when>
-
-      <xsl:when test="$month = 5" >
-          <func:result select="31" />
-      </xsl:when>
-
-      <xsl:when test="$month = 6 ">
-          <func:result select="30" />
-      </xsl:when>
-
-      <xsl:when test="$month = 7 ">
-          <func:result select="31" />
-      </xsl:when>
-
-      <xsl:when test="$month = 8 ">
-          <func:result select="31" />
-      </xsl:when>
-
-      <xsl:when test="$month = 9 ">
-          <func:result select="30" />
-      </xsl:when>
-
-      <xsl:when test="$month = 10">
-          <func:result select="31" />
-      </xsl:when>
-
-      <xsl:when test="$month = 11"> 
-          <func:result select="30" />
-      </xsl:when>
-
-      <xsl:otherwise>
-          <func:result select="31" />
-      </xsl:otherwise>
-    </xsl:choose>
-  </func:function>
+</xsl:template>
