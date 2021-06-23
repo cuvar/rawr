@@ -1,19 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Mulish');
 
+/* GENERAL ELEMENTS */
 * {
   font-family: 'Mulish', sans-serif;
-}
-
-.bg-red {
-  background-color: red !important;
-}
-
-.bg-blue {
-  background-color: turquoise !important;
-}
-
-.bg-green {
-  background-color: green !important;
 }
 
 html {
@@ -24,11 +13,13 @@ html {
 body {
   background-color: #F1F7F8;
   box-sizing: border-box;
-  width: 100%;
+  width: 99%;
   height: 100%;
+  overflow: hidden;
   padding: 1.5% 1.5% 1.5% 1.5%;
 }
 
+/* MAIN VIEW - calendar */
 .container-main {
   height: 100%;
   max-width: 79%;
@@ -38,7 +29,7 @@ body {
   display: grid;
   float: right;
   height: 100%;
-  width: 20%;
+  max-width: 20%;
 }
 
 .calendar {
@@ -48,23 +39,24 @@ body {
   border-radius: 20px;
 }
 
-.calendar_top {
+.calendar-top {
   height: 7%;
   width: 100%;
   padding: 2px 2px 2px 2px;
   color: white;
   display: flex;
+  justify-content: space-between;
 	align-items: center;
 }
 
-.calendar_main {
-  border-radius: 20px;
+.calendar-main {
   height: 91%;
   overflow-x: hidden;
   overflow-y: auto;
+  width: 99.5%;
 }
 
-.calendar_day {
+.calendar-day {
   color: #003F61;
   background-color: #88bbd8;
   
@@ -80,7 +72,7 @@ body {
   border-radius: 50%;
 }
 
-.calendar_month {
+.calendar-month {
   background-color: white;
   color: #003F61;
   border-radius: 20px;
@@ -94,7 +86,13 @@ body {
   font-size: large;
 }
 
-.timetable_content {
+#calendar-header > th {
+  color: white;
+  background-color: #003F61;
+}
+
+/* ACTUAL calendar */
+.timetable-content {
   margin-top: 25%;
 }
 
@@ -109,46 +107,55 @@ body {
 }
 
 table {
-  border-radius: 20px;
   border-spacing: 10;
   border: 5;
   border-color: #F1F7F8;
-  height: 100%;
   width: 100%;
   float: bottom;
   table-layout: fixed;
 }
 
 th {
-  background-color: white;
+  /* background-color: white; */
   border-radius: 20px;
   height: 5%;
   width: 8%;
   color: #003F61;
 }
 
-.nav-btn {
-  width: 18px !important;
-  margin-left: 10px;
-}
-
 td {
-  background-color: white;
   border-radius: 15px;
   padding: 5px 5px 5px 5px;
   width: 20px;
   vertical-align: top;
+  background-color: white;
 }
 
-.tableFixHead {
+.calendar-main table {
+  border-collapse: separate;
+  border-spacing: 5px 5px;
+}
+
+.exams-main table,
+.appointments-main table {
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+}
+
+.td-main {
+  background-color: white;
+}
+
+.table-head-fixed {
   overflow-y: auto;
   height: 100%;
 }
-.tableFixHead thead th {
+.table-head-fixed thead th {
   position: sticky;
   top: 0;
 }
 
+/* HEADER */
 .banner {
   display: flex;
   width: 100%;
@@ -180,6 +187,11 @@ td {
   width: 35px;
 }
 
+.nav-btn {
+  width: 18px !important;
+  margin-left: 10px;
+}
+
 .class {
   width: 90%;
   height: 65%;
@@ -197,16 +209,55 @@ td {
 	justify-content: center; 
 }
 
-.klausur {
+#banner-left-wrapper {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  margin-left: 10px;
+}
+
+#banner-right-wrapper {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon-buttons {
+  float: right;
+  background-color: transparent;
+  border: none
+}
+.icon-buttons img {
+  color: #003F61;
+  width: 18px !important;
+  margin-left: 10px;
+}
+
+.icon-buttons img:hover {
+  cursor: pointer;
+  color: red !important;
+}
+.icon-buttons img:focus {
+  color: #008dda;
+
+}
+
+
+/* KLAUSUREN VIEW */
+
+.exams {
   border-radius: 20px;
   background-color: #003F61;
   padding: 0.3%;
   color: #003F61;
   margin-bottom: 4%;
   padding: 4% 4% 4% 4%;
+  max-height: 100%;
 }
 
-.klausuren_top {
+.exams-top {
   width: 100%;
   height: 60px;
   background-color: white;
@@ -214,28 +265,30 @@ td {
   display: flex;
 	align-items: center;
 	justify-content: center;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
-.klausuren_main {
+.exams-main {
   margin-top: 1%;
-  height: 0%;
+  padding: 2px;
 }
 
-.termine_main {
+/* TERMINE VIEW */
+.appointments-main {
   margin-top: 1%;
-  height: 0%;
+  padding: 2px;
 }
 
-.termine {
+.appointments {
   border-radius: 20px;
   background-color: #003F61;
   padding: 0.3%;
   color: #003F61;
   padding: 4% 4% 4% 4%;
+  max-height: 100%;
 }
 
-.termine_top {
+.appointments-top {
   width: 100%;
   height: 60px;
   background-color: white;
@@ -243,13 +296,32 @@ td {
   display: flex;
 	align-items: center;
 	justify-content: center;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
-.label_text {
+/* TERMINE UND KLAUSUR */
+.side-title {
   font-size: 250%;
 }
 
+.date-btn:hover {
+  filter: brightness(90%);
+}
+
+details > p {
+  padding-left: 5px;
+}
+
+summary{
+  padding-left: 5px;
+  font-weight: bold;
+  color: #003F61; 
+  list-style: none;
+  cursor: pointer;
+}
+
+
+/* MONATS UND WOCHENANSICHT */
 .dropdown {
   display: flex;
   flex-direction: column;
@@ -307,25 +379,10 @@ td {
   background-color: white;
 }
 
-.date-btn:hover {
-  filter: brightness(90%);
-}
 
-details > p {
-  padding-left: 5px;
-}
-
-summary{
-  padding-left: 5px;
-  font-weight: bold;
-  color: #003F61; 
-  list-style: none;
-  cursor: pointer;
-}
-
-
+/* MEDIA QUERIES */
 @media only screen and (max-width: 1000px) {
-  .label_text {
+  .side-title {
     font-size: 140%;
   }
   th {
@@ -334,11 +391,43 @@ summary{
 }
 
 @media only screen and (max-width: 800px) {
-  .label_text {
+  .side-title {
     font-size: 140%;
   }
 
   html {
     display: none;
   }
+}
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d3d3d3;
+}
+
+/* HELPING CLASSES */
+.bg-red {
+  background-color: red !important;
+}
+
+.bg-blue {
+  background-color: turquoise !important;
+}
+
+.bg-green {
+  background-color: green !important;
 }

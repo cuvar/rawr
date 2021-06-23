@@ -8,44 +8,73 @@
     <html>
       <head>
         <link rel="stylesheet" href="../style/index.css" />
+        <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" />
+        <script src="./js/app.js"></script>
       </head>
 
       <body>
-        <xsl:variable name="Value">
-            <xsl:call-template name="Test">
-              <xsl:with-param name="var">
-              11
-              </xsl:with-param>
-          </xsl:call-template>
-        </xsl:variable>
+        <div id="easteregg-container">
+          <img src="res/logo.png" id="easteregg" ></img>
+        </div>
 
-        <h1>Project RAWR</h1>
-        <table>
-          <tr class="tr-title">
-          <h2> 
-            <xsl:value-of select="$Value" />
-          </h2>
-          
-          </tr>
-        </table>
+        <!-- left side -->
+        <div class="container-main">
+          <div class="title-container">
+            <h1 class="title">Rawr</h1>
+            <img src="res/logo.png" width="150" id="logo" onClick="triggerEasterEgg()"></img>
+          </div>
+
+          <div class="content-container">
+            <div class="row-container">
+              <xsl:for-each select="elements/university/year">
+                <div class="row">
+                  <xsl:for-each select="course">
+                    <a class="course-btn" href="dashboard.xml">
+                      <xsl:value-of select="name" />
+                    </a>
+                  </xsl:for-each>
+                </div>
+              </xsl:for-each>
+            </div>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="container-right">
+          <!-- login container -->
+          <div class="login-container">
+            <div class="form-container">
+              <div class="form-wrapper">
+                <div class="form-row">
+                  <div class="form-column">
+                    <label>Username</label>
+                    <label>Password</label>
+                  </div>
+                  <div class="form-column">
+                    <input id="user-input" type="text" />
+                    <input id="password-input" type="password" />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <button id="submit-btn" onclick="submitLogin()">Login</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- motto container -->
+          <div class="motto-container">
+            <h2 id="date">
+              <xsl:value-of select="elements/day" />
+            </h2>
+            <p id="motto-text">
+              <xsl:value-of select="elements/motto" />
+            </p>
+          </div>
+        </div>
+
       </body>
     </html>
   </xsl:template>
-
-  <xsl:template name="Test">
-    <xsl:param name="var"/>
-    <xsl:choose>
-    <xsl:when test="$var > 10">
-    10
-    </xsl:when>
-    <xsl:otherwise>
-    0
-    </xsl:otherwise>
-    </xsl:choose>
-
-      
-  </xsl:template>
-
-  
   
 </xsl:stylesheet>
