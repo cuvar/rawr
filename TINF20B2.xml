@@ -92,6 +92,12 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -106,12 +112,6 @@
         <attendee>
             <name>Berkling, Kay Margarethe</name>
             <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -662,14 +662,14 @@
     <event>
         <created>20171017T114210Z</created>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>

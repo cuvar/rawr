@@ -5,7 +5,7 @@ from xml.etree import ElementTree
 from xml.dom import minidom
 import re
 
-#yeet
+url = "https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=braun&file=TINF20B2"
 
 def camel_to_snake(name):
     name = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
@@ -19,8 +19,7 @@ def prettify(elem):
     return reparsed.toprettyxml(indent="    ")
 
 
-def setup():
-    url = "https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=braun&file=TINF20B2"
+def setup(url):
     c = Calendar(requests.get(url).text)
 
     calendar = Element("calendar")
@@ -89,11 +88,12 @@ def setup():
 
     return prettify(calendar)
 
-def generate_xml(xml_string):
-    xml_file = open("event.xml", "w")
+def generate_xml(xml_string,url):
+    file_name = url.split("file=")[1]
+    xml_file = open(file_name+".xml", "w")
     xml_file.write(xml_string)
     xml_file.close()
 
 if __name__ == "__main__":
-    cal = setup()
-    generate_xml(cal)
+    cal = setup(url)
+    generate_xml(cal,url)
