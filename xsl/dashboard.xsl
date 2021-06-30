@@ -319,6 +319,7 @@
         <xsl:variable name="addedYearDate">
           <xsl:call-template name="addYear">
             <xsl:with-param name="date" select="$date" />
+            <xsl:with-param name="number" select="1" />
           </xsl:call-template>
         </xsl:variable>
 
@@ -361,6 +362,7 @@
         <xsl:variable name="addedYearDate">
           <xsl:call-template name="addYear">
             <xsl:with-param name="date" select="$date" />
+            <xsl:with-param name="number" select="7" />
           </xsl:call-template>
         </xsl:variable>
 
@@ -398,8 +400,23 @@
         <xsl:value-of select="$addedDays" />
       </xsl:when>
       <xsl:otherwise>
-        <xsl:variable name="addedDays" select="($date -(76 +(31 - $days) ))" />
-        <xsl:value-of select="$addedDays" />
+        <xsl:variable name="subtractedYearDate">
+          <xsl:call-template name="subtractYear">
+            <xsl:with-param name="date" select="$date" />
+            <xsl:with-param name="number" select="7" />
+          </xsl:call-template>
+        </xsl:variable>
+        <xsl:choose>
+          <xsl:when test="$subtractedYearDate = $date">
+            <xsl:variable name="addedDays" select="($date -(76 +(31 - $days) ))" />
+            <xsl:value-of select="$addedDays" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$subtractedYearDate" />
+          </xsl:otherwise>
+        </xsl:choose>
+
+        
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -407,6 +424,7 @@
   <!-- add year at the end of the year -->
   <xsl:template name="addYear">
     <xsl:param name="date" />
+    <xsl:param name="number"/>
 
     <xsl:variable name="day">
       <xsl:value-of select="substring($date,7,2)" />
@@ -427,17 +445,50 @@
     </xsl:variable>
 
     <xsl:choose>
-
-      <xsl:when test="($month &lt; 12) and ($day &lt;= $days)">
-        <xsl:value-of select="$date" />
+      <xsl:when test="($month = 12) and ($days &lt;= ($day + $number))">
+        <xsl:variable name="addedYear" select="$date + 8869 + $number" />
+        <xsl:value-of select="$addedYear" />
       </xsl:when>
       <xsl:otherwise>
-
-        <xsl:variable name="addedYear" select="$date + 8870 + (($days - $day) +1)" />
-        <xsl:value-of select="$addedYear" />
+        <xsl:value-of select="$date" />
       </xsl:otherwise>
     </xsl:choose>
 
+  </xsl:template>
+
+
+  <xsl:template name="subtractYear">
+    <xsl:param name="date" />
+    <xsl:param name="number"/>
+
+    <xsl:variable name="day">
+      <xsl:value-of select="substring($date,7,2)" />
+    </xsl:variable>
+
+    <xsl:variable name="days">
+      <xsl:call-template name="getDaysInMonth">
+        <xsl:with-param name="date" select="$date" />
+      </xsl:call-template>
+    </xsl:variable>
+
+    <xsl:variable name="year">
+      <xsl:value-of select="substring($date,1,4)" />
+    </xsl:variable>
+
+    <xsl:variable name="month">
+      <xsl:value-of select="substring($date,5,2)" />
+    </xsl:variable>
+
+    <xsl:choose>
+      <xsl:when test="($month = 1) and ($day -$number) &lt; 1">
+        <xsl:variable name="subYear" select="$date - (8869 + $number)" />
+        <xsl:value-of select="$subYear" />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$date" />
+      </xsl:otherwise>
+    </xsl:choose>
+    
   </xsl:template>
 
 
