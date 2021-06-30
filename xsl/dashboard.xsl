@@ -114,10 +114,10 @@
 
                 
 
-                  <a href="index.php{concat('?','startDate=',$backwardstart,'&amp;','endDate=',$backwardend)} ">
+                  <a href="index.php{concat('?','startDate=',$backwardstart,'&amp;','endDate=',$backwardend,'&amp;','currentDate=',$currentDate)} ">
                     <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Wee"/>
                   </a>
-                  <a href="index.php{concat('?','startDate=',$forwardstart,'&amp;','endDate=',$forwardend)} ">
+                  <a href="index.php{concat('?','startDate=',$forwardstart,'&amp;','endDate=',$forwardend,'&amp;','currentDate=',$currentDate)} ">
                     <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week"/>
                   </a>
                 </div>
@@ -454,6 +454,10 @@
     </event>
   </xsl:template>
 
+  <!--restuns nearest Mondey to any given Date-->
+  <xsl:template match="getNearestMonday">
+  <xsl:param name="date"/>
 
+  </xsl:template>
 
 </xsl:stylesheet>

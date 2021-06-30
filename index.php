@@ -20,10 +20,12 @@ libxml_use_internal_errors(false);
 
 # Parameters
 $startDate = isset($_GET['startDate']) ? $_GET['startDate'] : date('Ymd');
-$endDate = isset($_GET['endDate']) ? $_GET['endDate'] : date('Ymd');
+$endDate = isset($_GET['endDate']) ? $_GET['endDate'] : date('Ymd') ;
+$currentDate = date('Ymd');
 
 $xsl->setParameter('', 'timeframestart', $startDate);
 $xsl->setParameter('', 'timeframeend', $endDate);
+$xsl->setParameter('', 'currentDate', $currentDate);
 
 # Transform
 if ($result) {
