@@ -14,8 +14,13 @@
     <xsl:apply-templates select="calendar/event" />
   </xsl:variable>
   <!-- Convert RTF (result-tree-fragment) to node-set -->
-  <xsl:variable name="calendar" select="ext:node-set($calendarRtf)" />
+  <xsl:variable name="precalendar" select="ext:node-set($calendarRtf)" />
 
+  <xsl:variable name="secondCalendarRtf">
+    <xsl:call-template name="secondPreProcessing" />
+  </xsl:variable>
+
+  <xsl:variable name="calendar" select="ext:node-set($secondCalendarRtf)" />
 
   <xsl:template match="/">
     <html>
@@ -121,18 +126,9 @@
 
                 <div class="calendar_month">
                 <p>
-                  <xsl:choose>
-                    <xsl:when test="($timeframeend - $timeframestart)&gt;70 ">
-                      <xsl:call-template name="getMonthName">
-                        <xsl:with-param name="date" select="$timeframeend"/>
-                      </xsl:call-template>
-                    </xsl:when>
-                    <xsl:otherwise>
                       <xsl:call-template name="getMonthName">
                         <xsl:with-param name="date" select="$timeframestart"/>
                       </xsl:call-template>
-                    </xsl:otherwise>
-                  </xsl:choose>
                 </p>
                 </div>
               </div>
@@ -186,10 +182,9 @@
           <xsl:sort select="starttime/total" data-type="number" />
 
           <xsl:if test="startdate/total = $index">
-            <xsl:variable name="duration" select="(endtime/total - starttime/total)div 15" />
             <xsl:choose>
               <xsl:when test="categories = 'Prüfung'">
-                <div class="timetable" style="background-color:#FB3640;  {concat('height:',$duration ,'em;')}">
+                <div class="timetable" style="background-color:#FB3640;  {concat('height:',duration ,'em;')}">
                   <xsl:value-of select="summary" />
                   <p>
                     <xsl:value-of select="starttime/hour" />
@@ -203,7 +198,7 @@
                 </div>
               </xsl:when>
               <xsl:when test="categories = 'Sonstiger Termin'">
-                <div class="timetable" style="background-color: grey;  {concat('height:',$duration ,'em;')}">
+                <div class="timetable" style="background-color: grey;  {concat('height:',duration ,'em;')}">
                   <xsl:value-of select="summary" />
                   <p>
                     <xsl:value-of select="starttime/hour" />
@@ -217,7 +212,7 @@
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                <div class="timetable" style=" {concat('height:',$duration ,'em;')}">
+                <div class="timetable" style=" {concat('height:',duration ,'em;')}">
                   <xsl:value-of select="summary" />
                   <p>
                     <xsl:value-of select="starttime/hour" />
@@ -321,8 +316,8 @@
       <xsl:when test="$month = 3 " >März</xsl:when>
       <xsl:when test="$month = 4 ">April</xsl:when>
       <xsl:when test="$month = 5 ">Mai</xsl:when>
-      <xsl:when test="$month = 7 ">Juli</xsl:when>
       <xsl:when test="$month = 6 ">Juni</xsl:when>
+      <xsl:when test="$month = 7 ">Juli</xsl:when>
       <xsl:when test="$month = 8">August</xsl:when>
       <xsl:when test="$month = 9">September</xsl:when>
       <xsl:when test="$month = 10">Oktober</xsl:when>  
@@ -646,6 +641,22 @@
         </xsl:choose>
       </xsl:for-each>
     </event>
+  </xsl:template>
+
+   <!--returns RTF with splitted Date-->
+  <xsl:template name="secondPreProcessing">
+    
+      <xsl:for-each select="$precalendar/event">
+      <event>
+        <xsl:for-each select="*">
+          <xsl:copy-of select="." />
+        </xsl:for-each>
+        <duration>
+        <xsl:value-of select="(endtime/total - starttime/total)div 15" />
+        </duration>
+      </event>
+      </xsl:for-each>
+    
   </xsl:template>
 
   <!--restuns nearest Mondey to any given Date-->
