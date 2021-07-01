@@ -5,8 +5,18 @@ $xmldoc = new DOMDocument();
 $xsldoc = new DOMDocument();
 $xsl = new XSLTProcessor();
 
-$xmldoc->loadXML(file_get_contents('dashboard.xml'));
-$xsldoc->loadXML(file_get_contents('xsl/dashboard.xsl'));
+# Parameters
+$mode = isset($_GET['mode']) ? $_GET['mode'] : 'week' ;
+
+if ($mode == 'week') {
+    $xsldoc->loadXML(file_get_contents('xsl/dashboard.xsl'));
+    $xmldoc->loadXML(file_get_contents('dashboard.xml'));
+}elseif ($mode == 'month') {
+    $xsldoc->loadXML(file_get_contents('xsl/dashboardMonth.xsl'));
+    $xmldoc->loadXML(file_get_contents('dashboardMonth.xml'));
+}
+
+
 
 # Error handling on load
 libxml_use_internal_errors(true);

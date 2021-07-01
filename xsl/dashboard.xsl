@@ -82,7 +82,7 @@
                 <div class="dropdown-content">
                   <a href="dashboard.xml">Wochenansicht</a>
                   <hr />
-                  <a href="dashboardMonth.xml">Monatsansicht</a>
+                  <a href="index.php?mode=month">Monatsansicht</a>
                 </div>
               </div>
             </div>
@@ -116,19 +116,19 @@
                   </xsl:variable>
 
 
-                  <a href="index.php{concat('?','startDate=',$backwardstart,'&amp;','endDate=',$backwardend,'&amp;','currentDate=',$currentDate)} ">
+                  <a href="index.php?mode=week{concat('&amp;','startDate=',$backwardstart,'&amp;','endDate=',$backwardend,'&amp;','currentDate=',$currentDate)} ">
                     <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Wee" />
                   </a>
-                  <a href="index.php{concat('?','startDate=',$forwardstart,'&amp;','endDate=',$forwardend,'&amp;','currentDate=',$currentDate)} ">
+                  <a href="index.php?mode=week{concat('&amp;','startDate=',$forwardstart,'&amp;','endDate=',$forwardend,'&amp;','currentDate=',$currentDate)} ">
                     <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week" />
                   </a>
                 </div>
 
                 <div class="calendar_month">
                 <p>
-                      <xsl:call-template name="getMonthName">
-                        <xsl:with-param name="date" select="$timeframestart"/>
-                      </xsl:call-template>
+                  <xsl:call-template name="getMonthName">
+                    <xsl:with-param name="date" select="$timeframestart"/>
+                  </xsl:call-template>
                 </p>
                 </div>
               </div>
@@ -649,7 +649,7 @@
     </event>
   </xsl:template>
 
-   <!--changes Time to adaped to Timezone and addes dutation to each event-->
+  <!--changes Time to adaped to Timezone and addes dutation to each event-->
   <xsl:template name="secondPreProcessing">
       <xsl:for-each select="$precalendar/event">
         <xsl:variable name="year" select="startdate/year"/>
