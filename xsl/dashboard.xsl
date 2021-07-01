@@ -643,13 +643,82 @@
     </event>
   </xsl:template>
 
-   <!--returns RTF with splitted Date-->
+   <!--changes Time to adaped to Timezone and addes dutation to each event-->
   <xsl:template name="secondPreProcessing">
-    
       <xsl:for-each select="$precalendar/event">
+        <xsl:variable name="year" select="startdate/year"/>
+        <!--calculating on the day off daylightsaving starts and ends startin at year 2000-->
+        <xsl:variable name="summerttimestart" select="(31 - ((($year - 1995) + (($year - 2000) div 4)) mod 7) + ($year * 10000) + 300)"/>
+        <xsl:variable name="summerttimeend" select="(31 - ((($year - 1998) + (($year - 2000) div 4)) mod 7) + ($year * 10000)+ 1000)"/>
+        <xsl:variable name="startdate" select="startdate/total"/>
+        <xsl:variable name="enddate" select="enddate/total"/>
       <event>
         <xsl:for-each select="*">
-          <xsl:copy-of select="." />
+          <xsl:choose>
+            <xsl:when test="name() = 'starttime'">
+              <xsl:choose>
+                <xsl:when test=" $startdate &gt;= $summerttimestart and $startdate &lt; $summerttimeend">
+                  <starttime>
+                    <total>
+                      <xsl:value-of select="total + 200" />
+                    </total>
+                    <hour>
+                      <xsl:value-of select="hour + 2" />
+                    </hour>
+                    <min>
+                      <xsl:value-of select="min" />
+                    </min>
+                  </starttime>
+                </xsl:when>
+                <xsl:otherwise>
+                  <starttime>
+                    <total>
+                      <xsl:value-of select="total + 100" />
+                    </total>
+                    <hour>
+                      <xsl:value-of select="hour + 1" />
+                    </hour>
+                    <min>
+                      <xsl:value-of select="min" />
+                    </min>
+                  </starttime>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:when>
+            <xsl:when test="name() = 'endtime'">
+              <xsl:choose>
+                <xsl:when test=" $enddate &gt;= $summerttimestart and $enddate &lt; $summerttimeend">
+                  <endtime>
+                    <total>
+                      <xsl:value-of select="total + 200" />
+                    </total>
+                    <hour>
+                      <xsl:value-of select="hour + 2" />
+                    </hour>
+                    <min>
+                      <xsl:value-of select="min" />
+                    </min>
+                  </endtime>
+                </xsl:when>
+                <xsl:otherwise>
+                  <endtime>
+                    <total>
+                      <xsl:value-of select="total + 100" />
+                    </total>
+                    <hour>
+                      <xsl:value-of select="hour + 1" />
+                    </hour>
+                    <min>
+                      <xsl:value-of select="min" />
+                    </min>
+                  </endtime>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:copy-of select="." />
+            </xsl:otherwise>
+          </xsl:choose>
         </xsl:for-each>
         <duration>
         <xsl:value-of select="(endtime/total - starttime/total)div 15" />
