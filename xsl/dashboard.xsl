@@ -120,7 +120,20 @@
                 </div>
 
                 <div class="calendar_month">
-                  <p>Septmeber</p>
+                <p>
+                  <xsl:choose>
+                    <xsl:when test="($timeframeend - $timeframestart)&gt;70 ">
+                      <xsl:call-template name="getMonthName">
+                        <xsl:with-param name="date" select="$timeframeend"/>
+                      </xsl:call-template>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:call-template name="getMonthName">
+                        <xsl:with-param name="date" select="$timeframestart"/>
+                      </xsl:call-template>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </p>
                 </div>
               </div>
             </div>
@@ -296,6 +309,29 @@
     </xsl:choose>
   </xsl:template>
 
+  <!--creats a String with the name of the Day -->
+  <xsl:template name="getMonthName">
+    <xsl:param name="date"/>
+    <xsl:variable name="month">
+      <xsl:value-of select="substring($date,5,2)"/>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="$month = 1">Januar</xsl:when>
+      <xsl:when test="$month = 2 " >Februar</xsl:when>
+      <xsl:when test="$month = 3 " >März</xsl:when>
+      <xsl:when test="$month = 4 ">April</xsl:when>
+      <xsl:when test="$month = 5 ">Mai</xsl:when>
+      <xsl:when test="$month = 7 ">Juli</xsl:when>
+      <xsl:when test="$month = 6 ">Juni</xsl:when>
+      <xsl:when test="$month = 8">August</xsl:when>
+      <xsl:when test="$month = 9">September</xsl:when>
+      <xsl:when test="$month = 10">Oktober</xsl:when>  
+      <xsl:when test="$month = 11" >November</xsl:when>
+      <xsl:when test="$month = 12" >Dezember</xsl:when>
+      <xsl:otherwise>Error: Month doesn't exist</xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <!--adds one day to a given date-->
   <xsl:template name="addDay">
     <xsl:param name="date" />
@@ -456,7 +492,6 @@
 
   </xsl:template>
 
-
   <xsl:template name="subtractYear">
     <xsl:param name="date" />
     <xsl:param name="number"/>
@@ -490,7 +525,6 @@
     </xsl:choose>
     
   </xsl:template>
-
 
   <!--returns all Events with "Prüfung" as their categorie-->
   <xsl:template name="Klausuren">
