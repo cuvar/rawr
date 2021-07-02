@@ -4,6 +4,8 @@
   xmlns:ext="http://exslt.org/common"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+  <xsl:param name="currentDate" select="20210510" />
+
   <xsl:template match="/">
     <html>
       <head>
@@ -65,11 +67,17 @@
           <!-- motto container -->
           <div class="motto-container">
             <h2 id="date">
-              <xsl:value-of select="elements/day" />
+              
+              <xsl:value-of select="substring($currentDate,7,2)" />.<xsl:value-of select="substring($currentDate,5,2)" />.<xsl:value-of select="substring($currentDate,1,4)" />
             </h2>
-            <p id="motto-text">
-              <xsl:value-of select="elements/motto" />
-            </p>
+            <xsl:variable name="number" select="$currentDate mod 7"/>
+            <xsl:for-each select="elements/mottos/motto">
+              <p id="motto-text">
+                <xsl:if test="index = $number">
+                  <xsl:value-of select="text" />
+                </xsl:if>
+              </p>
+            </xsl:for-each>
           </div>
         </div>
 

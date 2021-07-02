@@ -2,7 +2,36 @@
 <?xml-stylesheet type="text/xsl" href="xsl/index.xsl"?>
 <elements>
   <day>07.06.2021</day>
-  <motto>Zwischen zu früh und zu spät liegt immer nur ein Augenblick.</motto>
+  <mottos>
+    <motto>
+      <index>1</index>
+      <text>Zwischen zu früh und zu spät liegt immer nur ein Augenblick.</text>
+    </motto>
+    <motto>
+      <index>2</index>
+      <text>Der späte Vogel fängt den Stein</text>
+    </motto>
+     <motto>
+      <index>3</index>
+      <text>text für 3</text>
+    </motto>
+     <motto>
+      <index>4</index>
+      <text>text für 4</text>
+    </motto>
+     <motto>
+      <index>5</index>
+      <text>text für 5</text>
+    </motto>
+     <motto>
+      <index>6</index>
+      <text>text für 6</text>
+    </motto>
+     <motto>
+      <index>0</index>
+      <text>text für 0</text>
+    </motto>
+  </mottos>
   <university>
     <year>
       <course>
