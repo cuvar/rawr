@@ -5,8 +5,8 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:date="http://exslt.org/dates-and-times">
 
-  <xsl:variable name="timeframestart" select="20210510"/>
-  <xsl:variable name="timeframeend" select="20210516"/>
+  <xsl:variable name="timeframestart" select="20210426"/>
+  <xsl:variable name="timeframeend" select="20210606"/>
   <xsl:variable name="currentDate" select="20210510"/>
   <xsl:variable name="currentYear">
     <xsl:value-of select="substring($currentDate,1,4)"/>
@@ -140,22 +140,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>
-                        <div class="calendar-day">
-                          <p>1</p>
-                        </div>
-                        <div class="timetable-content">
-                          <div class="timetable">Mathe Montag Lul</div>
-                          <div class="timetable">Mathe Montag Lul</div>
-                        </div>
-                      </td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <!-- <xsl:call-template name="Loop"/> -->
+                      <xsl:call-template name="outterLoop"/> 
                     </tr>
                   </tbody>
                 </table>
@@ -169,6 +154,35 @@
     </html>
   </xsl:template>
 
+  <xsl:template name="outterLoop">
+    <xsl:param name="index" select="$timeframestart" />
+    <xsl:param name="maxValue" select="$timeframeend" />
+    <xsl:variable name="weekEnd">
+      <xsl:call-template name="addWeek">
+        <xsl:with-param name="date" select="$index - 1"/>
+      </xsl:call-template>
+    </xsl:variable>
+    <tr>
+      <xsl:call-template name="Loop">
+        <xsl:with-param name="index" select="$index"/>
+        <xsl:with-param name="maxValue" select="$weekEnd"/>
+      </xsl:call-template> 
+    </tr>
+
+    <xsl:if test="$weekEnd &lt; $maxValue">
+      <!--Function call to get the number of added Days-->
+      <xsl:variable name="addedDays">
+        <xsl:call-template name="addWeek">
+          <xsl:with-param name="date" select="$index" />
+        </xsl:call-template>
+      </xsl:variable>
+      <!--Loop call to generate the next Day-->
+      <xsl:call-template name="outterLoop">
+        <xsl:with-param name="index" select="$addedDays"/>
+        <xsl:with-param name="maxValue" select="$maxValue" />
+      </xsl:call-template>
+    </xsl:if>
+  </xsl:template>
 
   <!--Loops through a week-->
   <xsl:template name="Loop">
@@ -189,45 +203,18 @@
             <xsl:variable name="duration" select="(endtime/total - starttime/total)div 15"/>
             <xsl:choose>
               <xsl:when test="categories = 'Prüfung'">
-                <div class="timetable" style="background-color:#FB3640;  {concat('height:',$duration ,'em;')}">
+                <div class="timetable" style="background-color:#FB3640;">
                   <xsl:value-of select="summary" />
-                  <p>
-                    <xsl:value-of select="starttime/hour"/>
-                    :
-                    <xsl:value-of select="starttime/min"/>
-                    -
-                    <xsl:value-of select="endtime/hour"/>
-                    :
-                    <xsl:value-of select="endtime/min"/>
-                  </p>
                 </div>
               </xsl:when>
               <xsl:when test="categories = 'Sonstiger Termin'">
-                <div class="timetable" style="background-color: grey;  {concat('height:',$duration ,'em;')}">
+                <div class="timetable" style="background-color: grey;">
                   <xsl:value-of select="summary" />
-                  <p>
-                    <xsl:value-of select="starttime/hour"/>
-                    :
-                    <xsl:value-of select="starttime/min"/>
-                    -
-                    <xsl:value-of select="endtime/hour"/>
-                    :
-                    <xsl:value-of select="endtime/min"/>
-                  </p>
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                <div class="timetable" style=" {concat('height:',$duration ,'em;')}">
+                <div class="timetable" >
                   <xsl:value-of select="summary" />
-                  <p>
-                    <xsl:value-of select="starttime/hour"/>
-                    : 
-                    <xsl:value-of select="starttime/min"/>
-                    -
-                    <xsl:value-of select="endtime/hour"/>
-                    :
-                    <xsl:value-of select="endtime/min"/>
-                  </p>
                 </div>
               </xsl:otherwise>
             </xsl:choose>
