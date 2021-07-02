@@ -85,7 +85,7 @@
                 <div class="dropdown-content">
                   <a href="index.php?mode=month">Monatsansicht</a>
                   <hr/>
-                  <a href="dashboard.xml">Wochenansicht</a>
+                  <a href="index.php?mode=week">Wochenansicht</a>
                 </div>
               </div>
             </div>

@@ -32,8 +32,8 @@ if (!$result) {
 libxml_use_internal_errors(false);
 
 # Parameters
-$startDate = isset($_GET['startDate']) ? $_GET['startDate'] : date('Ymd');
-$endDate = isset($_GET['endDate']) ? $_GET['endDate'] : date('Ymd') ;
+$startDate = isset($_GET['startDate']) ? $_GET['startDate'] : 20210510 ;
+$endDate = isset($_GET['endDate']) ? $_GET['endDate'] : 20210516 ;
 $currentDate = date('Ymd');
 
 $xsl->setParameter('', 'timeframestart', $startDate);
