@@ -67,7 +67,7 @@
           <!-- banner -->
           <div class="banner">
             <div class="banner-left">
-              <a href="index.xml">
+              <a href="index.php">
                 <img class="homebutton" src="res/home-solid.svg" alt="Home" />
               </a>
               <div class="class">

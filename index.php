@@ -6,7 +6,7 @@ $xsldoc = new DOMDocument();
 $xsl = new XSLTProcessor();
 
 # Parameters
-$mode = isset($_GET['mode']) ? $_GET['mode'] : 'week' ;
+$mode = isset($_GET['mode']) ? $_GET['mode'] : 'start' ;
 
 if ($mode == 'week') {
     $xsldoc->loadXML(file_get_contents('xsl/dashboard.xsl'));
@@ -14,6 +14,9 @@ if ($mode == 'week') {
 }elseif ($mode == 'month') {
     $xsldoc->loadXML(file_get_contents('xsl/dashboardMonth.xsl'));
     $xmldoc->loadXML(file_get_contents('dashboardMonth.xml'));
+}elseif ($mode == 'start') {
+    $xsldoc->loadXML(file_get_contents('xsl/index.xsl'));
+    $xmldoc->loadXML(file_get_contents('index.xml'));
 }
 
 
