@@ -1,0 +1,15 @@
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=freudenmann&file=TINF18B1
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=braun&file=TINF18B2
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=vollmer&file=tinf18b3
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=eisenbiegler&file=TINF18B4
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=strand&file=TINF18B5
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=freudenmann&file=TINF19B1
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=braun&file=TINF19B2
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=vollmer&file=tinf19b3
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=eisenbiegler&file=TINF19B4
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=strand&file=TINF19B5
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=freudenmann&file=TINF20B1
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=braun&file=TINF20B2
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=vollmer&file=tinf20b3
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=eisenbiegler&file=TINF20B4
+https://rapla.dhbw-karlsruhe.de/rapla?page=ICal&user=strand&file=TINF20B5
