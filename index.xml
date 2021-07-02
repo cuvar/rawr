@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="xsl/index.xsl"?>
 <elements>
-  <day>07.06.2021</day>
   <mottos>
     <motto>
       <index>1</index>
@@ -9,27 +8,27 @@
     </motto>
     <motto>
       <index>2</index>
-      <text>Der späte Vogel fängt den Stein</text>
+      <text>Der späte Vogel fängt den Stein.</text>
     </motto>
      <motto>
       <index>3</index>
-      <text>text für 3</text>
+      <text>Nichts auf der Welt ist so mächtig wie eine Idee, deren Zeit gekommen ist.</text>
     </motto>
      <motto>
       <index>4</index>
-      <text>text für 4</text>
+      <text>Die modernen Menschen werden nicht mit der Peitsche, sondern mit Terminen geschlagen.</text>
     </motto>
      <motto>
       <index>5</index>
-      <text>text für 5</text>
+      <text>Es ist nicht zu wenig Zeit, die wir haben, sondern es ist zu viel Zeit, die wir nicht nutzen</text>
     </motto>
      <motto>
       <index>6</index>
-      <text>text für 6</text>
+      <text>Unkraut wächst in zwei Monaten, eine rote Rose braucht dafür ein ganzes Jahr.</text>
     </motto>
      <motto>
       <index>0</index>
-      <text>text für 0</text>
+      <text>Eines Tages wirst du aufwachen und keine Zeit mehr haben für die Dinge, die du immer wolltest. Tu sie jetzt.</text>
     </motto>
   </mottos>
   <university>

@@ -735,7 +735,7 @@
   </xsl:template>
 
   <!--restuns nearest Mondey to any given Date-->
-  <xsl:template match="getNearestMonday">
+  <xsl:template name="getNearestMonday">
     <xsl:param name="date" />
 
   </xsl:template>
