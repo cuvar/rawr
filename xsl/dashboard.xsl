@@ -38,7 +38,7 @@
               <p class="side-title">Klausuren</p>
             </div>
             <div class="exams-main">
-              <div style="width:100%; height:160px; overflow:auto;">
+              <div class="table-container">
                 <table cellspacing="0" cellpadding="1" width="200">
                   <xsl:call-template name="Klausuren" />
                 </table>
@@ -52,7 +52,7 @@
               <p class="side-title">Termine</p>
             </div>
             <div class="appointments-main">
-              <div style="width:100%; height:160px; overflow:auto; border-color: ">
+              <div class="table-container">
                 <table cellspacing="0" cellpadding="1" width="200">
                   <xsl:call-template name="Termine" />
                 </table>

@@ -141,6 +141,7 @@ td {
 .appointments-main table {
   border-collapse: separate;
   border-spacing: 0px 10px;
+  padding-right: 5px;
 }
 
 .td-main {
@@ -154,6 +155,12 @@ td {
 .table-head-fixed thead th {
   position: sticky;
   top: 0;
+}
+
+.table-container {
+  width: 100%; 
+  height: 30vh; 
+  overflow: auto;
 }
 
 /* HEADER */
