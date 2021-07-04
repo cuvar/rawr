@@ -107,6 +107,18 @@ body {
   overflow:hidden;
 }
 
+.bg-test {
+  background-color: #FB3640 !important;
+}
+
+.bg-other {
+  background-color: grey !important;
+}
+
+.bg-normal {
+  background-color: rgba(183, 0, 255, 0.637);
+}
+
 table {
   border-spacing: 10;
   border: 5;
@@ -327,8 +339,14 @@ td {
   filter: brightness(90%);
 }
 
+
 details > p {
   padding-left: 5px;
+  margin: 2px 0;
+}
+
+details p:first-of-type {
+  margin-top: 10px;
 }
 
 summary{
@@ -436,17 +454,4 @@ summary{
 
 ::-webkit-scrollbar-thumb:hover {
   background: #d3d3d3;
-}
-
-/* HELPING CLASSES */
-.bg-test {
-  background-color: #FB3640 !important;
-}
-
-.bg-other {
-  background-color: grey !important;
-}
-
-.bg-normal {
-  background-color: rgba(183, 0, 255, 0.637);
 }

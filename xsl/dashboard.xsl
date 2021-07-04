@@ -547,17 +547,21 @@
                 <xsl:value-of select="summary" />
               </summary>
               <p>
-                <xsl:value-of select="starttime/hour" />
-                :
-                <xsl:value-of select="starttime/min" />
+                <xsl:value-of select="starttime/hour" />:<xsl:value-of select="starttime/min" />
                 -
-                <xsl:value-of select="endtime/hour" />
-                :
-                <xsl:value-of select="endtime/min" />
+                <xsl:value-of select="endtime/hour" />:<xsl:value-of select="endtime/min" />
+                Uhr
               </p>
               <p>
                 Raum:
-                <xsl:value-of select="location" />
+                <xsl:variable select="location" name="room">
+                </xsl:variable>
+                <xsl:choose>
+                  <xsl:when test="$room = ''">
+                    <xsl:value-of select="$room"></xsl:value-of>
+                  </xsl:when>
+                  <xsl:otherwise>-</xsl:otherwise>
+                </xsl:choose>
               </p>
             </details>
           </td>
