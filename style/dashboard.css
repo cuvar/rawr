@@ -99,11 +99,11 @@ body {
 .timetable {
   padding: 7px 5px;
   margin-top: 5%;
-  background-color: rgba(183, 0, 255, 0.637);
   border-radius: 15px;
   color: white;
   font-size: 12px;
   color: black;
+  word-break: break-all;
 }
 
 table {
@@ -135,6 +135,9 @@ td {
   border-collapse: separate;
   border-spacing: 5px 5px;
   padding: 0 10px;
+}
+.calendar-main td {
+  height: 100px;
 }
 
 .exams-main table,
@@ -435,14 +438,14 @@ summary{
 }
 
 /* HELPING CLASSES */
-.bg-red {
-  background-color: red !important;
+.bg-test {
+  background-color: #FB3640 !important;
 }
 
-.bg-blue {
-  background-color: turquoise !important;
+.bg-other {
+  background-color: grey !important;
 }
 
-.bg-green {
-  background-color: green !important;
+.bg-normal {
+  background-color: rgba(183, 0, 255, 0.637);
 }

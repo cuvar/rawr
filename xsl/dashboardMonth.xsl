@@ -204,17 +204,17 @@
             <xsl:variable name="duration" select="(endtime/total - starttime/total)div 15"/>
             <xsl:choose>
               <xsl:when test="categories = 'Prüfung'">
-                <div class="timetable" style="background-color:#FB3640;">
+                <div class="timetable bg-test">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:when>
               <xsl:when test="categories = 'Sonstiger Termin'">
-                <div class="timetable" style="background-color: grey;">
+                <div class="timetable bg-other">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                <div class="timetable" >
+                <div class="timetable bg-normal" >
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:otherwise>
