@@ -17,6 +17,9 @@
       <body>
         <div id="easteregg-container">
           <img src="res/logo.png" id="easteregg" ></img>
+          <audio id="easteregg-audio">
+            <source src="./res/roar.mp3" type="audio/mpeg"></source>
+          </audio>
         </div>
 
         <!-- left side -->
