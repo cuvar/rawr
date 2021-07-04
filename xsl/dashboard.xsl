@@ -125,11 +125,11 @@
                 </div>
 
                 <div class="calendar-month">
-                <p>
-                  <xsl:call-template name="getMonthName">
-                    <xsl:with-param name="date" select="$timeframestart"/>
-                  </xsl:call-template>
-                </p>
+                  <p>
+                    <xsl:call-template name="getMonthName">
+                      <xsl:with-param name="date" select="$timeframestart" />
+                    </xsl:call-template>
+                  </p>
                 </div>
               </div>
               <div id="banner-right-wrapper">
@@ -142,23 +142,30 @@
               </div>
             </div>
 
-            
 
             <div class="calendar-main">
-              <table style="height:100%">
-                <tr id="calendar-header">
-                  <th>Montag</th>
-                  <th>Dienstag</th>
-                  <th>Mittwoch</th>
-                  <th>Donnerstag</th>
-                  <th>Freitag</th>
-                  <th>Samstag</th>
-                  <th>Sonntag</th>
-                </tr>
-                <tr>
-                  <xsl:call-template name="Loop" />
-                </tr>
-              </table>
+              <div class="table-head-fixed">
+                <table style="height:100%">
+                  <thead>
+
+                    <tr id="calendar-header">
+                      <th>Montag</th>
+                      <th>Dienstag</th>
+                      <th>Mittwoch</th>
+                      <th>Donnerstag</th>
+                      <th>Freitag</th>
+                      <th>Samstag</th>
+                      <th>Sonntag</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <xsl:call-template name="Loop" />
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
             </div>
           </div>
         </div>
@@ -313,23 +320,23 @@
 
   <!--creats a String with the name of the Day -->
   <xsl:template name="getMonthName">
-    <xsl:param name="date"/>
+    <xsl:param name="date" />
     <xsl:variable name="month">
-      <xsl:value-of select="substring($date,5,2)"/>
+      <xsl:value-of select="substring($date,5,2)" />
     </xsl:variable>
     <xsl:choose>
       <xsl:when test="$month = 1">Januar</xsl:when>
-      <xsl:when test="$month = 2 " >Februar</xsl:when>
-      <xsl:when test="$month = 3 " >März</xsl:when>
+      <xsl:when test="$month = 2 ">Februar</xsl:when>
+      <xsl:when test="$month = 3 ">März</xsl:when>
       <xsl:when test="$month = 4 ">April</xsl:when>
       <xsl:when test="$month = 5 ">Mai</xsl:when>
       <xsl:when test="$month = 6 ">Juni</xsl:when>
       <xsl:when test="$month = 7 ">Juli</xsl:when>
       <xsl:when test="$month = 8">August</xsl:when>
       <xsl:when test="$month = 9">September</xsl:when>
-      <xsl:when test="$month = 10">Oktober</xsl:when>  
-      <xsl:when test="$month = 11" >November</xsl:when>
-      <xsl:when test="$month = 12" >Dezember</xsl:when>
+      <xsl:when test="$month = 10">Oktober</xsl:when>
+      <xsl:when test="$month = 11">November</xsl:when>
+      <xsl:when test="$month = 12">Dezember</xsl:when>
       <xsl:otherwise>Error: Month doesn't exist</xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -363,7 +370,7 @@
 
         <xsl:choose>
           <xsl:when test="$addedYearDate = $date">
-            <xsl:variable name="addedDays" select="($date +(73 -($day + 2 -30) ))"/>
+            <xsl:variable name="addedDays" select="($date +(73 -($day + 2 -30) ))" />
             <xsl:value-of select="$addedDays" />
           </xsl:when>
 
@@ -454,7 +461,7 @@
           </xsl:otherwise>
         </xsl:choose>
 
-        
+
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -462,7 +469,7 @@
   <!-- add year at the end of the year -->
   <xsl:template name="addYear">
     <xsl:param name="date" />
-    <xsl:param name="number"/>
+    <xsl:param name="number" />
 
     <xsl:variable name="day">
       <xsl:value-of select="substring($date,7,2)" />
@@ -496,7 +503,7 @@
 
   <xsl:template name="subtractYear">
     <xsl:param name="date" />
-    <xsl:param name="number"/>
+    <xsl:param name="number" />
 
     <xsl:variable name="day">
       <xsl:value-of select="substring($date,7,2)" />
@@ -525,7 +532,7 @@
         <xsl:value-of select="$date" />
       </xsl:otherwise>
     </xsl:choose>
-    
+
   </xsl:template>
 
   <!--returns all Events with "Prüfung" as their categorie-->
@@ -652,13 +659,13 @@
 
   <!--changes Time to adaped to Timezone and addes dutation to each event-->
   <xsl:template name="secondPreProcessing">
-      <xsl:for-each select="$precalendar/event">
-        <xsl:variable name="year" select="startdate/year"/>
-        <!--calculating on the day off daylightsaving starts and ends startin at year 2000-->
-        <xsl:variable name="summerttimestart" select="(31 - ((($year - 1995) + (($year - 2000) div 4)) mod 7) + ($year * 10000) + 300)"/>
-        <xsl:variable name="summerttimeend" select="(31 - ((($year - 1998) + (($year - 2000) div 4)) mod 7) + ($year * 10000)+ 1000)"/>
-        <xsl:variable name="startdate" select="startdate/total"/>
-        <xsl:variable name="enddate" select="enddate/total"/>
+    <xsl:for-each select="$precalendar/event">
+      <xsl:variable name="year" select="startdate/year" />
+      <!--calculating on the day off daylightsaving starts and ends startin at year 2000-->
+      <xsl:variable name="summerttimestart" select="(31 - ((($year - 1995) + (($year - 2000) div 4)) mod 7) + ($year * 10000) + 300)" />
+      <xsl:variable name="summerttimeend" select="(31 - ((($year - 1998) + (($year - 2000) div 4)) mod 7) + ($year * 10000)+ 1000)" />
+      <xsl:variable name="startdate" select="startdate/total" />
+      <xsl:variable name="enddate" select="enddate/total" />
       <event>
         <xsl:for-each select="*">
           <xsl:choose>
@@ -728,11 +735,11 @@
           </xsl:choose>
         </xsl:for-each>
         <duration>
-        <xsl:value-of select="(endtime/total - starttime/total)div 15" />
+          <xsl:value-of select="(endtime/total - starttime/total)div 15" />
         </duration>
       </event>
-      </xsl:for-each>
-    
+    </xsl:for-each>
+
   </xsl:template>
 
   <!--restuns nearest Mondey to any given Date-->

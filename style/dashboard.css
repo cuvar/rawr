@@ -134,6 +134,7 @@ td {
 .calendar-main table {
   border-collapse: separate;
   border-spacing: 5px 5px;
+  padding: 0 10px;
 }
 
 .exams-main table,
