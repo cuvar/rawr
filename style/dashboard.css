@@ -192,6 +192,14 @@ td {
   margin-left: 10px;
 }
 
+.nav-btn:hover {
+  filter: brightness(90%);
+}
+
+.nav-btn:active {
+  filter: brightness(80%);
+}
+
 .class {
   width: 90%;
   height: 65%;
@@ -224,22 +232,21 @@ td {
   margin-right: 20px;
 }
 
-.icon-buttons {
+.btn-icon {
   float: right;
   background-color: transparent;
   border: none
 }
-.icon-buttons img {
-  color: #003F61;
+.btn-icon img {
+  color: white !important;
   width: 18px !important;
   margin-left: 10px;
 }
 
-.icon-buttons img:hover {
+.btn-icon img:hover {
   cursor: pointer;
-  color: red !important;
 }
-.icon-buttons img:focus {
+.btn-icon img:focus {
   color: #008dda;
 
 }

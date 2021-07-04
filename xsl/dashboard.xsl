@@ -124,7 +124,7 @@
                   </a>
                 </div>
 
-                <div class="calendar_month">
+                <div class="calendar-month">
                 <p>
                   <xsl:call-template name="getMonthName">
                     <xsl:with-param name="date" select="$timeframestart"/>
@@ -132,16 +132,17 @@
                 </p>
                 </div>
               </div>
+              <div id="banner-right-wrapper">
+                <button class="btn-icon">
+                  <img src="res/download-solid.svg" alt="Download ical" />
+                </button>
+                <button class="btn-icon">
+                  <img src="res/plus-solid.svg" alt="Add note" />
+                </button>
+              </div>
             </div>
 
-            <div id="banner-right-wrapper">
-              <button class="icon-buttons">
-                <img src="res/download-solid.svg" alt="Download ical" />
-              </button>
-              <button class="icon-buttons">
-                <img src="res/plus-solid.svg" alt="Add Note" />
-              </button>
-            </div>
+            
 
             <div class="calendar-main">
               <table style="height:100%">

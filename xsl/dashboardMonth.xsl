@@ -114,10 +114,10 @@
               </div>
 
               <div id="banner-right-wrapper">
-                <button class="icon-buttons">
+                <button class="btn-icon">
                   <img src="res/download-solid.svg" alt="Download ical"/>
                 </button>
-                <button class="icon-buttons">
+                <button class="btn-icon">
                   <img src="res/plus-solid.svg" alt="Add Note"/>
                 </button>
               </div>
