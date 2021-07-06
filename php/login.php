@@ -13,7 +13,7 @@ session_start();
 
 // Check if the user is already logged in, if yes then redirect him to main page
 if (isset($_SESSION["loggedin"]) && isset($_COOKIE["loggedin"]) && $_COOKIE["loggedin"] == "true" && $_SESSION["loggedin"] === true) {
-    header("location: ../index.xml");
+    header("location: ../index.php");
     exit;
 }
 
@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 // redirect to page
-header("location: ../index.xml");
+header("location: ../index.php");
 // may be omitted, if there is another way of indicating an error
 if (isset($error)) {
     echo '<script>alert("' . $error . ' ")</script>';

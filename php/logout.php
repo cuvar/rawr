@@ -14,5 +14,5 @@ session_destroy();
 session_write_close();
 
 // redirect 
-header("location: ../index.xml");
+header("location: ../index.php");
 exit;
