@@ -1,0 +1,185 @@
+
+  <!--@toDo-->
+  <!--adds one week to a given date-->
+  <xsl:template name="addWeek">
+    <xsl:param name="date"/>
+  <xsl:template>
+
+  <!--@toDo-->
+  <!--adds one month to a given date-->
+  <xsl:template name="addMonth">
+    <xsl:param name="date"/>
+  <xsl:template>
+
+  <!--@toDo-->
+  <!--adds one year to a given date-->
+  <xsl:template name="addYear">
+    <xsl:param name="date"/>
+  <xsl:template>
+
+<xsl:template name="addWeek">
+  <xsl:param name="date"/>
+  <xsl:param name="days"/>
+  <xsl:param name="total"/>
+
+  <xsl:variable name="day">
+          <xsl:value-of select="substring($date,7,2)"/>
+  </xsl:variable>
+
+  <xsl:choose>
+      <xsl:when test="$day +7 >= $days">
+        <xsl:call-template name="Loop">
+          <xsl:with-param name="index" select="$date +(79 -($day + 2 -30) )" />
+          <xsl:with-param name="total" select="$total" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:call-template name="Loop">
+          <xsl:with-param name="index" select="$date + 7" />
+          <xsl:with-param name="total" select="$total" />
+        </xsl:call-template>
+      </xsl:otherwise>
+    </xsl:choose>
+</xsl:template>
+
+<!--returns, when given a calculated month number and the Date, the Dayname of a Date-->
+  <xsl:template name="getDayName">
+    <xsl:param name="date"/>
+    <xsl:param name="monthcode"/>
+
+    <xsl:variable name="day">
+          <xsl:value-of select="substring($date,7,2)"/>
+    </xsl:variable>
+    <xsl:variable name="month">
+          <xsl:value-of select="substring($date,5,2)"/>
+    </xsl:variable>
+    <xsl:variable name="year">
+          <xsl:value-of select="substring($date,3,2)"/>
+    </xsl:variable>
+
+    <xsl:variable name="dayname" select="($day+$monthcode+6+$year+round($year div 4))mod 7"/>
+    <td>
+    <xsl:choose>
+      <xsl:when test="$dayname = 0">
+        <dt>Sa</dt>
+      </xsl:when>
+      <xsl:when test="$dayname = 1">
+        So
+      </xsl:when>
+      <xsl:when test="$dayname = 2">
+        Mo
+      </xsl:when>
+      <xsl:when test="$dayname = 3">
+        Di
+      </xsl:when>
+      <xsl:when test="$dayname = 4">
+        Mi
+      </xsl:when>
+      <xsl:when test="$dayname = 5">
+        Do
+      </xsl:when>
+      <xsl:when test="$dayname = 6">
+        Fr
+      </xsl:when>
+      <xsl:otherwise>
+        Errr
+        <xsl:value-of select="$date"/>
+      </xsl:otherwise>
+      </xsl:choose>
+    </td>
+  </xsl:template>
+
+  <!--creats a String with the name of the Day -->
+  <xsl:template name="getDay">
+  <xsl:param name="date"/>
+  <xsl:variable name="month">
+    <xsl:value-of select="substring($date,5,2)"/>
+  </xsl:variable>
+
+  <xsl:choose>
+      <xsl:when test="$month = 1">
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="1" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 10">
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="1" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 2 " >
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="4" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 3 " >
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="4" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 11" >
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="4" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 4 ">
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="0" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 7 ">
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="0" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 5 ">
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="2" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 6 ">
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="5" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$month = 8">
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="3" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:call-template name="getDayName">
+          <xsl:with-param name="date" select="$date" />
+          <xsl:with-param name="monthcode" select="0" />
+        </xsl:call-template>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+
+
+  <td>
+                        <div class="calendar-day">
+                          <p>1</p>
+                        </div>
+                        <div class="timetable-content">
+                          <div class="timetable">Mathe Montag Lul</div>
+                          <div class="timetable">Mathe Montag Lul</div>
+                        </div>
+                      </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
