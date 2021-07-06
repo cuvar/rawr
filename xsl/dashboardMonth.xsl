@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type = "text/xsl"?>
-<xsl:stylesheet version="1.0" xmlns:ext="http://exslt.org/common" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:date="http://exslt.org/dates-and-times">
+<xsl:stylesheet version="1.0"
+  xmlns:ext="http://exslt.org/common"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:date="http://exslt.org/dates-and-times">
 
-  <xsl:variable name="timeframestart" select="20210426" />
-  <xsl:variable name="timeframeend" select="20210606" />
-  <xsl:variable name="currentDate" select="20210510" />
+  <xsl:param name="timeframestart" select="20210426" />
+  <xsl:param name="timeframeend" select="20210606" />
+  <xsl:param name="currentDate" select="20210510" />
   <xsl:variable name="currentYear">
     <xsl:value-of select="substring($currentDate,1,4)" />
   </xsl:variable>

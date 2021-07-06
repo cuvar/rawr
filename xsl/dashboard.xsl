@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type = "text/xsl"?>
-<xsl:stylesheet version="1.0" xmlns:ext="http://exslt.org/common" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:date="http://exslt.org/dates-and-times">
+<xsl:stylesheet version="1.0"
+  xmlns:ext="http://exslt.org/common"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:date="http://exslt.org/dates-and-times">
 
   <xsl:param name="timeframestart" select="20210510" />
   <xsl:param name="timeframeend" select="20210516" />
@@ -280,10 +283,10 @@
         <xsl:choose>
           <xsl:when test="$year mod 4 = 0">
           29
-        </xsl:when>
+          </xsl:when>
           <xsl:otherwise>
           28
-      </xsl:otherwise>
+          </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
       <xsl:when test="$month = 3 ">
