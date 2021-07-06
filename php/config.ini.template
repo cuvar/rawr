@@ -1,0 +1,11 @@
+[users]
+name1["username"] = "username"
+name1["password"]= 'PASSWORD_BCRYPTHASH'
+name1["write"]= "true" || "false"
+name1["id"]= id
+
+name2["username"] = "username"
+name2["password"]= 'PASSWORD_BCRYPTHASH'
+name2["write"]= "true" || "false"
+name2["id"]= id
+

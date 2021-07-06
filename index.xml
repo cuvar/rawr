@@ -43,15 +43,15 @@
       </course>
       <course>
         <name>TINF18B3</name>
-        <user>?</user>
+        <user>vollmer</user>
       </course>
       <course>
         <name>TINF18B4</name>
-        <user>?</user>
+        <user>eisenbiegler</user>
       </course>
       <course>
         <name>TINF18B5</name>
-        <user>?</user>
+        <user>strand</user>
       </course>
     </year>
     <year>
@@ -65,15 +65,15 @@
       </course>
       <course>
         <name>TINF19B3</name>
-        <user>?</user>
+        <user>vollmer</user>
       </course>
       <course>
         <name>TINF19B4</name>
-        <user>?</user>
+        <user>eisenbiegler</user>
       </course>
       <course>
         <name>TINF19B5</name>
-        <user>?</user>
+        <user>strand</user>
       </course>
     </year>
     <year>
@@ -87,15 +87,15 @@
       </course>
       <course>
         <name>TINF20B3</name>
-        <user>?</user>
+        <user>vollmer</user>
       </course>
       <course>
         <name>TINF20B4</name>
-        <user>?</user>
+        <user>eisenbiegler</user>
       </course>
       <course>
         <name>TINF20B5</name>
-        <user>?</user>
+        <user>strand</user>
       </course>
     </year>
   </university>

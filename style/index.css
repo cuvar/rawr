@@ -122,7 +122,7 @@ body {
   margin-top: 5px;
 }
 
-#submit-btn {
+.submit-btn {
   background-color: #88bbd8;
   color: white;
   border: none;
@@ -134,12 +134,31 @@ body {
   border-radius: 10px;
 }
 
-#submit-btn:hover {
+.submit-btn:hover {
   filter: brightness(90%);
 }
 
-#submit-btn:active {
+.submit-btn:active {
   filter: brightness(80%);
+}
+
+.login-btn {
+  background-color: #03945d;
+  color: white;
+}
+
+.logout-btn {
+  background-color: #8b062e;
+  color: white;
+}
+
+#logout-container {
+  display: block;
+  margin-top: 25%;
+}
+
+.display-none {
+  display: none !important;
 }
 
 label {

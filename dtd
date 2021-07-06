@@ -1,0 +1,31 @@
+<!DOCTYPE calendar [
+<!ELEMENT calendar (info,timezone, event*)>
+    <!ELEMENT info(user, class>
+        <!ELEMENT user (#PCDATA)>
+        <!ELEMENT class (#PCDATA)>
+    <!ELEMENT timezone(tz_name, tz_url)>
+        <!ELEMENT tz_name (#PCDATA)>
+        <!ELEMENT tz_url (#PCDATA)>
+    <!ELEMENT event (last_modified, created, start, uid, summary, rrule?, category*, organizer, attendee*)>
+        <!ELEMENT last_modified (#PCDATA)>
+        <!ELEMENT created (#PCDATA)>
+        <!ELEMENT start (#PCDATA)>
+        <!ELEMENT uid (#PCDATA)>
+        <!ELEMENT summary (#PCDATA)>
+        <!ELEMENT rrule (frequency, count, interval, weekday)>
+            <!ELEMENT frequency (#PCDATA)>
+            <!ELEMENT count (#PCDATA)>
+            <!ELEMENT interval (#PCDATA)>
+            <!ELEMENT weekday (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT location (#PCDATA)>
+        <!ELEMENT category (#PCDATA)>  <!--Maybe mit semikolon abgetrennt-->
+        <!ELEMENT organizer (name, contact)>
+            <!ELEMENT name (#PCDATA)>
+            <!ELEMENT contact (#PCDATA)>
+        <!ELEMENT attendee (name, contact, status, role)>
+            <!ELEMENT name (#PCDATA)>
+            <!ELEMENT contact (#PCDATA)>
+            <!ELEMENT status (#PCDATA)>
+            <!ELEMENT role (#PCDATA)>
+]>
