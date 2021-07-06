@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type = "text/xsl" href="xsl/index.xsl"?>
-<xsl:stylesheet version="1.0"
-  xmlns:ext="http://exslt.org/common"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:ext="http://exslt.org/common" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:param name="currentDate" select="20210510" />
 
@@ -16,7 +14,7 @@
 
       <body>
         <div id="easteregg-container">
-          <img src="res/logo.png" id="easteregg" ></img>
+          <img src="res/logo.png" id="easteregg"></img>
           <audio id="easteregg-audio">
             <source src="./res/roar.mp3" type="audio/mpeg"></source>
           </audio>
@@ -49,31 +47,41 @@
           <!-- login container -->
           <div class="login-container">
             <div class="form-container">
-              <div class="form-wrapper">
+
+              <form class="form-wrapper" action="php/login.php" method="post">
                 <div class="form-row">
                   <div class="form-column">
                     <label>Username</label>
                     <label>Password</label>
                   </div>
                   <div class="form-column">
-                    <input id="user-input" type="text" />
-                    <input id="password-input" type="password" />
+                    <input id="user-input" type="text" name="username" />
+                    <input id="password-input" type="password" name="password" />
                   </div>
                 </div>
                 <div class="form-row">
-                  <button id="submit-btn" onclick="submitLogin()">Login</button>
+                  <input type="submit" id="submit-btn">Login</input>
                 </div>
-              </div>
+              </form>
+
+              <p>
+                <a href="php/logout.php" style="color: white;" target="self">Logout</a>
+              </p>
+
             </div>
           </div>
 
           <!-- motto container -->
           <div class="motto-container">
             <h2 id="date">
-              
-              <xsl:value-of select="substring($currentDate,7,2)" />.<xsl:value-of select="substring($currentDate,5,2)" />.<xsl:value-of select="substring($currentDate,1,4)" />
+
+              <xsl:value-of select="substring($currentDate,7,2)" />
+              .
+              <xsl:value-of select="substring($currentDate,5,2)" />
+              .
+              <xsl:value-of select="substring($currentDate,1,4)" />
             </h2>
-            <xsl:variable name="number" select="$currentDate mod 7"/>
+            <xsl:variable name="number" select="$currentDate mod 7" />
             <xsl:for-each select="elements/mottos/motto">
               <p id="motto-text">
                 <xsl:if test="index = $number">
@@ -87,5 +95,5 @@
       </body>
     </html>
   </xsl:template>
-  
+
 </xsl:stylesheet>
