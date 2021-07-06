@@ -12,7 +12,7 @@
         <script src="./js/app.js"></script>
       </head>
 
-      <body>
+      <body >
         <div id="easteregg-container">
           <img src="res/logo.png" id="easteregg"></img>
           <audio id="easteregg-audio">
@@ -48,7 +48,7 @@
           <div class="login-container">
             <div class="form-container">
 
-              <form class="form-wrapper" action="php/login.php" method="post">
+              <form class="form-wrapper" id="login-container" action="php/login.php" method="post">
                 <div class="form-row">
                   <div class="form-column">
                     <label>Username</label>
@@ -60,13 +60,15 @@
                   </div>
                 </div>
                 <div class="form-row">
-                  <input type="submit" id="submit-btn">Login</input>
+                  <input type="submit" class="submit-btn login-btn" value="Login"></input>
                 </div>
               </form>
 
-              <p>
-                <a href="php/logout.php" style="color: white;" target="self">Logout</a>
-              </p>
+              <form class="form-wrapper" id="logout-container" action="php/logout.php" method="post">
+                <div class="form-row">
+                  <input type="submit" class="submit-btn logout-btn" value="Logout"></input>
+                </div>
+              </form>
 
             </div>
           </div>
