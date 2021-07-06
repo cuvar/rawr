@@ -1,0 +1,4589 @@
+<?xml version="1.0" ?>
+<calendar>
+    <timezone>
+        <tz_name>Europe/Berlin</tz_name>
+        <tz_timezone>http://tzurl.org/zoneinfo/Europe/Berlin</tz_timezone>
+    </timezone>
+    <info>
+        <user>strand</user>
+        <class>TINF20B5</class>
+    </info>
+    <event>
+        <created>20180328T074129Z</created>
+        <attendee>
+            <name>Arnold, Christian</name>
+            <contact>carnold@web.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210318T122801Z</dtstamp>
+        <end>20210804T093000Z</end>
+        <last_modified>20210318T122801Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210804T080000Z</start>
+        <summary>Marketing  (60 min)</summary>
+        <uid>a4cfc6a0-99e3-4c54-b9ec-765b841197b4</uid>
+    </event>
+    <event>
+        <created>20210226T111634Z</created>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210608T130808Z</dtstamp>
+        <end>20210330T090000Z</end>
+        <last_modified>20210608T130808Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>TINF20B5</name>
+            <contact>TINF20B5</contact>
+        </organizer>
+        <start>20210330T070000Z</start>
+        <summary>Freiwillige Übung</summary>
+        <uid>a9edd83c-f2fd-4418-b32c-efcf95223225</uid>
+    </event>
+    <event>
+        <created>20150327T122407Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210616T095030Z</dtstamp>
+        <description>Programmieren TINF20B5</description>
+        <end>20210705T154500Z</end>
+        <last_modified>20210616T095030Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210705T113000Z</start>
+        <summary>Programmieren</summary>
+        <uid>a000350c-ac6e-467f-9d9b-f4fa68c01568</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061752Z</dtstamp>
+        <end>20180402T160000Z</end>
+        <last_modified>20210215T061752Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20180402T060000Z</start>
+        <summary>Ostermontag</summary>
+        <uid>ad8da2d1-9425-4697-b6aa-d06994555b58</uid>
+    </event>
+    <event>
+        <created>20150327T122156Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210618T053548Z</dtstamp>
+        <description>Theoretische Informatik II TINF20B5</description>
+        <end>20210625T101500Z</end>
+        <last_modified>20210618T053548Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210625T070000Z</start>
+        <summary>Theoretische Informatik II</summary>
+        <uid>a754f004-2b1e-40cf-b787-2ac16b0bf38f</uid>
+    </event>
+    <event>
+        <created>20150327T121745Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>TU</byday>
+        </rrule>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210510T131901Z</dtstamp>
+        <description>Mathematik I - Analysis TINF20B5</description>
+        <end>20210511T111500Z</end>
+        <last_modified>20210510T131901Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210511T070000Z</start>
+        <summary>Mathematik I - Analysis</summary>
+        <uid>a16c1417-bfc3-4ccd-827e-495c72ae8a13</uid>
+    </event>
+    <event>
+        <created>20171017T114210Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T134535Z</dtstamp>
+        <end>20190305T073000Z</end>
+        <last_modified>20201215T134535Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20190305T070000Z</start>
+        <summary>Faschingsdienstag</summary>
+        <uid>aeef6408-48f7-4511-b0d0-6fb72a3b21da</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210223T121454Z</dtstamp>
+        <description>Theoretische Informatik I TINF20B5</description>
+        <end>20210209T171500Z</end>
+        <last_modified>20210223T121454Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210209T130000Z</start>
+        <summary>Theoretische Informatik I</summary>
+        <uid>a5f9788e-89d8-4844-8c30-0898a39979ef</uid>
+    </event>
+    <event>
+        <created>20171221T113704Z</created>
+        <rrule>
+            <freq>YEARLY</freq>
+            <count>10</count>
+        </rrule>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201217T135522Z</dtstamp>
+        <end>20180501T160000Z</end>
+        <last_modified>20201217T135522Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20180501T060000Z</start>
+        <summary>Tag der Arbeit</summary>
+        <uid>a2de0bb3-2532-4871-8eca-1de4c99ee70e</uid>
+    </event>
+    <event>
+        <created>20171017T114210Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T134535Z</dtstamp>
+        <end>20230221T073000Z</end>
+        <last_modified>20201215T134535Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20230221T070000Z</start>
+        <summary>Faschingsdienstag</summary>
+        <uid>a44c3d84-ece8-4189-9e67-636d1aa6b6c0</uid>
+    </event>
+    <event>
+        <created>20201028T125849Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210115T112224Z</dtstamp>
+        <description>Lern-/Arbeitstechnik TINF20B5</description>
+        <end>20210126T161500Z</end>
+        <last_modified>20210115T112224Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210126T130000Z</start>
+        <summary>Lern-/Arbeitstechnik</summary>
+        <uid>a8c4c5dd-921e-489e-bbc5-8661f357ecca</uid>
+    </event>
+    <event>
+        <created>20150327T123128Z</created>
+        <attendee>
+            <name>Lauer, Silvia</name>
+            <contact>silvia.lauer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210629T103840Z</dtstamp>
+        <description>Intercultural Communikation 2 Gruppe 2 TINF20B5</description>
+        <end>20210701T083000Z</end>
+        <last_modified>20210629T103840Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210701T070000Z</start>
+        <summary>Intercultural Communikation 2 Gruppe 2</summary>
+        <uid>a8da6341-9db0-4851-9c3a-a8fb7d43519f</uid>
+    </event>
+    <event>
+        <created>20140408T093406Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>4</count>
+            <interval>1</interval>
+            <byday>TH</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210316T085304Z</dtstamp>
+        <description>Funktionale Sprachen TINF20B5</description>
+        <end>20210624T134500Z</end>
+        <last_modified>20210316T085304Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210624T111500Z</start>
+        <summary>Funktionale Sprachen</summary>
+        <uid>a131e7bf-d100-4993-a8e4-0314722cb36c</uid>
+    </event>
+    <event>
+        <created>20180205T092414Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133446Z</dtstamp>
+        <end>20240520T160000Z</end>
+        <last_modified>20201215T133446Z</last_modified>
+        <organizer>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20240520T060000Z</start>
+        <summary>Pfingstmontag</summary>
+        <uid>a99d4a52-045e-45d7-ba0e-3102c2c7c197</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>WE</byday>
+        </rrule>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210203T133331Z</dtstamp>
+        <description>Technische Informatik I - Digitaltechnik TINF20B5</description>
+        <end>20210113T104500Z</end>
+        <last_modified>20210203T133331Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210113T073000Z</start>
+        <summary>Technische Informatik I - Digitaltechnik</summary>
+        <uid>a49a0d1e-03eb-4fc9-9763-7eb8a3ae64a0</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061737Z</dtstamp>
+        <end>20220415T160000Z</end>
+        <last_modified>20210215T061737Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20220415T060000Z</start>
+        <summary>Karfreitag</summary>
+        <uid>abdd6408-b9a6-4e82-8dad-213b1bc627d4</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133458Z</dtstamp>
+        <end>20240530T160000Z</end>
+        <last_modified>20201215T133458Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20240530T060000Z</start>
+        <summary>Fronleichnam</summary>
+        <uid>aaa5b4c3-9b6e-42ea-a989-66cc11d756b0</uid>
+    </event>
+    <event>
+        <created>20210203T132944Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210618T053750Z</dtstamp>
+        <end>20210806T093000Z</end>
+        <last_modified>20210618T053750Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210806T080000Z</start>
+        <summary>Klausur Theoretische Informatik II  (90 min)</summary>
+        <uid>a5280da2-b0d0-4e0a-bc2c-a3bada1affdc</uid>
+    </event>
+    <event>
+        <created>20171017T114210Z</created>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T134535Z</dtstamp>
+        <end>20250304T073000Z</end>
+        <last_modified>20201215T134535Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20250304T070000Z</start>
+        <summary>Faschingsdienstag</summary>
+        <uid>a445d774-0902-4c39-a665-5d6abfb3e1b1</uid>
+    </event>
+    <event>
+        <created>20191030T064841Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20200812T132542Z</dtstamp>
+        <description>Immatag - Informatik TINF20B5</description>
+        <end>20201001T100000Z</end>
+        <last_modified>20200812T132542Z</last_modified>
+        <location>A366 HD Hörsaal</location>
+        <organizer>
+            <name>Herold, Bernhard</name>
+            <contact>bernhard.herold@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20201001T070000Z</start>
+        <summary>Immatag - Informatik</summary>
+        <uid>a25fcec0-aa5c-4268-927c-42e5ff723f50</uid>
+    </event>
+    <event>
+        <created>20140410T163524Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>4</count>
+            <interval>1</interval>
+            <byday>WE</byday>
+        </rrule>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210510T132056Z</dtstamp>
+        <description>Technisch Wissenschaftliches Arbeiten TINF20B5</description>
+        <end>20210512T151500Z</end>
+        <last_modified>20210510T132056Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210512T124500Z</start>
+        <summary>Technisch Wissenschaftliches Arbeiten</summary>
+        <uid>a022519a-e68d-41ec-a558-c6fb579e34b9</uid>
+    </event>
+    <event>
+        <created>20171017T114210Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T134535Z</dtstamp>
+        <end>20200225T073000Z</end>
+        <last_modified>20201215T134535Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20200225T070000Z</start>
+        <summary>Faschingsdienstag</summary>
+        <uid>acf05548-e415-43f8-942e-1739071aab79</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061752Z</dtstamp>
+        <end>20200413T160000Z</end>
+        <last_modified>20210215T061752Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20200413T060000Z</start>
+        <summary>Ostermontag</summary>
+        <uid>ac7e977f-0905-4b07-90e8-61d2e45e7f2c</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133458Z</dtstamp>
+        <end>20230608T160000Z</end>
+        <last_modified>20201215T133458Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20230608T060000Z</start>
+        <summary>Fronleichnam</summary>
+        <uid>aa6ea7ea-834e-48ae-ae71-31bd053cf4dd</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>WE</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210323T093820Z</dtstamp>
+        <description>Projektmanagement TINF20B5</description>
+        <end>20210113T140000Z</end>
+        <last_modified>20210323T093820Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210113T123000Z</start>
+        <summary>Projektmanagement</summary>
+        <uid>a0ac3199-adff-4d61-b9a9-6db7bf881155</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>MO</byday>
+        </rrule>
+        <attendee>
+            <name>Lauer, Silvia</name>
+            <contact>silvia.lauer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210203T133302Z</dtstamp>
+        <description>Intercultural Comm Gruppe 2 TINF20B5</description>
+        <end>20210111T150000Z</end>
+        <last_modified>20210203T133302Z</last_modified>
+        <location>D421  Labor\, XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210111T133000Z</start>
+        <summary>Intercultural Comm Gruppe 2</summary>
+        <uid>a0707c21-86fc-41c9-a948-99bfa6822413</uid>
+    </event>
+    <event>
+        <created>20180205T092414Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133446Z</dtstamp>
+        <end>20190610T160000Z</end>
+        <last_modified>20201215T133446Z</last_modified>
+        <organizer>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20190610T060000Z</start>
+        <summary>Pfingstmontag</summary>
+        <uid>a12a5557-1062-4d1f-a18a-9a39f943b924</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133458Z</dtstamp>
+        <end>20220616T160000Z</end>
+        <last_modified>20201215T133458Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20220616T060000Z</start>
+        <summary>Fronleichnam</summary>
+        <uid>ab768240-62ae-4a6f-b3d4-8ad3a3e52cfb</uid>
+    </event>
+    <event>
+        <created>20201001T064832Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201001T064906Z</dtstamp>
+        <end>20201008T161500Z</end>
+        <last_modified>20201001T064906Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20201008T160000Z</start>
+        <summary>alfaview test</summary>
+        <uid>a916be9f-bf65-4966-9011-21d642ac0b44</uid>
+    </event>
+    <event>
+        <created>20150327T124058Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>WE</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210616T070325Z</dtstamp>
+        <description>Projekt Management 2 TINF20B5</description>
+        <end>20210512T121500Z</end>
+        <last_modified>20210616T070325Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210512T104500Z</start>
+        <summary>Projekt Management 2</summary>
+        <uid>a963864e-8993-46b8-8cf0-12c7bf9ed511</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>TH</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210311T071939Z</dtstamp>
+        <description>Programmieren TINF20B5</description>
+        <end>20210114T111500Z</end>
+        <last_modified>20210311T071939Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210114T070000Z</start>
+        <summary>Programmieren</summary>
+        <uid>a4d8df84-9528-4d84-99db-9980896ef641</uid>
+    </event>
+    <event>
+        <created>20150327T122407Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210616T095030Z</dtstamp>
+        <description>Programmieren TINF20B5</description>
+        <end>20210610T151500Z</end>
+        <last_modified>20210616T095030Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210610T110000Z</start>
+        <summary>Programmieren</summary>
+        <uid>a52f1d33-058d-49f5-bcaf-28bd3f40309b</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210226T110937Z</dtstamp>
+        <description>Web-Engineering I TINF20B5</description>
+        <end>20210202T153000Z</end>
+        <last_modified>20210226T110937Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210202T130000Z</start>
+        <summary>Web-Engineering I</summary>
+        <uid>a8c6dafc-744c-4f4e-bf96-8f6b01387ab5</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133428Z</dtstamp>
+        <end>20200521T160000Z</end>
+        <last_modified>20201215T133428Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20200521T060000Z</start>
+        <summary>Christi Himmelfahrt</summary>
+        <uid>ac4f937f-9602-450a-a42f-c9d182aae976</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061752Z</dtstamp>
+        <end>20220418T160000Z</end>
+        <last_modified>20210215T061752Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20220418T060000Z</start>
+        <summary>Ostermontag</summary>
+        <uid>a6220cef-5066-4b16-990c-354ceaa04f6a</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210226T110937Z</dtstamp>
+        <description>Web-Engineering I TINF20B5</description>
+        <end>20210208T100000Z</end>
+        <last_modified>20210226T110937Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210208T073000Z</start>
+        <summary>Web-Engineering I</summary>
+        <uid>a05a8a3b-fb16-445a-85dd-d176b906ed61</uid>
+    </event>
+    <event>
+        <created>20141103T103245Z</created>
+        <rrule>
+            <freq>DAILY</freq>
+            <count>5</count>
+            <interval>1</interval>
+        </rrule>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210120T090729Z</dtstamp>
+        <end>20210802T061500Z</end>
+        <last_modified>20210120T090729Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210802T060000Z</start>
+        <summary>Klausurwoche tinf20\, 2. Semester</summary>
+        <uid>a3ee9a6a-8807-4cde-90a1-dad59ab51bfe</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210311T071939Z</dtstamp>
+        <description>Programmieren TINF20B5</description>
+        <end>20210322T104500Z</end>
+        <last_modified>20210311T071939Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210322T070000Z</start>
+        <summary>Programmieren</summary>
+        <uid>a0a39f04-72e1-4018-87b4-730b94dcb98b</uid>
+    </event>
+    <event>
+        <created>20171017T114210Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T134535Z</dtstamp>
+        <end>20210216T071500Z</end>
+        <last_modified>20201215T134535Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210216T070000Z</start>
+        <summary>Faschingsdienstag</summary>
+        <uid>aefe821b-958a-4ca8-9d83-879f9167aa8b</uid>
+    </event>
+    <event>
+        <created>20150327T123128Z</created>
+        <attendee>
+            <name>Lauer, Silvia</name>
+            <contact>silvia.lauer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210629T103840Z</dtstamp>
+        <description>Intercultural Communikation 2 Gruppe 2 TINF20B5</description>
+        <end>20210629T153000Z</end>
+        <last_modified>20210629T103840Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210629T140000Z</start>
+        <summary>Intercultural Communikation 2 Gruppe 2</summary>
+        <uid>ae85bffa-57c6-440e-8627-5407e10baf99</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061752Z</dtstamp>
+        <end>20210405T160000Z</end>
+        <last_modified>20210215T061752Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210405T060000Z</start>
+        <summary>Ostermontag</summary>
+        <uid>a1ca77fc-f59d-4004-8319-5c56abf09fd0</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>MO</byday>
+        </rrule>
+        <attendee>
+            <name>Lauer, Silvia</name>
+            <contact>silvia.lauer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210203T133250Z</dtstamp>
+        <description>Intercultural Comm Gruppe 1 TINF20B5</description>
+        <end>20210111T130000Z</end>
+        <last_modified>20210203T133250Z</last_modified>
+        <location>D421  Labor\, XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210111T113000Z</start>
+        <summary>Intercultural Comm Gruppe 1</summary>
+        <uid>a0d10c64-2db7-46dc-a645-98f6eff45273</uid>
+    </event>
+    <event>
+        <created>20210628T120852Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210628T120951Z</dtstamp>
+        <end>20210726T103000Z</end>
+        <last_modified>20210628T120951Z</last_modified>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210726T093000Z</start>
+        <summary>Semesterabschlussbesprechung</summary>
+        <uid>af3abf0d-50ac-40f3-8910-f9cdfa085933</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061737Z</dtstamp>
+        <end>20240329T170000Z</end>
+        <last_modified>20210215T061737Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20240329T070000Z</start>
+        <summary>Karfreitag</summary>
+        <uid>ac549852-be29-4fb0-8202-9bf6214f195c</uid>
+    </event>
+    <event>
+        <created>20210226T111634Z</created>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210608T130808Z</dtstamp>
+        <end>20210302T140000Z</end>
+        <last_modified>20210608T130808Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>TINF20B5</name>
+            <contact>TINF20B5</contact>
+        </organizer>
+        <start>20210302T130000Z</start>
+        <summary>Freiwillige Übung</summary>
+        <uid>a3ad912f-8d13-4145-801c-bfc3fc139d2b</uid>
+    </event>
+    <event>
+        <created>20130720T220000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>10</count>
+            <interval>1</interval>
+            <byday>FR</byday>
+        </rrule>
+        <attendee>
+            <name>Brune, Ralf</name>
+            <contact>ralfbrune@cc-center.net</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210620T114936Z</dtstamp>
+        <description>Scaling Networks (CCNA-3\, Z) TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4\, TINF20B3</description>
+        <end>20211008T163000Z</end>
+        <last_modified>20210620T114936Z</last_modified>
+        <location>E309 INF Labor</location>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211008T140000Z</start>
+        <summary>Scaling Networks (CCNA-3\, Z)</summary>
+        <uid>a243d6a6-fe14-4379-88ea-473db549030e</uid>
+    </event>
+    <event>
+        <created>20150327T122156Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>5</count>
+            <interval>2</interval>
+            <byday>MO</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210618T053548Z</dtstamp>
+        <description>Theoretische Informatik II TINF20B5</description>
+        <end>20210510T104500Z</end>
+        <last_modified>20210618T053548Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210510T073000Z</start>
+        <summary>Theoretische Informatik II</summary>
+        <uid>aaee9634-15b8-4d38-92b0-2224e37db488</uid>
+    </event>
+    <event>
+        <created>20150327T123817Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>5</count>
+            <interval>2</interval>
+            <byday>MO</byday>
+        </rrule>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210510T132121Z</dtstamp>
+        <description>Webengineering I TINF20B5</description>
+        <end>20210517T094500Z</end>
+        <last_modified>20210510T132121Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210517T063000Z</start>
+        <summary>Webengineering I</summary>
+        <uid>ab7f7060-a64d-456a-aa05-2dd197c3f62e</uid>
+    </event>
+    <event>
+        <created>20130720T220000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>2</count>
+            <interval>1</interval>
+            <byday>MO</byday>
+        </rrule>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210620T114936Z</dtstamp>
+        <description>Ada TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+        <end>20211004T170000Z</end>
+        <last_modified>20210620T114936Z</last_modified>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211004T143000Z</start>
+        <summary>Ada</summary>
+        <uid>a3a56537-ee6b-4412-ac7d-c5a0b539a474</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>8</count>
+            <interval>1</interval>
+            <byday>TH</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <attendee>
+            <name>Arnold, Christian</name>
+            <contact>carnold@web.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210203T133431Z</dtstamp>
+        <description>BWL TINF20B5</description>
+        <end>20210114T154500Z</end>
+        <last_modified>20210203T133431Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210114T123000Z</start>
+        <summary>BWL</summary>
+        <uid>a9a9160f-c23f-4cd8-9686-a9cec437875d</uid>
+    </event>
+    <event>
+        <created>20180226T065730Z</created>
+        <rrule>
+            <freq>YEARLY</freq>
+            <count>10</count>
+        </rrule>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133517Z</dtstamp>
+        <end>20181003T160000Z</end>
+        <last_modified>20201215T133517Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20181003T060000Z</start>
+        <summary>Tag der deutschen Einheit</summary>
+        <uid>a5d7513f-dc4e-4899-a714-75fe5c96349b</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>FR</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210223T121454Z</dtstamp>
+        <description>Theoretische Informatik I TINF20B5</description>
+        <end>20210115T111500Z</end>
+        <last_modified>20210223T121454Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210115T070000Z</start>
+        <summary>Theoretische Informatik I</summary>
+        <uid>a6e8e909-aea6-459b-92f5-356019a42c83</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133428Z</dtstamp>
+        <end>20190530T160000Z</end>
+        <last_modified>20201215T133428Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20190530T060000Z</start>
+        <summary>Christi Himmelfahrt</summary>
+        <uid>a79d3554-9c73-424b-ba6c-a6aab25a821f</uid>
+    </event>
+    <event>
+        <created>20210527T073231Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210527T073323Z</dtstamp>
+        <end>20210802T100000Z</end>
+        <last_modified>20210527T073323Z</last_modified>
+        <location>A473 W Hörsaal</location>
+        <organizer>
+            <name>Klöppner, Barbara</name>
+            <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210802T080000Z</start>
+        <summary>Klausur Mathematik I-Analysis  TINF20B5  (120 min)</summary>
+        <uid>a9de5474-6551-44cf-8115-0b2cb0dcf442</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>TU</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210302T143419Z</dtstamp>
+        <description>Mathematik I TINF20B5</description>
+        <end>20210112T121500Z</end>
+        <last_modified>20210302T143419Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210112T080000Z</start>
+        <summary>Mathematik I</summary>
+        <uid>a4a6c54e-4e49-4c5c-bf71-1562843b2e60</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210223T121454Z</dtstamp>
+        <description>Theoretische Informatik I TINF20B5</description>
+        <end>20210309T171500Z</end>
+        <last_modified>20210223T121454Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210309T130000Z</start>
+        <summary>Theoretische Informatik I</summary>
+        <uid>ac49fc32-5507-407c-9409-ca7750c4480e</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210226T110937Z</dtstamp>
+        <description>Web-Engineering I TINF20B5</description>
+        <end>20210119T153000Z</end>
+        <last_modified>20210226T110937Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210119T130000Z</start>
+        <summary>Web-Engineering I</summary>
+        <uid>a50d2e5a-287b-4924-bdc6-ce72042c4324</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>FR</byday>
+        </rrule>
+        <attendee>
+            <name>Brune, Ralf</name>
+            <contact>ralfbrune@cc-center.net</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210323T053647Z</dtstamp>
+        <description>Routing and Switching (CCNA-2\, Z) TINF20B5\, TINF20B1\, TINF20B4\, TINF20B3</description>
+        <end>20210514T133000Z</end>
+        <last_modified>20210323T053647Z</last_modified>
+        <location>E309 INF Labor\, XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210514T110000Z</start>
+        <summary>Routing and Switching (CCNA-2\, Z)</summary>
+        <uid>a2b2d776-7492-4e43-b7b4-8bc6adc6929f</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133458Z</dtstamp>
+        <end>20210603T160000Z</end>
+        <last_modified>20201215T133458Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210603T060000Z</start>
+        <summary>Fronleichnam</summary>
+        <uid>a782073c-ee73-4feb-941d-85674092d843</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210226T110937Z</dtstamp>
+        <description>Web-Engineering I TINF20B5</description>
+        <end>20210316T153000Z</end>
+        <last_modified>20210226T110937Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210316T130000Z</start>
+        <summary>Web-Engineering I</summary>
+        <uid>ad22560f-b4c2-4cc7-9ef9-e922fe91d9cb</uid>
+    </event>
+    <event>
+        <created>20201113T113207Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210318T130630Z</dtstamp>
+        <end>20210318T140000Z</end>
+        <last_modified>20210318T130630Z</last_modified>
+        <location>A266  Hörsaal</location>
+        <organizer>
+            <name>Klöppner, Barbara</name>
+            <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210318T130000Z</start>
+        <summary>Klausur BWL TINF20B5  (60 min)</summary>
+        <uid>affde5e4-4517-42a0-aa41-fd3183fe955e</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061752Z</dtstamp>
+        <end>20190422T160000Z</end>
+        <last_modified>20210215T061752Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20190422T060000Z</start>
+        <summary>Ostermontag</summary>
+        <uid>a7f4a13f-0c94-4d43-aa51-8f324df6a062</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210226T110937Z</dtstamp>
+        <description>Web-Engineering I TINF20B5</description>
+        <end>20210216T153000Z</end>
+        <last_modified>20210226T110937Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210216T130000Z</start>
+        <summary>Web-Engineering I</summary>
+        <uid>aead300b-2aef-4248-b29a-c700ab331eb5</uid>
+    </event>
+    <event>
+        <created>20201113T105927Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210318T153612Z</dtstamp>
+        <end>20210331T100000Z</end>
+        <last_modified>20210318T153612Z</last_modified>
+        <location>A471 W Hörsaal</location>
+        <organizer>
+            <name>Klöppner, Barbara</name>
+            <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210331T080000Z</start>
+        <summary>Digitaltechnik  (120 min)</summary>
+        <uid>abbe2e56-c6e0-4178-a7a0-5aee98057bc2</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133458Z</dtstamp>
+        <end>20180531T160000Z</end>
+        <last_modified>20201215T133458Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20180531T060000Z</start>
+        <summary>Fronleichnam</summary>
+        <uid>a7579b49-bb4f-4140-8758-71b04dca877c</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210323T093820Z</dtstamp>
+        <description>Projektmanagement TINF20B5</description>
+        <end>20210224T140000Z</end>
+        <last_modified>20210323T093820Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210224T123000Z</start>
+        <summary>Projektmanagement</summary>
+        <uid>a0c84c08-0144-4660-8464-81a78d7e3e8e</uid>
+    </event>
+    <event>
+        <created>20210120T090807Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210120T090925Z</dtstamp>
+        <end>20210510T061500Z</end>
+        <last_modified>20210120T090925Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210510T060000Z</start>
+        <summary>Semesteranfang 2. Semester</summary>
+        <uid>a0a707af-4900-4b37-8a7f-60e31aa09b0f</uid>
+    </event>
+    <event>
+        <created>20150327T122156Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210618T053548Z</dtstamp>
+        <description>Theoretische Informatik II TINF20B5</description>
+        <end>20210712T141500Z</end>
+        <last_modified>20210618T053548Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210712T110000Z</start>
+        <summary>Theoretische Informatik II</summary>
+        <uid>a8cea42a-ed5e-4e2c-91db-3bdd14bcb3ab</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133428Z</dtstamp>
+        <end>20230518T160000Z</end>
+        <last_modified>20201215T133428Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20230518T060000Z</start>
+        <summary>Christi Himmelfahrt</summary>
+        <uid>a56e1991-2cef-4c80-9278-4a756de90389</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061752Z</dtstamp>
+        <end>20230410T160000Z</end>
+        <last_modified>20210215T061752Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20230410T060000Z</start>
+        <summary>Ostermontag</summary>
+        <uid>acf83393-6b1f-43cb-a0dd-057117a8f739</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210226T110937Z</dtstamp>
+        <description>Web-Engineering I TINF20B5</description>
+        <end>20210125T100000Z</end>
+        <last_modified>20210226T110937Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210125T073000Z</start>
+        <summary>Web-Engineering I</summary>
+        <uid>a649988b-0cf9-4e6a-b60f-96e48ae94e82</uid>
+    </event>
+    <event>
+        <created>20180205T092414Z</created>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133446Z</dtstamp>
+        <end>20200601T160000Z</end>
+        <last_modified>20201215T133446Z</last_modified>
+        <organizer>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20200601T060000Z</start>
+        <summary>Pfingstmontag</summary>
+        <uid>ad91f4cb-cf01-4605-97eb-8edca8f49e61</uid>
+    </event>
+    <event>
+        <created>20210305T113151Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>FR</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <attendee>
+            <name>Brune, Ralf</name>
+            <contact>ralfbrune@cc-center.net</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210305T114032Z</dtstamp>
+        <description>CCNA-1\, Z TINF20B5\, TINF20B1\, TINF20B4</description>
+        <end>20210115T150000Z</end>
+        <last_modified>20210305T114032Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210115T123000Z</start>
+        <summary>CCNA-1\, Z</summary>
+        <uid>afd174da-15c9-4915-a240-191fa3717d11</uid>
+    </event>
+    <event>
+        <created>20180226T065730Z</created>
+        <rrule>
+            <freq>YEARLY</freq>
+            <count>10</count>
+        </rrule>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133544Z</dtstamp>
+        <end>20200106T170000Z</end>
+        <last_modified>20201215T133544Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20200106T070000Z</start>
+        <summary>Hl. 3 Könige</summary>
+        <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061737Z</dtstamp>
+        <end>20190419T160000Z</end>
+        <last_modified>20210215T061737Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20190419T060000Z</start>
+        <summary>Karfreitag</summary>
+        <uid>aab05565-84d9-4559-99fb-f0c17f3d40ec</uid>
+    </event>
+    <event>
+        <created>20180205T092414Z</created>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133446Z</dtstamp>
+        <end>20220606T160000Z</end>
+        <last_modified>20201215T133446Z</last_modified>
+        <organizer>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20220606T060000Z</start>
+        <summary>Pfingstmontag</summary>
+        <uid>a039f8dc-6619-4d1e-aba4-d3e8dc22f012</uid>
+    </event>
+    <event>
+        <created>20210526T133555Z</created>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210528T082903Z</dtstamp>
+        <end>20211004T061500Z</end>
+        <last_modified>20210528T082903Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211004T060000Z</start>
+        <summary>Beginn Theorie 3+5. Semester\, tinf19+20</summary>
+        <uid>a420280b-2e21-4469-8f5b-d998c962d814</uid>
+    </event>
+    <event>
+        <created>20150327T124303Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>WE</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <attendee>
+            <name>Arnold, Christian</name>
+            <contact>carnold@web.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210511T185127Z</dtstamp>
+        <description>Marketing TINF20B5</description>
+        <end>20210512T094500Z</end>
+        <last_modified>20210511T185127Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210512T063000Z</start>
+        <summary>Marketing</summary>
+        <uid>a273c280-1063-47e7-a16e-dab888d33b16</uid>
+    </event>
+    <event>
+        <created>20210626T104142Z</created>
+        <categories>Prüfung</categories>
+        <dtstamp>20210626T104233Z</dtstamp>
+        <end>20210721T130000Z</end>
+        <last_modified>20210626T104233Z</last_modified>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210721T120000Z</start>
+        <summary>Klausur Projektmanagement  ( min)</summary>
+        <uid>a5c2fa7c-1145-49c7-b63b-bd363e86925b</uid>
+    </event>
+    <event>
+        <created>20210318T103653Z</created>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210318T134135Z</dtstamp>
+        <end>20210726T093000Z</end>
+        <last_modified>20210318T134135Z</last_modified>
+        <location>A366 HD Hörsaal</location>
+        <organizer>
+            <name>Klöppner, Barbara</name>
+            <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210726T080000Z</start>
+        <summary>Wegengineering\, TINF20B5\,  (90 min)</summary>
+        <uid>ad7671fe-ef0f-4012-a213-c5322f9bf0be</uid>
+    </event>
+    <event>
+        <created>20150327T122156Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>10</count>
+            <interval>1</interval>
+            <byday>FR</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210618T053548Z</dtstamp>
+        <description>Theoretische Informatik II TINF20B5</description>
+        <end>20210514T104500Z</end>
+        <last_modified>20210618T053548Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210514T073000Z</start>
+        <summary>Theoretische Informatik II</summary>
+        <uid>a06ecbe8-498a-453e-8bfd-ac210f3274e7</uid>
+    </event>
+    <event>
+        <created>20180328T071331Z</created>
+        <categories>Prüfung</categories>
+        <dtstamp>20210318T122801Z</dtstamp>
+        <end>20210802T103000Z</end>
+        <last_modified>20210318T122801Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210802T080000Z</start>
+        <summary>Mathematik I - Analysis  (120 min)</summary>
+        <uid>a116b0e7-3105-4af0-b482-81b5e5480e0a</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061737Z</dtstamp>
+        <end>20200410T160000Z</end>
+        <last_modified>20210215T061737Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20200410T060000Z</start>
+        <summary>Karfreitag</summary>
+        <uid>aca283aa-6195-4e00-a4c7-1649bce826a1</uid>
+    </event>
+    <event>
+        <created>20150327T122407Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210616T095030Z</dtstamp>
+        <description>Programmieren TINF20B5</description>
+        <end>20210727T101500Z</end>
+        <last_modified>20210616T095030Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210727T060000Z</start>
+        <summary>Programmieren</summary>
+        <uid>ad43362d-ca6a-4326-857b-89cee1e9720c</uid>
+    </event>
+    <event>
+        <created>20180205T092414Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133446Z</dtstamp>
+        <end>20230529T160000Z</end>
+        <last_modified>20201215T133446Z</last_modified>
+        <organizer>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20230529T060000Z</start>
+        <summary>Pfingstmontag</summary>
+        <uid>a17c1550-96f0-4364-b776-eb0e05af21df</uid>
+    </event>
+    <event>
+        <created>20171017T114210Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T134535Z</dtstamp>
+        <end>20220301T073000Z</end>
+        <last_modified>20201215T134535Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20220301T070000Z</start>
+        <summary>Faschingsdienstag</summary>
+        <uid>a612058b-a2e2-4b73-9d37-51fee124fabc</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <attendee>
+            <name>Arnold, Christian</name>
+            <contact>carnold@web.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210203T133431Z</dtstamp>
+        <description>BWL TINF20B5</description>
+        <end>20210304T164500Z</end>
+        <last_modified>20210203T133431Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210304T123000Z</start>
+        <summary>BWL</summary>
+        <uid>a3ac42e1-2446-42d7-9bef-53b07cbb325a</uid>
+    </event>
+    <event>
+        <created>20190409T081549Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210419T083955Z</dtstamp>
+        <end>20210510T141500Z</end>
+        <last_modified>20210419T083955Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210510T134500Z</start>
+        <summary>Semestereingangsbesprechung 2. Semester</summary>
+        <uid>a31480cb-19b8-4b41-a62b-cc40dd4e7498</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133428Z</dtstamp>
+        <end>20240509T160000Z</end>
+        <last_modified>20201215T133428Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20240509T060000Z</start>
+        <summary>Christi Himmelfahrt</summary>
+        <uid>a9314cdc-9d48-4b92-9bb8-1ed8be0a3579</uid>
+    </event>
+    <event>
+        <created>20210701T070214Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210701T070404Z</dtstamp>
+        <end>20211005T140000Z</end>
+        <last_modified>20210701T070404Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211005T120000Z</start>
+        <summary>Nach- / Wiederholerklausur Informatik 1 (90 min)</summary>
+        <uid>ab65f33c-776a-409a-b6e3-a8837ce2d612</uid>
+    </event>
+    <event>
+        <created>20180205T092414Z</created>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133446Z</dtstamp>
+        <end>20180521T160000Z</end>
+        <last_modified>20201215T133446Z</last_modified>
+        <organizer>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20180521T060000Z</start>
+        <summary>Pfingstmontag</summary>
+        <uid>a0cb22ff-3507-4d2b-8c80-4981a2db3a4a</uid>
+    </event>
+    <event>
+        <created>20150327T122156Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210618T053548Z</dtstamp>
+        <description>Theoretische Informatik II TINF20B5</description>
+        <end>20210628T141500Z</end>
+        <last_modified>20210618T053548Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210628T110000Z</start>
+        <summary>Theoretische Informatik II</summary>
+        <uid>a02e0b58-c091-4dc9-bf80-014eccc5eb00</uid>
+    </event>
+    <event>
+        <created>20150722T090047Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>9</count>
+            <interval>1</interval>
+            <byday>FR</byday>
+        </rrule>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210627T063450Z</dtstamp>
+        <description>Geschäftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+        <end>20211008T094500Z</end>
+        <last_modified>20210627T063450Z</last_modified>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211008T063000Z</start>
+        <summary>Geschäftsprozesse</summary>
+        <uid>a359d544-6040-45ee-a40c-8c4ec84cfc89</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133428Z</dtstamp>
+        <end>20210513T160000Z</end>
+        <last_modified>20201215T133428Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210513T060000Z</start>
+        <summary>Christi Himmelfahrt</summary>
+        <uid>ae06b49c-03ae-4d2d-a6be-da553a490dab</uid>
+    </event>
+    <event>
+        <created>20171017T114210Z</created>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T134535Z</dtstamp>
+        <end>20180213T073000Z</end>
+        <last_modified>20201215T134535Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20180213T071500Z</start>
+        <summary>Faschingsdienstag</summary>
+        <uid>ac49af4b-36be-432a-ac27-f2f295ab69e7</uid>
+    </event>
+    <event>
+        <created>20150327T122156Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210618T053548Z</dtstamp>
+        <description>Theoretische Informatik II TINF20B5</description>
+        <end>20210728T104500Z</end>
+        <last_modified>20210618T053548Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210728T073000Z</start>
+        <summary>Theoretische Informatik II</summary>
+        <uid>a28c113e-1767-4294-af0d-071b832ec8d8</uid>
+    </event>
+    <event>
+        <created>20181122T131704Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201203T065105Z</dtstamp>
+        <end>20210111T110000Z</end>
+        <last_modified>20201203T065105Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210111T080000Z</start>
+        <summary>Semesterstartbesprechung</summary>
+        <uid>a3fb2703-ff42-40f0-8888-e38573f00a76</uid>
+    </event>
+    <event>
+        <created>20201113T110654Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210318T153902Z</dtstamp>
+        <end>20210329T100000Z</end>
+        <last_modified>20210318T153902Z</last_modified>
+        <location>A268  Hörsaal</location>
+        <organizer>
+            <name>Klöppner, Barbara</name>
+            <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210329T080000Z</start>
+        <summary>Klausur Mathematik I – Lineare Algebra TINF20B5  (120 min)</summary>
+        <uid>a5fddf7c-db31-4a69-80f1-2e08a8ba0c34</uid>
+    </event>
+    <event>
+        <created>20150327T122156Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210618T053548Z</dtstamp>
+        <description>Theoretische Informatik II TINF20B5</description>
+        <end>20210719T104500Z</end>
+        <last_modified>20210618T053548Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210719T073000Z</start>
+        <summary>Theoretische Informatik II</summary>
+        <uid>a441cdb4-f5d4-475d-b7f7-8c400ef5e514</uid>
+    </event>
+    <event>
+        <created>20150327T123128Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>TU</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <attendee>
+            <name>Lauer, Silvia</name>
+            <contact>silvia.lauer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210629T103840Z</dtstamp>
+        <description>Intercultural Communikation 2 Gruppe 2 TINF20B5</description>
+        <end>20210511T151500Z</end>
+        <last_modified>20210629T103840Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210511T134500Z</start>
+        <summary>Intercultural Communikation 2 Gruppe 2</summary>
+        <uid>aa933397-801a-446a-bef1-fb7f68434af7</uid>
+    </event>
+    <event>
+        <created>20160423T145010Z</created>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210620T111652Z</dtstamp>
+        <end>20211223T110000Z</end>
+        <last_modified>20210620T111652Z</last_modified>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211223T090000Z</start>
+        <summary>Klausur Formale Sprachen (90 min)</summary>
+        <uid>a70ed0bd-dbfb-45e3-b157-e6399178b85c</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061752Z</dtstamp>
+        <end>20240401T160000Z</end>
+        <last_modified>20210215T061752Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20240401T060000Z</start>
+        <summary>Ostermontag</summary>
+        <uid>aabfa059-9fc7-4022-8a13-0b82097aafb0</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133458Z</dtstamp>
+        <end>20200611T160000Z</end>
+        <last_modified>20201215T133458Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20200611T060000Z</start>
+        <summary>Fronleichnam</summary>
+        <uid>a454d89e-6b91-4d29-a86e-bcff20f8f6d2</uid>
+    </event>
+    <event>
+        <created>20210327T102311Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210327T102428Z</dtstamp>
+        <end>20210331T103000Z</end>
+        <last_modified>20210327T102428Z</last_modified>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210331T100000Z</start>
+        <summary>Semesterabschlussbesprechung</summary>
+        <uid>a967375b-2897-498a-a503-0ef1680cdfb9</uid>
+    </event>
+    <event>
+        <created>20210526T134010Z</created>
+        <rrule>
+            <freq>DAILY</freq>
+            <count>4</count>
+            <interval>1</interval>
+        </rrule>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210526T134137Z</dtstamp>
+        <end>20211220T071500Z</end>
+        <last_modified>20210526T134137Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211220T070000Z</start>
+        <summary>Klausurwoche 3+5 Semster</summary>
+        <uid>a5f971e2-8248-4a93-9d41-bd9ab8e6917a</uid>
+    </event>
+    <event>
+        <created>20210701T071508Z</created>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210701T071604Z</dtstamp>
+        <end>20211005T140000Z</end>
+        <last_modified>20210701T071604Z</last_modified>
+        <location>A266  Hörsaal</location>
+        <organizer>
+            <name>Klöppner, Barbara</name>
+            <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211005T120000Z</start>
+        <summary>Wiederholer/Nachklausur Informatik 1 TINF20B1\,2\,3\,4\,5  (120 min)</summary>
+        <uid>af4b7fd9-a0e8-4a0f-8700-d8eda9db9cdb</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061737Z</dtstamp>
+        <end>20210402T160000Z</end>
+        <last_modified>20210215T061737Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210402T060000Z</start>
+        <summary>Karfreitag</summary>
+        <uid>a92ed0dd-bc47-43f1-99dd-0c41179bc105</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210311T071939Z</dtstamp>
+        <description>Programmieren TINF20B5</description>
+        <end>20210325T114500Z</end>
+        <last_modified>20210311T071939Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210325T070000Z</start>
+        <summary>Programmieren</summary>
+        <uid>a4b18c77-4fb4-45f6-b837-35931f3dbdb6</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061737Z</dtstamp>
+        <end>20230407T160000Z</end>
+        <last_modified>20210215T061737Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20230407T060000Z</start>
+        <summary>Karfreitag</summary>
+        <uid>a1103fe1-ebf9-42e5-a578-713500d495ec</uid>
+    </event>
+    <event>
+        <created>20180205T092414Z</created>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133446Z</dtstamp>
+        <end>20210524T160000Z</end>
+        <last_modified>20201215T133446Z</last_modified>
+        <organizer>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210524T060000Z</start>
+        <summary>Pfingstmontag</summary>
+        <uid>aa15d8f1-644a-48e9-82a3-94c047f23d85</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210302T143419Z</dtstamp>
+        <description>Mathematik I TINF20B5</description>
+        <end>20210303T161500Z</end>
+        <last_modified>20210302T143419Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210303T120000Z</start>
+        <summary>Mathematik I</summary>
+        <uid>a16e00de-a9a1-4a75-a68b-3cea9595d33f</uid>
+    </event>
+    <event>
+        <created>20180226T065730Z</created>
+        <rrule>
+            <freq>YEARLY</freq>
+            <count>10</count>
+        </rrule>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210526T135302Z</dtstamp>
+        <end>20181101T170000Z</end>
+        <last_modified>20210526T135302Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20181101T070000Z</start>
+        <summary>Allerheiligen</summary>
+        <uid>af50401e-cba7-4b76-ba43-3dd8621e3761</uid>
+    </event>
+    <event>
+        <created>20150327T122407Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210616T095030Z</dtstamp>
+        <description>Programmieren TINF20B5</description>
+        <end>20210531T150000Z</end>
+        <last_modified>20210616T095030Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210531T104500Z</start>
+        <summary>Programmieren</summary>
+        <uid>aa1aef3b-5f7f-4474-b9c9-97b44ef24db7</uid>
+    </event>
+    <event>
+        <created>20150327T122156Z</created>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210618T053548Z</dtstamp>
+        <description>Theoretische Informatik II TINF20B5</description>
+        <end>20210723T104500Z</end>
+        <last_modified>20210618T053548Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210723T073000Z</start>
+        <summary>Theoretische Informatik II</summary>
+        <uid>af41aa0d-17fb-44fb-affd-cf18052f4fa1</uid>
+    </event>
+    <event>
+        <created>20201110T090919Z</created>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210326T061702Z</dtstamp>
+        <end>20210510T134500Z</end>
+        <last_modified>20210326T061702Z</last_modified>
+        <location>A268  Hörsaal</location>
+        <organizer>
+            <name>Klöppner, Barbara</name>
+            <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210510T121500Z</start>
+        <summary>Klausur Informatik – Grundlagen und Logik\,  (90 min)</summary>
+        <uid>a0af231e-31e2-4300-97c1-6541bb63e8cd</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20210215T061737Z</dtstamp>
+        <end>20180330T160000Z</end>
+        <last_modified>20210215T061737Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20180330T060000Z</start>
+        <summary>Karfreitag</summary>
+        <uid>af33c008-4568-4e67-8ad5-a1c4e482bbd6</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133458Z</dtstamp>
+        <end>20190620T160000Z</end>
+        <last_modified>20201215T133458Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20190620T060000Z</start>
+        <summary>Fronleichnam</summary>
+        <uid>af27154f-8710-4308-8b64-e98a03f69c63</uid>
+    </event>
+    <event>
+        <created>20181029T094927Z</created>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T133428Z</dtstamp>
+        <end>20220526T160000Z</end>
+        <last_modified>20201215T133428Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20220526T060000Z</start>
+        <summary>Christi Himmelfahrt</summary>
+        <uid>a35f3137-d216-4c35-b378-92b1ceb72890</uid>
+    </event>
+    <event>
+        <created>20150327T122407Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>12</count>
+            <interval>1</interval>
+            <byday>TH</byday>
+        </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210616T095030Z</dtstamp>
+        <description>Programmieren TINF20B5</description>
+        <end>20210513T101500Z</end>
+        <last_modified>20210616T095030Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210513T060000Z</start>
+        <summary>Programmieren</summary>
+        <uid>a29128d9-e497-41e5-bf6c-7c0280d6ec6a</uid>
+    </event>
+    <event>
+        <created>20171017T114210Z</created>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Sonstiger Termin</categories>
+        <dtstamp>20201215T134535Z</dtstamp>
+        <end>20240213T071500Z</end>
+        <last_modified>20201215T134535Z</last_modified>
+        <organizer>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20240213T070000Z</start>
+        <summary>Faschingsdienstag</summary>
+        <uid>abeae2b8-5c93-414d-aa15-591a066a77f9</uid>
+    </event>
+    <event>
+        <created>20140729T115519Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>9</count>
+            <interval>1</interval>
+            <byday>FR</byday>
+        </rrule>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210620T114936Z</dtstamp>
+        <description>Signale und Systeme TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+        <end>20211008T094500Z</end>
+        <last_modified>20210620T114936Z</last_modified>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211008T063000Z</start>
+        <summary>Signale und Systeme</summary>
+        <uid>a6c2d36b-880f-4a1f-bef2-7932cbe42a81</uid>
+    </event>
+    <event>
+        <created>20150327T123128Z</created>
+        <rrule>
+            <freq>WEEKLY</freq>
+            <count>11</count>
+            <interval>1</interval>
+            <byday>TU</byday>
+        </rrule>
+        <attendee>
+            <name>Lauer, Silvia</name>
+            <contact>silvia.lauer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210510T132030Z</dtstamp>
+        <description>Intercultural Communikation 2 Gruppe 1 TINF20B5</description>
+        <end>20210511T133000Z</end>
+        <last_modified>20210510T132030Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210511T120000Z</start>
+        <summary>Intercultural Communikation 2 Gruppe 1</summary>
+        <uid>acf20dd1-b26b-4167-84de-62adeac8b018</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210226T110937Z</dtstamp>
+        <description>Web-Engineering I TINF20B5</description>
+        <end>20210308T100000Z</end>
+        <last_modified>20210226T110937Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210308T073000Z</start>
+        <summary>Web-Engineering I</summary>
+        <uid>a929c12a-c9d7-4671-a0d0-08c994d94aa1</uid>
+    </event>
+    <event>
+        <created>20210120T085346Z</created>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210616T120916Z</dtstamp>
+        <end>20210806T093000Z</end>
+        <last_modified>20210616T120916Z</last_modified>
+        <location>B354 WI Hörsaal\, B353 WI Hörsaal</location>
+        <organizer>
+            <name>Klöppner, Barbara</name>
+            <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210806T080000Z</start>
+        <summary>Klausur Informatik 2 (90 min)</summary>
+        <uid>a442ce2c-e714-4783-9c73-97b46a17b445</uid>
+    </event>
+    <event>
+        <created>20121115T230000Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210226T110937Z</dtstamp>
+        <description>Web-Engineering I TINF20B5</description>
+        <end>20210222T100000Z</end>
+        <last_modified>20210226T110937Z</last_modified>
+        <location>XOnline-Veranstaltung A Virtueller Raum</location>
+        <organizer>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210222T073000Z</start>
+        <summary>Web-Engineering I</summary>
+        <uid>a73b010c-16e9-4b3d-a8c7-a7348fea2117</uid>
+    </event>
+</calendar>
