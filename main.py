@@ -1,6 +1,8 @@
 import requests
+import recurring_ical_events as rie
+import icalendar
 from ics import Calendar
-from xml.etree.ElementTree import Element, SubElement, Comment
+from xml.etree.ElementTree import Element, SubElement
 from xml.etree import ElementTree
 from xml.dom import minidom
 import re
@@ -15,7 +17,8 @@ def camel_to_snake(name):
 # creates the calendar Element and fills it with information from the ical
 # that is downloaded from the given url from the read_urls() function
 def setup(url):
-    c = Calendar(requests.get(url).text)
+    ical_string = requests.get(url).text
+    ical_calendar = Calendar(ical_string)
 
     calendar = Element("calendar")
     timezone = SubElement(calendar, "timezone")
@@ -31,54 +34,76 @@ def setup(url):
     cclass = SubElement(info, "class")
     cclass.text = url[2].replace("file=", "")
 
-    for event in c.events:
-        event_str = str(event).replace(";", ":").splitlines()
-        attendees_done = False
+    # handle single events
+    single_event_count = convert_ical_to_xml_events(ical_calendar, calendar)
 
-        for attribute in event_str:
-            att = attribute.split(":")
+    # handle recurring events
+    rie_calendar = icalendar.Calendar.from_ical(ical_string)
+    events = rie.of(rie_calendar).all()
+    # convert vevents back to ical string
+    ical_string_header = ical_string[:ical_string.find("BEGIN:VEVENT")]
+    rie_ical_string = f"{ical_string_header}\n" \
+                      + "".join(event.to_ical().decode() for event in events) \
+                      + "END:VCALENDAR"
+    ical_calendar_rie = Calendar(rie_ical_string)
+    convert_ical_to_xml_events(ical_calendar_rie, calendar)
 
-            if att[0] == "BEGIN":
-                ev = SubElement(calendar, "event")
-            elif att[0] == "ATTENDEE":
-                if not attendees_done:
-                    for attendee in event.attendees:
-                        element = SubElement(ev, "attendee")
-                        name = SubElement(element, "name")
-                        name.text = attendee.common_name
-                        contact = SubElement(element, "contact")
-                        contact.text = attendee.email
-                        status = SubElement(element, "status")
-                        status.text = attendee.partstat
-                        role = SubElement(element, "role")
-                        role.text = attendee.role
-                    attendees_done = True
-            elif att[0] == "ORGANIZER":
-                organizer = SubElement(ev, "organizer")
-                name = SubElement(organizer, "name")
-                name.text = event.organizer.common_name
-                contact = SubElement(organizer, "contact")
-                contact.text = event.organizer.email
-            elif att[0] == "DTSTART":
-                y = SubElement(ev, "start")
-                y.text = att[1]
-            elif att[0] == "DTEND":
-                y = SubElement(ev, "end")
-                y.text = att[1]
-            elif att[0] == "RRULE":
-                rrule = SubElement(ev, "rrule")
-                att.remove("RRULE")
-                for rule_attribute in att:
-                    att_split = rule_attribute.split("=")
-                    y = SubElement(rrule, camel_to_snake(att_split[0]))
-                    y.text = att_split[1]
-            elif att[0] != "END":
-                y = SubElement(ev, camel_to_snake(att[0]))
-                y.text = att[1]
-
-    print(len(c.events), "Events")
+    print(single_event_count, "/", len(ical_calendar.events), "Single Events")
+    print(len(ical_calendar_rie.events), "Recurring Events")
+    print(single_event_count + len(ical_calendar_rie.events), "Total Events")
 
     return prettify(calendar)
+
+
+def convert_ical_to_xml_events(ical_calendar, xml_calendar):
+    found = 0
+    for event in ical_calendar.events:
+        try:
+            event_str = str(event).replace(";", ":").splitlines()
+            attendees_done = False
+
+            for attribute in event_str:
+                att = attribute.split(":")
+
+                if att[0] == "BEGIN":
+                    ev = SubElement(xml_calendar, "event")
+                elif att[0] == "ATTENDEE":
+                    if not attendees_done:
+                        for attendee in event.attendees:
+                            element = SubElement(ev, "attendee")
+                            name = SubElement(element, "name")
+                            name.text = attendee.common_name
+                            contact = SubElement(element, "contact")
+                            contact.text = attendee.email
+                            status = SubElement(element, "status")
+                            status.text = attendee.partstat
+                            role = SubElement(element, "role")
+                            role.text = attendee.role
+                        attendees_done = True
+                elif att[0] == "ORGANIZER":
+                    organizer = SubElement(ev, "organizer")
+                    name = SubElement(organizer, "name")
+                    name.text = event.organizer.common_name
+                    contact = SubElement(organizer, "contact")
+                    contact.text = event.organizer.email
+                elif att[0] == "DTSTART":
+                    y = SubElement(ev, "start")
+                    y.text = att[1]
+                elif att[0] == "DTEND":
+                    y = SubElement(ev, "end")
+                    y.text = att[1]
+                elif att[0] == "RRULE":
+                    # skip current event if it contains recurrence - gets handled later
+                    xml_calendar.remove(ev)
+                    raise RuntimeError
+                elif att[0] != "END":
+                    y = SubElement(ev, camel_to_snake(att[0]))
+                    y.text = att[1]
+        except RuntimeError as ex:
+            continue
+        found += 1
+
+    return found
 
 
 # pulls the ical download urls from urls.txt file
