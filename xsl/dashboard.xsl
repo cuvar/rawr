@@ -185,63 +185,65 @@
           <xsl:value-of select="substring($index,7,2)" />
         </p>
       </div>
-      <div class="timetable-content">
-        <xsl:for-each select="$calendar/event">
-          <xsl:sort select="starttime/total" data-type="number" />
+      <div class="timetable-spacer">
+        <div class="timetable-content">
+          <xsl:for-each select="$calendar/event">
+            <xsl:sort select="starttime/total" data-type="number" />
 
-          <xsl:if test="startdate/total = $index">
-            <xsl:choose>
-              <xsl:when test="categories = 'Prüfung'">
-                <div class="timetable bg-test" style="{concat('height:',duration ,'em;')}">
-                  <xsl:value-of select="summary" />
-                  <xsl:if test="duration &gt; 2">
-                    <p>
-                      <xsl:value-of select="starttime/hour" />
-                      :
-                      <xsl:value-of select="starttime/min" />
-                      -
-                      <xsl:value-of select="endtime/hour" />
-                      :
-                      <xsl:value-of select="endtime/min" />
-                    </p>
-                  </xsl:if>
-                </div>
-              </xsl:when>
-              <xsl:when test="categories = 'Sonstiger Termin'">
-                <div class="timetable bg-other" style="{concat('height:',duration ,'em;')}">
-                  <xsl:value-of select="summary" />
-                  <xsl:if test="duration &gt; 2">
-                    <p>
-                      <xsl:value-of select="starttime/hour" />
-                      :
-                      <xsl:value-of select="starttime/min" />
-                      -
-                      <xsl:value-of select="endtime/hour" />
-                      :
-                      <xsl:value-of select="endtime/min" />
-                    </p>
-                  </xsl:if>
-                </div>
-              </xsl:when>
-              <xsl:otherwise>
-                <div class="timetable bg-normal" style=" {concat('height:',duration ,'em;')}">
-                  <xsl:value-of select="summary" />
-                  <xsl:if test="duration &gt; 2">
-                    <p>
-                      <xsl:value-of select="starttime/hour" />
-                      :
-                      <xsl:value-of select="starttime/min" />
-                      -
-                      <xsl:value-of select="endtime/hour" />
-                      :
-                      <xsl:value-of select="endtime/min" />
-                    </p>
-                  </xsl:if>
-                </div>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:if>
-        </xsl:for-each>
+            <xsl:if test="startdate/total = $index">
+              <xsl:choose>
+                <xsl:when test="categories = 'Prüfung'">
+                  <div class="timetable bg-test" style="{concat('height:',duration ,'em;')}">
+                    <xsl:value-of select="summary" />
+                    <xsl:if test="duration &gt; 2">
+                      <p>
+                        <xsl:value-of select="starttime/hour" />
+                        :
+                        <xsl:value-of select="starttime/min" />
+                        -
+                        <xsl:value-of select="endtime/hour" />
+                        :
+                        <xsl:value-of select="endtime/min" />
+                      </p>
+                    </xsl:if>
+                  </div>
+                </xsl:when>
+                <xsl:when test="categories = 'Sonstiger Termin'">
+                  <div class="timetable bg-other" style="{concat('height:',duration ,'em;')}">
+                    <xsl:value-of select="summary" />
+                    <xsl:if test="duration &gt; 2">
+                      <p>
+                        <xsl:value-of select="starttime/hour" />
+                        :
+                        <xsl:value-of select="starttime/min" />
+                        -
+                        <xsl:value-of select="endtime/hour" />
+                        :
+                        <xsl:value-of select="endtime/min" />
+                      </p>
+                    </xsl:if>
+                  </div>
+                </xsl:when>
+                <xsl:otherwise>
+                  <div class="timetable bg-normal" style=" {concat('height:',duration ,'em;')}">
+                    <xsl:value-of select="summary" />
+                    <xsl:if test="duration &gt; 2">
+                      <p>
+                        <xsl:value-of select="starttime/hour" />
+                        :
+                        <xsl:value-of select="starttime/min" />
+                        -
+                        <xsl:value-of select="endtime/hour" />
+                        :
+                        <xsl:value-of select="endtime/min" />
+                      </p>
+                    </xsl:if>
+                  </div>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:if>
+          </xsl:for-each>
+        </div>
       </div>
     </td>
 
