@@ -6,18 +6,14 @@ from xml.dom import minidom
 import re
 
 
+# turns camelcase to snake case
 def camel_to_snake(name):
     name = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
-    return re.sub('([a-z0-9])([A-Z])', r'\1_\2', name).lower().replace("-","_")
-
-def prettify(elem):
-    """Return a pretty-printed XML string for the Element.
-    """
-    rough_string = ElementTree.tostring(elem, 'utf-8')
-    reparsed = minidom.parseString(rough_string)
-    return reparsed.toprettyxml(indent="    ")
+    return re.sub('([a-z0-9])([A-Z])', r'\1_\2', name).lower().replace("-", "_")
 
 
+# creates the calendar Element and fills it with information from the ical
+# that is downloaded from the given url from the read_urls() function
 def setup(url):
     c = Calendar(requests.get(url).text)
 
@@ -35,8 +31,6 @@ def setup(url):
     cclass = SubElement(info, "class")
     cclass.text = url[2].replace("file=", "")
 
-
-
     for event in c.events:
         event_str = str(event).replace(";", ":").splitlines()
         attendees_done = False
@@ -46,7 +40,7 @@ def setup(url):
 
             if att[0] == "BEGIN":
                 ev = SubElement(calendar, "event")
-            elif att[0] == "ATTENDEE":#todoo
+            elif att[0] == "ATTENDEE":
                 if not attendees_done:
                     for attendee in event.attendees:
                         element = SubElement(ev, "attendee")
@@ -54,7 +48,7 @@ def setup(url):
                         name.text = attendee.common_name
                         contact = SubElement(element, "contact")
                         contact.text = attendee.email
-                        status = SubElement(element,"status")
+                        status = SubElement(element, "status")
                         status.text = attendee.partstat
                         role = SubElement(element, "role")
                         role.text = attendee.role
@@ -82,28 +76,44 @@ def setup(url):
                 y = SubElement(ev, camel_to_snake(att[0]))
                 y.text = att[1]
 
-
     print(len(c.events), "Events")
 
     return prettify(calendar)
 
+
+# pulls the ical download urls from urls.txt file
 def read_urls():
-    path = "D:\\Users\\GitHub\\rawr\\urls.txt"
+    path = "urls.txt"
     file = open(path, "r")
     lines = file.readlines()
 
     return lines
 
-def generate_xml(xml_string,url):
+
+# turns the calendar element into a pretty-printed XML string
+def prettify(elem):
+    rough_string = ElementTree.tostring(elem, 'utf-8')
+    reparsed = minidom.parseString(rough_string)
+    return reparsed.toprettyxml(indent="    ")
+
+
+# writes the pretty printed string from prettify() into a xml file
+# if the xml file for that class already exists, the existing on is updated rather than a new one created
+def generate_xml(xml_string, url):
     file_name = url.split("file=")[1].upper()
-    xml_file = open("xml/"+file_name+".xml", "w")
+    xml_file = open("xml/" + file_name + ".xml", "w")
     xml_file.write(xml_string)
     xml_file.close()
 
-if __name__ == "__main__":
+
+# program logic
+def main():
     urls = read_urls()
     for url in urls:
         url = url.replace("\n", "")
         cal = setup(url)
         generate_xml(cal, url)
 
+
+if __name__ == "__main__":
+    main()

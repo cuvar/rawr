@@ -201,6 +201,18 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Röthig, Jürgen</name>
             <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -213,8 +225,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -225,26 +237,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Lausen, Ralph</name>
             <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -333,6 +333,26 @@
         <uid>a3916b16-646d-452f-b525-32ca9647d536</uid>
     </event>
     <event>
+        <created>20150726T091452Z</created>
+        <attendee>
+            <name>Düpmeier, Clemens</name>
+            <contact>clemens.duepmeier@iai.fzk.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210706T063833Z</dtstamp>
+        <end>20211220T100000Z</end>
+        <last_modified>20210706T063833Z</last_modified>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211220T080000Z</start>
+        <summary>Klausur DBII Impl &amp; Warehouse  (120 min)</summary>
+        <uid>af05712c-eaec-41c2-b243-b3fc4cbd0624</uid>
+    </event>
+    <event>
         <created>20140725T121247Z</created>
         <categories>Lehrveranstaltung</categories>
         <dtstamp>20201123T103254Z</dtstamp>
@@ -400,26 +420,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -430,14 +432,32 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -544,14 +564,14 @@
     <event>
         <created>20200914T112016Z</created>
         <attendee>
-            <name>Faber, Uwe</name>
-            <contact>uf@zkm.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Faber, Uwe</name>
+            <contact>uf@zkm.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -577,6 +597,12 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Freudenmann, Johannes</name>
             <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -585,12 +611,6 @@
         <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -656,6 +676,21 @@
         <uid>a1c0b695-947b-4a86-b3cb-85cdf8f304f0</uid>
     </event>
     <event>
+        <created>20210706T052752Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210706T053201Z</dtstamp>
+        <description>Consulting und technischer Vertrieb TINF19B4</description>
+        <end>20211119T111500Z</end>
+        <last_modified>20210706T053201Z</last_modified>
+        <organizer>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211119T080000Z</start>
+        <summary>Consulting und technischer Vertrieb</summary>
+        <uid>a8f1138c-335b-467b-81f4-fe1eda154269</uid>
+    </event>
+    <event>
         <created>20150722T090047Z</created>
         <categories>Lehrveranstaltung</categories>
         <dtstamp>20201117T122349Z</dtstamp>
@@ -678,14 +713,8 @@
             <count>10</count>
         </rrule>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -696,20 +725,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Strand, Marcus</name>
             <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -720,8 +737,26 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Röthig, Jürgen</name>
             <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -794,20 +829,8 @@
     <event>
         <created>20171017T114210Z</created>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Strand, Marcus</name>
             <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -820,6 +843,18 @@
         <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -866,26 +901,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Freudenmann, Johannes</name>
             <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -902,8 +925,20 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -928,14 +963,20 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Braun, Heinrich</name>
             <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -952,20 +993,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Freudenmann, Johannes</name>
             <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -989,14 +1024,8 @@
             <interval>1</interval>
         </rrule>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1007,20 +1036,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1031,8 +1048,26 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1048,6 +1083,32 @@
         <start>20201214T063000Z</start>
         <summary>TINF18+19 Klausurwoche</summary>
         <uid>a792ca95-8e64-458d-8ca7-c7e5441c8b1d</uid>
+    </event>
+    <event>
+        <created>20210705T121813Z</created>
+        <rrule>
+            <freq>DAILY</freq>
+            <count>5</count>
+            <interval>1</interval>
+        </rrule>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210705T124025Z</dtstamp>
+        <end>20210927T170000Z</end>
+        <last_modified>20210705T124025Z</last_modified>
+        <location>G082 SHE Hörsaal</location>
+        <organizer>
+            <name>Klöppner, Barbara</name>
+            <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210927T060000Z</start>
+        <summary>Vorbereitungsraum Kolloquium Praxis II\, mündl. Prüfungen  ( min)</summary>
+        <uid>a34b2753-51a3-4bc5-aae4-9cf3a5438e3b</uid>
     </event>
     <event>
         <created>20150206T074115Z</created>
@@ -1146,30 +1207,6 @@
     <event>
         <created>20181029T094927Z</created>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Berkling, Kay Margarethe</name>
             <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -1182,14 +1219,38 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1207,18 +1268,36 @@
         <uid>aaa5b4c3-9b6e-42ea-a989-66cc11d756b0</uid>
     </event>
     <event>
-        <created>20150805T043938Z</created>
+        <created>20140730T135157Z</created>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
         <categories>Prüfung</categories>
-        <dtstamp>20210318T122801Z</dtstamp>
-        <end>20201208T150000Z</end>
-        <last_modified>20210318T122801Z</last_modified>
+        <dtstamp>20210706T063755Z</dtstamp>
+        <end>20211223T100000Z</end>
+        <last_modified>20210706T063755Z</last_modified>
         <organizer>
             <name>Freudenmann, Johannes</name>
             <contact>freudenmann@dhbw-karlsruhe.de</contact>
         </organizer>
-        <start>20201208T130000Z</start>
-        <summary>Klausur Geschäftsprozesse (120 min)</summary>
-        <uid>aa4cd828-64d4-498a-ab88-e7f5dfb8947c</uid>
+        <start>20211223T080000Z</start>
+        <summary>Klausur Wahlveranstaltung  (60 min)</summary>
+        <uid>a8d70135-508b-4fb2-8fbe-3ac0af6c2a29</uid>
     </event>
     <event>
         <created>20130720T220000Z</created>
@@ -1252,14 +1331,14 @@
     <event>
         <created>20171017T114210Z</created>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1276,8 +1355,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1315,6 +1394,20 @@
         <uid>a86c3338-a213-474d-9d0b-c73158304ba3</uid>
     </event>
     <event>
+        <created>20150805T043938Z</created>
+        <categories>Prüfung</categories>
+        <dtstamp>20210318T122801Z</dtstamp>
+        <end>20201208T150000Z</end>
+        <last_modified>20210318T122801Z</last_modified>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20201208T130000Z</start>
+        <summary>Klausur Geschäftsprozesse (120 min)</summary>
+        <uid>aa4cd828-64d4-498a-ab88-e7f5dfb8947c</uid>
+    </event>
+    <event>
         <created>20150216T111851Z</created>
         <rrule>
             <freq>WEEKLY</freq>
@@ -1345,8 +1438,8 @@
     <event>
         <created>20171017T114210Z</created>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1357,8 +1450,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1389,6 +1482,12 @@
     <event>
         <created>20151125T061101Z</created>
         <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Braun, Heinrich</name>
             <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -1397,12 +1496,6 @@
         <attendee>
             <name>Röthig, Jürgen</name>
             <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1421,26 +1514,8 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Lausen, Ralph</name>
             <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1451,8 +1526,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1463,8 +1544,20 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1484,26 +1577,14 @@
     <event>
         <created>20181029T094927Z</created>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
             <name>Strand, Marcus</name>
             <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1520,14 +1601,26 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1563,14 +1656,14 @@
     <event>
         <created>20160213T190301Z</created>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1595,12 +1688,6 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Berkling, Kay Margarethe</name>
             <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -1613,12 +1700,6 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Röthig, Jürgen</name>
             <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -1627,6 +1708,18 @@
         <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1657,8 +1750,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1669,32 +1768,26 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Lausen, Ralph</name>
             <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Braun, Heinrich</name>
             <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1712,6 +1805,32 @@
         <uid>ab768240-62ae-4a6f-b3d4-8ad3a3e52cfb</uid>
     </event>
     <event>
+        <created>20141216T141408Z</created>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210706T063811Z</dtstamp>
+        <end>20211222T100000Z</end>
+        <last_modified>20210706T063811Z</last_modified>
+        <organizer>
+            <name>Freudenmann, Johannes</name>
+            <contact>freudenmann@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211222T080000Z</start>
+        <summary>Klausur Wahlmodul 2aus4  (120 min)</summary>
+        <uid>ac7b9d1e-21b5-45f8-8e38-27ea548b251f</uid>
+    </event>
+    <event>
         <created>20140725T131441Z</created>
         <rrule>
             <freq>WEEKLY</freq>
@@ -1719,11 +1838,12 @@
             <interval>1</interval>
             <byday>MO</byday>
         </rrule>
+        <exdate>TZID=Europe/Berlin</exdate>
         <categories>Lehrveranstaltung</categories>
-        <dtstamp>20210624T070025Z</dtstamp>
+        <dtstamp>20210706T042245Z</dtstamp>
         <description>DB II Implementierungen TINF19B4</description>
         <end>20211004T141500Z</end>
-        <last_modified>20210624T070025Z</last_modified>
+        <last_modified>20210706T042245Z</last_modified>
         <organizer>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
@@ -1770,14 +1890,14 @@
             <byday>FR</byday>
         </rrule>
         <attendee>
-            <name>!!Kozonek,</name>
-            <contact>nora.kozonek@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>!!Kozonek,</name>
+            <contact>nora.kozonek@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1892,32 +2012,14 @@
     <event>
         <created>20181029T094927Z</created>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Berkling, Kay Margarethe</name>
             <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -1928,14 +2030,32 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Lausen, Ralph</name>
             <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2012,6 +2132,12 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Braun, Heinrich</name>
             <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -2020,6 +2146,24 @@
         <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2035,30 +2179,6 @@
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
         <categories>Sonstiger Termin</categories>
         <dtstamp>20210215T061752Z</dtstamp>
         <end>20220418T160000Z</end>
@@ -2071,6 +2191,21 @@
         <start>20220418T060000Z</start>
         <summary>Ostermontag</summary>
         <uid>a6220cef-5066-4b16-990c-354ceaa04f6a</uid>
+    </event>
+    <event>
+        <created>20210706T052752Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210706T053201Z</dtstamp>
+        <description>Consulting und technischer Vertrieb TINF19B4</description>
+        <end>20211107T151500Z</end>
+        <last_modified>20210706T053201Z</last_modified>
+        <organizer>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211107T120000Z</start>
+        <summary>Consulting und technischer Vertrieb</summary>
+        <uid>a70214ee-a090-4983-83f5-f0b610ce2c7d</uid>
     </event>
     <event>
         <created>20130723T220000Z</created>
@@ -2116,14 +2251,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2134,8 +2263,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2176,26 +2311,8 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Strand, Marcus</name>
             <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2212,14 +2329,32 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2305,14 +2440,14 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2323,26 +2458,26 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Lausen, Ralph</name>
             <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2422,6 +2557,21 @@
         <uid>aeaeef55-304b-4c26-b02f-6eaf03c8ccd7</uid>
     </event>
     <event>
+        <created>20210706T052752Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210706T053201Z</dtstamp>
+        <description>Consulting und technischer Vertrieb TINF19B4</description>
+        <end>20211207T151500Z</end>
+        <last_modified>20210706T053201Z</last_modified>
+        <organizer>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211207T120000Z</start>
+        <summary>Consulting und technischer Vertrieb</summary>
+        <uid>a1bcf6f2-8955-49fe-ac93-0b8948115dad</uid>
+    </event>
+    <event>
         <created>20200914T110843Z</created>
         <attendee>
             <name>Eisenbiegler, Jörn</name>
@@ -2463,6 +2613,32 @@
         <start>20210616T110000Z</start>
         <summary>Compilerbau</summary>
         <uid>a93f65ab-f7fa-44fa-a2ce-f3934b2381de</uid>
+    </event>
+    <event>
+        <created>20210705T121813Z</created>
+        <rrule>
+            <freq>DAILY</freq>
+            <count>5</count>
+            <interval>1</interval>
+        </rrule>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <categories>Prüfung</categories>
+        <dtstamp>20210705T130032Z</dtstamp>
+        <end>20210927T170000Z</end>
+        <last_modified>20210705T130032Z</last_modified>
+        <location>G089 WIW Hörsaal\, G086 MT Hörsaal\, G088 INF Hörsaal</location>
+        <organizer>
+            <name>Klöppner, Barbara</name>
+            <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20210927T060000Z</start>
+        <summary>Kolloquium Praxis II\, mündl. Prüfungen  (660 min)</summary>
+        <uid>a7ff4037-2acc-4c43-9626-9fe96f7a3508</uid>
     </event>
     <event>
         <created>20150722T090047Z</created>
@@ -2552,32 +2728,8 @@
             <count>10</count>
         </rrule>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2588,14 +2740,38 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2614,38 +2790,8 @@
     <event>
         <created>20181029T094927Z</created>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Strand, Marcus</name>
             <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2656,8 +2802,38 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Lausen, Ralph</name>
             <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2726,6 +2902,21 @@
         <uid>a3bb0cee-15b3-4932-b9df-f849ee41c8c7</uid>
     </event>
     <event>
+        <created>20210706T052752Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210706T053201Z</dtstamp>
+        <description>Consulting und technischer Vertrieb TINF19B4</description>
+        <end>20211119T151500Z</end>
+        <last_modified>20210706T053201Z</last_modified>
+        <organizer>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211119T120000Z</start>
+        <summary>Consulting und technischer Vertrieb</summary>
+        <uid>a8435a95-a1e6-4866-9398-8922cd3323c5</uid>
+    </event>
+    <event>
         <created>20210312T092011Z</created>
         <attendee>
             <name>Freudenmann, Johannes</name>
@@ -2792,6 +2983,30 @@
     <event>
         <created>20181029T094927Z</created>
         <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Berkling, Kay Margarethe</name>
             <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -2804,38 +3019,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Freudenmann, Johannes</name>
             <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2877,32 +3068,8 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -2921,6 +3088,30 @@
         <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3031,8 +3222,14 @@
     <event>
         <created>20181029T094927Z</created>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3043,26 +3240,20 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Strand, Marcus</name>
             <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3073,8 +3264,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3224,20 +3415,8 @@
     <event>
         <created>20181029T094927Z</created>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3254,20 +3433,32 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Freudenmann, Johannes</name>
             <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3350,8 +3541,8 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3362,8 +3553,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3374,8 +3565,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3386,14 +3577,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3463,30 +3654,6 @@
     <event>
         <created>20180205T092414Z</created>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Freudenmann, Johannes</name>
             <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -3499,14 +3666,38 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3529,12 +3720,6 @@
             <count>10</count>
         </rrule>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Braun, Heinrich</name>
             <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -3547,20 +3732,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3571,8 +3744,26 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3679,6 +3870,18 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -3691,26 +3894,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3721,8 +3906,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3739,34 +3930,22 @@
         <uid>aab05565-84d9-4559-99fb-f0c17f3d40ec</uid>
     </event>
     <event>
-        <created>20200713T091341Z</created>
-        <rrule>
-            <freq>WEEKLY</freq>
-            <count>11</count>
-            <interval>1</interval>
-            <byday>TU</byday>
-        </rrule>
+        <created>20210706T052752Z</created>
         <categories>Lehrveranstaltung</categories>
-        <dtstamp>20210624T070025Z</dtstamp>
-        <description>Verteilte Systeme TINF19B4</description>
-        <end>20211005T141500Z</end>
-        <last_modified>20210624T070025Z</last_modified>
+        <dtstamp>20210706T053201Z</dtstamp>
+        <description>Consulting und technischer Vertrieb TINF19B4</description>
+        <end>20211118T151500Z</end>
+        <last_modified>20210706T053201Z</last_modified>
         <organizer>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
         </organizer>
-        <start>20211005T110000Z</start>
-        <summary>Verteilte Systeme</summary>
-        <uid>ae2a0a48-d418-49f5-9e56-8c6df070c3b9</uid>
+        <start>20211118T120000Z</start>
+        <summary>Consulting und technischer Vertrieb</summary>
+        <uid>a242ca37-ea72-4e56-bf7d-f7ec6ca81663</uid>
     </event>
     <event>
         <created>20210526T133555Z</created>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
         <attendee>
             <name>Braun, Heinrich</name>
             <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
@@ -3774,8 +3953,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3792,20 +3971,26 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3824,32 +4009,8 @@
     <event>
         <created>20180205T092414Z</created>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -3860,14 +4021,38 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4316,26 +4501,14 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4346,14 +4519,26 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4420,8 +4605,38 @@
     <event>
         <created>20180205T092414Z</created>
         <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Berkling, Kay Margarethe</name>
             <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4434,36 +4649,6 @@
         <attendee>
             <name>Röthig, Jürgen</name>
             <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4482,8 +4667,14 @@
     <event>
         <created>20171017T114210Z</created>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4494,20 +4685,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Strand, Marcus</name>
             <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4548,14 +4733,14 @@
     <event>
         <created>20210419T121009Z</created>
         <attendee>
-            <name>!!Kozonek,</name>
-            <contact>nora.kozonek@dhbw-karlsruhe.de</contact>
+            <name>Rettig, Oliver</name>
+            <contact>oliver.rettig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Rettig, Oliver</name>
-            <contact>oliver.rettig@dhbw-karlsruhe.de</contact>
+            <name>Müller, Silvan Michael</name>
+            <contact>silvan.mueller@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4566,8 +4751,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Müller, Silvan Michael</name>
-            <contact>silvan.mueller@dhbw-karlsruhe.de</contact>
+            <name>!!Kozonek,</name>
+            <contact>nora.kozonek@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4623,8 +4808,8 @@
     <event>
         <created>20181029T094927Z</created>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4635,20 +4820,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4665,8 +4844,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4707,6 +4892,30 @@
     <event>
         <created>20180205T092414Z</created>
         <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Berkling, Kay Margarethe</name>
             <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -4719,38 +4928,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
             <name>Röthig, Jürgen</name>
             <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4789,10 +4974,25 @@
         <uid>a92a9bec-3991-4cf7-a989-dc4ef1161221</uid>
     </event>
     <event>
+        <created>20210706T052752Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210706T053201Z</dtstamp>
+        <description>Consulting und technischer Vertrieb TINF19B4</description>
+        <end>20211120T111500Z</end>
+        <last_modified>20210706T053201Z</last_modified>
+        <organizer>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211120T080000Z</start>
+        <summary>Consulting und technischer Vertrieb</summary>
+        <uid>a06209a1-c8e2-47d5-8bce-648a95cdab99</uid>
+    </event>
+    <event>
         <created>20181029T094927Z</created>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4803,14 +5003,20 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4827,14 +5033,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4874,8 +5074,8 @@
     <event>
         <created>20171017T114210Z</created>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -4886,20 +5086,20 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Freudenmann, Johannes</name>
             <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5146,20 +5346,14 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
             <name>Lausen, Ralph</name>
             <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5176,12 +5370,6 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Strand, Marcus</name>
             <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -5190,6 +5378,18 @@
         <attendee>
             <name>Berkling, Kay Margarethe</name>
             <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5215,20 +5415,20 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Strand, Marcus</name>
             <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5239,8 +5439,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5251,8 +5451,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5362,14 +5562,14 @@
             <interval>1</interval>
         </rrule>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5380,14 +5580,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5411,20 +5611,8 @@
             <interval>1</interval>
         </rrule>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Braun, Heinrich</name>
             <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5437,6 +5625,18 @@
         <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5453,22 +5653,25 @@
         <uid>a8bf22bf-4e0d-4f14-a397-136511b9b073</uid>
     </event>
     <event>
-        <created>20171017T114641Z</created>
-        <attendee>
+        <created>20210706T052752Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210706T053201Z</dtstamp>
+        <description>Consulting und technischer Vertrieb TINF19B4</description>
+        <end>20211012T141500Z</end>
+        <last_modified>20210706T053201Z</last_modified>
+        <organizer>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
+        </organizer>
+        <start>20211012T110000Z</start>
+        <summary>Consulting und technischer Vertrieb</summary>
+        <uid>a0d509db-117a-44b9-80f7-31e30ab18521</uid>
+    </event>
+    <event>
+        <created>20171017T114641Z</created>
         <attendee>
             <name>Lausen, Ralph</name>
             <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5479,8 +5682,20 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5491,14 +5706,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5537,14 +5752,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5555,8 +5764,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5591,8 +5806,32 @@
     <event>
         <created>20171017T114641Z</created>
         <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5609,32 +5848,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Freudenmann, Johannes</name>
             <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5653,8 +5868,8 @@
     <event>
         <created>20180205T092414Z</created>
         <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5677,14 +5892,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <name>Berkling, Kay Margarethe</name>
+            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Berkling, Kay Margarethe</name>
-            <contact>kay.berkling@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5791,14 +6006,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5809,8 +6018,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5821,8 +6036,8 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5896,6 +6111,12 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Röthig, Jürgen</name>
             <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -5908,6 +6129,12 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Braun, Heinrich</name>
             <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
@@ -5916,18 +6143,6 @@
         <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -5974,20 +6189,26 @@
     <event>
         <created>20181029T094927Z</created>
         <attendee>
-            <name>Lausen, Ralph</name>
-            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Vollmer, Jürgen</name>
             <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Lausen, Ralph</name>
+            <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -6004,20 +6225,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
             <name>Braun, Heinrich</name>
             <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -6058,38 +6273,8 @@
     <event>
         <created>20181029T094927Z</created>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Vollmer, Jürgen</name>
-            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Röthig, Jürgen</name>
-            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
             <name>Eisenbiegler, Jörn</name>
             <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Freudenmann, Johannes</name>
-            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -6100,8 +6285,38 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
+            <name>Röthig, Jürgen</name>
+            <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Lausen, Ralph</name>
             <contact>ralph.lausen@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Vollmer, Jürgen</name>
+            <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Freudenmann, Johannes</name>
+            <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -6182,6 +6397,21 @@
         <uid>abcb07d5-e264-4a61-9be2-952b8ae51efe</uid>
     </event>
     <event>
+        <created>20210706T052752Z</created>
+        <categories>Lehrveranstaltung</categories>
+        <dtstamp>20210706T053201Z</dtstamp>
+        <description>Consulting und technischer Vertrieb TINF19B4</description>
+        <end>20211119T191500Z</end>
+        <last_modified>20210706T053201Z</last_modified>
+        <organizer>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+        </organizer>
+        <start>20211119T160000Z</start>
+        <summary>Consulting und technischer Vertrieb</summary>
+        <uid>a2158126-175c-4b1f-bb58-2c7188b73111</uid>
+    </event>
+    <event>
         <created>20200707T075828Z</created>
         <attendee>
             <name>Freudenmann, Johannes</name>
@@ -6225,20 +6455,14 @@
     <event>
         <created>20171017T114210Z</created>
         <attendee>
+            <name>Braun, Heinrich</name>
+            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
             <name>Freudenmann, Johannes</name>
             <contact>johannes.freudenmann@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Strand, Marcus</name>
-            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
-            <status>ACCEPTED</status>
-            <role>REQ-PARTICIPANT</role>
-        </attendee>
-        <attendee>
-            <name>Eisenbiegler, Jörn</name>
-            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
@@ -6249,8 +6473,14 @@
             <role>REQ-PARTICIPANT</role>
         </attendee>
         <attendee>
-            <name>Braun, Heinrich</name>
-            <contact>heinrich.braun@dhbw-karlsruhe.de</contact>
+            <name>Eisenbiegler, Jörn</name>
+            <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
+            <status>ACCEPTED</status>
+            <role>REQ-PARTICIPANT</role>
+        </attendee>
+        <attendee>
+            <name>Strand, Marcus</name>
+            <contact>marcus.strand@dhbw-karlsruhe.de</contact>
             <status>ACCEPTED</status>
             <role>REQ-PARTICIPANT</role>
         </attendee>
