@@ -1,0 +1,240 @@
+/* GENERAL SETUP */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f1f7f8;
+  box-sizing: border-box;
+  padding: 1.5% 1.5% 1.5% 1.5%;
+  height: 98%;
+  overflow: hidden;
+  filter: brightness(100%);
+}
+
+
+/* LEFT SIDE CONTAINER*/
+.container-main {
+  height: 100%;
+  width: 79%;
+  float: left;
+}
+
+.title-container {
+  display: flex;
+  height: 19%;
+  margin-bottom: 1%;
+  border-radius: 12px;
+  background-color: #003f61;
+}
+
+.content-container {
+  max-height: 100%;
+  height: 80%;
+  border-radius: 12px;
+  background-color: #88bbd8;
+  display: block;
+}
+
+
+
+/* RIGHT SIDE CONTAINER */
+.container-right {
+  height: 100%;
+  width: 20%;
+
+  float: right;
+}
+
+.login-container {
+  display: block;
+  height: 19%;
+  margin-bottom: 3%;
+  border-radius: 12px;
+  background-color: #003f61;
+
+  padding: 0.3%;
+  color: white;
+}
+
+.motto-container {
+  max-height: 100%;
+  height: 80%;
+  border-radius: 12px;
+  background-color: #003f61;
+
+  padding: 0.3%;
+  color: white;
+}
+
+
+
+/* TOPBAR ELEMENTS */
+.title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin: auto 0 auto 30px;
+}
+
+#logo {
+  position: none;
+  width: 120px;
+  height: auto;
+  margin: 10px 5px 10px auto;
+}
+
+
+
+/* LOGIN */
+/* login container */
+.form-container {
+  display: block;
+}
+
+.form-wrapper {
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.form-row {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.form-column {
+  width: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* login elements */
+.form-column > * {
+  display: block;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#submit-btn {
+  background-color: #88bbd8;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+
+  padding: 5px 0 5px 0;
+  border-radius: 10px;
+}
+
+#submit-btn:hover {
+  filter: brightness(90%);
+}
+
+#submit-btn:active {
+  filter: brightness(80%);
+}
+
+label {
+  font-style: italic;
+}
+
+input {
+  width: 100%;
+}
+
+
+/* MOTTO SECTION */
+#date {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#motto-text {
+  font-size: 25px;
+
+  margin-top: 50%;
+  color: #eee;
+  font-style: italic;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+/* COURSE BUTTONS */
+.row-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.course-btn {
+  color: #003f61;
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+
+  padding: 60px 30px;
+  margin: 10px;
+}
+
+.course-btn:hover {
+  filter: brightness(90%);
+}
+
+.course-btn:active {
+  filter: brightness(80%);
+}
+
+@media (max-width: 1200px) {
+  .course-btn {
+    padding: 40px 10px;
+  }
+}
+
+/* EASTEREGG */
+#easteregg-container {
+  position: fixed;
+  width: 98%;
+  height: 98%;
+  display: none;
+}
+
+#easteregg {
+  position: relative;
+  left: 25%;
+  width: 40%;
+  height: auto;
+}
+
+.easteregg-visible {
+  display: block !important;
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    display: none !important;
+  }
+}
