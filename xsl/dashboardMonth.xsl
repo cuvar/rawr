@@ -529,6 +529,9 @@
                 <xsl:value-of select="summary" />
               </summary>
               <p>
+                <xsl:value-of select="startdate/day"/>.<xsl:value-of select="startdate/month"/>.<xsl:value-of select="startdate/year"/>
+              </p>
+              <p>
                 <xsl:value-of select="starttime/hour" />:<xsl:value-of select="starttime/min" />
                 -
                 <xsl:value-of select="endtime/hour" />:<xsl:value-of select="endtime/min" />
