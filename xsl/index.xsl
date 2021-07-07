@@ -77,11 +77,7 @@
           <div class="motto-container">
             <h2 id="date">
 
-              <xsl:value-of select="substring($currentDate,7,2)" />
-              .
-              <xsl:value-of select="substring($currentDate,5,2)" />
-              .
-              <xsl:value-of select="substring($currentDate,1,4)" />
+              <xsl:value-of select="substring($currentDate,7,2)" />.<xsl:value-of select="substring($currentDate,5,2)" />.<xsl:value-of select="substring($currentDate,1,4)" />
             </h2>
             <xsl:variable name="number" select="$currentDate mod 7" />
             <xsl:for-each select="elements/mottos/motto">
