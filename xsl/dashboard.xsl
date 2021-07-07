@@ -83,9 +83,9 @@
               <div class="dropdown">
                 <button class="dropbtn">Wochenansicht</button>
                 <div class="dropdown-content">
-                  <a href="index.php?mode=week">Wochenansicht</a>
+                  <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class)}">Wochenansicht</a>
                   <hr />
-                  <a href="index.php?mode=month">Monatsansicht</a>
+                  <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class)}">Monatsansicht</a>
                 </div>
               </div>
             </div>
@@ -119,10 +119,10 @@
                   </xsl:variable>
 
 
-                  <a href="index.php?mode=week{concat('&amp;','startDate=',$backwardstart,'&amp;','endDate=',$backwardend,'&amp;','currentDate=',$currentDate)} ">
+                  <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$backwardstart,'&amp;','endDate=',$backwardend,'&amp;','currentDate=',$currentDate)} ">
                     <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Wee" />
                   </a>
-                  <a href="index.php?mode=week{concat('&amp;','startDate=',$forwardstart,'&amp;','endDate=',$forwardend,'&amp;','currentDate=',$currentDate)} ">
+                  <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$forwardstart,'&amp;','endDate=',$forwardend,'&amp;','currentDate=',$currentDate)} ">
                     <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week" />
                   </a>
                 </div>

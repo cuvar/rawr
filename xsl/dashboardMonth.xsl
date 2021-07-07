@@ -85,9 +85,9 @@
               <div class="dropdown">
                 <button class="dropbtn">Monatsansicht</button>
                 <div class="dropdown-content">
-                  <a href="index.php?mode=month">Monatsansicht</a>
+                  <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class)}">Monatsansicht</a>
                   <hr />
-                  <a href="index.php?mode=week">Wochenansicht</a>
+                  <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class)}">Wochenansicht</a>
                 </div>
               </div>
             </div>
@@ -98,10 +98,10 @@
             <div class="calendar-top">
               <div id="banner-left-wrapper">
                 <div>
-                  <a href="index.php?mode=month">
+                  <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class)}">
                     <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Week" />
                   </a>
-                  <a href="index.php?mode=month">
+                  <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class)}">
                     <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week" />
                   </a>
                 </div>

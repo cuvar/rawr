@@ -32,7 +32,7 @@
               <xsl:for-each select="elements/university/year">
                 <div class="row">
                   <xsl:for-each select="course">
-                    <a class="course-btn" href="index.php?mode=week">
+                    <a class="course-btn" href="index.php?mode=week{concat('&amp;','class=',name)}">
                       <xsl:value-of select="name" />
                     </a>
                   </xsl:for-each>
