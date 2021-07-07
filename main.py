@@ -36,7 +36,7 @@ def setup(url):
     cclass.text = url[2].replace("file=", "")
 
     # handle single events
-    single_event_count = convert_ical_to_xml_events(
+    (single_event_count, note_count) = convert_ical_to_xml_events(
         cclass, ical_calendar, calendar)
 
     # handle recurring events
@@ -50,7 +50,9 @@ def setup(url):
     ical_calendar_rie = Calendar(rie_ical_string)
     convert_ical_to_xml_events(cclass, ical_calendar_rie, calendar)
 
+    print(f"--- {cclass} ---")
     print(single_event_count, "/", len(ical_calendar.events), "Single Events")
+    print(note_count, "Notes injected")
     print(len(ical_calendar_rie.events), "Recurring Events")
     print(single_event_count + len(ical_calendar_rie.events), "Total Events")
 
@@ -59,14 +61,15 @@ def setup(url):
 
 def convert_ical_to_xml_events(cclass, ical_calendar, xml_calendar):
     found = 0
+    notes_injected = 0
     for event in ical_calendar.events:
         try:
             event_str = str(event).replace(";", ":").splitlines()
             attendees_done = False
+            uid = None
 
             for attribute in event_str:
                 att = attribute.split(":")
-                uid = None
 
                 if att[0] == "BEGIN":
                     ev = SubElement(xml_calendar, "event")
@@ -106,13 +109,14 @@ def convert_ical_to_xml_events(cclass, ical_calendar, xml_calendar):
 
             # add notes from separate XML file if present for this UID
             if uid is not None and uid in get_notes(cclass):
+                notes_injected += 1
                 y = SubElement(ev, "note")
                 y.text = get_notes(cclass)[uid]
         except RuntimeError as ex:
             continue
         found += 1
 
-    return found
+    return (found, notes_injected)
 
 
 notes_cache = {}
@@ -149,8 +153,7 @@ def read_urls():
 
 # turns the calendar element into a pretty-printed XML string
 def prettify(elem):
-    rough_string = ElementTree.tostring
-    return {}(elem, 'utf-8')
+    rough_string = ElementTree.tostring(elem, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="    ")
 
