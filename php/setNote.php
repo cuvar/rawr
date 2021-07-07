@@ -49,7 +49,7 @@ $eventFound or die("Event with uid $uid not found");
 saveFormattedXML($xml, $xmlFilePath);
 
 # write note to separate XML file to log changes for later merging (refresh from ical)
-$noteFilePath = "../xml/$class-note.xml";
+$noteFilePath = "../xml/$class-notes.xml";
 if (!file_exists($noteFilePath)) {
     $noteFile = fopen($noteFilePath, "w");
     fwrite($noteFile, "<?xml version=\"1.0\"  encoding=\"UTF-8\"?><calendar></calendar>");

@@ -37,7 +37,7 @@ def setup(url):
 
     # handle single events
     (single_event_count, note_count) = convert_ical_to_xml_events(
-        cclass, ical_calendar, calendar)
+        cclass.text, ical_calendar, calendar)
 
     # handle recurring events
     rie_calendar = icalendar.Calendar.from_ical(ical_string)
@@ -48,9 +48,9 @@ def setup(url):
                       + "".join(event.to_ical().decode() for event in events) \
                       + "END:VCALENDAR"
     ical_calendar_rie = Calendar(rie_ical_string)
-    convert_ical_to_xml_events(cclass, ical_calendar_rie, calendar)
+    convert_ical_to_xml_events(cclass.text, ical_calendar_rie, calendar)
 
-    print(f"--- {cclass} ---")
+    print(f"--- {cclass.text} ---")
     print(single_event_count, "/", len(ical_calendar.events), "Single Events")
     print(note_count, "Notes injected")
     print(len(ical_calendar_rie.events), "Recurring Events")
@@ -134,8 +134,8 @@ def get_notes(cclass):
 
     notes_file = minidom.parse(f"xml/{cclass}-notes.xml")
     for event in notes_file.getElementsByTagName("event"):
-        uid = event.getElementsByTagName("uid")[0]
-        note = event.getElementsByTagName("note")[0]
+        uid = event.getElementsByTagName("uid")[0].firstChild.nodeValue
+        note = event.getElementsByTagName("note")[0].firstChild.nodeValue
         notes_dict[uid] = note
 
     notes_cache[cclass] = notes_dict
