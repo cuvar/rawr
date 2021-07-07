@@ -565,7 +565,7 @@
                 <xsl:variable select="location" name="room">
                 </xsl:variable>
                 <xsl:choose>
-                  <xsl:when test="$room = ''">
+                  <xsl:when test="not($room = '')">
                     <xsl:value-of select="$room"></xsl:value-of>
                   </xsl:when>
                   <xsl:otherwise>-</xsl:otherwise>
