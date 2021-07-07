@@ -14,7 +14,7 @@
         <!ELEMENT uid (#PCDATA)>
         <!ELEMENT summary (#PCDATA)>
         <!ELEMENT description (#PCDATA)>
-        <!ELEMENT notes (#PCDATA)>
+        <!ELEMENT note (#PCDATA)>
         <!ELEMENT location (#PCDATA)>
         <!ELEMENT category (#PCDATA)>  <!--Maybe mit semikolon abgetrennt-->
         <!ELEMENT organizer (name, contact)>
@@ -32,5 +32,5 @@
 <!ELEMENT calendar(event*)>
     <!ELEMENT event (uid, notes)>
 	    <!ELEMENT uid (#PCDATA)>
-	    <!ELEMENT notes (#PCDATA)>
+	    <!ELEMENT note (#PCDATA)>
 ]>
