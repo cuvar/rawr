@@ -1,3 +1,5 @@
+import re
+from os.path import exists
 import requests
 import recurring_ical_events as rie
 import icalendar
@@ -5,7 +7,6 @@ from ics import Calendar
 from xml.etree.ElementTree import Element, SubElement
 from xml.etree import ElementTree
 from xml.dom import minidom
-import re
 
 
 # turns camelcase to snake case
@@ -35,7 +36,8 @@ def setup(url):
     cclass.text = url[2].replace("file=", "")
 
     # handle single events
-    single_event_count = convert_ical_to_xml_events(ical_calendar, calendar)
+    single_event_count = convert_ical_to_xml_events(
+        cclass, ical_calendar, calendar)
 
     # handle recurring events
     rie_calendar = icalendar.Calendar.from_ical(ical_string)
@@ -46,7 +48,7 @@ def setup(url):
                       + "".join(event.to_ical().decode() for event in events) \
                       + "END:VCALENDAR"
     ical_calendar_rie = Calendar(rie_ical_string)
-    convert_ical_to_xml_events(ical_calendar_rie, calendar)
+    convert_ical_to_xml_events(cclass, ical_calendar_rie, calendar)
 
     print(single_event_count, "/", len(ical_calendar.events), "Single Events")
     print(len(ical_calendar_rie.events), "Recurring Events")
@@ -55,7 +57,7 @@ def setup(url):
     return prettify(calendar)
 
 
-def convert_ical_to_xml_events(ical_calendar, xml_calendar):
+def convert_ical_to_xml_events(cclass, ical_calendar, xml_calendar):
     found = 0
     for event in ical_calendar.events:
         try:
@@ -64,6 +66,7 @@ def convert_ical_to_xml_events(ical_calendar, xml_calendar):
 
             for attribute in event_str:
                 att = attribute.split(":")
+                uid = None
 
                 if att[0] == "BEGIN":
                     ev = SubElement(xml_calendar, "event")
@@ -99,11 +102,40 @@ def convert_ical_to_xml_events(ical_calendar, xml_calendar):
                 elif att[0] != "END":
                     y = SubElement(ev, camel_to_snake(att[0]))
                     y.text = att[1]
+                    uid = att[1] if att[0] == "UID" else uid
+
+            # add notes from separate XML file if present for this UID
+            if uid is not None and uid in get_notes(cclass):
+                y = SubElement(ev, "note")
+                y.text = get_notes(cclass)[uid]
         except RuntimeError as ex:
             continue
         found += 1
 
     return found
+
+
+notes_cache = {}
+
+
+# get event specific notes per class
+def get_notes(cclass):
+    if cclass in notes_cache:
+        return notes_cache[cclass]
+
+    file_path = f"xml/{cclass}-notes.xml"
+    notes_dict = {}
+    if not exists(file_path):
+        return notes_dict
+
+    notes_file = minidom.parse(f"xml/{cclass}-notes.xml")
+    for event in notes_file.getElementsByTagName("event"):
+        uid = event.getElementsByTagName("uid")[0]
+        note = event.getElementsByTagName("note")[0]
+        notes_dict[uid] = note
+
+    notes_cache[cclass] = notes_dict
+    return notes_dict
 
 
 # pulls the ical download urls from urls.txt file
@@ -117,7 +149,8 @@ def read_urls():
 
 # turns the calendar element into a pretty-printed XML string
 def prettify(elem):
-    rough_string = ElementTree.tostring(elem, 'utf-8')
+    rough_string = ElementTree.tostring
+    return {}(elem, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="    ")
 
