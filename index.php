@@ -1,16 +1,16 @@
 <?php
 
-# Display modes #
+# display modes
 const MODE_WEEK = "week";
 const MODE_MONTH = "month";
 const MODE_START = "start";
 
-# Load XML and stylesheet #
+# load XML and stylesheet
 $xmldoc = new DOMDocument();
 $xsldoc = new DOMDocument();
 $xsl = new XSLTProcessor();
 
-# URL Parameters #
+# URL Parameters
 $mode = isset($_GET['mode']) ? $_GET['mode'] : 'start';
 $class = isset($_GET['class']) ? $_GET['class'] : 'TINF20B2';
 
@@ -25,7 +25,7 @@ if ($mode == MODE_WEEK) {
     $xmldoc->loadXML(file_get_contents('index.xml'));
 }
 
-# Error handling on load #
+# error handling on load
 libxml_use_internal_errors(true);
 $result = $xsl->importStyleSheet($xsldoc);
 if (!$result) {
@@ -35,7 +35,7 @@ if (!$result) {
 }
 libxml_use_internal_errors(false);
 
-# Parameters #
+# XSLT parameters
 $currentDate = date('Ymd');
 $startDate = isset($_GET['startDate']) ? $_GET['startDate'] : $currentDate;
 $startDateTimestamp = strtotime($startDate);
@@ -81,7 +81,7 @@ $xsl->setParameter('', 'timeframeStart', $startDate);
 $xsl->setParameter('', 'timeframeEnd', $endDate);
 $xsl->setParameter('', 'currentDate', $currentDate);
 
-# Transform #
+# transform
 if ($result) {
     echo $xsl->transformToXML($xmldoc);
 }
