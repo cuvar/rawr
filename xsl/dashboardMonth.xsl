@@ -5,8 +5,10 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:date="http://exslt.org/dates-and-times">
 
-  <xsl:param name="timeframestart" select="20210426" />
-  <xsl:param name="timeframeend" select="20210606" />
+  <xsl:param name="monthStart" select="20210501" />
+  <xsl:param name="monthEnd" select="20210531" />
+  <xsl:param name="timeframeStart" select="20210426" />
+  <xsl:param name="timeframeEnd" select="20210606" />
   <xsl:param name="currentDate" select="20210510" />
   <xsl:variable name="currentYear">
     <xsl:value-of select="substring($currentDate,1,4)" />
@@ -107,7 +109,7 @@
                 <div class="calendar-month">
                   <p>
                     <xsl:call-template name="getMonthName">
-                      <xsl:with-param name="date" select="$timeframestart" />
+                      <xsl:with-param name="date" select="$timeframeStart" />
                     </xsl:call-template>
                   </p>
                 </div>
@@ -155,8 +157,8 @@
   </xsl:template>
 
   <xsl:template name="outterLoop">
-    <xsl:param name="index" select="$timeframestart" />
-    <xsl:param name="maxValue" select="$timeframeend" />
+    <xsl:param name="index" select="$timeframeStart" />
+    <xsl:param name="maxValue" select="$timeframeEnd" />
     <xsl:variable name="weekEnd">
       <xsl:call-template name="addWeek">
         <xsl:with-param name="date" select="$index - 1" />
@@ -187,8 +189,8 @@
 
   <!--Loops through a week-->
   <xsl:template name="Loop">
-    <xsl:param name="index" select="$timeframestart" />
-    <xsl:param name="maxValue" select="$timeframeend" />
+    <xsl:param name="index" select="$timeframeStart" />
+    <xsl:param name="maxValue" select="$timeframeEnd" />
     <td>
       <div class="calendar-day">
         <p>
