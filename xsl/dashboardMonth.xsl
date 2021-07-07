@@ -109,7 +109,7 @@
                 <div class="calendar-month">
                   <p>
                     <xsl:call-template name="getMonthName">
-                      <xsl:with-param name="date" select="$timeframeStart" />
+                      <xsl:with-param name="date" select="$monthStart" />
                     </xsl:call-template>
                   </p>
                 </div>
@@ -529,6 +529,9 @@
                 <xsl:value-of select="summary" />
               </summary>
               <p>
+                <xsl:value-of select="startdate/day"/>.<xsl:value-of select="startdate/month"/>.<xsl:value-of select="startdate/year"/>
+              </p>
+              <p>
                 <xsl:value-of select="starttime/hour" />:<xsl:value-of select="starttime/min" />
                 -
                 <xsl:value-of select="endtime/hour" />:<xsl:value-of select="endtime/min" />
@@ -538,7 +541,7 @@
                 Raum:
                 <xsl:variable select="location" name="room"></xsl:variable>
                 <xsl:choose>
-                  <xsl:when test="$room = ''">
+                  <xsl:when test="not($room = '')">
                     <xsl:value-of select="$room"></xsl:value-of>
                   </xsl:when>
                   <xsl:otherwise>-</xsl:otherwise>
