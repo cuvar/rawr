@@ -1,7 +1,11 @@
 <?php
-
-function loadXML($filePath)
-{
+require "auth.php";
+/**
+ * returns xml file for given file path
+ * @param string $filePath file path of xml file
+ * @return SimpleXMLElement xml element
+ */
+function loadXML(String $filePath) {
     libxml_use_internal_errors(true);
     $xml = simplexml_load_file($filePath);
     if ($xml === false) {
@@ -14,8 +18,13 @@ function loadXML($filePath)
     return $xml;
 }
 
-function saveFormattedXML($simpleXMLElement, $outputPath)
-{
+/**
+ * returns xml file for given file path
+ * @param SimpleXMLElement $simpleXMLElement XML element to write 
+ * @param String $outputPath file output path
+ * @return int the number of bytes written. (Dies if there is any error)
+ */
+function saveFormattedXML(SimpleXMLElement $simpleXMLElement, String $outputPath) {
     $xmlDocument = new DOMDocument('1.0');
     $xmlDocument->preserveWhiteSpace = false;
     $xmlDocument->formatOutput = true;
@@ -32,6 +41,12 @@ $note = isset($_GET['note']) ? $_GET['note'] : die("No 'note' parameter defined"
 # check whether class exists
 $xmlFilePath = "../xml/$class.xml";
 file_exists($xmlFilePath) or die("File xml/$class.xml does not exist");
+
+# check permission
+session_start();
+isset($_SESSION["username"]) or die("Not authentificated");
+$username = $_SESSION["username"];
+(Auth::hasGroup($username, $class) || Auth::isAdmin($username)) or die("User \"$username\" is lacking permission \"$class\" to add notes in this file");
 
 # read XML file
 libxml_use_internal_errors(true);
