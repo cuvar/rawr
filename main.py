@@ -19,7 +19,6 @@ def camel_to_snake(name):
 # that is downloaded from the given url from the read_urls() function
 def setup(url):
     ical_string = requests.get(url).text
-    ical_calendar = Calendar(ical_string)
 
     calendar = Element("calendar")
     timezone = SubElement(calendar, "timezone")
@@ -35,26 +34,24 @@ def setup(url):
     cclass = SubElement(info, "class")
     cclass.text = url[2].replace("file=", "")
 
-    # handle single events
-    (single_event_count, note_count) = convert_ical_to_xml_events(
-        cclass.text, ical_calendar, calendar)
-
-    # handle recurring events
+    # handle convert all recurring to single events - keep single ones
     rie_calendar = icalendar.Calendar.from_ical(ical_string)
     events = rie.of(rie_calendar).all()
-    # convert vevents back to ical string
+    # convert vevents of icalendar library to ics library (easier to handle)
     ical_string_header = ical_string[:ical_string.find("BEGIN:VEVENT")]
     rie_ical_string = f"{ical_string_header}\n" \
                       + "".join(event.to_ical().decode() for event in events) \
                       + "END:VCALENDAR"
-    ical_calendar_rie = Calendar(rie_ical_string)
-    convert_ical_to_xml_events(cclass.text, ical_calendar_rie, calendar)
+    ical_calendar = Calendar(rie_ical_string)
+    # convert ical events to required xml format
+    (event_count, note_count) = convert_ical_to_xml_events(
+        cclass.text, ical_calendar, calendar)
 
     print(f"--- {cclass.text} ---")
-    print(single_event_count, "/", len(ical_calendar.events), "Single Events")
+    print(len(Calendar(ical_string).events),
+          "Original Events (recurring included)")
+    print(event_count, "Total Events (single only)")
     print(note_count, "Notes injected")
-    print(len(ical_calendar_rie.events), "Recurring Events")
-    print(single_event_count + len(ical_calendar_rie.events), "Total Events")
 
     return prettify(calendar)
 
