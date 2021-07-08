@@ -131,13 +131,13 @@
                 <table>
                   <thead>
                     <tr id="calendar-header">
-                      <th>Montag</th>
-                      <th>Dienstag</th>
-                      <th>Mittwoch</th>
-                      <th>Donnerstag</th>
-                      <th>Freitag</th>
-                      <th>Samstag</th>
-                      <th>Sonntag</th>
+                      <th class="table-head-fixed-th">Montag</th>
+                      <th class="table-head-fixed-th">Dienstag</th>
+                      <th class="table-head-fixed-th">Mittwoch</th>
+                      <th class="table-head-fixed-th">Donnerstag</th>
+                      <th class="table-head-fixed-th">Freitag</th>
+                      <th class="table-head-fixed-th">Samstag</th>
+                      <th class="table-head-fixed-th">Sonntag</th>
                     </tr>
                   </thead>
                   <tbody>
