@@ -459,3 +459,88 @@ summary{
 ::-webkit-scrollbar-thumb:hover {
   background: #d3d3d3;
 }
+
+
+/* POPUP IN DASHBOARD */
+#popup {
+  /* display: block; */
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 500px;
+  height: fit-content; 
+
+  background-color: #003F61 !important;
+  color: white;
+  border-radius: 20px;
+}
+
+#popup > div:first-child {
+  margin: 20px;
+}
+
+#popup > form {
+  display: block;
+  width: 100%;
+}
+
+.popup-heading-label {
+  color: white;
+}
+
+.popup-info-label {
+  color: #003F61;
+  background-color:white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#popup-event-title {
+  width: 100%;
+  
+}
+
+.popup-container {
+
+}
+
+.popup-row {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.popup-row > .popup-column {
+  margin-right: 10px;
+}
+
+.popup-column {
+  /* display: inline-block; */
+  height: 100%;
+}
+
+.popup-column > * {
+  display: block;
+  /* margin-top: 10px; */
+}
+
+.popup-column > label {
+  margin-top: 10px;
+}
+
+.popup-column > textarea {
+  height: 100%;
+  max-height: inherit;
+  padding: 5px;
+  resize: none;
+  
+  color: #003F61;
+  background-color:white;
+  border-radius: 10px;
+}

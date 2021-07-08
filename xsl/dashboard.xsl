@@ -88,6 +88,44 @@
             </div>
           </div>
 
+
+          <div id="popup">
+            <div>
+              <h2 class="popup-info-label" >Neuer Termin</h2>
+              <form action="../php/setNote.php" method="get">
+                <h5 class="popup-info-label" >Titel</h5>
+
+                <div class="popup-container">
+                  <div class="popup-row">
+                    <div class="popup-column">
+                      <label class="popup-heading-label">Zeitpunkt</label>
+                    </div>
+
+                    <div class="popup-column">
+                      <label class="popup-info-label" id="date-start">Datum</label>
+                      <label class="popup-info-label" id="date-end">Datumlabel</label>
+                    </div>
+                    <div class="popup-column">
+                      <label class="popup-info-label" id="time-start">Zeit</label>
+                      <label class="popup-info-label" id="time-end">Zeitlabel</label>
+                    </div>
+                  </div>
+
+                  <div class="popup-row">
+                    <div class="popup-column">
+                      <label class="popup-heading-label">Notizen</label>
+                    </div>
+                    <div class="popup-column">
+                      <textarea id="note-input" name="note" rows="10" cols="30"></textarea>
+                    </div>
+                  </div>
+                </div>
+
+
+              </form>
+            </div>
+          </div>
+
           <!-- calender view -->
           <div class="calendar">
             <div class="calendar-top">
@@ -549,15 +587,18 @@
                 <xsl:value-of select="summary" />
               </summary>
               <p>
-                <xsl:value-of select="starttime/hour" />:<xsl:value-of select="starttime/min" />
+                <xsl:value-of select="starttime/hour" />
+                :
+                <xsl:value-of select="starttime/min" />
                 -
-                <xsl:value-of select="endtime/hour" />:<xsl:value-of select="endtime/min" />
+                <xsl:value-of select="endtime/hour" />
+                :
+                <xsl:value-of select="endtime/min" />
                 Uhr
               </p>
               <p>
                 Raum:
-                <xsl:variable select="location" name="room">
-                </xsl:variable>
+                <xsl:variable select="location" name="room"></xsl:variable>
                 <xsl:choose>
                   <xsl:when test="$room = ''">
                     <xsl:value-of select="$room"></xsl:value-of>
