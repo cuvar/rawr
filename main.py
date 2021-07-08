@@ -3,6 +3,7 @@ from os.path import exists
 import requests
 import recurring_ical_events as rie
 import icalendar
+import codecs
 from ics import Calendar
 from xml.etree.ElementTree import Element, SubElement
 from xml.etree import ElementTree
@@ -32,7 +33,7 @@ def setup(url):
     user = SubElement(info, "user")
     user.text = url[1].replace("user=", "")
     cclass = SubElement(info, "class")
-    cclass.text = url[2].replace("file=", "")
+    cclass.text = url[2].replace("file=", "").upper()
 
     # handle convert all recurring to single events - keep single ones
     rie_calendar = icalendar.Calendar.from_ical(ical_string)
@@ -159,7 +160,7 @@ def prettify(elem):
 # if the xml file for that class already exists, the existing on is updated rather than a new one created
 def generate_xml(xml_string, url):
     file_name = url.split("file=")[1].upper()
-    xml_file = open("xml/" + file_name + ".xml", "w")
+    xml_file = codecs.open("xml/" + file_name + ".xml", "w", "utf-8")
     xml_file.write(xml_string)
     xml_file.close()
 
