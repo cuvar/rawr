@@ -2,10 +2,10 @@
 header("Access-Control-Max-Age: 3600");
 
 
-// Initialize the session
+# initialize the session
 session_start();
 
-// unset cookies and session
+# unset cookies and session
 foreach ($_COOKIE as $k => $v) {
     setcookie($k, "", time() + 3600 * 24 * (-100), "/");
 }
@@ -13,6 +13,6 @@ unset($_SESSION['loggedin']);
 session_destroy();
 session_write_close();
 
-// redirect 
+# redirect 
 header("location: ../index.php");
 exit;
