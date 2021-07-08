@@ -91,11 +91,11 @@
 
           <div id="popup">
             <div>
-              <h2 class="popup-info-label" >Neuer Termin</h2>
+              <h2 id="popup-title">Neuer Termin</h2>
               <form action="../php/setNote.php" method="get">
                 <h5 class="popup-info-label" >Titel</h5>
 
-                <div class="popup-container">
+                <div>
                   <div class="popup-row">
                     <div class="popup-column">
                       <label class="popup-heading-label">Zeitpunkt</label>

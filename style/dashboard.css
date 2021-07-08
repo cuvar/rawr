@@ -463,7 +463,7 @@ summary{
 
 /* POPUP IN DASHBOARD */
 #popup {
-  /* display: block; */
+  display: block;
   position: absolute;
   top: 25%;
   left: 25%;
@@ -499,9 +499,8 @@ summary{
   width: 100%;
   
 }
-
-.popup-container {
-
+#popup-title {
+  color: white;
 }
 
 .popup-row {
