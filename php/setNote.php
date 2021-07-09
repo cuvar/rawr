@@ -87,4 +87,4 @@ if (!$eventFound) {
 
 saveFormattedXML($noteXml, $noteFilePath);
 echo "Success";
-header("Location: ../index.php?mode=week");
+header("Location: ../index.php?mode=week&class=$class");
