@@ -220,11 +220,13 @@
         <div class="timetable-content">
           <xsl:for-each select="$calendar/event">
             <xsl:sort select="starttime/total" data-type="number" />
-
+            <xsl:variable name="begin">
+              <xsl:value-of select="round((((starttime/hour * 100) + (round(starttime/min * (1.6666666667))))- 800) div 25)"/>
+            </xsl:variable>
             <xsl:if test="startdate/total = $index">
               <xsl:choose>
                 <xsl:when test="categories = 'Prüfung'">
-                  <div class="timetable bg-test" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'em;')}">
+                  <div class="timetable bg-test" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration-1 ,'em;', 'margin-top:',$begin,'em;')}">
                     <xsl:value-of select="summary" />
                     <xsl:if test="duration &gt; 2">
                       <p>
@@ -240,7 +242,7 @@
                   </div>
                 </xsl:when>
                 <xsl:when test="categories = 'Sonstiger Termin'">
-                  <div class="timetable bg-other" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'em;')}">
+                  <div class="timetable bg-other" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration - 1 ,'em;', 'margin-top:',$begin,'em;')}">
                     <xsl:value-of select="summary" />
                     <xsl:if test="duration &gt; 2">
                       <p>
@@ -256,7 +258,7 @@
                   </div>
                 </xsl:when>
                 <xsl:otherwise>
-                  <div class="timetable bg-normal" data-popup="{uid}" onclick="togglePopup(true, this)" style=" {concat('height:',duration ,'em;')}">
+                  <div class="timetable bg-normal" data-popup="{uid}" onclick="togglePopup(true, this)" style=" {concat('height:',duration - 1 ,'em;', 'margin-top:',$begin,'em;')}">
                     <xsl:value-of select="summary" />
                     <xsl:if test="duration &gt; 2">
                       <p>
@@ -776,7 +778,8 @@
           </xsl:choose>
         </xsl:for-each>
         <duration>
-          <xsl:value-of select="(endtime/total - starttime/total)div 15" />
+          <!-- -1 da height=0em => 1em @Yannic -->
+          <xsl:value-of select="round((((endtime/hour * 100) + (ceiling(endtime/min * (1.6666666667))))- ((starttime/hour * 100) + (ceiling(starttime/min * (1.6666666667))))) div 25)" />
         </duration>
       </event>
     </xsl:for-each>

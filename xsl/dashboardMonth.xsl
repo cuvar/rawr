@@ -173,9 +173,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
                       <xsl:call-template name="outterLoop" />
-                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -238,17 +236,17 @@
             <xsl:variable name="duration" select="(endtime/total - starttime/total)div 15" />
             <xsl:choose>
               <xsl:when test="categories = 'Prüfung'">
-                <div class="timetable bg-test" data-popup="{uid}" onclick="togglePopup(true, this)">
+                <div class="timetable-month bg-test" data-popup="{uid}" onclick="togglePopup(true, this)">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:when>
               <xsl:when test="categories = 'Sonstiger Termin'">
-                <div class="timetable bg-other" data-popup="{uid}" onclick="togglePopup(true, this)">
+                <div class="timetable-month bg-other" data-popup="{uid}" onclick="togglePopup(true, this)">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                <div class="timetable bg-normal" data-popup="{uid}" onclick="togglePopup(true, this)">
+                <div class="timetable-month bg-normal" data-popup="{uid}" onclick="togglePopup(true, this)">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:otherwise>

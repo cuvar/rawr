@@ -83,13 +83,16 @@ body {
 /* ACTUAL calendar */
 .timetable-content {
   margin-top: 25%;
+  position: relative;
 }
+
+
 
 .timetable-spacer {
-  margin-top: 18%;
+  margin-top: 3em;
 }
 
-.timetable {
+.timetable-month {
   padding: 7px 7px;
   margin-top: 5%;
   border-radius: 15px;
@@ -98,6 +101,20 @@ body {
   color: black;
   word-break: break-word;
   overflow: hidden;
+}
+
+.timetable {
+  width: -moz-available;
+  width: -webkit-fill-available;
+  position: absolute;
+  padding: 7px 7px;
+  border-radius: 15px;
+  color: white;
+  font-size: 12px;
+  color: black;
+  word-break: break-word;
+  overflow: hidden;
+  
 }
 
 .timetable:hover {
