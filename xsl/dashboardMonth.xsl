@@ -32,6 +32,9 @@
     <html>
       <head>
         <link rel="stylesheet" href="../style/dashboard.css" />
+        <link rel="stylesheet" href="../style/general.css" />
+        <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" />
+        <script src="./js/app.js"></script>
       </head>
       <body>
         <!-- right views -->
@@ -93,6 +96,38 @@
             </div>
           </div>
 
+
+          <!-- Popup -->
+          <div id="popup" class="display-none">
+            <div>
+              <div class="popup-title-row">
+                <h2 id="popup-title">Notiz bearbeiten</h2>
+                <button class="btn-icon" id="popup-close" onclick="togglePopup(false, null)">
+                  <img src="res/close.svg" alt="Close" />
+                </button>
+              </div>
+
+              <form action="../php/setNote.php" method="get">
+                <h5 class="popup-info-label" id="popup-event-title">Titel</h5>
+                <div>
+                  <div class="popup-row">
+                    <div class="popup-column">
+                      <label class="popup-heading-label">Notizen</label>
+                    </div>
+                    <div class="popup-column">
+                      <textarea id="note-input" name="note" rows="10" cols="30"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <input id="popup-uid" name="uid" style="display: none;"></input>
+                <input name="class" style="display: none;" value="{calendar/info/class}"></input>
+                <button id="popup-btn-submit" type="submit">Speichern</button>
+              </form>
+            </div>
+          </div>
+
+
+
           <!-- calender view -->
           <div class="calendar">
             <div class="calendar-top">
@@ -118,9 +153,6 @@
               <div id="banner-right-wrapper">
                 <button class="btn-icon">
                   <img src="res/download-solid.svg" alt="Download ical" />
-                </button>
-                <button class="btn-icon">
-                  <img src="res/plus-solid.svg" alt="Add Note" />
                 </button>
               </div>
             </div>
@@ -206,17 +238,17 @@
             <xsl:variable name="duration" select="(endtime/total - starttime/total)div 15" />
             <xsl:choose>
               <xsl:when test="categories = 'Prüfung'">
-                <div class="timetable bg-test">
+                <div class="timetable bg-test" data-popup="{uid}" onclick="togglePopup(true, this)">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:when>
               <xsl:when test="categories = 'Sonstiger Termin'">
-                <div class="timetable bg-other">
+                <div class="timetable bg-other" data-popup="{uid}" onclick="togglePopup(true, this)">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                <div class="timetable bg-normal">
+                <div class="timetable bg-normal" data-popup="{uid}" onclick="togglePopup(true, this)">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:otherwise>
