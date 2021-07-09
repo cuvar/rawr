@@ -118,8 +118,13 @@ body {
 }
 
 .timetable:hover {
-  cursor: pointer;
+  cursor: pointer !important;
   filter: brightness(90%);
+}
+
+.timetable > p, .timetable-month > p {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 table {

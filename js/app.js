@@ -1,8 +1,5 @@
 function onLoadIndex() {
-    let cookies = getCookieObject();
-    let isLoggedIn = typeof cookies["loggedin"] != "undefined" && cookies["loggedin"] == "true";
-
-    hideLogoutContainer(isLoggedIn);
+    hideLogoutContainer(isLoggedIn());
 }
 // EASTEREGG
 function triggerEasterEgg() {
@@ -36,6 +33,11 @@ function getCookieObject() {
     return cookieObject;
 }
 
+function isLoggedIn() {
+    let cookies = getCookieObject();
+    return (typeof cookies["loggedin"] != "undefined" && cookies["loggedin"] == "true");
+}
+
 // HIDING ELEMENTS
 function hideLogoutContainer(isLoggedIn) {
     this.hideElement(document.getElementById("login-container"), isLoggedIn);
@@ -58,16 +60,19 @@ function isHidden(el) {
 }
 
 function togglePopup(toShow, element) {
-    let popup = document.getElementById("popup");
-    this.hideElement(popup, !toShow);
-    this.blurBackground(toShow);
+    if (isLoggedIn()) {
+        let popup = document.getElementById("popup");
+        this.hideElement(popup, !toShow);
+        this.blurBackground(toShow);
 
-    if(!isHidden(popup) && element !== null) {
-        let title = document.getElementById("popup-event-title");
-        let eventValue = element.innerHTML.split("<p>")[0];
-        title.innerHTML = eventValue;
+        if (!isHidden(popup) && element !== null) {
+            let title = document.getElementById("popup-event-title");
+            let eventValue = element.children[0].innerHTML;
+            title.innerHTML = eventValue;
 
-        setUid(element.dataset.popup);
+            setUid(element.dataset.popup);
+            setNote(element.dataset.popupnote);
+        }
     }
 }
 
@@ -88,7 +93,7 @@ function removeClass(element, attribute) {
 
 function blurBackground(toBlur) {
     let e = document.getElementsByTagName("html")[0];
-    if(toBlur) {
+    if (toBlur) {
         this.addClass(e, "bg-blur");
     } else {
         this.removeClass(e, "bg-blur");
@@ -99,4 +104,9 @@ function blurBackground(toBlur) {
 function setUid(uid) {
     let uidInput = document.getElementById("popup-uid");
     uidInput.value = uid;
+}
+
+function setNote(note) {
+    let textarea = document.getElementById("note-input");
+    textarea.value = note;
 }

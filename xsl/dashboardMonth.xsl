@@ -236,18 +236,18 @@
             <xsl:variable name="duration" select="(endtime/total - starttime/total)div 15" />
             <xsl:choose>
               <xsl:when test="categories = 'Prüfung'">
-                <div class="timetable-month bg-test" data-popup="{uid}" onclick="togglePopup(true, this)">
-                  <xsl:value-of select="summary" />
+                <div class="timetable-month bg-test" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)">
+                  <p class="text-bold"><xsl:value-of select="summary"/></p>
                 </div>
               </xsl:when>
               <xsl:when test="categories = 'Sonstiger Termin'">
-                <div class="timetable-month bg-other" data-popup="{uid}" onclick="togglePopup(true, this)">
-                  <xsl:value-of select="summary" />
+                <div class="timetable-month bg-other" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)">
+                  <p class="text-bold"><xsl:value-of select="summary"/></p>
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                <div class="timetable-month bg-normal" data-popup="{uid}" onclick="togglePopup(true, this)">
-                  <xsl:value-of select="summary" />
+                <div class="timetable-month bg-normal" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)">
+                  <p class="text-bold"><xsl:value-of select="summary"/></p>
                 </div>
               </xsl:otherwise>
             </xsl:choose>

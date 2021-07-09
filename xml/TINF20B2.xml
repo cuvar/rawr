@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <calendar>
   <timezone>
     <tz_name>Europe/Berlin</tz_name>
@@ -29,13 +29,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -53,7 +53,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -64,7 +64,7 @@
     <last_modified>20210215T061752Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20180402T060000Z</start>
@@ -74,7 +74,7 @@
   <event>
     <created>20210308T170318Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -110,7 +110,7 @@
   <event>
     <created>20171017T114210Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -134,7 +134,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -144,7 +144,7 @@
     <end>20190305T073000Z</end>
     <last_modified>20201215T134535Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20190305T070000Z</start>
@@ -193,13 +193,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -211,7 +211,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -228,7 +228,7 @@
     <last_modified>20201215T133458Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20240530T060000Z</start>
@@ -238,13 +238,13 @@
   <event>
     <created>20171017T114210Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -272,7 +272,7 @@
     <end>20250304T073000Z</end>
     <last_modified>20201215T134535Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20250304T070000Z</start>
@@ -294,7 +294,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -312,13 +312,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -335,7 +335,7 @@
     <last_modified>20210215T061752Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20200413T060000Z</start>
@@ -545,7 +545,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -566,7 +566,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -587,7 +587,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -608,7 +608,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -629,7 +629,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -650,7 +650,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -671,7 +671,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -692,7 +692,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -713,7 +713,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -734,7 +734,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -905,12 +905,12 @@
   <event>
     <created>20151125T061101Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210620T111648Z</dtstamp>
     <end>20211221T110000Z</end>
     <last_modified>20210620T111648Z</last_modified>
@@ -940,7 +940,7 @@
   <event>
     <created>20181029T094927Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -964,13 +964,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -993,7 +993,7 @@
     <last_modified>20201215T133458Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20180531T060000Z</start>
@@ -1003,18 +1003,18 @@
   <event>
     <created>20210318T103505Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210617T084415Z</dtstamp>
     <end>20210804T090000Z</end>
     <last_modified>20210617T084415Z</last_modified>
-    <location>A266  Hörsaal</location>
+    <location>A266  H&#xF6;rsaal</location>
     <organizer>
-      <name>Klöppner, Barbara</name>
+      <name>Kl&#xF6;ppner, Barbara</name>
       <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210804T073000Z</start>
@@ -1024,7 +1024,7 @@
   <event>
     <created>20171017T114641Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1036,7 +1036,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1054,7 +1054,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1077,7 +1077,7 @@
     <last_modified>20210215T061752Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20230410T060000Z</start>
@@ -1123,7 +1123,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1147,13 +1147,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1299,7 +1299,7 @@
   <event>
     <created>20180226T065730Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1335,13 +1335,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1352,11 +1352,11 @@
     <last_modified>20201215T133544Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20290106T070000Z</start>
-    <summary>Hl. 3 Könige</summary>
+    <summary>Hl. 3 K&#xF6;nige</summary>
     <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
   </event>
   <event>
@@ -1374,19 +1374,19 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1414,7 +1414,7 @@
     <end>20190419T160000Z</end>
     <last_modified>20210215T061737Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20190419T060000Z</start>
@@ -1436,13 +1436,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1454,7 +1454,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1477,11 +1477,11 @@
     <last_modified>20201215T133544Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20280106T070000Z</start>
-    <summary>Hl. 3 Könige</summary>
+    <summary>Hl. 3 K&#xF6;nige</summary>
     <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
   </event>
   <event>
@@ -1499,13 +1499,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1529,7 +1529,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1789,7 +1789,7 @@
   <event>
     <created>20210701T070214Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1813,17 +1813,17 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210701T070404Z</dtstamp>
     <end>20211005T140000Z</end>
     <last_modified>20210701T070404Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211005T120000Z</start>
@@ -1863,7 +1863,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1884,7 +1884,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1905,7 +1905,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1926,7 +1926,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1947,7 +1947,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -1983,7 +1983,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2004,7 +2004,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2025,7 +2025,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2046,13 +2046,13 @@
   <event>
     <created>20171017T114210Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2080,7 +2080,7 @@
     <end>20180213T073000Z</end>
     <last_modified>20201215T134535Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20180213T071500Z</start>
@@ -2225,7 +2225,7 @@
   <event>
     <created>20210526T134010Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2249,7 +2249,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2259,7 +2259,7 @@
     <end>20211221T071500Z</end>
     <last_modified>20210526T134137Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211221T070000Z</start>
@@ -2275,7 +2275,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2293,7 +2293,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2303,7 +2303,7 @@
     <end>20211222T071500Z</end>
     <last_modified>20210526T134137Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211222T070000Z</start>
@@ -2313,7 +2313,7 @@
   <event>
     <created>20210526T134010Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2331,7 +2331,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2347,7 +2347,7 @@
     <end>20211223T071500Z</end>
     <last_modified>20210526T134137Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211223T070000Z</start>
@@ -2369,7 +2369,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2381,7 +2381,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2391,7 +2391,7 @@
     <end>20211220T071500Z</end>
     <last_modified>20210526T134137Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211220T070000Z</start>
@@ -2413,13 +2413,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2443,7 +2443,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2453,7 +2453,7 @@
     <end>20230407T160000Z</end>
     <last_modified>20210215T061737Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20230407T060000Z</start>
@@ -2757,9 +2757,9 @@
     <description>Immatag - Informatik TINF20B2</description>
     <end>20201001T100000Z</end>
     <last_modified>20200908T064034Z</last_modified>
-    <location>A268  Hörsaal</location>
+    <location>A268  H&#xF6;rsaal</location>
     <organizer>
-      <name>Klöppner, Barbara</name>
+      <name>Kl&#xF6;ppner, Barbara</name>
       <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20201001T070000Z</start>
@@ -2784,7 +2784,7 @@
   <event>
     <created>20180205T092414Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2796,7 +2796,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2820,7 +2820,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2852,7 +2852,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2870,13 +2870,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -2899,7 +2899,7 @@
     <last_modified>20201215T133458Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20220616T060000Z</start>
@@ -3134,7 +3134,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3158,13 +3158,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3181,7 +3181,7 @@
     <last_modified>20210215T061752Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210405T060000Z</start>
@@ -3215,7 +3215,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3227,13 +3227,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3243,7 +3243,7 @@
     <end>20271003T160000Z</end>
     <last_modified>20201215T133517Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20271003T060000Z</start>
@@ -3259,7 +3259,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3277,7 +3277,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3289,7 +3289,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3305,7 +3305,7 @@
     <end>20261003T160000Z</end>
     <last_modified>20201215T133517Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20261003T060000Z</start>
@@ -3321,7 +3321,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3333,7 +3333,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3351,7 +3351,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3367,7 +3367,7 @@
     <end>20251003T160000Z</end>
     <last_modified>20201215T133517Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20251003T060000Z</start>
@@ -3389,7 +3389,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3401,13 +3401,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3429,7 +3429,7 @@
     <end>20241003T160000Z</end>
     <last_modified>20201215T133517Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20241003T060000Z</start>
@@ -3463,13 +3463,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3481,7 +3481,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3491,7 +3491,7 @@
     <end>20231003T160000Z</end>
     <last_modified>20201215T133517Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20231003T060000Z</start>
@@ -3525,19 +3525,19 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3553,7 +3553,7 @@
     <end>20221003T160000Z</end>
     <last_modified>20201215T133517Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20221003T060000Z</start>
@@ -3563,7 +3563,7 @@
   <event>
     <created>20180226T065730Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3587,7 +3587,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3605,7 +3605,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3615,7 +3615,7 @@
     <end>20211003T160000Z</end>
     <last_modified>20201215T133517Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211003T060000Z</start>
@@ -3631,7 +3631,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3655,7 +3655,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3667,7 +3667,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3677,7 +3677,7 @@
     <end>20201003T160000Z</end>
     <last_modified>20201215T133517Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20201003T060000Z</start>
@@ -3699,19 +3699,19 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3739,7 +3739,7 @@
     <end>20191003T160000Z</end>
     <last_modified>20201215T133517Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20191003T060000Z</start>
@@ -3749,7 +3749,7 @@
   <event>
     <created>20180226T065730Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3761,7 +3761,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3791,7 +3791,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -3801,7 +3801,7 @@
     <end>20181003T160000Z</end>
     <last_modified>20201215T133517Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20181003T060000Z</start>
@@ -4027,7 +4027,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4039,7 +4039,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4063,7 +4063,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4074,17 +4074,17 @@
     <last_modified>20201215T133544Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20270106T070000Z</start>
-    <summary>Hl. 3 Könige</summary>
+    <summary>Hl. 3 K&#xF6;nige</summary>
     <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
   </event>
   <event>
     <created>20180226T065730Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4108,7 +4108,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4120,7 +4120,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4137,11 +4137,11 @@
     <last_modified>20201215T133544Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20260106T070000Z</start>
-    <summary>Hl. 3 Könige</summary>
+    <summary>Hl. 3 K&#xF6;nige</summary>
     <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
   </event>
   <event>
@@ -4153,13 +4153,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4171,7 +4171,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4200,11 +4200,11 @@
     <last_modified>20201215T133544Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20250106T070000Z</start>
-    <summary>Hl. 3 Könige</summary>
+    <summary>Hl. 3 K&#xF6;nige</summary>
     <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
   </event>
   <event>
@@ -4228,7 +4228,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4246,13 +4246,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4263,11 +4263,11 @@
     <last_modified>20201215T133544Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20240106T070000Z</start>
-    <summary>Hl. 3 Könige</summary>
+    <summary>Hl. 3 K&#xF6;nige</summary>
     <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
   </event>
   <event>
@@ -4291,13 +4291,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4315,7 +4315,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4326,17 +4326,17 @@
     <last_modified>20201215T133544Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20230106T070000Z</start>
-    <summary>Hl. 3 Könige</summary>
+    <summary>Hl. 3 K&#xF6;nige</summary>
     <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
   </event>
   <event>
     <created>20180226T065730Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4354,7 +4354,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4378,7 +4378,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4389,11 +4389,11 @@
     <last_modified>20201215T133544Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20220106T070000Z</start>
-    <summary>Hl. 3 Könige</summary>
+    <summary>Hl. 3 K&#xF6;nige</summary>
     <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
   </event>
   <event>
@@ -4405,13 +4405,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4423,7 +4423,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4452,11 +4452,11 @@
     <last_modified>20201215T133544Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210106T070000Z</start>
-    <summary>Hl. 3 Könige</summary>
+    <summary>Hl. 3 K&#xF6;nige</summary>
     <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
   </event>
   <event>
@@ -4474,13 +4474,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4498,7 +4498,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4515,17 +4515,17 @@
     <last_modified>20201215T133544Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20200106T070000Z</start>
-    <summary>Hl. 3 Könige</summary>
+    <summary>Hl. 3 K&#xF6;nige</summary>
     <uid>a3ab92de-20a1-4c67-9c81-17d05eeff52a</uid>
   </event>
   <event>
     <created>20171017T114641Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4543,7 +4543,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4567,7 +4567,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4577,7 +4577,7 @@
     <end>20200410T160000Z</end>
     <last_modified>20210215T061737Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20200410T060000Z</start>
@@ -4608,7 +4608,7 @@
   <event>
     <created>20180205T092414Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4620,13 +4620,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4671,7 +4671,7 @@
     <created>20150722T090047Z</created>
     <categories>Lehrveranstaltung</categories>
     <dtstamp>20210627T063450Z</dtstamp>
-    <description>Geschäftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+    <description>Gesch&#xE4;ftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
     <end>20211119T104500Z</end>
     <last_modified>20210627T063450Z</last_modified>
     <organizer>
@@ -4679,14 +4679,14 @@
       <contact>freudenmann@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211119T073000Z</start>
-    <summary>Geschäftsprozesse</summary>
+    <summary>Gesch&#xE4;ftsprozesse</summary>
     <uid>a359d544-6040-45ee-a40c-8c4ec84cfc89</uid>
   </event>
   <event>
     <created>20150722T090047Z</created>
     <categories>Lehrveranstaltung</categories>
     <dtstamp>20210627T063450Z</dtstamp>
-    <description>Geschäftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+    <description>Gesch&#xE4;ftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
     <end>20211112T104500Z</end>
     <last_modified>20210627T063450Z</last_modified>
     <organizer>
@@ -4694,14 +4694,14 @@
       <contact>freudenmann@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211112T073000Z</start>
-    <summary>Geschäftsprozesse</summary>
+    <summary>Gesch&#xE4;ftsprozesse</summary>
     <uid>a359d544-6040-45ee-a40c-8c4ec84cfc89</uid>
   </event>
   <event>
     <created>20150722T090047Z</created>
     <categories>Lehrveranstaltung</categories>
     <dtstamp>20210627T063450Z</dtstamp>
-    <description>Geschäftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+    <description>Gesch&#xE4;ftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
     <end>20211105T104500Z</end>
     <last_modified>20210627T063450Z</last_modified>
     <organizer>
@@ -4709,14 +4709,14 @@
       <contact>freudenmann@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211105T073000Z</start>
-    <summary>Geschäftsprozesse</summary>
+    <summary>Gesch&#xE4;ftsprozesse</summary>
     <uid>a359d544-6040-45ee-a40c-8c4ec84cfc89</uid>
   </event>
   <event>
     <created>20150722T090047Z</created>
     <categories>Lehrveranstaltung</categories>
     <dtstamp>20210627T063450Z</dtstamp>
-    <description>Geschäftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+    <description>Gesch&#xE4;ftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
     <end>20211029T094500Z</end>
     <last_modified>20210627T063450Z</last_modified>
     <organizer>
@@ -4724,14 +4724,14 @@
       <contact>freudenmann@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211029T063000Z</start>
-    <summary>Geschäftsprozesse</summary>
+    <summary>Gesch&#xE4;ftsprozesse</summary>
     <uid>a359d544-6040-45ee-a40c-8c4ec84cfc89</uid>
   </event>
   <event>
     <created>20150722T090047Z</created>
     <categories>Lehrveranstaltung</categories>
     <dtstamp>20210627T063450Z</dtstamp>
-    <description>Geschäftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+    <description>Gesch&#xE4;ftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
     <end>20211022T094500Z</end>
     <last_modified>20210627T063450Z</last_modified>
     <organizer>
@@ -4739,14 +4739,14 @@
       <contact>freudenmann@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211022T063000Z</start>
-    <summary>Geschäftsprozesse</summary>
+    <summary>Gesch&#xE4;ftsprozesse</summary>
     <uid>a359d544-6040-45ee-a40c-8c4ec84cfc89</uid>
   </event>
   <event>
     <created>20150722T090047Z</created>
     <categories>Lehrveranstaltung</categories>
     <dtstamp>20210627T063450Z</dtstamp>
-    <description>Geschäftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+    <description>Gesch&#xE4;ftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
     <end>20211015T094500Z</end>
     <last_modified>20210627T063450Z</last_modified>
     <organizer>
@@ -4754,14 +4754,14 @@
       <contact>freudenmann@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211015T063000Z</start>
-    <summary>Geschäftsprozesse</summary>
+    <summary>Gesch&#xE4;ftsprozesse</summary>
     <uid>a359d544-6040-45ee-a40c-8c4ec84cfc89</uid>
   </event>
   <event>
     <created>20150722T090047Z</created>
     <categories>Lehrveranstaltung</categories>
     <dtstamp>20210627T063450Z</dtstamp>
-    <description>Geschäftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+    <description>Gesch&#xE4;ftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
     <end>20211008T094500Z</end>
     <last_modified>20210627T063450Z</last_modified>
     <organizer>
@@ -4769,14 +4769,14 @@
       <contact>freudenmann@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211008T063000Z</start>
-    <summary>Geschäftsprozesse</summary>
+    <summary>Gesch&#xE4;ftsprozesse</summary>
     <uid>a359d544-6040-45ee-a40c-8c4ec84cfc89</uid>
   </event>
   <event>
     <created>20150722T090047Z</created>
     <categories>Lehrveranstaltung</categories>
     <dtstamp>20210627T063450Z</dtstamp>
-    <description>Geschäftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+    <description>Gesch&#xE4;ftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
     <end>20211203T104500Z</end>
     <last_modified>20210627T063450Z</last_modified>
     <organizer>
@@ -4784,14 +4784,14 @@
       <contact>freudenmann@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211203T073000Z</start>
-    <summary>Geschäftsprozesse</summary>
+    <summary>Gesch&#xE4;ftsprozesse</summary>
     <uid>a359d544-6040-45ee-a40c-8c4ec84cfc89</uid>
   </event>
   <event>
     <created>20150722T090047Z</created>
     <categories>Lehrveranstaltung</categories>
     <dtstamp>20210627T063450Z</dtstamp>
-    <description>Geschäftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
+    <description>Gesch&#xE4;ftsprozesse TINF20B2\, TINF20B5\, TINF20B1\, TINF20B4</description>
     <end>20211126T104500Z</end>
     <last_modified>20210627T063450Z</last_modified>
     <organizer>
@@ -4799,7 +4799,7 @@
       <contact>freudenmann@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211126T073000Z</start>
-    <summary>Geschäftsprozesse</summary>
+    <summary>Gesch&#xE4;ftsprozesse</summary>
     <uid>a359d544-6040-45ee-a40c-8c4ec84cfc89</uid>
   </event>
   <event>
@@ -4817,7 +4817,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4829,7 +4829,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4847,7 +4847,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4858,7 +4858,7 @@
     <last_modified>20201215T133428Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210513T060000Z</start>
@@ -4868,7 +4868,7 @@
   <event>
     <created>20171017T114641Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4898,7 +4898,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4910,7 +4910,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4921,7 +4921,7 @@
     <last_modified>20210215T061752Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20240401T060000Z</start>
@@ -4943,7 +4943,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4967,13 +4967,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -4984,7 +4984,7 @@
     <last_modified>20201215T133458Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20200611T060000Z</start>
@@ -4994,13 +4994,13 @@
   <event>
     <created>20171221T113704Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5024,7 +5024,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5047,7 +5047,7 @@
     <last_modified>20201217T135522Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20190501T060000Z</start>
@@ -5063,13 +5063,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5099,7 +5099,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5110,7 +5110,7 @@
     <last_modified>20201217T135522Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20180501T060000Z</start>
@@ -5126,13 +5126,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5144,7 +5144,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5173,7 +5173,7 @@
     <last_modified>20201215T133428Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20220526T060000Z</start>
@@ -5188,13 +5188,13 @@
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210617T083818Z</dtstamp>
     <end>20210729T093000Z</end>
     <last_modified>20210617T083818Z</last_modified>
-    <location>BAudimaxL  Hörsaal\, BAudimaxR  Hörsaal</location>
+    <location>BAudimaxL  H&#xF6;rsaal\, BAudimaxR  H&#xF6;rsaal</location>
     <organizer>
-      <name>Klöppner, Barbara</name>
+      <name>Kl&#xF6;ppner, Barbara</name>
       <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210729T070000Z</start>
@@ -5252,24 +5252,24 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210616T120936Z</dtstamp>
     <end>20210806T093000Z</end>
     <last_modified>20210616T120936Z</last_modified>
-    <location>A366 HD Hörsaal</location>
+    <location>A366 HD H&#xF6;rsaal</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210806T080000Z</start>
@@ -5279,7 +5279,7 @@
   <event>
     <created>20201117T113030Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5300,7 +5300,7 @@
   <event>
     <created>20180205T092414Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5324,7 +5324,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5342,7 +5342,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5374,7 +5374,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5386,13 +5386,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5414,7 +5414,7 @@
     <end>20220415T160000Z</end>
     <last_modified>20210215T061737Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20220415T060000Z</start>
@@ -5436,7 +5436,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5460,13 +5460,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5477,7 +5477,7 @@
     <last_modified>20201215T133458Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20230608T060000Z</start>
@@ -5507,17 +5507,17 @@
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210326T061740Z</dtstamp>
     <end>20210510T134500Z</end>
     <last_modified>20210326T061740Z</last_modified>
-    <location>A473 W Hörsaal</location>
+    <location>A473 W H&#xF6;rsaal</location>
     <organizer>
-      <name>Klöppner, Barbara</name>
+      <name>Kl&#xF6;ppner, Barbara</name>
       <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210510T121500Z</start>
-    <summary>Klausur Informatik – Grundlagen und Logik  (90 min)</summary>
+    <summary>Klausur Informatik &#x2013; Grundlagen und Logik  (90 min)</summary>
     <uid>a4b99bae-ca27-48c3-9ba8-cc777d1572fb</uid>
   </event>
   <event>
@@ -5529,7 +5529,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5541,7 +5541,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5557,7 +5557,7 @@
     <end>20210806T061500Z</end>
     <last_modified>20210120T090729Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210806T060000Z</start>
@@ -5567,7 +5567,7 @@
   <event>
     <created>20141103T103245Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5591,7 +5591,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5601,7 +5601,7 @@
     <end>20210805T061500Z</end>
     <last_modified>20210120T090729Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210805T060000Z</start>
@@ -5617,7 +5617,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5635,7 +5635,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5645,7 +5645,7 @@
     <end>20210804T061500Z</end>
     <last_modified>20210120T090729Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210804T060000Z</start>
@@ -5733,13 +5733,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5749,7 +5749,7 @@
     <end>20210803T061500Z</end>
     <last_modified>20210120T090729Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210803T060000Z</start>
@@ -5759,7 +5759,7 @@
   <event>
     <created>20141103T103245Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5777,7 +5777,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5793,7 +5793,7 @@
     <end>20210802T061500Z</end>
     <last_modified>20210120T090729Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210802T060000Z</start>
@@ -5883,13 +5883,13 @@
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210318T161105Z</dtstamp>
     <end>20210325T113000Z</end>
     <last_modified>20210318T161105Z</last_modified>
-    <location>BAudimaxL  Hörsaal\, BAudimaxR  Hörsaal</location>
+    <location>BAudimaxL  H&#xF6;rsaal\, BAudimaxR  H&#xF6;rsaal</location>
     <organizer>
-      <name>Klöppner, Barbara</name>
+      <name>Kl&#xF6;ppner, Barbara</name>
       <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210325T090000Z</start>
@@ -5944,19 +5944,19 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -5967,7 +5967,7 @@
     <last_modified>20201215T133428Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20230518T060000Z</start>
@@ -6043,7 +6043,7 @@
   <event>
     <created>20180205T092414Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6073,7 +6073,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6085,7 +6085,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6105,19 +6105,19 @@
   <event>
     <created>20181029T094927Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6158,7 +6158,7 @@
     <last_modified>20201215T133428Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20240509T060000Z</start>
@@ -6209,7 +6209,7 @@
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210620T111652Z</dtstamp>
     <end>20211223T110000Z</end>
     <last_modified>20210620T111652Z</last_modified>
@@ -6224,18 +6224,18 @@
   <event>
     <created>20210701T071508Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210701T071604Z</dtstamp>
     <end>20211005T140000Z</end>
     <last_modified>20210701T071604Z</last_modified>
-    <location>A266  Hörsaal</location>
+    <location>A266  H&#xF6;rsaal</location>
     <organizer>
-      <name>Klöppner, Barbara</name>
+      <name>Kl&#xF6;ppner, Barbara</name>
       <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211005T120000Z</start>
@@ -6251,7 +6251,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6275,7 +6275,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6287,7 +6287,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6297,7 +6297,7 @@
     <end>20210402T160000Z</end>
     <last_modified>20210215T061737Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210402T060000Z</start>
@@ -6532,7 +6532,7 @@
   <event>
     <created>20210308T170318Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6549,11 +6549,12 @@
     <start>20210707T113000Z</start>
     <summary>Webengineering</summary>
     <uid>a3815382-00a4-4823-a7fd-7f6e4e31bd46</uid>
+    <note>Letzte Vorlesung.</note>
   </event>
   <event>
     <created>20210308T170318Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6570,11 +6571,12 @@
     <start>20210630T113000Z</start>
     <summary>Webengineering</summary>
     <uid>a3815382-00a4-4823-a7fd-7f6e4e31bd46</uid>
+    <note>Letzte Vorlesung.</note>
   </event>
   <event>
     <created>20210308T170318Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6591,11 +6593,12 @@
     <start>20210623T113000Z</start>
     <summary>Webengineering</summary>
     <uid>a3815382-00a4-4823-a7fd-7f6e4e31bd46</uid>
+    <note>Letzte Vorlesung.</note>
   </event>
   <event>
     <created>20210308T170318Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6612,11 +6615,12 @@
     <start>20210616T113000Z</start>
     <summary>Webengineering</summary>
     <uid>a3815382-00a4-4823-a7fd-7f6e4e31bd46</uid>
+    <note>Letzte Vorlesung.</note>
   </event>
   <event>
     <created>20210308T170318Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6633,11 +6637,12 @@
     <start>20210609T113000Z</start>
     <summary>Webengineering</summary>
     <uid>a3815382-00a4-4823-a7fd-7f6e4e31bd46</uid>
+    <note>Letzte Vorlesung.</note>
   </event>
   <event>
     <created>20210308T170318Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6654,11 +6659,12 @@
     <start>20210602T113000Z</start>
     <summary>Webengineering</summary>
     <uid>a3815382-00a4-4823-a7fd-7f6e4e31bd46</uid>
+    <note>Letzte Vorlesung.</note>
   </event>
   <event>
     <created>20210308T170318Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6675,11 +6681,12 @@
     <start>20210526T113000Z</start>
     <summary>Webengineering</summary>
     <uid>a3815382-00a4-4823-a7fd-7f6e4e31bd46</uid>
+    <note>Letzte Vorlesung.</note>
   </event>
   <event>
     <created>20210308T170318Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6696,17 +6703,18 @@
     <start>20210519T113000Z</start>
     <summary>Webengineering</summary>
     <uid>a3815382-00a4-4823-a7fd-7f6e4e31bd46</uid>
+    <note>Letzte Vorlesung.</note>
   </event>
   <event>
     <created>20171017T114210Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6734,7 +6742,7 @@
     <end>20240213T071500Z</end>
     <last_modified>20201215T134535Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20240213T070000Z</start>
@@ -6914,13 +6922,13 @@
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210318T122801Z</dtstamp>
     <end>20210319T110000Z</end>
     <last_modified>20210318T122801Z</last_modified>
-    <location>BAudimaxL  Hörsaal\, BAudimaxR  Hörsaal</location>
+    <location>BAudimaxL  H&#xF6;rsaal\, BAudimaxR  H&#xF6;rsaal</location>
     <organizer>
-      <name>Klöppner, Barbara</name>
+      <name>Kl&#xF6;ppner, Barbara</name>
       <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210319T090000Z</start>
@@ -6930,7 +6938,7 @@
   <event>
     <created>20171221T113704Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6948,7 +6956,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6960,7 +6968,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -6983,7 +6991,7 @@
     <last_modified>20201217T135522Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20270501T060000Z</start>
@@ -7005,7 +7013,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7017,13 +7025,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7046,7 +7054,7 @@
     <last_modified>20201217T135522Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20260501T060000Z</start>
@@ -7056,13 +7064,13 @@
   <event>
     <created>20171221T113704Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7074,7 +7082,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7109,7 +7117,7 @@
     <last_modified>20201217T135522Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20250501T060000Z</start>
@@ -7125,19 +7133,19 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7172,7 +7180,7 @@
     <last_modified>20201217T135522Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20240501T060000Z</start>
@@ -7194,19 +7202,19 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7235,7 +7243,7 @@
     <last_modified>20201217T135522Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20230501T060000Z</start>
@@ -7275,19 +7283,19 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7298,7 +7306,7 @@
     <last_modified>20201217T135522Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20220501T060000Z</start>
@@ -7326,7 +7334,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7338,13 +7346,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7361,7 +7369,7 @@
     <last_modified>20201217T135522Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210501T060000Z</start>
@@ -7371,13 +7379,13 @@
   <event>
     <created>20171221T113704Z</created>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7407,7 +7415,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7424,7 +7432,7 @@
     <last_modified>20201217T135522Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20200501T060000Z</start>
@@ -7503,13 +7511,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7531,7 +7539,7 @@
     <end>20230221T073000Z</end>
     <last_modified>20201215T134535Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20230221T070000Z</start>
@@ -7559,13 +7567,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7575,7 +7583,7 @@
     <end>20200225T073000Z</end>
     <last_modified>20201215T134535Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20200225T070000Z</start>
@@ -7591,13 +7599,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7621,7 +7629,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7638,7 +7646,7 @@
     <last_modified>20201215T133428Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20200521T060000Z</start>
@@ -7648,7 +7656,7 @@
   <event>
     <created>20171017T114641Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7672,7 +7680,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7690,7 +7698,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7701,7 +7709,7 @@
     <last_modified>20210215T061752Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20220418T060000Z</start>
@@ -7711,13 +7719,13 @@
   <event>
     <created>20171017T114210Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7745,7 +7753,7 @@
     <end>20210216T071500Z</end>
     <last_modified>20201215T134535Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210216T070000Z</start>
@@ -7755,7 +7763,7 @@
   <event>
     <created>20171017T114641Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7779,7 +7787,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7797,7 +7805,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -7807,7 +7815,7 @@
     <end>20240329T170000Z</end>
     <last_modified>20210215T061737Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20240329T070000Z</start>
@@ -8163,7 +8171,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8181,7 +8189,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8199,7 +8207,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8209,7 +8217,7 @@
     <end>20241101T170000Z</end>
     <last_modified>20210526T135302Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20241101T070000Z</start>
@@ -8246,7 +8254,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8264,7 +8272,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8276,7 +8284,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8293,7 +8301,7 @@
     <last_modified>20201215T133428Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20190530T060000Z</start>
@@ -8324,13 +8332,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8354,7 +8362,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8371,7 +8379,7 @@
     <last_modified>20201215T133458Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210603T060000Z</start>
@@ -8381,13 +8389,13 @@
   <event>
     <created>20171017T114641Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8423,7 +8431,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8434,7 +8442,7 @@
     <last_modified>20210215T061752Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20190422T060000Z</start>
@@ -8450,7 +8458,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8462,7 +8470,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8478,7 +8486,7 @@
     <end>20210510T061500Z</end>
     <last_modified>20210120T090925Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210510T060000Z</start>
@@ -8656,7 +8664,7 @@
   <event>
     <created>20210526T133555Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8668,7 +8676,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8692,7 +8700,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8708,7 +8716,7 @@
     <end>20211004T061500Z</end>
     <last_modified>20210528T082903Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211004T060000Z</start>
@@ -8738,7 +8746,7 @@
   </event>
   <event>
     <created>20150722T090047Z</created>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210517T145252Z</dtstamp>
     <end>20211217T100000Z</end>
     <last_modified>20210517T145252Z</last_modified>
@@ -8760,13 +8768,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8788,7 +8796,7 @@
     <end>20220301T073000Z</end>
     <last_modified>20201215T134535Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20220301T070000Z</start>
@@ -8903,7 +8911,7 @@
   <event>
     <created>20180205T092414Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8921,7 +8929,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8939,7 +8947,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8977,7 +8985,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -8995,7 +9003,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9007,7 +9015,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9017,7 +9025,7 @@
     <end>20231101T170000Z</end>
     <last_modified>20210526T135302Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20231101T070000Z</start>
@@ -9051,7 +9059,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9063,13 +9071,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9079,7 +9087,7 @@
     <end>20221101T170000Z</end>
     <last_modified>20210526T135302Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20221101T070000Z</start>
@@ -9095,13 +9103,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9125,7 +9133,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9141,7 +9149,7 @@
     <end>20211101T170000Z</end>
     <last_modified>20210526T135302Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20211101T070000Z</start>
@@ -9169,7 +9177,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9187,13 +9195,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9203,7 +9211,7 @@
     <end>20201101T170000Z</end>
     <last_modified>20210526T135302Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20201101T070000Z</start>
@@ -9219,7 +9227,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9231,7 +9239,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9249,7 +9257,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9265,7 +9273,7 @@
     <end>20191101T170000Z</end>
     <last_modified>20210526T135302Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20191101T070000Z</start>
@@ -9281,13 +9289,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9299,7 +9307,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9327,7 +9335,7 @@
     <end>20181101T170000Z</end>
     <last_modified>20210526T135302Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20181101T070000Z</start>
@@ -9337,13 +9345,13 @@
   <event>
     <created>20180226T065730Z</created>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9355,7 +9363,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9389,7 +9397,7 @@
     <end>20271101T170000Z</end>
     <last_modified>20210526T135302Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20271101T070000Z</start>
@@ -9399,7 +9407,7 @@
   <event>
     <created>20180226T065730Z</created>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9411,7 +9419,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9441,7 +9449,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9451,7 +9459,7 @@
     <end>20261101T170000Z</end>
     <last_modified>20210526T135302Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20261101T070000Z</start>
@@ -9466,13 +9474,13 @@
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210318T153514Z</dtstamp>
     <end>20210331T100000Z</end>
     <last_modified>20210318T153514Z</last_modified>
-    <location>A268  Hörsaal</location>
+    <location>A268  H&#xF6;rsaal</location>
     <organizer>
-      <name>Klöppner, Barbara</name>
+      <name>Kl&#xF6;ppner, Barbara</name>
       <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210331T080000Z</start>
@@ -9488,7 +9496,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9512,13 +9520,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9534,7 +9542,7 @@
     <end>20251101T170000Z</end>
     <last_modified>20210526T135302Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20251101T070000Z</start>
@@ -9562,7 +9570,7 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9580,13 +9588,13 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9596,7 +9604,7 @@
     <end>20180330T160000Z</end>
     <last_modified>20210215T061737Z</last_modified>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20180330T060000Z</start>
@@ -9646,19 +9654,19 @@
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Eisenbiegler, Jörn</name>
+      <name>Eisenbiegler, J&#xF6;rn</name>
       <contact>joern.eisenbiegler@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
     <attendee>
-      <name>Röthig, Jürgen</name>
+      <name>R&#xF6;thig, J&#xFC;rgen</name>
       <contact>juergen.roethig@dhbw-karlsruhe.de</contact>
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
@@ -9681,7 +9689,7 @@
     <last_modified>20201215T133458Z</last_modified>
     <location>XOnline-Veranstaltung A Virtueller Raum</location>
     <organizer>
-      <name>Vollmer, Jürgen</name>
+      <name>Vollmer, J&#xFC;rgen</name>
       <contact>juergen.vollmer@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20190620T060000Z</start>
@@ -9696,13 +9704,13 @@
       <status>ACCEPTED</status>
       <role>REQ-PARTICIPANT</role>
     </attendee>
-    <categories>Prüfung</categories>
+    <categories>Pr&#xFC;fung</categories>
     <dtstamp>20210421T085720Z</dtstamp>
     <end>20210604T103000Z</end>
     <last_modified>20210421T085720Z</last_modified>
-    <location>G082 SHE Hörsaal</location>
+    <location>G082 SHE H&#xF6;rsaal</location>
     <organizer>
-      <name>Klöppner, Barbara</name>
+      <name>Kl&#xF6;ppner, Barbara</name>
       <contact>barbara.kloeppner@dhbw-karlsruhe.de</contact>
     </organizer>
     <start>20210604T080000Z</start>

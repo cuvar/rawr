@@ -38,3 +38,12 @@ html {
   /* filter: blur(2px); */
   z-index: 0 !important;
 }
+
+/* TEXT */
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
