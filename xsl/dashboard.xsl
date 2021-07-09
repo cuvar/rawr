@@ -113,6 +113,8 @@
                     </div>
                   </div>
                 </div>
+                <input id="popup-uid" name="uid" style="display: none;"></input>
+                <input name="class" style="display: none;" value="{calendar/info/class}"></input>
                 <button id="popup-btn-submit" type="submit">Speichern</button>
               </form>
             </div>
@@ -220,7 +222,7 @@
             <xsl:if test="startdate/total = $index">
               <xsl:choose>
                 <xsl:when test="categories = 'Prüfung'">
-                  <div class="timetable bg-test" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'em;')}">
+                  <div class="timetable bg-test" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'em;')}">
                     <xsl:value-of select="summary" />
                     <xsl:if test="duration &gt; 2">
                       <p>
@@ -236,7 +238,7 @@
                   </div>
                 </xsl:when>
                 <xsl:when test="categories = 'Sonstiger Termin'">
-                  <div class="timetable bg-other" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'em;')}">
+                  <div class="timetable bg-other" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'em;')}">
                     <xsl:value-of select="summary" />
                     <xsl:if test="duration &gt; 2">
                       <p>
@@ -252,7 +254,7 @@
                   </div>
                 </xsl:when>
                 <xsl:otherwise>
-                  <div class="timetable bg-normal" onclick="togglePopup(true, this)" style=" {concat('height:',duration ,'em;')}">
+                  <div class="timetable bg-normal" data-popup="{uid}" onclick="togglePopup(true, this)" style=" {concat('height:',duration ,'em;')}">
                     <xsl:value-of select="summary" />
                     <xsl:if test="duration &gt; 2">
                       <p>

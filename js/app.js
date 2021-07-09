@@ -66,6 +66,8 @@ function togglePopup(toShow, element) {
         let title = document.getElementById("popup-event-title");
         let eventValue = element.innerHTML.split("<p>")[0];
         title.innerHTML = eventValue;
+
+        setUid(element.dataset.popup);
     }
 }
 
@@ -91,4 +93,10 @@ function blurBackground(toBlur) {
     } else {
         this.removeClass(e, "bg-blur");
     }
+}
+
+
+function setUid(uid) {
+    let uidInput = document.getElementById("popup-uid");
+    uidInput.value = uid;
 }

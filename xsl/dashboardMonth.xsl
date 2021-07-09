@@ -114,6 +114,9 @@
                     </div>
                   </div>
                 </div>
+                <input id="popup-uid" name="uid" style="display: none;"></input>
+                <input name="class" style="display: none;" value="{calendar/info/class}"></input>
+                <button id="popup-btn-submit" type="submit">Speichern</button>
               </form>
             </div>
           </div>
@@ -230,17 +233,17 @@
             <xsl:variable name="duration" select="(endtime/total - starttime/total)div 15" />
             <xsl:choose>
               <xsl:when test="categories = 'Prüfung'">
-                <div class="timetable bg-test" onclick="togglePopup(true, this)">
+                <div class="timetable bg-test" data-popup="{uid}" onclick="togglePopup(true, this)">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:when>
               <xsl:when test="categories = 'Sonstiger Termin'">
-                <div class="timetable bg-other" onclick="togglePopup(true, this)">
+                <div class="timetable bg-other" data-popup="{uid}" onclick="togglePopup(true, this)">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                <div class="timetable bg-normal" onclick="togglePopup(true, this)">
+                <div class="timetable bg-normal" data-popup="{uid}" onclick="togglePopup(true, this)">
                   <xsl:value-of select="summary" />
                 </div>
               </xsl:otherwise>
