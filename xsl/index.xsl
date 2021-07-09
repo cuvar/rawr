@@ -8,11 +8,12 @@
     <html>
       <head>
         <link rel="stylesheet" href="../style/index.css" />
+        <link rel="stylesheet" href="../style/general.css" />
         <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" />
         <script src="./js/app.js"></script>
       </head>
 
-      <body >
+      <body onload="onLoadIndex()">
         <div id="easteregg-container">
           <img src="res/logo.png" id="easteregg"></img>
           <audio id="easteregg-audio">

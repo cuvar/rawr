@@ -26,6 +26,9 @@
     <html>
       <head>
         <link rel="stylesheet" href="../style/dashboard.css" />
+        <link rel="stylesheet" href="../style/general.css" />
+        <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" />
+        <script src="./js/app.js"></script>
       </head>
 
       <body>
@@ -88,29 +91,19 @@
             </div>
           </div>
 
-
-          <div id="popup">
+          <!-- Popup -->
+          <div id="popup" class="display-none">
             <div>
-              <h2 id="popup-title">Neuer Termin</h2>
+              <div class="popup-title-row">
+                <h2 id="popup-title">Notiz bearbeiten</h2>
+                <button class="btn-icon" id="popup-close" onclick="togglePopup(false, null)">
+                  <img src="res/close.svg" alt="Close" />
+                </button>
+              </div>
+
               <form action="../php/setNote.php" method="get">
-                <h5 class="popup-info-label" >Titel</h5>
-
+                <h5 class="popup-info-label" id="popup-event-title">Titel</h5>
                 <div>
-                  <div class="popup-row">
-                    <div class="popup-column">
-                      <label class="popup-heading-label">Zeitpunkt</label>
-                    </div>
-
-                    <div class="popup-column">
-                      <label class="popup-info-label" id="date-start">Datum</label>
-                      <label class="popup-info-label" id="date-end">Datumlabel</label>
-                    </div>
-                    <div class="popup-column">
-                      <label class="popup-info-label" id="time-start">Zeit</label>
-                      <label class="popup-info-label" id="time-end">Zeitlabel</label>
-                    </div>
-                  </div>
-
                   <div class="popup-row">
                     <div class="popup-column">
                       <label class="popup-heading-label">Notizen</label>
@@ -120,8 +113,6 @@
                     </div>
                   </div>
                 </div>
-
-
               </form>
             </div>
           </div>
@@ -155,7 +146,7 @@
 
 
                   <a href="index.php?mode=week{concat('&amp;','startDate=',$backwardstart,'&amp;','endDate=',$backwardend,'&amp;','currentDate=',$currentDate)} ">
-                    <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Wee" />
+                    <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Week" />
                   </a>
                   <a href="index.php?mode=week{concat('&amp;','startDate=',$forwardstart,'&amp;','endDate=',$forwardend,'&amp;','currentDate=',$currentDate)} ">
                     <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week" />
@@ -173,9 +164,6 @@
               <div id="banner-right-wrapper">
                 <button class="btn-icon">
                   <img src="res/download-solid.svg" alt="Download ical" />
-                </button>
-                <button class="btn-icon">
-                  <img src="res/plus-solid.svg" alt="Add note" />
                 </button>
               </div>
             </div>
@@ -231,7 +219,7 @@
             <xsl:if test="startdate/total = $index">
               <xsl:choose>
                 <xsl:when test="categories = 'Prüfung'">
-                  <div class="timetable bg-test" style="{concat('height:',duration ,'em;')}">
+                  <div class="timetable bg-test" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'em;')}">
                     <xsl:value-of select="summary" />
                     <xsl:if test="duration &gt; 2">
                       <p>
@@ -247,7 +235,7 @@
                   </div>
                 </xsl:when>
                 <xsl:when test="categories = 'Sonstiger Termin'">
-                  <div class="timetable bg-other" style="{concat('height:',duration ,'em;')}">
+                  <div class="timetable bg-other" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'em;')}">
                     <xsl:value-of select="summary" />
                     <xsl:if test="duration &gt; 2">
                       <p>
@@ -263,7 +251,7 @@
                   </div>
                 </xsl:when>
                 <xsl:otherwise>
-                  <div class="timetable bg-normal" style=" {concat('height:',duration ,'em;')}">
+                  <div class="timetable bg-normal" onclick="togglePopup(true, this)" style=" {concat('height:',duration ,'em;')}">
                     <xsl:value-of select="summary" />
                     <xsl:if test="duration &gt; 2">
                       <p>

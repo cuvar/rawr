@@ -1,6 +1,10 @@
-window.addEventListener('load', onLoad, false);
+function onLoadIndex() {
+    let cookies = getCookieObject();
+    let isLoggedIn = typeof cookies["loggedin"] != "undefined" && cookies["loggedin"] == "true";
 
-
+    hideLogoutContainer(isLoggedIn);
+}
+// EASTEREGG
 function triggerEasterEgg() {
     let egg = window.document.getElementById("easteregg-container");
     let currentClassEgg = egg.getAttribute("class");
@@ -19,7 +23,7 @@ function playAudio() {
     audio.play();
 }
 
-
+// LOGIN
 function getCookieObject() {
     let cookies = document.cookie.split(";").map(c => c.trim());
 
@@ -32,30 +36,59 @@ function getCookieObject() {
     return cookieObject;
 }
 
-
-
-function onLoad() {
-    let cookies = getCookieObject();
-    let isLoggedIn = typeof cookies["loggedin"] != "undefined" && cookies["loggedin"] == "true";
-
-    hideLogoutContainer(isLoggedIn);
-}
-
+// HIDING ELEMENTS
 function hideLogoutContainer(isLoggedIn) {
-    const loginContainer = document.getElementById("login-container");
-    const logoutContainer = document.getElementById("logout-container");
-
-    this.hideElement(loginContainer, isLoggedIn);
-    this.hideElement(logoutContainer, !isLoggedIn);
+    this.hideElement(document.getElementById("login-container"), isLoggedIn);
+    this.hideElement(document.getElementById("logout-container"), !isLoggedIn);
 }
 
-function hideElement(element, hidden) {
-    if (hidden) {
-        let currentClass = element.getAttribute("class");
-        element.setAttribute("class", currentClass + " display-none");
+function hideElement(element, toHide) {
+    if (toHide) {
+        this.removeClass(element, "display-block");
+        this.addClass(element, "display-none");
     } else {
-        let currentClass = element.getAttribute("class");
-        element.setAttribute("class", currentClass.replace(" display-none", ""));
+        this.removeClass(element, "display-none");
+        this.addClass(element, "display-block");
     }
+}
 
+function isHidden(el) {
+    var style = window.getComputedStyle(el);
+    return (style.display === 'none')
+}
+
+function togglePopup(toShow, element) {
+    let popup = document.getElementById("popup");
+    this.hideElement(popup, !toShow);
+    this.blurBackground(toShow);
+
+    if(!isHidden(popup) && element !== null) {
+        let title = document.getElementById("popup-event-title");
+        let eventValue = element.innerHTML.split("<p>")[0];
+        title.innerHTML = eventValue;
+    }
+}
+
+// CSS-CLASS MANAGEMENT
+function addClass(element, attribute) {
+    let currentClass = element.getAttribute("class");
+    if (currentClass === null || !currentClass.includes(attribute)) {
+        element.setAttribute("class", currentClass + " " + attribute);
+    }
+}
+
+function removeClass(element, attribute) {
+    let currentClass = element.getAttribute("class");
+    if (currentClass !== null && currentClass.includes(attribute)) {
+        element.setAttribute("class", currentClass.replace(attribute, ""));
+    }
+}
+
+function blurBackground(toBlur) {
+    let e = document.getElementsByTagName("html")[0];
+    if(toBlur) {
+        this.addClass(e, "bg-blur");
+    } else {
+        this.removeClass(e, "bg-blur");
+    }
 }
