@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type = "text/xsl"?>
-<xsl:stylesheet version="1.0" xmlns:ext="http://exslt.org/common" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:date="http://exslt.org/dates-and-times">
+<xsl:stylesheet version="1.0"
+  xmlns:ext="http://exslt.org/common"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:date="http://exslt.org/dates-and-times">
 
-  <xsl:param name="timeframestart" select="20210510" />
-  <xsl:param name="timeframeend" select="20210516" />
+  <xsl:param name="timeframeStart" select="20210510" />
+  <xsl:param name="timeframeEnd" select="20210516" />
   <xsl:param name="currentDate" select="20210510" />
   <xsl:variable name="currentYear">
     <xsl:value-of select="substring($currentDate,1,4)" />
@@ -83,9 +86,9 @@
               <div class="dropdown">
                 <button class="dropbtn">Wochenansicht</button>
                 <div class="dropdown-content">
-                  <a href="index.php?mode=week">Wochenansicht</a>
+                  <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class)}">Wochenansicht</a>
                   <hr />
-                  <a href="index.php?mode=month">Monatsansicht</a>
+                  <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class)}">Monatsansicht</a>
                 </div>
               </div>
             </div>
@@ -128,30 +131,30 @@
                   <!--@toDo könnte besser gemacht werden-->
                   <xsl:variable name="forwardstart">
                     <xsl:call-template name="addWeek">
-                      <xsl:with-param name="date" select="$timeframestart" />
+                      <xsl:with-param name="date" select="$timeframeStart" />
                     </xsl:call-template>
                   </xsl:variable>
                   <xsl:variable name="forwardend">
                     <xsl:call-template name="addWeek">
-                      <xsl:with-param name="date" select="$timeframeend" />
+                      <xsl:with-param name="date" select="$timeframeEnd" />
                     </xsl:call-template>
                   </xsl:variable>
                   <xsl:variable name="backwardstart">
                     <xsl:call-template name="subtractWeek">
-                      <xsl:with-param name="date" select="$timeframestart" />
+                      <xsl:with-param name="date" select="$timeframeStart" />
                     </xsl:call-template>
                   </xsl:variable>
                   <xsl:variable name="backwardend">
                     <xsl:call-template name="subtractWeek">
-                      <xsl:with-param name="date" select="$timeframeend" />
+                      <xsl:with-param name="date" select="$timeframeEnd" />
                     </xsl:call-template>
                   </xsl:variable>
 
 
-                  <a href="index.php?mode=week{concat('&amp;','startDate=',$backwardstart,'&amp;','endDate=',$backwardend,'&amp;','currentDate=',$currentDate)} ">
-                    <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Week" />
+                  <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$backwardstart,'&amp;','endDate=',$backwardend,'&amp;','currentDate=',$currentDate)} ">
+                    <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Wee" />
                   </a>
-                  <a href="index.php?mode=week{concat('&amp;','startDate=',$forwardstart,'&amp;','endDate=',$forwardend,'&amp;','currentDate=',$currentDate)} ">
+                  <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$forwardstart,'&amp;','endDate=',$forwardend,'&amp;','currentDate=',$currentDate)} ">
                     <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week" />
                   </a>
                 </div>
@@ -159,7 +162,7 @@
                 <div class="calendar-month">
                   <p>
                     <xsl:call-template name="getMonthName">
-                      <xsl:with-param name="date" select="$timeframestart" />
+                      <xsl:with-param name="date" select="$timeframeStart" />
                     </xsl:call-template>
                   </p>
                 </div>
@@ -174,17 +177,16 @@
 
             <div class="calendar-main">
               <div class="table-head-fixed">
-                <table style="height:100%">
+                <table >
                   <thead>
-
                     <tr id="calendar-header">
-                      <th>Montag</th>
-                      <th>Dienstag</th>
-                      <th>Mittwoch</th>
-                      <th>Donnerstag</th>
-                      <th>Freitag</th>
-                      <th>Samstag</th>
-                      <th>Sonntag</th>
+                      <th class="table-head-fixed-th">Montag</th>
+                      <th class="table-head-fixed-th">Dienstag</th>
+                      <th class="table-head-fixed-th">Mittwoch</th>
+                      <th class="table-head-fixed-th">Donnerstag</th>
+                      <th class="table-head-fixed-th">Freitag</th>
+                      <th class="table-head-fixed-th">Samstag</th>
+                      <th class="table-head-fixed-th">Sonntag</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -205,8 +207,8 @@
 
   <!--Loops through a week-->
   <xsl:template name="Loop">
-    <xsl:param name="index" select="$timeframestart" />
-    <xsl:param name="maxValue" select="$timeframeend" />
+    <xsl:param name="index" select="$timeframeStart" />
+    <xsl:param name="maxValue" select="$timeframeEnd" />
     <td>
       <div class="calendar-day">
         <p>
@@ -309,10 +311,10 @@
         <xsl:choose>
           <xsl:when test="$year mod 4 = 0">
           29
-        </xsl:when>
+          </xsl:when>
           <xsl:otherwise>
           28
-      </xsl:otherwise>
+          </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
       <xsl:when test="$month = 3 ">
@@ -578,9 +580,10 @@
                 <xsl:value-of select="summary" />
               </summary>
               <p>
-                <xsl:value-of select="starttime/hour" />
-                :
-                <xsl:value-of select="starttime/min" />
+                <xsl:value-of select="startdate/day"/>.<xsl:value-of select="startdate/month"/>.<xsl:value-of select="startdate/year"/>
+              </p>
+              <p>
+                <xsl:value-of select="starttime/hour" />:<xsl:value-of select="starttime/min" />
                 -
                 <xsl:value-of select="endtime/hour" />
                 :
@@ -591,7 +594,7 @@
                 Raum:
                 <xsl:variable select="location" name="room"></xsl:variable>
                 <xsl:choose>
-                  <xsl:when test="$room = ''">
+                  <xsl:when test="not($room = '')">
                     <xsl:value-of select="$room"></xsl:value-of>
                   </xsl:when>
                   <xsl:otherwise>-</xsl:otherwise>
@@ -777,12 +780,6 @@
         </duration>
       </event>
     </xsl:for-each>
-
-  </xsl:template>
-
-  <!--restuns nearest Mondey to any given Date-->
-  <xsl:template name="getNearestMonday">
-    <xsl:param name="date" />
 
   </xsl:template>
 

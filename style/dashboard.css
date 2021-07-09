@@ -79,6 +79,7 @@ body {
   background-color: #003f61;
 }
 
+
 /* ACTUAL calendar */
 .timetable-content {
   margin-top: 25%;
@@ -151,11 +152,28 @@ td {
 
 .table-head-fixed {
   overflow-y: auto;
+  overflow-x: hidden;
   height: 100%;
 }
-.table-head-fixed thead th {
+
+.table-head-fixed table {
+  height: inherit;
+}
+
+.table-head-fixed table tbody {
+  height: inherit;
+}
+
+.table-head-fixed thead {
+  height: 20px !important;
   position: sticky;
   top: 0;
+}
+
+.table-head-fixed-th {
+  color: white;
+  background-color: #003F61;
+  border-radius: 20px !important;
 }
 
 .table-container {

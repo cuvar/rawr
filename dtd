@@ -1,3 +1,4 @@
+# BASE CALENDAR #
 <!DOCTYPE calendar [
 <!ELEMENT calendar (info,timezone, event*)>
     <!ELEMENT info(user, class>
@@ -12,12 +13,8 @@
         <!ELEMENT start (#PCDATA)>
         <!ELEMENT uid (#PCDATA)>
         <!ELEMENT summary (#PCDATA)>
-        <!ELEMENT rrule (frequency, count, interval, weekday)>
-            <!ELEMENT frequency (#PCDATA)>
-            <!ELEMENT count (#PCDATA)>
-            <!ELEMENT interval (#PCDATA)>
-            <!ELEMENT weekday (#PCDATA)>
         <!ELEMENT description (#PCDATA)>
+        <!ELEMENT note (#PCDATA)>
         <!ELEMENT location (#PCDATA)>
         <!ELEMENT category (#PCDATA)>  <!--Maybe mit semikolon abgetrennt-->
         <!ELEMENT organizer (name, contact)>
@@ -28,4 +25,12 @@
             <!ELEMENT contact (#PCDATA)>
             <!ELEMENT status (#PCDATA)>
             <!ELEMENT role (#PCDATA)>
+]>
+
+# NOTES LOGGING FOR INJECTION IN FRESHLY FETCHED CALENDAR #
+<!DOCTYPE calendar [
+<!ELEMENT calendar(event*)>
+    <!ELEMENT event (uid, notes)>
+	    <!ELEMENT uid (#PCDATA)>
+	    <!ELEMENT note (#PCDATA)>
 ]>

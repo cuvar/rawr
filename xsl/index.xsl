@@ -33,7 +33,7 @@
               <xsl:for-each select="elements/university/year">
                 <div class="row">
                   <xsl:for-each select="course">
-                    <a class="course-btn" href="index.php?mode=week">
+                    <a class="course-btn" href="index.php?mode=week{concat('&amp;','class=',name)}">
                       <xsl:value-of select="name" />
                     </a>
                   </xsl:for-each>
@@ -78,11 +78,7 @@
           <div class="motto-container">
             <h2 id="date">
 
-              <xsl:value-of select="substring($currentDate,7,2)" />
-              .
-              <xsl:value-of select="substring($currentDate,5,2)" />
-              .
-              <xsl:value-of select="substring($currentDate,1,4)" />
+              <xsl:value-of select="substring($currentDate,7,2)" />.<xsl:value-of select="substring($currentDate,5,2)" />.<xsl:value-of select="substring($currentDate,1,4)" />
             </h2>
             <xsl:variable name="number" select="$currentDate mod 7" />
             <xsl:for-each select="elements/mottos/motto">
