@@ -534,3 +534,21 @@ summary {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
+
+#popup-btn-submit {
+  width: 100%;
+  background-color: green !important;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#popup-btn-submit:hover {
+  filter: brightness(90%);
+}
+
+#popup-btn-submit:active {
+  filter: brightness(80%);
+}
