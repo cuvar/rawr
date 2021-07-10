@@ -235,32 +235,45 @@
   <xsl:template name="Loop">
     <xsl:param name="index" select="$timeframeStart" />
     <xsl:param name="maxValue" select="$timeframeEnd" />
-    <td>
-      <div class="calendar-day">
+    <xsl:variable name="opacity">
+      <xsl:choose>
+        <xsl:when test="$index &lt; $monthStart or  $index &gt; $monthEnd">
+          <xsl:value-of select="0.7"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="1"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <td style="{concat('opacity:',$opacity ,';')}">
+      <div class="calendar-day" style="{concat('opacity:',$opacity ,';')}">
         <p>
           <!--to Do bessere Lösung finden-->
           <xsl:value-of select="substring($index,7,2)" />
         </p>
       </div>
-      <div class="timetable-content">
+      <div class="timetable-content" style="{concat('opacity:',$opacity ,';')}">
         <xsl:for-each select="$calendar/event">
           <xsl:sort select="starttime/total" data-type="number" />
-
           <xsl:if test="startdate/total = $index">
+
+            
+
             <xsl:variable name="duration" select="(endtime/total - starttime/total)div 15" />
             <xsl:choose>
               <xsl:when test="categories = 'Prüfung'">
-                <div class="timetable-month bg-test" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)">
+                <div class="timetable-month bg-test" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this) " style="{concat('opacity:',$opacity ,';')}" >
                   <p class="text-bold"><xsl:value-of select="summary"/></p>
                 </div>
               </xsl:when>
               <xsl:when test="categories = 'Sonstiger Termin'">
-                <div class="timetable-month bg-other" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)">
+                <div class="timetable-month bg-other" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('opacity:',$opacity ,';')}" >
                   <p class="text-bold"><xsl:value-of select="summary"/></p>
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                <div class="timetable-month bg-normal" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)">
+                <div class="timetable-month bg-normal" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('opacity:',$opacity ,';')}">
                   <p class="text-bold"><xsl:value-of select="summary"/></p>
                 </div>
               </xsl:otherwise>
