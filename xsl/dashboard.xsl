@@ -221,7 +221,7 @@
           <xsl:for-each select="$calendar/event">
             <xsl:sort select="starttime/total" data-type="number" />
             <xsl:variable name="begin">
-              <xsl:value-of select="round((((starttime/hour * 100) + (round(starttime/min * (1.6666666667))))- 800) div 25)"/>
+              <xsl:value-of select="round((((starttime/hour * 100) + (round(starttime/min * (1.6666666667))))- 800) div 13)"/>
             </xsl:variable>
             <xsl:if test="startdate/total = $index">
               <xsl:choose>
@@ -782,7 +782,7 @@
         </xsl:for-each>
         <duration>
           <!-- -1 da height=0em => 1em @Yannic -->
-          <xsl:value-of select="round((((endtime/hour * 100) + (ceiling(endtime/min * (1.6666666667))))- ((starttime/hour * 100) + (ceiling(starttime/min * (1.6666666667))))) div 25)" />
+          <xsl:value-of select="round((((endtime/hour * 100) + (ceiling(endtime/min * (1.6666666667))))- ((starttime/hour * 100) + (ceiling(starttime/min * (1.6666666667))))) div 13)" />
         </duration>
       </event>
     </xsl:for-each>
