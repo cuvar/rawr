@@ -4,7 +4,7 @@
   xmlns:ext="http://exslt.org/common"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:date="http://exslt.org/dates-and-times">
-
+<!--Global Variables and Parameters-->
   <xsl:param name="monthStart" select="20210501" />
   <xsl:param name="monthEnd" select="20210531" />
   <xsl:param name="timeframeStart" select="20210426" />
@@ -14,7 +14,7 @@
     <xsl:value-of select="substring($currentDate,1,4)" />
   </xsl:variable>
 
-  <!-- Preprocessing -->
+<!-- Preprocessing Call -->
   <xsl:variable name="calendarRtf">
     <xsl:apply-templates select="calendar/event" />
   </xsl:variable>
@@ -27,7 +27,7 @@
 
   <xsl:variable name="calendar" select="ext:node-set($secondCalendarRtf)" />
 
-
+<!-- Html generate-->
   <xsl:template match="/">
     <html>
       <head>
@@ -133,10 +133,23 @@
             <div class="calendar-top">
               <div id="banner-left-wrapper">
                 <div>
-                  <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class)}">
+
+                <xsl:variable name="forwarddate">
+                    <xsl:call-template name="addMonth">
+                      <xsl:with-param name="date" select="$monthStart" />
+                    </xsl:call-template>
+                  </xsl:variable>
+              
+                <xsl:variable name="backwarddate">
+                    <xsl:call-template name="subtractMonth">
+                      <xsl:with-param name="date" select="$monthStart" />
+                    </xsl:call-template>
+                  </xsl:variable>
+
+                  <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$backwarddate)}">
                     <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Week" />
                   </a>
-                  <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class)}">
+                  <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$forwarddate)}">
                     <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week" />
                   </a>
                 </div>
@@ -185,7 +198,8 @@
       </body>
     </html>
   </xsl:template>
-
+<!--Loops-->
+  <!--Loops through weeks in timeframe-->
   <xsl:template name="outterLoop">
     <xsl:param name="index" select="$timeframeStart" />
     <xsl:param name="maxValue" select="$timeframeEnd" />
@@ -271,7 +285,7 @@
     </xsl:if>
   </xsl:template>
 
-
+<!--getting Date information-->
   <!--returns how many days a month has-->
   <xsl:template name="getDaysInMonth">
     <xsl:param name="date" />
@@ -330,7 +344,7 @@
     </xsl:choose>
   </xsl:template>
 
-  <!--creats a String with the name of the Day -->
+  <!--creats a String with the name of the Month -->
   <xsl:template name="getMonthName">
     <xsl:param name="date" />
     <xsl:variable name="month">
@@ -352,6 +366,8 @@
       <xsl:otherwise>Error: Month doesn't exist</xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
+<!--Date Magic-->
 
   <!--adds one day to a given date-->
   <xsl:template name="addDay">
@@ -512,7 +528,7 @@
     </xsl:choose>
 
   </xsl:template>
-
+ <!-- subtract year at the end of the year -->
   <xsl:template name="subtractYear">
     <xsl:param name="date" />
     <xsl:param name="number" />
@@ -546,6 +562,54 @@
     </xsl:choose>
 
   </xsl:template>
+
+  <!-- adds one Month to the first date of a month-->
+  <xsl:template name="addMonth">
+    <xsl:param name="date" />
+
+    <xsl:variable name="month">
+      <xsl:value-of select="substring($date,5,2)" />
+    </xsl:variable>
+
+    <xsl:choose>
+      <xsl:when test="$month &lt; 12">
+        <xsl:value-of select="$date + 100"/>
+      </xsl:when>
+      <xsl:when test="$month = 12">
+        <xsl:value-of select="$date +8900"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="'00000000'"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- subtracts one Month to the first date of a month-->
+   <xsl:template name="subtractMonth">
+    <xsl:param name="date" />
+
+    <xsl:variable name="month">
+      <xsl:value-of select="substring($date,5,2)" />
+    </xsl:variable>
+
+    <xsl:choose>
+      <xsl:when test="$month &gt; 1">
+        <xsl:value-of select="$date - 100"/>
+      </xsl:when>
+      <xsl:when test="$month = 1">
+        <xsl:value-of select="$date - 8900"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="'00000000'"/>
+      </xsl:otherwise>
+    </xsl:choose>
+      
+
+    
+  </xsl:template>
+
+
+<!--Termine and Klausuren View-->
 
   <!--returns all Events with "Prüfung" as their categorie-->
   <xsl:template name="Klausuren">
@@ -605,6 +669,8 @@
     </xsl:for-each>
 
   </xsl:template>
+
+<!--Preporcessing-->
 
   <!--returns RTF with splitted Date-->
   <xsl:template match="calendar/event">
