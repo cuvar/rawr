@@ -118,6 +118,7 @@
                 </div>
                 <input id="popup-uid" name="uid" style="display: none;"></input>
                 <input name="class" style="display: none;" value="{calendar/info/class}"></input>
+                <input id="popup-current-link" name="location" style="display: none;"></input>
                 <button id="popup-btn-submit" type="submit">Speichern</button>
               </form>
             </div>

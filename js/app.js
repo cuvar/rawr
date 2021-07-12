@@ -72,6 +72,9 @@ function togglePopup(toShow, element) {
 
             setUid(element.dataset.popup);
             setNote(element.dataset.popupnote);
+            
+            let currentLocation = document.getElementById("popup-current-link");
+            currentLocation.value = window.location.href;
         }
     }
 }

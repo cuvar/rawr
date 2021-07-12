@@ -37,6 +37,7 @@ function saveFormattedXML(SimpleXMLElement $simpleXMLElement, String $outputPath
 $class = isset($_GET['class']) ? $_GET['class'] : die("No 'class' parameter defined");
 $uid = isset($_GET['uid']) ? $_GET['uid'] : die("No 'uid' parameter defined");
 $note = isset($_GET['note']) ? $_GET['note'] : die("No 'note' parameter defined");
+$location = isset($_GET['location']) ? $_GET['location'] : die("No 'location' parameter defined");
 
 # check whether class exists
 $xmlFilePath = "../xml/$class.xml";
@@ -87,4 +88,5 @@ if (!$eventFound) {
 
 saveFormattedXML($noteXml, $noteFilePath);
 echo "Success";
-header("Location: ../index.php?mode=week&class=$class");
+// header("Location: ../index.php?mode=week&class=$class");
+header("Location: $location");
