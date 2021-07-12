@@ -197,6 +197,13 @@ td {
   background-color: #003F61;
   border-radius: 20px !important;
 }
+thead {
+  z-index: 2;
+}
+
+tbody {
+  z-index: 1;
+}
 
 .table-container {
   width: 100%;
