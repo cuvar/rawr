@@ -183,3 +183,7 @@
                       <td></td>
                       <td></td>
                       <td></td>
+                      
+                      <xsl:variable name="pos" select="position()"/>
+                      <p><xsl:value-of select="count($calendar/event[contains(startdate/total ,$index)] )"/></p>
+                   <p><xsl:value-of select="$pos"/></p>
