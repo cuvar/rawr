@@ -169,9 +169,11 @@
                 </div>
               </div>
               <div id="banner-right-wrapper">
-                <button class="btn-icon">
-                  <img src="res/download-solid.svg" alt="Download ical" />
-                </button>
+                <a href="../php/downloadIcal.php?class={calendar/info/class}">
+                  <button class="btn-icon">
+                    <img src="res/download-solid.svg" alt="Download ical" />
+                  </button>
+                </a>
               </div>
             </div>
 
@@ -228,7 +230,9 @@
               <xsl:choose>
                 <xsl:when test="categories = 'Prüfung'">
                   <div class="timetable bg-test" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration-1 ,'em;', 'margin-top:',$begin,'em;')}">
-                    <p class="text-bold"><xsl:value-of select="summary"/></p>
+                    <p class="text-bold">
+                      <xsl:value-of select="summary"/>
+                    </p>
                     <xsl:if test="duration &gt; 2">
                       <p>
                         <xsl:value-of select="starttime/hour" />
@@ -240,12 +244,16 @@
                         <xsl:value-of select="endtime/min" />
                       </p>
                     </xsl:if>
-                    <p class="text-italic"><xsl:value-of select="note"/></p>
+                    <p class="text-italic">
+                      <xsl:value-of select="note"/>
+                    </p>
                   </div>
                 </xsl:when>
                 <xsl:when test="categories = 'Sonstiger Termin'">
                   <div class="timetable bg-other" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration - 1 ,'em;', 'margin-top:',$begin,'em;')}">
-                    <p class="text-bold"><xsl:value-of select="summary"/></p>
+                    <p class="text-bold">
+                      <xsl:value-of select="summary"/>
+                    </p>
                     <xsl:if test="duration &gt; 2">
                       <p>
                         <xsl:value-of select="starttime/hour" />
@@ -257,12 +265,16 @@
                         <xsl:value-of select="endtime/min" />
                       </p>
                     </xsl:if>
-                    <p class="text-italic"><xsl:value-of select="note"/></p>
+                    <p class="text-italic">
+                      <xsl:value-of select="note"/>
+                    </p>
                   </div>
                 </xsl:when>
                 <xsl:otherwise>
                   <div class="timetable bg-normal" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style=" {concat('height:',duration - 1 ,'em;', 'margin-top:',$begin,'em;')}">
-                    <p class="text-bold"><xsl:value-of select="summary"/></p>
+                    <p class="text-bold">
+                      <xsl:value-of select="summary"/>
+                    </p>
                     <xsl:if test="duration &gt; 2">
                       <p>
                         <xsl:value-of select="starttime/hour" />
@@ -274,7 +286,9 @@
                         <xsl:value-of select="endtime/min" />
                       </p>
                     </xsl:if>
-                    <p class="text-italic"><xsl:value-of select="note"/></p>
+                    <p class="text-italic">
+                      <xsl:value-of select="note"/>
+                    </p>
                   </div>
                 </xsl:otherwise>
               </xsl:choose>
