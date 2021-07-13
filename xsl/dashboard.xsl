@@ -34,6 +34,7 @@
         <link rel="stylesheet" href="../style/dashboard.css" />
         <link rel="stylesheet" href="../style/general.css" />
         <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" />
+        <title>Rawr</title>
         <script src="./js/app.js"></script>
       </head>
 
