@@ -60,10 +60,12 @@ def setup(url):
 def convert_ical_to_xml_events(cclass, ical_calendar, xml_calendar):
     found = 0
     notes_injected = 0
+    uids_found = set()
     for event in ical_calendar.events:
         try:
             event_str = str(event).replace(";", ":").splitlines()
             attendees_done = False
+            dtstart = None
             uid = None
 
             for attribute in event_str:
@@ -92,18 +94,29 @@ def convert_ical_to_xml_events(cclass, ical_calendar, xml_calendar):
                     contact.text = event.organizer.email
                 elif att[0] == "DTSTART":
                     y = SubElement(ev, "start")
-                    y.text = att[1]
+                    dtstart = att[1]
+                    y.text = dtstart
                 elif att[0] == "DTEND":
                     y = SubElement(ev, "end")
                     y.text = att[1]
                 elif att[0] == "RRULE":
-                    # skip current event if it contains recurrence - gets handled later
+                    # skip current event if it contains recurrence - should've been handled beforehand
                     xml_calendar.remove(ev)
-                    raise RuntimeError
+                    raise RuntimeError(f"Found RRULE for event with uid={uid}")
+                elif att[0] == "UID":
+                    y = SubElement(ev, "uid")
+                    uid = att[1]
+                    # change uid on uid collision (happens at repeating events)
+                    if uid in uids_found:
+                        if dtstart is None:
+                            raise RuntimeError(
+                                f"UID collision - couldn't change as DTSTART attribute hasn't been read yet for uid={uid}")
+                        uid += dtstart
+                    y.text = uid
+                    uids_found.add(uid)
                 elif att[0] != "END":
                     y = SubElement(ev, camel_to_snake(att[0]))
                     y.text = att[1]
-                    uid = att[1] if att[0] == "UID" else uid
 
             # add notes from separate XML file if present for this UID
             if uid is not None and uid in get_notes(cclass):
@@ -111,6 +124,7 @@ def convert_ical_to_xml_events(cclass, ical_calendar, xml_calendar):
                 y = SubElement(ev, "note")
                 y.text = get_notes(cclass)[uid]
         except RuntimeError as ex:
+            print(ex)
             continue
         found += 1
 
