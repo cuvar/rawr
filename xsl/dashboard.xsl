@@ -815,10 +815,9 @@
               </p>
               <p>
                 Raum:
-                <xsl:variable select="location" name="room"></xsl:variable>
                 <xsl:choose>
-                  <xsl:when test="not($room = '')">
-                    <xsl:value-of select="$room"></xsl:value-of>
+                  <xsl:when test="location">
+                    <xsl:value-of select="location"></xsl:value-of>
                   </xsl:when>
                   <xsl:otherwise>-</xsl:otherwise>
                 </xsl:choose>
@@ -842,7 +841,24 @@
                 <xsl:value-of select="summary" />
               </summary>
               <p>
-                <xsl:value-of select="startdate/total" />
+                <xsl:value-of select="startdate/day"/>.<xsl:value-of select="startdate/month"/>.<xsl:value-of select="startdate/year"/>
+              </p>
+              <p>
+                <xsl:value-of select="starttime/hour" />:<xsl:value-of select="starttime/min" />
+                -
+                <xsl:value-of select="endtime/hour" />
+                :
+                <xsl:value-of select="endtime/min" />
+                Uhr
+              </p>
+              <p>
+                Raum:
+                <xsl:choose>
+                  <xsl:when test="location">
+                    <xsl:value-of select="location"></xsl:value-of>
+                  </xsl:when>
+                  <xsl:otherwise>-</xsl:otherwise>
+                </xsl:choose>
               </p>
             </details>
           </td>
