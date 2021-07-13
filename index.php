@@ -18,7 +18,7 @@ if ($mode == MODE_WEEK) {
     $xsldoc->loadXML(file_get_contents('xsl/dashboard.xsl'));
     $xmldoc->loadXML(file_get_contents("xml/$class.xml"));
 } elseif ($mode == MODE_MONTH) {
-    $xsldoc->loadXML(file_get_contents('xsl/dashboardMonth.xsl'));
+    $xsldoc->loadXML(file_get_contents('xsl/dashboard.xsl'));
     $xmldoc->loadXML(file_get_contents("xml/$class.xml"));
 } elseif ($mode == MODE_START) {
     $xsldoc->loadXML(file_get_contents('xsl/index.xsl'));
@@ -48,6 +48,8 @@ if ($mode == MODE_WEEK) {
     $startDate = date("Ymd", $startDateTimestamp);
     $endDateTimestamp = strtotime("Sunday this week", $startDateTimestamp);
     $endDate = date("Ymd", $endDateTimestamp);
+    $xsl->setParameter('', 'mode', $mode);
+
 } else if ($mode == MODE_MONTH) {
     # hand over deviating month start/end as well
     $monthStartDateTimestamp = strtotime("first day of this month", $startDateTimestamp);
@@ -56,7 +58,8 @@ if ($mode == MODE_WEEK) {
     $monthEndDateTimestamp = strtotime("last day of this month", $startDateTimestamp);
     $monthEndDate = date("Ymd", $monthEndDateTimestamp);
     $xsl->setParameter('', 'monthEnd', $monthEndDate);
-
+    $xsl->setParameter('', 'mode', $mode);
+    
     # if month starts with monday use regular month start as timeframestart
     if (date("N", $monthStartDateTimestamp) == 1) {
         $startDateTimestamp = $monthStartDateTimestamp;
