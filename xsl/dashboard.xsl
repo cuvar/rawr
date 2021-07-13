@@ -822,6 +822,11 @@
                   <xsl:otherwise>-</xsl:otherwise>
                 </xsl:choose>
               </p>
+              <p>
+              <xsl:if test="note">
+                Notes: <xsl:value-of select="note"/>
+              </xsl:if>
+              </p>
             </details>
           </td>
         </tr>
@@ -859,6 +864,11 @@
                   </xsl:when>
                   <xsl:otherwise>-</xsl:otherwise>
                 </xsl:choose>
+              </p>
+               <p>
+              <xsl:if test="note">
+                Notes: <xsl:value-of select="note"/>
+              </xsl:if>
               </p>
             </details>
           </td>
