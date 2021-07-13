@@ -87,7 +87,7 @@ class VEvent
 }
 
 # URL Parameters #
-$class = isset($_GET['class']) ? $_GET['class'] : die("No 'class' parameter defined");
+$class = isset($_GET['class']) ? strtoupper($_GET['class']) : die("No 'class' parameter defined");
 
 # check whether class exists
 $xmlFilePath = "../xml/$class.xml";
@@ -106,7 +106,7 @@ foreach ($xml->event as $event) {
 # generate iCal file and trigger download
 $icalStr = $calendar->toString();
 header('Content-type: text/calendar; charset=utf-8');
-header('Content-Disposition: attachment; filename=calendar.ics');
+header('Content-Disposition: attachment; filename=' . $class . '.ics');
 header('Content-Length: ' . strlen($icalStr));
 header('Connection: close');
 echo $icalStr;

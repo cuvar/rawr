@@ -4,7 +4,7 @@
   xmlns:ext="http://exslt.org/common"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:date="http://exslt.org/dates-and-times">
-<!--Global Variables and Parameters-->
+  <!--Global Variables and Parameters-->
   <xsl:param name="monthStart" select="20210501" />
   <xsl:param name="monthEnd" select="20210531" />
   <xsl:param name="timeframeStart" select="20210426" />
@@ -14,7 +14,7 @@
     <xsl:value-of select="substring($currentDate,1,4)" />
   </xsl:variable>
 
-<!-- Preprocessing Call -->
+  <!-- Preprocessing Call -->
   <xsl:variable name="calendarRtf">
     <xsl:apply-templates select="calendar/event" />
   </xsl:variable>
@@ -27,7 +27,7 @@
 
   <xsl:variable name="calendar" select="ext:node-set($secondCalendarRtf)" />
 
-<!-- Html generate-->
+  <!-- Html generate-->
   <xsl:template match="/">
     <html>
       <head>
@@ -134,13 +134,13 @@
               <div id="banner-left-wrapper">
                 <div>
 
-                <xsl:variable name="forwarddate">
+                  <xsl:variable name="forwarddate">
                     <xsl:call-template name="addMonth">
                       <xsl:with-param name="date" select="$monthStart" />
                     </xsl:call-template>
                   </xsl:variable>
-              
-                <xsl:variable name="backwarddate">
+
+                  <xsl:variable name="backwarddate">
                     <xsl:call-template name="subtractMonth">
                       <xsl:with-param name="date" select="$monthStart" />
                     </xsl:call-template>
@@ -164,9 +164,11 @@
               </div>
 
               <div id="banner-right-wrapper">
-                <button class="btn-icon">
-                  <img src="res/download-solid.svg" alt="Download ical" />
-                </button>
+                <a href="../php/downloadIcal.php?class={calendar/info/class}">
+                  <button class="btn-icon">
+                    <img src="res/download-solid.svg" alt="Download ical" />
+                  </button>
+                </a>
               </div>
             </div>
 
@@ -186,7 +188,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                      <xsl:call-template name="outterLoop" />
+                    <xsl:call-template name="outterLoop" />
                   </tbody>
                 </table>
               </div>
@@ -198,7 +200,7 @@
       </body>
     </html>
   </xsl:template>
-<!--Loops-->
+  <!--Loops-->
   <!--Loops through weeks in timeframe-->
   <xsl:template name="outterLoop">
     <xsl:param name="index" select="$timeframeStart" />
@@ -247,34 +249,40 @@
     </xsl:variable>
 
     <td style="{concat('opacity:',$opacity ,';')}">
-      <div class="calendar-day" >
+      <div class="calendar-day">
         <p>
           <!--to Do bessere Lösung finden-->
           <xsl:value-of select="substring($index,7,2)" />
         </p>
       </div>
-      <div class="timetable-content" >
+      <div class="timetable-content">
         <xsl:for-each select="$calendar/event">
           <xsl:sort select="starttime/total" data-type="number" />
           <xsl:if test="startdate/total = $index">
 
-            
+
 
             <xsl:variable name="duration" select="(endtime/total - starttime/total)div 15" />
             <xsl:choose>
               <xsl:when test="categories = 'Prüfung'">
-                <div class="timetable-month bg-test" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this) "  >
-                  <p class="text-bold"><xsl:value-of select="summary"/></p>
+                <div class="timetable-month bg-test" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this) ">
+                  <p class="text-bold">
+                    <xsl:value-of select="summary"/>
+                  </p>
                 </div>
               </xsl:when>
               <xsl:when test="categories = 'Sonstiger Termin'">
-                <div class="timetable-month bg-other" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" >
-                  <p class="text-bold"><xsl:value-of select="summary"/></p>
+                <div class="timetable-month bg-other" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)">
+                  <p class="text-bold">
+                    <xsl:value-of select="summary"/>
+                  </p>
                 </div>
               </xsl:when>
               <xsl:otherwise>
-                <div class="timetable-month bg-normal" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" >
-                  <p class="text-bold"><xsl:value-of select="summary"/></p>
+                <div class="timetable-month bg-normal" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)">
+                  <p class="text-bold">
+                    <xsl:value-of select="summary"/>
+                  </p>
                 </div>
               </xsl:otherwise>
             </xsl:choose>
@@ -298,7 +306,7 @@
     </xsl:if>
   </xsl:template>
 
-<!--getting Date information-->
+  <!--getting Date information-->
   <!--returns how many days a month has-->
   <xsl:template name="getDaysInMonth">
     <xsl:param name="date" />
@@ -380,7 +388,7 @@
     </xsl:choose>
   </xsl:template>
 
-<!--Date Magic-->
+  <!--Date Magic-->
 
   <!--adds one day to a given date-->
   <xsl:template name="addDay">
@@ -541,7 +549,7 @@
     </xsl:choose>
 
   </xsl:template>
- <!-- subtract year at the end of the year -->
+  <!-- subtract year at the end of the year -->
   <xsl:template name="subtractYear">
     <xsl:param name="date" />
     <xsl:param name="number" />
@@ -598,7 +606,7 @@
   </xsl:template>
 
   <!-- subtracts one Month to the first date of a month-->
-   <xsl:template name="subtractMonth">
+  <xsl:template name="subtractMonth">
     <xsl:param name="date" />
 
     <xsl:variable name="month">
@@ -616,13 +624,13 @@
         <xsl:value-of select="'00000000'"/>
       </xsl:otherwise>
     </xsl:choose>
-      
 
-    
+
+
   </xsl:template>
 
 
-<!--Termine and Klausuren View-->
+  <!--Termine and Klausuren View-->
 
   <!--returns all Events with "Prüfung" as their categorie-->
   <xsl:template name="Klausuren">
@@ -683,7 +691,7 @@
 
   </xsl:template>
 
-<!--Preporcessing-->
+  <!--Preporcessing-->
 
   <!--returns RTF with splitted Date-->
   <xsl:template match="calendar/event">
