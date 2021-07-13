@@ -24,7 +24,7 @@
         <!-- left side -->
         <div class="container-main">
           <div class="title-container">
-            <h1 class="title">Rawr</h1>
+            <h1 class="title">Rapla wildy refurbished</h1>
             <img src="res/logo.png" width="150" id="logo" onClick="triggerEasterEgg()"></img>
           </div>
 
