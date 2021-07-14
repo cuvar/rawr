@@ -14,10 +14,7 @@ $xsl = new XSLTProcessor();
 $mode = isset($_GET['mode']) ? $_GET['mode'] : 'start';
 $class = isset($_GET['class']) ? $_GET['class'] : 'TINF20B2';
 
-if ($mode == MODE_WEEK) {
-    $xsldoc->loadXML(file_get_contents('xsl/dashboard.xsl'));
-    $xmldoc->loadXML(file_get_contents("xml/$class.xml"));
-} elseif ($mode == MODE_MONTH) {
+if ($mode == MODE_WEEK || $mode == MODE_MONTH) {
     $xsldoc->loadXML(file_get_contents('xsl/dashboard.xsl'));
     $xmldoc->loadXML(file_get_contents("xml/$class.xml"));
 } elseif ($mode == MODE_START) {
