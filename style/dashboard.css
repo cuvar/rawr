@@ -100,7 +100,6 @@ body {
   padding: 7px 7px;
   margin-top: 5%;
   border-radius: 15px;
-  color: white;
   font-size: 12px;
   color: black;
   word-break: break-word;
@@ -121,7 +120,7 @@ body {
   
 }
 
-.timetable:hover {
+.timetable:hover, .timetable-month:hover {
   cursor: pointer !important;
   filter: brightness(90%);
 }
