@@ -17,6 +17,7 @@ function triggerEasterEgg() {
 
 function playAudio() {
     const audio = window.document.getElementById("easteregg-audio");
+    audio.volume = 0.5;
     audio.play();
 }
 
