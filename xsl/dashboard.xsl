@@ -34,7 +34,7 @@
         <link rel="stylesheet" href="../style/dashboard.css" />
         <link rel="stylesheet" href="../style/general.css" />
         <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" />
-        <title>Rawr</title>
+        <title>Rawr-<xsl:value-of select="calendar/info/class" /> </title>
         <script src="./js/app.js"></script>
       </head>
 
