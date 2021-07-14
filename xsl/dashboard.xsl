@@ -219,7 +219,7 @@
                 </xsl:choose>
               </div>
               <div id="banner-right-wrapper">
-                <a class="calendar-month" href="index.php?{concat('mode=',$mode)}">Heute</a>
+                <a id="today-button" class="calendar-month" href="index.php?{concat('mode=',$mode)}">Heute</a>
                 <a href="../php/downloadIcal.php?class={calendar/info/class}">
                   <button class="btn-icon">
                     <img src="res/download-solid.svg" alt="Download ical" />
@@ -231,7 +231,7 @@
 
             <div class="calendar-main">
               <div class="table-head-fixed">
-                <table >
+                <table>
                   <thead>
                     <tr id="calendar-header">
                       <th class="table-head-fixed-th">Montag</th>
@@ -387,12 +387,12 @@
           <xsl:for-each select="$calendar/event">
             <xsl:sort select="starttime/total" data-type="number" />
             <xsl:variable name="begin">
-              <xsl:value-of select="round((((starttime/hour * 100) + (round(starttime/min * (1.6666666667))))- 800) div 13)"/>
+              <xsl:value-of select="round((((starttime/hour * 100) + (round(starttime/min * (1.6666666667))))- 800) div 20)"/>
             </xsl:variable>
             <xsl:if test="startdate/total = $index">
               <xsl:choose>
                 <xsl:when test="categories = 'Prüfung'">
-                  <div class="timetable bg-test" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration-1 ,'em;', 'margin-top:',$begin,'em;')}">
+                  <div class="timetable bg-test" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'vh;', 'margin-top:',$begin,'vh;')}">
                     <p class="text-bold">
                       <xsl:value-of select="summary"/>
                     </p>
@@ -413,7 +413,7 @@
                   </div>
                 </xsl:when>
                 <xsl:when test="categories = 'Sonstiger Termin'">
-                  <div class="timetable bg-other" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration - 1 ,'em;', 'margin-top:',$begin,'em;')}">
+                  <div class="timetable bg-other" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'vh;', 'margin-top:',$begin,'vh;')}">
                     <p class="text-bold">
                       <xsl:value-of select="summary"/>
                     </p>
@@ -434,7 +434,7 @@
                   </div>
                 </xsl:when>
                 <xsl:otherwise>
-                  <div class="timetable bg-normal" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style=" {concat('height:',duration - 1 ,'em;', 'margin-top:',$begin,'em;')}">
+                  <div class="timetable bg-normal" data-popupnote="{note}" data-popup="{uid}" onclick="togglePopup(true, this)" style=" {concat('height:',duration ,'vh;', 'margin-top:',$begin,'vh;')}">
                     <p class="text-bold">
                       <xsl:value-of select="summary"/>
                     </p>
@@ -1027,8 +1027,7 @@
           </xsl:choose>
         </xsl:for-each>
         <duration>
-          <!-- -1 da height=0em => 1em @Yannic -->
-          <xsl:value-of select="round((((endtime/hour * 100) + (ceiling(endtime/min * (1.6666666667))))- ((starttime/hour * 100) + (ceiling(starttime/min * (1.6666666667))))) div 13)" />
+          <xsl:value-of select="round((((endtime/hour * 100) + (ceiling(endtime/min * (1.6666666667))))- ((starttime/hour * 100) + (ceiling(starttime/min * (1.6666666667))))) div 20)" />
         </duration>
       </event>
     </xsl:for-each>

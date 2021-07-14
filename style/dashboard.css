@@ -74,8 +74,12 @@ body {
   font-size: large;
 }
 
-* a {
+a {
   text-decoration: none;
+}
+
+#today-button {
+  cursor: pointer;
 }
 
 #calendar-header > th {
@@ -137,6 +141,7 @@ table {
   width: 100%;
   float: bottom;
   table-layout: fixed;
+  overflow: hidden;
 }
 
 th {

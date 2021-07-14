@@ -82,6 +82,7 @@ body {
   width: 120px;
   height: auto;
   margin: 10px 5px 10px auto;
+  object-fit: contain;
 }
 
 
