@@ -231,7 +231,7 @@
 
             <div class="calendar-main">
               <div class="table-head-fixed">
-                <table >
+                <table>
                   <thead>
                     <tr id="calendar-header">
                       <th class="table-head-fixed-th">Montag</th>
