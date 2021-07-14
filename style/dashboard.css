@@ -121,7 +121,7 @@ a {
   color: black;
   word-break: break-word;
   overflow: hidden;
-  
+  color: white;
 }
 
 .timetable:hover, .timetable-month:hover {
