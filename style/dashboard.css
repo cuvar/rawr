@@ -74,8 +74,12 @@ body {
   font-size: large;
 }
 
-* a {
+a {
   text-decoration: none;
+}
+
+#today-button {
+  cursor: pointer;
 }
 
 #calendar-header > th {
