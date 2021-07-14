@@ -74,6 +74,10 @@ body {
   font-size: large;
 }
 
+* a {
+  text-decoration: none;
+}
+
 #calendar-header > th {
   color: white;
   background-color: #003f61;
