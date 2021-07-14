@@ -74,8 +74,12 @@ body {
   font-size: large;
 }
 
-* a {
+a {
   text-decoration: none;
+}
+
+#today-button {
+  cursor: pointer;
 }
 
 #calendar-header > th {
@@ -86,7 +90,7 @@ body {
 
 /* ACTUAL calendar */
 .timetable-content {
-  margin-top: 25%;
+  margin-top: 30px;
   position: relative;
 }
 
