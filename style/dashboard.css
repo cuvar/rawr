@@ -72,6 +72,8 @@ body {
   height: 30px;
   margin-left: 1%;
   font-size: large;
+
+  text-decoration: none;
 }
 
 #calendar-header > th {
