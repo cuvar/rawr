@@ -92,17 +92,17 @@
                   <xsl:when test="$mode = 'month'">
                     <button class="dropbtn">Monatsansicht</button>
                     <div class="dropdown-content">
-                      <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class)}">Monatsansicht</a>
+                      <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$monthStart)}">Monatsansicht</a>
                       <hr />
-                      <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class)}">Wochenansicht</a>
+                      <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$monthStart)}">Wochenansicht</a>
                     </div>
                   </xsl:when>
                   <xsl:otherwise>
                     <button class="dropbtn">Wochenansicht</button>
                     <div class="dropdown-content">
-                      <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class)}">Wochenansicht</a>
+                      <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$timeframeStart)}">Wochenansicht</a>
                       <hr />
-                      <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class)}">Monatsansicht</a>
+                      <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$timeframeStart)}">Monatsansicht</a>
                     </div>
                   </xsl:otherwise>
                 </xsl:choose>
