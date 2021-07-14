@@ -219,6 +219,7 @@
                 </xsl:choose>
               </div>
               <div id="banner-right-wrapper">
+                <a href="index.php?{concat('mode=',$mode)}">heute</a>
                 <a href="../php/downloadIcal.php?class={calendar/info/class}">
                   <button class="btn-icon">
                     <img src="res/download-solid.svg" alt="Download ical" />
