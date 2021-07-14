@@ -72,7 +72,9 @@ body {
   height: 30px;
   margin-left: 1%;
   font-size: large;
+}
 
+* a {
   text-decoration: none;
 }
 
