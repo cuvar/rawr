@@ -94,6 +94,13 @@ a {
   position: relative;
 }
 
+.mulitble {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content:right;
+
+}
+
 
 
 .timetable-spacer {
@@ -608,3 +615,4 @@ summary {
 #popup-btn-submit:active {
   filter: brightness(80%);
 }
+
