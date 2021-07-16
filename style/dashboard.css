@@ -94,7 +94,7 @@ a {
   position: relative;
 }
 
-.mulitble {
+.multiple {
   display: flex !important;
   flex-direction: column !important;
   justify-content:right;

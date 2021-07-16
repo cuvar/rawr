@@ -391,7 +391,7 @@
               <xsl:choose>
                 <xsl:when test="( preceding-sibling::event/startdate/total = startdate/total and preceding-sibling::event/starttime/total &lt;= startime/total and  preceding-sibling::event/endtime/total &gt;= startime/total ) or 
                 ( following-sibling::event/startdate/total = startdate/total and  following-sibling::event/starttime/total &gt;= starttime/total and following-sibling::event/starttime/total &lt;= endtime/total )">
-                  <div class="mulitble">
+                  <div class="multiple">
                     <xsl:call-template name="Loop">
                       <xsl:with-param name="begin" select="$begin"/>
                       <xsl:with-param name="day" select="$index"/>
