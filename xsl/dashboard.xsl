@@ -502,20 +502,6 @@
           <p class="text-bold">
             <xsl:value-of select="summary"/>
           </p>
-          <xsl:if test="duration &gt; 2">
-            <p>
-              <xsl:value-of select="starttime/hour" />
-              :
-              <xsl:value-of select="starttime/min" />
-              -
-              <xsl:value-of select="endtime/hour" />
-              :
-              <xsl:value-of select="endtime/min" />
-            </p>
-          </xsl:if>
-          <p class="text-italic">
-            <xsl:value-of select="note"/>
-          </p>
         </div>
 
       </xsl:if>
