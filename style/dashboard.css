@@ -566,6 +566,20 @@ summary {
   align-items: flex-start;
   justify-content: space-between;
 }
+
+#popup-date-row {
+  justify-content: stretch !important;
+  width: 50%;
+}
+
+#popup-date-row > .popup-column:first-child  {
+  margin-right: 10px !important;
+}
+
+#popup-date {
+  align-items: center;
+}
+
 .popup-title-row {
   width: 100%;
   display: flex;
@@ -580,7 +594,6 @@ summary {
 .popup-column {
   height: 100%;
 }
-
 .popup-column > * {
   display: block;
 }
@@ -598,6 +611,12 @@ summary {
   color: #003f61;
   background-color: white;
   border-radius: 10px;
+}
+.column-center {
+  height: 100%;
+  display: flex !important;
+  justify-content: space-evenly !important;
+  flex-direction: column;
 }
 
 #popup-close {
