@@ -15,13 +15,13 @@ name2["id"]= id
 
 example:
 tinf20b1["username"] = "TINF20B1"
-tinf20b1["password"]= '$2y$10$A7Xd1KUDVQO9lGu4EvJZ0eJObvpfaSw6bB4X5cCIf1W2jlK64ynoC' ;(hash for "test")
+tinf20b1["password"]= '$2y$10$A7Xd1KUDVQO9lGu4EvJZ0eJObvpfaSw6bB4X5cCIf1W2jlK64ynoC' ;
 tinf20b1["admin"] = 0
 tinf20b1["TINF20B1"] = 1
 tinf20b1["id"]= 1
 
 tinf20b2["username"] = "TINF20B2"
-tinf20b2["password"]= '$2y$10$A7Xd1KUDVQO9lGu4EvJZ0eJObvpfaSw6bB4X5cCIf1W2jlK64ynoC'  ;(hash for "test")
+tinf20b2["password"]= '$2y$10$A7Xd1KUDVQO9lGu4EvJZ0eJObvpfaSw6bB4X5cCIf1W2jlK64ynoC'  ;
 tinf20b2["admin"] = 0
 tinf20b2["TINF20B2"] = 1
 tinf20b2["id"]= 2
