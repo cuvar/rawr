@@ -136,6 +136,7 @@ a {
   width: -moz-available;
   width: -webkit-fill-available;
   height: auto;
+  position: absolute;
 
   display: flex !important;
   flex-wrap: nowrap;
