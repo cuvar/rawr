@@ -41,7 +41,7 @@ function hasPermission() {
     let className = document.getElementById("class-info").innerHTML;
     let cookies = getCookieObject();
     let perms = typeof cookies.perms != "undefined" ? cookies.perms.split("&") : [];
-    return perms.includes(className);
+    return perms.includes("admin") || perms.includes(className);
 }
 
 // HIDING ELEMENTS
