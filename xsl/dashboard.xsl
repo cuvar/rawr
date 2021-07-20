@@ -81,7 +81,7 @@
                 <img class="homebutton" src="res/home-solid.svg" alt="Home" />
               </a>
               <div class="class">
-                <p>
+                <p id="class-info">
                   <xsl:value-of select="calendar/info/class" />
                 </p>
               </div>

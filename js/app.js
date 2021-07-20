@@ -37,6 +37,12 @@ function isLoggedIn() {
     let cookies = getCookieObject();
     return (typeof cookies["loggedin"] != "undefined" && cookies["loggedin"] == "true");
 }
+function hasPermission() {
+    let className = document.getElementById("class-info").innerHTML;
+    let cookies = getCookieObject();
+    let perms = typeof cookies.perms != "undefined" ? cookies.perms.split("&") : [];
+    return perms.includes(className);
+}
 
 // HIDING ELEMENTS
 function hideLogoutContainer(isLoggedIn) {
@@ -56,11 +62,11 @@ function hideElement(element, toHide) {
 
 function isHidden(el) {
     var style = window.getComputedStyle(el);
-    return (style.display === 'none')
+    return (style.display === 'none');
 }
 
 function togglePopup(toShow, element) {
-    if (isLoggedIn()) {
+    if (isLoggedIn() && hasPermission()) {
         let popup = document.getElementById("popup");
         this.hideElement(popup, !toShow);
         this.blurBackground(toShow);
@@ -72,7 +78,7 @@ function togglePopup(toShow, element) {
 
             setUid(element.dataset.popup);
             setNote(element.dataset.popupnote);
-            
+
             let currentLocation = document.getElementById("popup-current-link");
             currentLocation.value = window.location.href;
         }
