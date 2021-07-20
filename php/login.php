@@ -36,16 +36,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     # Validate credentials
     if (!empty($username) && !empty($password)) {
         if (Auth::authentificate($username, $password)) {
+            $userPerms = Auth::getPerms($username);
             # Set cookies
             setcookie("loggedin", "true", time() + 3600, "/");
-            setcookie("write", $userObject[0]["write"], time() + 3600, "/");
             setcookie("username", $username, time() + 3600, "/");
-
+            setrawcookie("perms", implode("&", $userPerms), time() + 3600, "/");
             # Store data in session variables
             $_SESSION["loggedin"] = true;
             $_SESSION["username"] = $username;
-            $_SESSION["write"] = $userObject[0]["write"] == "true";
-            $_SESSION["id"] = $userObject[0]["id"];
         } else {
             # Password is not valid, set error message accordingly
             $error = "Invalid username or password.";

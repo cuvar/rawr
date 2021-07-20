@@ -1,19 +1,19 @@
 [users]
 name1["username"] = "username"
 name1["password"]= 'PASSWORD_BCRYPTHASH'
-name1["admin"] = 0 | 1
-name1["GROUP1"] = true
-name1["GROUP2"] = true
+name1["admin"] =  (0|1) | (False|True)
+name1["GROUP1"] = (0|1) | (False|True) ; GROUP NAMES MUST NOT CONTAIN "&" (Ampersand Sign)
+name1["GROUP2"] = (0|1) | (False|True) ; GROUP NAMES MUST NOT CONTAIN "&" (Ampersand Sign)
 name1["id"]= id
 
 name2["username"] = "username"
 name2["password"]= 'PASSWORD_BCRYPTHASH'
-name1["admin"] = 0 | 1
-name2["GROUP1"] = true
-name2["GROUP2"] = true
+name1["admin"] =  (0|1) | (False|True)
+name2["GROUP1"] = (0|1) | (False|True) ; GROUP NAMES MUST NOT CONTAIN "&" (Ampersand Sign)
+name2["GROUP2"] = (0|1) | (False|True) ; GROUP NAMES MUST NOT CONTAIN "&" (Ampersand Sign)
 name2["id"]= id
 
-example:
+;example:
 tinf20b1["username"] = "TINF20B1"
 tinf20b1["password"]= '$2y$10$A7Xd1KUDVQO9lGu4EvJZ0eJObvpfaSw6bB4X5cCIf1W2jlK64ynoC' ;
 tinf20b1["admin"] = 0
@@ -23,5 +23,6 @@ tinf20b1["id"]= 1
 tinf20b2["username"] = "TINF20B2"
 tinf20b2["password"]= '$2y$10$A7Xd1KUDVQO9lGu4EvJZ0eJObvpfaSw6bB4X5cCIf1W2jlK64ynoC'  ;
 tinf20b2["admin"] = 0
-tinf20b2["TINF20B2"] = 1
+tinf20b2["TINF20B2"] = 0
 tinf20b2["id"]= 2
+
