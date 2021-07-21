@@ -69,7 +69,6 @@ function togglePopup(toShow, element) {
     if (isLoggedIn() && hasPermission()) {
         let popup = document.getElementById("popup");
         this.hideElement(popup, !toShow);
-        this.blurBackground(toShow);
 
         if (!isHidden(popup) && element !== null) {
             let title = document.getElementById("popup-event-title");
@@ -100,15 +99,6 @@ function removeClass(element, attribute) {
     }
 }
 
-function blurBackground(toBlur) {
-    let e = document.getElementsByTagName("html")[0];
-    if (toBlur) {
-        this.addClass(e, "bg-blur");
-    } else {
-        this.removeClass(e, "bg-blur");
-    }
-}
-
 
 function setUid(uid) {
     let uidInput = document.getElementById("popup-uid");
@@ -118,4 +108,10 @@ function setUid(uid) {
 function setNote(note) {
     let textarea = document.getElementById("note-input");
     textarea.value = note;
+}
+
+// SIDE VIEW
+function showDetails(element) {
+    let detailsElement = element.children[0].children[1];
+    hideElement(detailsElement, !isHidden(detailsElement))
 }
