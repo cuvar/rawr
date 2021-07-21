@@ -113,7 +113,6 @@ a {
   width: -moz-available;
   width: -webkit-fill-available;
   position: absolute;
-  padding: 7px 7px;
   border-radius: 15px;
   color: white;
   font-size: 12px;
@@ -130,6 +129,21 @@ a {
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.timetable p {
+  margin: 0px;
+  margin-block-start: 7px;
+  margin-block-end: 0px;
+}
+
+.timetable > div {
+  padding: 0px 7px;
+}
+
+.timetable-time {
+  margin-block-start: 0px;
 }
 
 .multiple {
