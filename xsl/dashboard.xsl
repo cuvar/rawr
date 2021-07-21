@@ -402,12 +402,12 @@
         <div class="timetable-content">
           <xsl:for-each select="$calendar/event">
             <xsl:sort select="starttime/total" data-type="number" />
-            <xsl:variable name="begin">
-              <xsl:value-of select="round((((starttime/hour * 100) + (round(starttime/min * (1.6666666667))))- 800) div 20)" />
-            </xsl:variable>
+            
             <xsl:if test="startdate/total = $index">
-
-             <xsl:variable name="testPre">
+              <xsl:variable name="begin">
+                <xsl:value-of select="round((((starttime/hour * 100) + (round(starttime/min * (1.6666666667))))- 800) div 20)" />
+              </xsl:variable>
+              <xsl:variable name="testPre">
                   <xsl:call-template name="testIfPreIsMultible">
                     <xsl:with-param name="startdate" select="startdate/total"/>
                     <xsl:with-param name="starttime" select="starttime/total"/>
@@ -426,10 +426,12 @@
                 </xsl:variable>
               <xsl:choose>
                 <xsl:when test="contains($testFollow, 'true') or contains($testPre, 'true')">
-                  <div class="multiple" style="{concat('height:',duration ,'vh;', 'margin-top:',$begin,'vh;')}">
+                  <div class="multiple" >
                     <xsl:call-template name="Loop">
-                      <xsl:with-param name="begin" select="$begin" />
-                      <xsl:with-param name="day" select="$index" />
+                      <xsl:with-param name="startdate" select="startdate/total"/>
+                      <xsl:with-param name="starttime" select="starttime/total"/>
+                      <xsl:with-param name="endtime" select="endtime/total"/>
+                      <xsl:with-param name="summary" select="summary"/>
                     </xsl:call-template>
                   </div>
                 </xsl:when>
@@ -526,19 +528,21 @@
   </xsl:template>
 
   <xsl:template name="Loop">
-    <xsl:param name="begin" />
-    <xsl:param name="day" />
-
+    <xsl:param name="startdate"/>
+    <xsl:param name="starttime"/>
+    <xsl:param name="endtime"/>
+    <xsl:param name="summary"/>
     <xsl:for-each select="$calendar/event">
-      <xsl:if test="startdate/total = $day and ((preceding-sibling::event/starttime/total&gt;=startime/total and preceding-sibling::event/starttime/total&lt;=endtime/total ) or 
-                (following-sibling::event/starttime/total&gt;=starttime/total and following-sibling::event/starttime/total&lt;=endtime/total))">
 
+      <xsl:if test="(startdate/total=$startdate and $starttime&lt;=starttime/total and $endtime&gt;=starttime/total) or (startdate/total=$startdate and $starttime&gt;=starttime/total and $starttime&lt;=endtime/total and not($summary = summary))">
+        <xsl:variable name="begin">
+          <xsl:value-of select="round((((starttime/hour * 100) + (round(starttime/min * (1.6666666667))))- 800) div 20)" />
+        </xsl:variable>
         <div class="timetable " data-popupnote="{note}" data-popup="{uid}" data-popupstart="{concat(startdate, '|', starttime)}" data-popupend="{endtime}" onclick="togglePopup(true, this)" style="background-color: blue;{concat('height:',duration ,'vh;', 'margin-top:',$begin,'vh;')}">
-          <p class="text-bold">
-                          <xsl:value-of select="summary" />
-          </p>
+        <p class="text-bold">
+          <xsl:value-of select="summary" />
+        </p>
         </div>
-
       </xsl:if>
     </xsl:for-each>
   </xsl:template>
@@ -548,8 +552,8 @@
     <xsl:param name="starttime"/>
     <xsl:param name="endtime"/>
     <xsl:param name="summary"/>
-    <xsl:for-each select="$calendar/event/preceding-sibling::event">
-        <xsl:if test="startdate/total=$startdate and $starttime&lt;=starttime/total and $endtime&gt;=starttime/total and not($summary = summary)">
+    <xsl:for-each select="$calendar/event">
+        <xsl:if test="startdate/total=$startdate and $starttime&gt;=starttime/total and $starttime&lt;=endtime/total and not($summary = summary)">
           true
         </xsl:if>
 
@@ -561,8 +565,8 @@
     <xsl:param name="starttime"/>
     <xsl:param name="endtime"/>
     <xsl:param name="summary"/>
-    <xsl:for-each select="$calendar/event/following-sibling::event">
-        <xsl:if test="startdate/total=$startdate and ($starttime&lt;=starttime/total and $endtime&gt;=starttime/total and not($summary = summary))">
+    <xsl:for-each select="$calendar/event">
+        <xsl:if test="startdate/total=$startdate and $starttime&lt;=starttime/total and $endtime&gt;=starttime/total and not($summary = summary)">
           true
         </xsl:if>
     </xsl:for-each>
