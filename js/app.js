@@ -141,6 +141,7 @@ function formTimeFromString(str) {
     }
     let time = str.slice(0, 2)  + ":" + str.slice(2, 4);
     return time;
+}
 
 // SIDE VIEW
 function showDetails(element) {
