@@ -32,13 +32,6 @@ html {
   background-color: rgba(183, 0, 255, 0.637);
 }
 
-/* OTHER */
-.bg-blur {
-  position: absolute;
-  /* filter: blur(2px); */
-  z-index: 0 !important;
-}
-
 /* TEXT */
 .text-bold {
   font-weight: bold;

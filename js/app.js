@@ -37,6 +37,12 @@ function isLoggedIn() {
     let cookies = getCookieObject();
     return (typeof cookies["loggedin"] != "undefined" && cookies["loggedin"] == "true");
 }
+function hasPermission() {
+    let className = document.getElementById("class-info").innerHTML;
+    let cookies = getCookieObject();
+    let perms = typeof cookies.perms != "undefined" ? cookies.perms.split("&") : [];
+    return perms.includes("admin") || perms.includes(className);
+}
 
 // HIDING ELEMENTS
 function hideLogoutContainer(isLoggedIn) {
@@ -56,14 +62,13 @@ function hideElement(element, toHide) {
 
 function isHidden(el) {
     var style = window.getComputedStyle(el);
-    return (style.display === 'none')
+    return (style.display === 'none');
 }
 
 function togglePopup(toShow, element) {
-    if (isLoggedIn()) {
+    if (isLoggedIn() && hasPermission()) {
         let popup = document.getElementById("popup");
         this.hideElement(popup, !toShow);
-        this.blurBackground(toShow);
 
         if (!isHidden(popup) && element !== null) {
             let title = document.getElementById("popup-event-title");
@@ -73,7 +78,6 @@ function togglePopup(toShow, element) {
             setUid(element.dataset.popup);
             setNote(element.dataset.popupnote);
             setTimes(element.dataset.popupstart, element.dataset.popupend);
-            
             let currentLocation = document.getElementById("popup-current-link");
             currentLocation.value = window.location.href;
         }
@@ -95,15 +99,6 @@ function removeClass(element, attribute) {
     }
 }
 
-function blurBackground(toBlur) {
-    let e = document.getElementsByTagName("html")[0];
-    if (toBlur) {
-        this.addClass(e, "bg-blur");
-    } else {
-        this.removeClass(e, "bg-blur");
-    }
-}
-
 
 function setUid(uid) {
     let uidInput = document.getElementById("popup-uid");
@@ -114,6 +109,7 @@ function setNote(note) {
     let textarea = document.getElementById("note-input");
     textarea.value = note;
 }
+
 
 function setTimes(start, end) {
     date = formDateFromString(start.split("|")[0]);
@@ -145,4 +141,10 @@ function formTimeFromString(str) {
     }
     let time = str.slice(0, 2)  + ":" + str.slice(2, 4);
     return time;
+
+// SIDE VIEW
+function showDetails(element) {
+    let detailsElement = element.children[0].children[1];
+    hideElement(detailsElement, !isHidden(detailsElement))
+
 }

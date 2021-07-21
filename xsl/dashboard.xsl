@@ -81,7 +81,7 @@
                 <img class="homebutton" src="res/home-solid.svg" alt="Home" />
               </a>
               <div class="class">
-                <p>
+                <p id="class-info">
                   <xsl:value-of select="calendar/info/class" />
                 </p>
               </div>
@@ -504,8 +504,6 @@
                   </xsl:choose>
                 </xsl:otherwise>
               </xsl:choose>
-
-
             </xsl:if>
           </xsl:for-each>
         </div>
@@ -914,44 +912,38 @@
       <xsl:sort select="startdate/total" data-type="number" />
       <xsl:if test="categories = 'Prüfung' and startdate/total > $currentDate">
         <tr>
-          <td class="date-btn td-main">
-            <details>
-              <summary>
+          <td class="date-btn td-main" onclick="showDetails(this)">
+            <div class="info-element">
+              <p class="info-summary">
                 <xsl:value-of select="summary" />
-              </summary>
-              <p>
-                <xsl:value-of select="startdate/day" />
-                .
-                <xsl:value-of select="startdate/month" />
-                .
-                <xsl:value-of select="startdate/year" />
               </p>
-              <p>
-                <xsl:value-of select="starttime/hour" />
-                :
-                <xsl:value-of select="starttime/min" />
-                -
-                <xsl:value-of select="endtime/hour" />
-                :
-                <xsl:value-of select="endtime/min" />
-                Uhr
-              </p>
-              <p>
-                Raum:
-                <xsl:choose>
-                  <xsl:when test="location">
-                    <xsl:value-of select="location"></xsl:value-of>
-                  </xsl:when>
-                  <xsl:otherwise>-</xsl:otherwise>
-                </xsl:choose>
-              </p>
-              <p>
-                <xsl:if test="note">
-                  Notes:
-                  <xsl:value-of select="note" />
-                </xsl:if>
-              </p>
-            </details>
+
+              <div class="info-details display-none">
+                <p>
+                  <xsl:value-of select="startdate/day"/>.<xsl:value-of select="startdate/month"/>.<xsl:value-of select="startdate/year"/>
+                </p>
+                <p>
+                  <xsl:value-of select="starttime/hour" />:<xsl:value-of select="starttime/min" />
+                  -
+                  <xsl:value-of select="endtime/hour" />:<xsl:value-of select="endtime/min" />
+                  Uhr
+                </p>
+                <p>
+                  Raum:
+                  <xsl:choose>
+                    <xsl:when test="location">
+                      <xsl:value-of select="location"></xsl:value-of>
+                    </xsl:when>
+                    <xsl:otherwise>-</xsl:otherwise>
+                  </xsl:choose>
+                </p>
+                <p>
+                  <xsl:if test="note">
+                    Notes: <xsl:value-of select="note"/>
+                  </xsl:if>
+                </p>
+              </div>
+            </div>
           </td>
         </tr>
       </xsl:if>
@@ -964,44 +956,37 @@
       <xsl:sort select="startdate/total" data-type="number" />
       <xsl:if test="categories = 'Sonstiger Termin' and startdate/total > $currentDate and startdate/year = $currentYear">
         <tr>
-          <td class="date-btn td-main">
-            <details>
-              <summary>
+          <td class="date-btn td-main" onclick="showDetails(this)">
+            <div class="info-element">
+              <p class="info-summary">
                 <xsl:value-of select="summary" />
-              </summary>
-              <p>
-                <xsl:value-of select="startdate/day" />
-                .
-                <xsl:value-of select="startdate/month" />
-                .
-                <xsl:value-of select="startdate/year" />
               </p>
-              <p>
-                <xsl:value-of select="starttime/hour" />
-                :
-                <xsl:value-of select="starttime/min" />
-                -
-                <xsl:value-of select="endtime/hour" />
-                :
-                <xsl:value-of select="endtime/min" />
-                Uhr
-              </p>
-              <p>
-                Raum:
-                <xsl:choose>
-                  <xsl:when test="location">
-                    <xsl:value-of select="location"></xsl:value-of>
-                  </xsl:when>
-                  <xsl:otherwise>-</xsl:otherwise>
-                </xsl:choose>
-              </p>
-              <p>
+              <div class="info-details display-none">
+                <p>
+                  <xsl:value-of select="startdate/day"/>.<xsl:value-of select="startdate/month"/>.<xsl:value-of select="startdate/year"/>
+                </p>
+                <p>
+                  <xsl:value-of select="starttime/hour" />:<xsl:value-of select="starttime/min" />
+                  -
+                  <xsl:value-of select="endtime/hour" />:<xsl:value-of select="endtime/min" />
+                  Uhr
+                </p>
+                <p>
+                  Raum:
+                  <xsl:choose>
+                    <xsl:when test="location">
+                      <xsl:value-of select="location"></xsl:value-of>
+                    </xsl:when>
+                    <xsl:otherwise>-</xsl:otherwise>
+                  </xsl:choose>
+                </p>
+                <p>
                 <xsl:if test="note">
-                  Notes:
-                  <xsl:value-of select="note" />
+                  Notes: <xsl:value-of select="note"/>
                 </xsl:if>
-              </p>
-            </details>
+                </p>
+              </div>
+            </div>
           </td>
         </tr>
       </xsl:if>

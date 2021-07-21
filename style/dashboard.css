@@ -91,7 +91,7 @@ a {
 /* ACTUAL calendar */
 .timetable-content {
   margin-top: 30px;
-  position: relative;
+  position:relative;
 }
 
 .timetable-spacer {
@@ -106,6 +106,7 @@ a {
   color: black;
   word-break: break-word;
   overflow: hidden;
+  color: white;
 }
 
 .timetable {
@@ -116,7 +117,6 @@ a {
   border-radius: 15px;
   color: white;
   font-size: 12px;
-  color: black;
   word-break: break-word;
   overflow: hidden;
 }
@@ -394,6 +394,27 @@ tbody {
   filter: brightness(90%);
 }
 
+.info-summary {
+  padding-left: 5px;
+  font-weight: bold;
+  color: #003f61;
+  cursor: pointer;
+
+  list-style: none;
+}
+
+.info-details > p {
+  padding-left: 5px;
+  margin: 2px 0;
+}
+
+.info-details p:first-of-type {
+  margin-top: 10px;
+}
+
+
+/* TO BE DELETED */
+
 details > p {
   padding-left: 5px;
   margin: 2px 0;
@@ -410,6 +431,8 @@ summary {
   list-style: none;
   cursor: pointer;
 }
+/* TO BE DELETED */
+
 
 /* MONATS UND WOCHENANSICHT */
 .dropdown {

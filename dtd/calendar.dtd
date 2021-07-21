@@ -1,13 +1,13 @@
-# BASE CALENDAR #
-<!DOCTYPE calendar [
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- # BASE CALENDAR # -->
 <!ELEMENT calendar (info,timezone, event*)>
-    <!ELEMENT info(user, class>
+    <!ELEMENT info (user, class)>
         <!ELEMENT user (#PCDATA)>
         <!ELEMENT class (#PCDATA)>
-    <!ELEMENT timezone(tz_name, tz_url)>
+    <!ELEMENT timezone (tz_name, tz_url)>
         <!ELEMENT tz_name (#PCDATA)>
         <!ELEMENT tz_url (#PCDATA)>
-    <!ELEMENT event (last_modified, created, start, uid, summary, rrule?, category*, organizer, attendee*)>
+    <!ELEMENT event (last_modified, created, start, uid, summary, description, note, location, category*, organizer, attendee*)>
         <!ELEMENT last_modified (#PCDATA)>
         <!ELEMENT created (#PCDATA)>
         <!ELEMENT start (#PCDATA)>
@@ -16,7 +16,7 @@
         <!ELEMENT description (#PCDATA)>
         <!ELEMENT note (#PCDATA)>
         <!ELEMENT location (#PCDATA)>
-        <!ELEMENT category (#PCDATA)>  <!--Maybe mit semikolon abgetrennt-->
+        <!ELEMENT category (#PCDATA)>  
         <!ELEMENT organizer (name, contact)>
             <!ELEMENT name (#PCDATA)>
             <!ELEMENT contact (#PCDATA)>
@@ -25,12 +25,3 @@
             <!ELEMENT contact (#PCDATA)>
             <!ELEMENT status (#PCDATA)>
             <!ELEMENT role (#PCDATA)>
-]>
-
-# NOTES LOGGING FOR INJECTION IN FRESHLY FETCHED CALENDAR #
-<!DOCTYPE calendar [
-<!ELEMENT calendar(event*)>
-    <!ELEMENT event (uid, notes)>
-	    <!ELEMENT uid (#PCDATA)>
-	    <!ELEMENT note (#PCDATA)>
-]>
