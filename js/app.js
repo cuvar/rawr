@@ -72,7 +72,7 @@ function togglePopup(toShow, element) {
 
         if (!isHidden(popup) && element !== null) {
             let title = document.getElementById("popup-event-title");
-            let eventValue = element.children[0].innerHTML;
+            let eventValue = element.children[0].children[0].innerHTML;
             title.innerHTML = eventValue;
 
             setUid(element.dataset.popup);
