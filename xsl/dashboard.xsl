@@ -538,11 +538,29 @@
         <xsl:variable name="begin">
           <xsl:value-of select="round((((starttime/hour * 100) + (round(starttime/min * (1.6666666667))))- 800) div 20)" />
         </xsl:variable>
-        <div class="timetable " data-popupnote="{note}" data-popup="{uid}" data-popupstart="{concat(startdate, '|', starttime)}" data-popupend="{endtime}" onclick="togglePopup(true, this)" style="background-color: blue;{concat('height:',duration ,'vh;', 'margin-top:',$begin,'vh;')}">
-        <p class="text-bold">
-          <xsl:value-of select="summary" />
-        </p>
-        </div>
+        <xsl:choose>
+                    <xsl:when test="categories = 'Prüfung'">
+                      <div class="timetable bg-test" data-popupnote="{note}" data-popup="{uid}" data-popupstart="{concat(startdate, '|', starttime)}" data-popupend="{endtime}" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'vh;', 'margin-top:',$begin,'vh;')}">
+                        <p class="text-bold">
+                          <xsl:value-of select="summary" />
+                        </p>
+                      </div>
+                    </xsl:when>
+                    <xsl:when test="categories = 'Sonstiger Termin'">
+                      <div class="timetable bg-other" data-popupnote="{note}" data-popup="{uid}" data-popupstart="{concat(startdate, '|', starttime)}" data-popupend="{endtime}" onclick="togglePopup(true, this)" style="{concat('height:',duration ,'vh;', 'margin-top:',$begin,'vh;')}">
+                        <p class="text-bold">
+                          <xsl:value-of select="summary" />
+                        </p>
+                      </div>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <div class="timetable bg-normal" data-popupnote="{note}" data-popup="{uid}" data-popupstart="{concat(startdate, '|', starttime)}" data-popupend="{endtime}" onclick="togglePopup(true, this)" style=" {concat('height:',duration ,'vh;', 'margin-top:',$begin,'vh;')}">
+                        <p class="text-bold">
+                          <xsl:value-of select="summary" />
+                        </p>
+                      </div>
+                    </xsl:otherwise>
+                  </xsl:choose>
       </xsl:if>
     </xsl:for-each>
   </xsl:template>
