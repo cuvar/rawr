@@ -94,8 +94,6 @@ a {
   position:relative;
 }
 
-
-
 .timetable-spacer {
   margin-top: 3em;
 }
@@ -119,10 +117,8 @@ a {
   border-radius: 15px;
   color: white;
   font-size: 12px;
-  color: black;
   word-break: break-word;
   overflow: hidden;
-  color: white;
 }
 
 .timetable:hover, .timetable-month:hover {
@@ -134,6 +130,24 @@ a {
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.multiple {
+  width: -moz-available;
+  width: -webkit-fill-available;
+  height: auto;
+  position: absolute;
+
+  display: flex !important;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row !important;
+}
+
+.multiple > div {
+  position: relative;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 table {
@@ -576,6 +590,20 @@ summary {
   align-items: flex-start;
   justify-content: space-between;
 }
+
+#popup-date-row {
+  justify-content: stretch !important;
+  width: 50%;
+}
+
+#popup-date-row > .popup-column:first-child  {
+  margin-right: 10px !important;
+}
+
+#popup-date {
+  align-items: center;
+}
+
 .popup-title-row {
   width: 100%;
   display: flex;
@@ -590,7 +618,6 @@ summary {
 .popup-column {
   height: 100%;
 }
-
 .popup-column > * {
   display: block;
 }
@@ -608,6 +635,12 @@ summary {
   color: #003f61;
   background-color: white;
   border-radius: 10px;
+}
+.column-center {
+  height: 100%;
+  display: flex !important;
+  justify-content: space-evenly !important;
+  flex-direction: column;
 }
 
 #popup-close {
@@ -632,3 +665,4 @@ summary {
 #popup-btn-submit:active {
   filter: brightness(80%);
 }
+

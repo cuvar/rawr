@@ -77,7 +77,7 @@ function togglePopup(toShow, element) {
 
             setUid(element.dataset.popup);
             setNote(element.dataset.popupnote);
-
+            setTimes(element.dataset.popupstart, element.dataset.popupend);
             let currentLocation = document.getElementById("popup-current-link");
             currentLocation.value = window.location.href;
         }
@@ -110,8 +110,41 @@ function setNote(note) {
     textarea.value = note;
 }
 
+
+function setTimes(start, end) {
+    date = formDateFromString(start.split("|")[0]);
+    stime = formTimeFromString(start.split("|")[1]);
+    etime = formTimeFromString(end);
+    
+    let startDateLabel = document.getElementById("popup-start-date");
+    startDateLabel.innerHTML = date;
+    let endDateLabel = document.getElementById("popup-end-date");
+    endDateLabel.innerHTML = date;
+    let startTimeLabel = document.getElementById("popup-start-time");
+    startTimeLabel.innerHTML = stime;
+    let endTimeLabel = document.getElementById("popup-end-time");
+    endTimeLabel.innerHTML = etime;
+}
+
+
+function formDateFromString(str) {
+    str = str.substring(0, str.length / 2);
+    let date = str.slice(6, 8)  + "." + str.slice(4, 6) + "." + str.slice(0, 4);
+    return date;
+}
+
+
+function formTimeFromString(str) {
+    str = str.substring(0, str.length / 2);
+    if(str.length < 4) {
+        str = "0"+str;
+    }
+    let time = str.slice(0, 2)  + ":" + str.slice(2, 4);
+    return time;
+
 // SIDE VIEW
 function showDetails(element) {
     let detailsElement = element.children[0].children[1];
     hideElement(detailsElement, !isHidden(detailsElement))
+
 }
