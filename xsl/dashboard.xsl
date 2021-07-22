@@ -28,14 +28,14 @@
   <xsl:template match="/">
     <html>
       <head>
-        <link rel="stylesheet" href="../style/dashboard.css" />
-        <link rel="stylesheet" href="../style/general.css" />
-        <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" />
+        <link rel="stylesheet" href="../style/dashboard.css"></link>
+        <link rel="stylesheet" href="../style/general.css" ></link>
+        <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" ></link>
         <title>
           Rawr-
           <xsl:value-of select="calendar/info/class" />
         </title>
-        <script src="./js/app.js"></script>
+        <script src="./js/app.js" type="text/javascript"></script>
       </head>
 
       <body>
@@ -78,7 +78,7 @@
           <div class="banner">
             <div class="banner-left">
               <a href="index.php">
-                <img class="homebutton" src="res/home-solid.svg" alt="Home" />
+                <img class="homebutton" src="res/home-solid.svg" alt="Home"></img>
               </a>
               <div class="class">
                 <p id="class-info">
@@ -93,7 +93,7 @@
                     <button class="dropbtn">Monatsansicht</button>
                     <div class="dropdown-content">
                       <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$monthStart)}">Monatsansicht</a>
-                      <hr />
+                      <hr></hr>
                       <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$monthStart)}">Wochenansicht</a>
                     </div>
                   </xsl:when>
@@ -101,7 +101,7 @@
                     <button class="dropbtn">Wochenansicht</button>
                     <div class="dropdown-content">
                       <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$timeframeStart)}">Wochenansicht</a>
-                      <hr />
+                      <hr ></hr>
                       <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$timeframeStart)}">Monatsansicht</a>
                     </div>
                   </xsl:otherwise>
@@ -116,7 +116,7 @@
               <div class="popup-title-row">
                 <h2 id="popup-title">Notiz bearbeiten</h2>
                 <button class="btn-icon" id="popup-close" onclick="togglePopup(false, null)">
-                  <img src="res/close.svg" alt="Close" />
+                  <img src="res/close.svg" alt="Close"></img>
                 </button>
               </div>
 
@@ -179,10 +179,10 @@
                       </xsl:variable>
 
                       <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$backwarddate)}">
-                        <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Week" />
+                        <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Week" ></img>
                       </a>
                       <a href="index.php?mode=month{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$forwarddate)}">
-                        <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week" />
+                        <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week" ></img>
                       </a>
                     </div>
 
@@ -220,10 +220,10 @@
 
 
                       <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$backwardstart,'&amp;','endDate=',$backwardend,'&amp;','currentDate=',$currentDate)} ">
-                        <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Wee" />
+                        <img class="nav-btn" src="res/angle-left-solid.svg" alt="Previous Wee" ></img>
                       </a>
                       <a href="index.php?mode=week{concat('&amp;','class=',calendar/info/class,'&amp;','startDate=',$forwardstart,'&amp;','endDate=',$forwardend,'&amp;','currentDate=',$currentDate)} ">
-                        <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week" />
+                        <img class="nav-btn" src="res/angle-right-solid.svg" alt="Next Week" ></img>
                       </a>
                     </div>
 
@@ -241,7 +241,7 @@
                 <a id="today-button" class="calendar-month" href="index.php?{concat('mode=',$mode,'&amp;','class=',calendar/info/class)}">Heute</a>
                 <a href="../php/downloadIcal.php?class={calendar/info/class}">
                   <button class="btn-icon">
-                    <img src="res/download-solid.svg" alt="Download ical" />
+                    <img src="res/download-solid.svg" alt="Download ical" ></img>
                   </button>
                 </a>
               </div>

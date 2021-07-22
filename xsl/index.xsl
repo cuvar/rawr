@@ -7,16 +7,16 @@
   <xsl:template match="/">
     <html>
       <head>
-        <link rel="stylesheet" href="../style/index.css" />
-        <link rel="stylesheet" href="../style/general.css" />
-        <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" />
+        <link rel="stylesheet" href="../style/index.css"></link>
+        <link rel="stylesheet" href="../style/general.css" ></link>
+        <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" ></link>
         <title>Rawr</title>
-        <script src="./js/app.js"></script>
+        <script src="./js/app.js" type="text/javascript"></script>
       </head>
 
       <body onload="onLoadIndex()">
         <div id="easteregg-container">
-          <img src="res/logo.png" id="easteregg"></img>
+          <img src="res/logo.png" id="easteregg" alt="RAWR Logo"></img>
           <audio id="easteregg-audio">
             <source src="./res/roar.mp3" type="audio/mpeg"></source>
           </audio>
@@ -26,7 +26,7 @@
         <div class="container-main">
           <div class="title-container">
             <h1 class="title">Rawr - Rapla wildy refurbished</h1>
-            <img src="res/logo.png" width="150" id="logo" onClick="triggerEasterEgg()"></img>
+            <img src="res/logo.png" width="150" id="logo" onClick="triggerEasterEgg()" alt="RAWR Logo"></img>
           </div>
 
           <div class="content-container">
@@ -57,8 +57,8 @@
                     <label>Password</label>
                   </div>
                   <div class="form-column">
-                    <input id="user-input" type="text" name="username" />
-                    <input id="password-input" type="password" name="password" />
+                    <input id="user-input" type="text" name="username" ></input>
+                    <input id="password-input" type="password" name="password" ></input>
                   </div>
                 </div>
                 <div class="form-row">
