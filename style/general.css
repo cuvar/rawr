@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Mulish");
+
+/* GENERAL ELEMENTS */
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* DISPLAY */
+.display-block {
+  display: block !important;
+}
+
+.display-none {
+  display: none !important;
+}
+
+/* BACKGROUNDS */
+.bg-test {
+  background-color: #fb3640 !important;
+}
+
+.bg-other {
+  background-color: grey !important;
+}
+
+.bg-normal {
+  background-color: #cf63fd;
+}
+
+/* TEXT */
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}

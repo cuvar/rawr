@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!ELEMENT elements (mottos,university)>
+<!ELEMENT mottos (motto+)>
+    <!ELEMENT motto (index, text)>
+        <!ELEMENT index (#PCDATA)>
+        <!ELEMENT text (#PCDATA)>
+<!ELEMENT university (year+)>
+<!ELEMENT year (course+)>
+    <!ELEMENT course (name, user)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT user (#PCDATA)>

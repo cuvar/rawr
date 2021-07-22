@@ -7,14 +7,16 @@
   <xsl:template match="/">
     <html>
       <head>
-        <link rel="stylesheet" href="../style/index.css" />
-        <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" />
-        <script src="./js/app.js"></script>
+        <link rel="stylesheet" href="../style/index.css"></link>
+        <link rel="stylesheet" href="../style/general.css" ></link>
+        <link rel="shortcut icon" type="image/jpg" href="res/favicon.ico" ></link>
+        <title>Rawr</title>
+        <script src="./js/app.js" type="text/javascript"></script>
       </head>
 
-      <body >
+      <body onload="onLoadIndex()">
         <div id="easteregg-container">
-          <img src="res/logo.png" id="easteregg"></img>
+          <img src="res/logo.png" id="easteregg" alt="RAWR Logo"></img>
           <audio id="easteregg-audio">
             <source src="./res/roar.mp3" type="audio/mpeg"></source>
           </audio>
@@ -23,8 +25,8 @@
         <!-- left side -->
         <div class="container-main">
           <div class="title-container">
-            <h1 class="title">Rawr</h1>
-            <img src="res/logo.png" width="150" id="logo" onClick="triggerEasterEgg()"></img>
+            <h1 class="title">Rawr - Rapla wildy refurbished</h1>
+            <img src="res/logo.png" width="150" id="logo" onClick="triggerEasterEgg()" alt="RAWR Logo"></img>
           </div>
 
           <div class="content-container">
@@ -32,7 +34,7 @@
               <xsl:for-each select="elements/university/year">
                 <div class="row">
                   <xsl:for-each select="course">
-                    <a class="course-btn" href="index.php?mode=week">
+                    <a class="course-btn" href="index.php?mode=week{concat('&amp;','class=',name)}">
                       <xsl:value-of select="name" />
                     </a>
                   </xsl:for-each>
@@ -55,8 +57,8 @@
                     <label>Password</label>
                   </div>
                   <div class="form-column">
-                    <input id="user-input" type="text" name="username" />
-                    <input id="password-input" type="password" name="password" />
+                    <input id="user-input" type="text" name="username" ></input>
+                    <input id="password-input" type="password" name="password" ></input>
                   </div>
                 </div>
                 <div class="form-row">
@@ -77,11 +79,7 @@
           <div class="motto-container">
             <h2 id="date">
 
-              <xsl:value-of select="substring($currentDate,7,2)" />
-              .
-              <xsl:value-of select="substring($currentDate,5,2)" />
-              .
-              <xsl:value-of select="substring($currentDate,1,4)" />
+              <xsl:value-of select="substring($currentDate,7,2)" />.<xsl:value-of select="substring($currentDate,5,2)" />.<xsl:value-of select="substring($currentDate,1,4)" />
             </h2>
             <xsl:variable name="number" select="$currentDate mod 7" />
             <xsl:for-each select="elements/mottos/motto">
