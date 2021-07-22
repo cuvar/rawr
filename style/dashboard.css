@@ -118,6 +118,7 @@ a {
   font-size: 12px;
   word-break: break-word;
   overflow: hidden;
+  pointer-events: auto;
 }
 
 .timetable:hover, .timetable-month:hover {
@@ -156,6 +157,7 @@ a {
   flex-wrap: nowrap;
   justify-content: space-between;
   flex-direction: row !important;
+  pointer-events: none;
 }
 
 .multiple > div {
