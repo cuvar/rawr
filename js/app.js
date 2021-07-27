@@ -115,7 +115,7 @@ function setTimes(start, end) {
     date = formDateFromString(start.split("|")[0]);
     stime = formTimeFromString(start.split("|")[1]);
     etime = formTimeFromString(end);
-    
+
     let startDateLabel = document.getElementById("popup-start-date");
     startDateLabel.innerHTML = date;
     let endDateLabel = document.getElementById("popup-end-date");
@@ -129,23 +129,23 @@ function setTimes(start, end) {
 
 function formDateFromString(str) {
     str = str.substring(0, str.length / 2);
-    let date = str.slice(6, 8)  + "." + str.slice(4, 6) + "." + str.slice(0, 4);
+    let date = str.slice(6, 8) + "." + str.slice(4, 6) + "." + str.slice(0, 4);
     return date;
 }
 
 
 function formTimeFromString(str) {
     str = str.substring(0, str.length / 2);
-    if(str.length < 4) {
-        str = "0"+str;
+    if (str.length < 4) {
+        str = "0" + str;
     }
-    let time = str.slice(0, 2)  + ":" + str.slice(2, 4);
+    let time = str.slice(0, 2) + ":" + str.slice(2, 4);
     return time;
 }
 
 // SIDE VIEW
 function showDetails(element) {
     let detailsElement = element.children[0].children[1];
-    hideElement(detailsElement, !isHidden(detailsElement))
+    hideElement(detailsElement, !isHidden(detailsElement));
 
 }
