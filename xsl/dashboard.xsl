@@ -347,23 +347,29 @@
             <xsl:choose>
               <xsl:when test="categories = 'Prüfung'">
                 <div class="timetable-month bg-test" data-popupnote="{note}" data-popup="{uid}" data-popupstart="{concat(startdate, '|', starttime)}" data-popupend="{endtime}" onclick="togglePopup(true, this) ">
+                <div class="padding-none">
                   <p class="text-bold">
                     <xsl:value-of select="summary" />
                   </p>
+                </div>
                 </div>
               </xsl:when>
               <xsl:when test="categories = 'Sonstiger Termin'">
                 <div class="timetable-month bg-other" data-popupnote="{note}" data-popup="{uid}"  data-popupstart="{concat(startdate, '|', starttime)}" data-popupend="{endtime}" onclick="togglePopup(true, this)">
-                  <p class="text-bold">
-                    <xsl:value-of select="summary" />
-                  </p>
+                  <div class="padding-none">
+                    <p class="text-bold">
+                      <xsl:value-of select="summary" />
+                    </p>
+                  </div>
                 </div>
               </xsl:when>
               <xsl:otherwise>
                 <div class="timetable-month bg-normal" data-popupnote="{note}" data-popup="{uid}"  data-popupstart="{concat(startdate, '|', starttime)}" data-popupend="{endtime}" onclick="togglePopup(true, this)">
-                  <p class="text-bold">
-                    <xsl:value-of select="summary" />
-                  </p>
+                  <div class="padding-none">
+                    <p class="text-bold">
+                      <xsl:value-of select="summary" />
+                    </p>
+                  </div>
                 </div>
               </xsl:otherwise>
             </xsl:choose>
