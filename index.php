@@ -19,7 +19,7 @@ if ($mode == MODE_WEEK || $mode == MODE_MONTH) {
     $xmldoc->loadXML(file_get_contents("xml/$class.xml"));
 } elseif ($mode == MODE_START) {
     $xsldoc->loadXML(file_get_contents('xsl/index.xsl'));
-    $xmldoc->loadXML(file_get_contents('index.xml'));
+    $xmldoc->loadXML(file_get_contents('xml/index.xml'));
 }
 
 # error handling on load
