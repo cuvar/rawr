@@ -686,3 +686,7 @@ summary {
   filter: brightness(80%);
 }
 
+.bg-current {
+  background-color: #BA59E4;
+  color: white;
+}

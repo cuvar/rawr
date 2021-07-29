@@ -331,12 +331,26 @@
     </xsl:variable>
 
     <td style="{concat('opacity:',$opacity ,';')}">
-      <div class="calendar-day">
-        <p>
-          <!--to Do bessere Lösung finden-->
-          <xsl:value-of select="substring($index,7,2)" />
-        </p>
-      </div>
+      
+        <xsl:choose>
+          <xsl:when test="$index = $currentDate">
+            <div class="calendar-day bg-current" >
+              <p>
+                <!--to Do bessere Lösung finden-->
+                <xsl:value-of select="substring($index,7,2)" />
+              </p>
+            </div>
+          </xsl:when>
+          <xsl:otherwise>
+            <div class="calendar-day">
+              <p>
+                <!--to Do bessere Lösung finden-->
+                <xsl:value-of select="substring($index,7,2)" />
+              </p>
+            </div>
+          </xsl:otherwise>
+        </xsl:choose>
+
       <div class="timetable-content">
         <xsl:for-each select="$calendar/event">
           <xsl:sort select="starttime/total" data-type="number" />
@@ -398,12 +412,24 @@
     <xsl:param name="index" select="$timeframeStart" />
     <xsl:param name="maxValue" select="$timeframeEnd" />
     <td>
-      <div class="calendar-day">
-        <p>
-          <!--to Do bessere Lösung finden-->
-          <xsl:value-of select="substring($index,7,2)" />
-        </p>
-      </div>
+     <xsl:choose>
+          <xsl:when test="$index = $currentDate">
+            <div class="calendar-day bg-current">
+              <p>
+                <!--to Do bessere Lösung finden-->
+                <xsl:value-of select="substring($index,7,2)" />
+              </p>
+            </div>
+          </xsl:when>
+          <xsl:otherwise>
+            <div class="calendar-day">
+              <p>
+                <!--to Do bessere Lösung finden-->
+                <xsl:value-of select="substring($index,7,2)" />
+              </p>
+            </div>
+          </xsl:otherwise>
+        </xsl:choose>
       <div class="timetable-spacer">
         <div class="timetable-content">
           <xsl:for-each select="$calendar/event">
