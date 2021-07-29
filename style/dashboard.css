@@ -147,6 +147,10 @@ a {
   margin-block-start: 0px;
 }
 
+.padding-none > p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
 .multiple {
   width: -moz-available;
   width: -webkit-fill-available;
