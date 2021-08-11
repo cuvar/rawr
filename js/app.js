@@ -52,11 +52,11 @@ function hideLogoutContainer(isLoggedIn) {
 
 function hideElement(element, toHide) {
     if (toHide) {
-        this.removeClass(element, "display-block");
-        this.addClass(element, "display-none");
+        this.removeAttribute(element, "class", "display-block");
+        this.addAttribute(element, "class", "display-none");
     } else {
-        this.removeClass(element, "display-none");
-        this.addClass(element, "display-block");
+        this.removeAttribute(element, "class", "display-none");
+        this.addAttribute(element, "class", "display-block");
     }
 }
 
@@ -66,38 +66,38 @@ function isHidden(el) {
 }
 
 function togglePopup(toShow, element) {
-    if (isLoggedIn() && hasPermission()) {
-        let popup = document.getElementById("popup");
-        this.hideElement(popup, !toShow);
-
-        if (!isHidden(popup) && element !== null) {
-            let title = document.getElementById("popup-event-title");
-            let eventValue = element.children[0].children[0].innerHTML;
-            title.innerHTML = eventValue;
-
-            setUid(element.dataset.popup);
-            setNote(element.dataset.popupnote);
-            setTimes(element.dataset.popupstart, element.dataset.popupend);
-            let currentLocation = document.getElementById("popup-current-link");
-            currentLocation.value = window.location.href;
-        }
+    let popup = document.getElementById("popup");
+    this.hideElement(popup, !toShow);
+    
+    if (!isHidden(popup) && element !== null) {
+        let title = document.getElementById("popup-event-title");
+        let eventValue = element.children[0].children[0].innerHTML;
+        title.innerHTML = eventValue;
+        
+        setUid(element.dataset.popup);
+        setNote(element.dataset.popupnote);
+        setTimes(element.dataset.popupstart, element.dataset.popupend);
+        let currentLocation = document.getElementById("popup-current-link");
+        currentLocation.value = window.location.href;
     }
 }
 
 // CSS-CLASS MANAGEMENT
-function addClass(element, attribute) {
-    let currentClass = element.getAttribute("class");
-    if (currentClass === null || !currentClass.includes(attribute)) {
-        element.setAttribute("class", currentClass + " " + attribute);
+function addAttribute(element, attribute, value) {
+    let currentAttribute = element.getAttribute(attribute);
+    if (currentAttribute === null || !currentAttribute.includes(value)) {
+        element.setAttribute(attribute, currentAttribute + " " + value);
     }
 }
 
-function removeClass(element, attribute) {
-    let currentClass = element.getAttribute("class");
-    if (currentClass !== null && currentClass.includes(attribute)) {
-        element.setAttribute("class", currentClass.replace(attribute, ""));
+function removeAttribute(element, attribute, value) {
+    let currentAttribute = element.getAttribute(attribute);
+    if (currentAttribute !== null && currentAttribute.includes(value)) {
+        element.setAttribute(attribute, currentAttribute.replace(value, ""));
     }
 }
+
+
 
 
 function setUid(uid) {
@@ -108,6 +108,14 @@ function setUid(uid) {
 function setNote(note) {
     let textarea = document.getElementById("note-input");
     textarea.value = note;
+
+    // set textarea readonly if no permissions
+    if (isLoggedIn() && hasPermission()) {
+        textarea.removeAttribute("readonly");        
+    } else {
+        addAttribute(textarea, "readonly", "readonly");
+    }
+
 }
 
 
